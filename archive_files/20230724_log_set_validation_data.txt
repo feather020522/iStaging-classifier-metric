@@ -1,0 +1,85 @@
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 500
+mini batch size = 48
+Start training, 2023-07-24 01:21:10.099996
+epoch # 1 done, 2023-07-24 01:21:21.895477
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:36,  3.32s/it] 33%|███▎      | 4/12 [00:03<00:05,  1.34it/s] 58%|█████▊    | 7/12 [00:06<00:04,  1.13it/s] 83%|████████▎ | 10/12 [00:07<00:01,  1.79it/s]100%|██████████| 12/12 [00:07<00:00,  1.65it/s]
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:34,  3.13s/it] 17%|█▋        | 2/12 [00:03<00:13,  1.39s/it] 58%|█████▊    | 7/12 [00:06<00:03,  1.38it/s] 67%|██████▋   | 8/12 [00:06<00:02,  1.55it/s]100%|██████████| 12/12 [00:06<00:00,  2.99it/s]100%|██████████| 12/12 [00:06<00:00,  1.79it/s]
+Computing accuracy
+val # 1 done, 2023-07-24 01:21:35.923056
+epoch # 2 done, 2023-07-24 01:21:43.094521
+epoch # 3 done, 2023-07-24 01:21:50.494396
+epoch # 4 done, 2023-07-24 01:21:57.546716
+epoch # 5 done, 2023-07-24 01:22:04.738463
+epoch # 6 done, 2023-07-24 01:22:12.138362
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:34,  3.11s/it] 17%|█▋        | 2/12 [00:03<00:15,  1.53s/it] 58%|█████▊    | 7/12 [00:06<00:03,  1.30it/s] 75%|███████▌  | 9/12 [00:06<00:01,  1.72it/s]100%|██████████| 12/12 [00:06<00:00,  1.74it/s]
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:35,  3.27s/it] 25%|██▌       | 3/12 [00:03<00:08,  1.06it/s] 58%|█████▊    | 7/12 [00:06<00:04,  1.23it/s] 75%|███████▌  | 9/12 [00:06<00:01,  1.63it/s] 92%|█████████▏| 11/12 [00:07<00:00,  1.99it/s]100%|██████████| 12/12 [00:07<00:00,  1.59it/s]
+Computing accuracy
+val # 6 done, 2023-07-24 01:22:26.594253
+epoch # 7 done, 2023-07-24 01:22:33.991474
+epoch # 8 done, 2023-07-24 01:22:41.296304
+epoch # 9 done, 2023-07-24 01:22:48.480120
+epoch # 10 done, 2023-07-24 01:22:55.152570
+epoch # 11 done, 2023-07-24 01:23:02.456159
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:33,  3.03s/it] 58%|█████▊    | 7/12 [00:05<00:03,  1.32it/s] 67%|██████▋   | 8/12 [00:06<00:02,  1.54it/s]100%|██████████| 12/12 [00:06<00:00,  1.92it/s]
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:38,  3.48s/it] 17%|█▋        | 2/12 [00:03<00:15,  1.51s/it] 58%|█████▊    | 7/12 [00:06<00:03,  1.29it/s] 67%|██████▋   | 8/12 [00:06<00:02,  1.52it/s]100%|██████████| 12/12 [00:06<00:00,  1.75it/s]
+Computing accuracy
+val # 11 done, 2023-07-24 01:23:15.566208
+epoch # 12 done, 2023-07-24 01:23:22.839696
+epoch # 13 done, 2023-07-24 01:23:30.336515
+epoch # 14 done, 2023-07-24 01:23:37.651728
+epoch # 15 done, 2023-07-24 01:23:44.456584
+epoch # 16 done, 2023-07-24 01:23:51.901665
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:36,  3.34s/it] 42%|████▏     | 5/12 [00:03<00:03,  1.87it/s] 58%|█████▊    | 7/12 [00:07<00:05,  1.01s/it]100%|██████████| 12/12 [00:07<00:00,  1.66it/s]
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:37,  3.41s/it] 17%|█▋        | 2/12 [00:03<00:15,  1.53s/it] 25%|██▌       | 3/12 [00:03<00:08,  1.04it/s] 58%|█████▊    | 7/12 [00:06<00:03,  1.33it/s] 75%|███████▌  | 9/12 [00:07<00:01,  1.77it/s]100%|██████████| 12/12 [00:07<00:00,  1.69it/s]
+Computing accuracy
+val # 16 done, 2023-07-24 01:24:06.274919
+epoch # 17 done, 2023-07-24 01:24:13.545825
+epoch # 18 done, 2023-07-24 01:24:20.834448
+epoch # 19 done, 2023-07-24 01:24:27.936522
+epoch # 20 done, 2023-07-24 01:24:34.914954
+epoch # 21 done, 2023-07-24 01:24:42.039689
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:02<00:32,  2.99s/it] 17%|█▋        | 2/12 [00:03<00:15,  1.56s/it] 58%|█████▊    | 7/12 [00:06<00:03,  1.36it/s] 67%|██████▋   | 8/12 [00:06<00:02,  1.42it/s]100%|██████████| 12/12 [00:06<00:00,  1.73it/s]
+  0%|          | 0/12 [00:00<?, ?it/s]  8%|▊         | 1/12 [00:03<00:37,  3.39s/it] 58%|█████▊    | 7/12 [00:06<00:04,  1.18it/s]100%|██████████| 12/12 [00:06<00:00,  1.74it/s]
+Computing accuracy
+val # 21 done, 2023-07-24 01:24:55.866910
+epoch # 22 done, 2023-07-24 01:25:02.986957
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/metric_learning.py", line 348, in <module>
+    for i, data in enumerate(room_dataloader_test, 0):
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1359, in _next_data
+    idx, data = self._get_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1325, in _get_data
+    success, data = self._try_get_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1163, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/multiprocessing/queues.py", line 113, in get
+    if not self._poll(timeout):
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+[15, 33, 22, 43, 22, 22, 22, 38, 26, 30, 31, 37, 15, 34]
+[31, 42, 28, 31, 18, 16, 23, 40, 26, 26, 20, 41]
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/metric_learning.py", line 310, in <module>
+    net.cuda()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 689, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 689, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+KeyboardInterrupt

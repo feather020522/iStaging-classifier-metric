@@ -1,0 +1,2236 @@
+
+new data
+train
+val
+test
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 500
+test set = self
+Start training, 2023-08-03 17:59:22.813043
+epoch # 1 done, 2023-08-03 18:09:55.016861
+epoch # 2 done, 2023-08-03 18:20:20.459091
+epoch # 3 done, 2023-08-03 18:30:45.036870
+epoch # 4 done, 2023-08-03 18:41:10.913870
+epoch # 5 done, 2023-08-03 18:51:37.722592
+epoch # 6 done, 2023-08-03 19:02:02.895970
+epoch # 7 done, 2023-08-03 19:12:28.605358
+epoch # 8 done, 2023-08-03 19:22:51.673155
+epoch # 9 done, 2023-08-03 19:33:09.685109
+epoch # 10 done, 2023-08-03 19:43:34.947787
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.95      0.97   3373960
+positive pair       0.48      0.70      0.57    202831
+
+     accuracy                           0.94   3576791
+    macro avg       0.73      0.83      0.77   3576791
+ weighted avg       0.95      0.94      0.94   3576791
+
+val # 10 done, 2023-08-03 19:54:23.947913
+epoch # 11 done, 2023-08-03 20:04:43.504049
+epoch # 12 done, 2023-08-03 20:15:06.803797
+epoch # 13 done, 2023-08-03 20:25:30.165703
+epoch # 14 done, 2023-08-03 20:35:55.026223
+epoch # 15 done, 2023-08-03 20:46:20.622965
+epoch # 16 done, 2023-08-03 20:56:46.970493
+epoch # 17 done, 2023-08-03 21:07:12.006876
+epoch # 18 done, 2023-08-03 21:17:34.855488
+epoch # 19 done, 2023-08-03 21:27:58.480028
+epoch # 20 done, 2023-08-03 21:38:20.926270
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.98      0.98   3373960
+positive pair       0.67      0.67      0.67    202831
+
+     accuracy                           0.96   3576791
+    macro avg       0.82      0.82      0.82   3576791
+ weighted avg       0.96      0.96      0.96   3576791
+
+val # 20 done, 2023-08-03 21:49:07.540042
+epoch # 21 done, 2023-08-03 21:59:26.263727
+epoch # 22 done, 2023-08-03 22:09:52.251078
+epoch # 23 done, 2023-08-03 22:20:18.262249
+epoch # 24 done, 2023-08-03 22:30:42.511006
+epoch # 25 done, 2023-08-03 22:41:08.468567
+epoch # 26 done, 2023-08-03 22:51:29.478826
+epoch # 27 done, 2023-08-03 23:01:53.096207
+epoch # 28 done, 2023-08-03 23:12:16.039794
+epoch # 29 done, 2023-08-03 23:22:41.855142
+epoch # 30 done, 2023-08-03 23:33:00.850356
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98   3373960
+positive pair       0.75      0.63      0.69    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.86      0.81      0.83   3576791
+ weighted avg       0.96      0.97      0.97   3576791
+
+val # 30 done, 2023-08-03 23:43:47.039524
+epoch # 31 done, 2023-08-03 23:54:08.202329
+epoch # 32 done, 2023-08-04 00:04:34.085419
+epoch # 33 done, 2023-08-04 00:14:58.306030
+epoch # 34 done, 2023-08-04 00:25:23.671233
+epoch # 35 done, 2023-08-04 00:35:47.635207
+epoch # 36 done, 2023-08-04 00:46:13.540569
+epoch # 37 done, 2023-08-04 00:56:34.517441
+epoch # 38 done, 2023-08-04 01:07:02.149481
+epoch # 39 done, 2023-08-04 01:17:25.048551
+epoch # 40 done, 2023-08-04 01:27:44.559404
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98   3373960
+positive pair       0.81      0.61      0.69    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.89      0.80      0.84   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 40 done, 2023-08-04 01:38:34.639210
+epoch # 41 done, 2023-08-04 01:48:59.214564
+epoch # 42 done, 2023-08-04 01:59:20.259345
+epoch # 43 done, 2023-08-04 02:09:44.075045
+epoch # 44 done, 2023-08-04 02:20:07.796497
+epoch # 45 done, 2023-08-04 02:30:31.877831
+epoch # 46 done, 2023-08-04 02:40:56.990868
+epoch # 47 done, 2023-08-04 02:51:20.067146
+epoch # 48 done, 2023-08-04 03:01:43.891537
+epoch # 49 done, 2023-08-04 03:12:07.232987
+epoch # 50 done, 2023-08-04 03:22:32.010152
+               precision    recall  f1-score   support
+
+negative pair       0.97      0.99      0.98   3373960
+positive pair       0.86      0.57      0.68    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.92      0.78      0.83   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 50 done, 2023-08-04 03:33:15.814429
+epoch # 51 done, 2023-08-04 03:43:36.341222
+epoch # 52 done, 2023-08-04 03:53:59.102159
+epoch # 53 done, 2023-08-04 04:04:23.154745
+epoch # 54 done, 2023-08-04 04:14:44.877076
+epoch # 55 done, 2023-08-04 04:24:59.709536
+epoch # 56 done, 2023-08-04 04:35:24.570038
+epoch # 57 done, 2023-08-04 04:45:45.936183
+epoch # 58 done, 2023-08-04 04:56:10.719873
+epoch # 59 done, 2023-08-04 05:06:30.979095
+epoch # 60 done, 2023-08-04 05:16:51.515951
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.89      0.55      0.68    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.93      0.77      0.83   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 60 done, 2023-08-04 05:27:36.071041
+epoch # 61 done, 2023-08-04 05:38:03.692571
+epoch # 62 done, 2023-08-04 05:48:24.757290
+epoch # 63 done, 2023-08-04 05:58:48.569780
+epoch # 64 done, 2023-08-04 06:09:13.927294
+epoch # 65 done, 2023-08-04 06:19:37.484982
+epoch # 66 done, 2023-08-04 06:29:58.326561
+epoch # 67 done, 2023-08-04 06:40:20.324587
+epoch # 68 done, 2023-08-04 06:50:41.905493
+epoch # 69 done, 2023-08-04 07:01:07.045385
+epoch # 70 done, 2023-08-04 07:11:29.410644
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.90      0.54      0.67    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.94      0.77      0.83   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 70 done, 2023-08-04 07:22:15.261303
+epoch # 71 done, 2023-08-04 07:32:40.802072
+epoch # 72 done, 2023-08-04 07:43:05.336812
+epoch # 73 done, 2023-08-04 07:53:28.661675
+epoch # 74 done, 2023-08-04 08:03:49.531983
+epoch # 75 done, 2023-08-04 08:14:14.697281
+epoch # 76 done, 2023-08-04 08:24:35.620450
+epoch # 77 done, 2023-08-04 08:35:05.711026
+epoch # 78 done, 2023-08-04 08:45:32.602282
+epoch # 79 done, 2023-08-04 08:55:56.971478
+epoch # 80 done, 2023-08-04 09:06:26.560593
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.92      0.52      0.66    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.94      0.76      0.82   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 80 done, 2023-08-04 09:17:15.533674
+epoch # 81 done, 2023-08-04 09:27:40.754069
+epoch # 82 done, 2023-08-04 09:38:07.214551
+epoch # 83 done, 2023-08-04 09:48:34.347178
+epoch # 84 done, 2023-08-04 09:58:59.661090
+epoch # 85 done, 2023-08-04 10:09:23.195295
+epoch # 86 done, 2023-08-04 10:19:47.492875
+epoch # 87 done, 2023-08-04 10:30:12.391117
+epoch # 88 done, 2023-08-04 10:40:37.363440
+epoch # 89 done, 2023-08-04 10:50:56.229927
+epoch # 90 done, 2023-08-04 11:01:18.365554
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.92      0.52      0.67    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.95      0.76      0.83   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 90 done, 2023-08-04 11:12:11.642056
+epoch # 91 done, 2023-08-04 11:22:36.787980
+epoch # 92 done, 2023-08-04 11:33:00.369432
+epoch # 93 done, 2023-08-04 11:43:24.005331
+epoch # 94 done, 2023-08-04 11:53:46.071279
+epoch # 95 done, 2023-08-04 12:04:10.646514
+epoch # 96 done, 2023-08-04 12:14:37.377435
+epoch # 97 done, 2023-08-04 12:25:04.563187
+epoch # 98 done, 2023-08-04 12:35:32.243540
+epoch # 99 done, 2023-08-04 12:45:59.111149
+epoch # 100 done, 2023-08-04 12:56:27.051873
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.93      0.51      0.66    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.95      0.75      0.82   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 100 done, 2023-08-04 13:07:13.121867
+epoch # 101 done, 2023-08-04 13:17:39.728602
+epoch # 102 done, 2023-08-04 13:28:01.293499
+epoch # 103 done, 2023-08-04 13:38:27.787217
+epoch # 104 done, 2023-08-04 13:48:50.530968
+epoch # 105 done, 2023-08-04 13:59:13.311405
+epoch # 106 done, 2023-08-04 14:09:35.977491
+epoch # 107 done, 2023-08-04 14:19:58.844528
+epoch # 108 done, 2023-08-04 14:30:18.857435
+epoch # 109 done, 2023-08-04 14:40:39.827377
+epoch # 110 done, 2023-08-04 14:51:02.965397
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.94      0.50      0.65    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.95      0.75      0.82   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 110 done, 2023-08-04 15:01:47.946806
+epoch # 111 done, 2023-08-04 15:12:12.407991
+epoch # 112 done, 2023-08-04 15:22:32.705921
+epoch # 113 done, 2023-08-04 15:32:57.524623
+epoch # 114 done, 2023-08-04 15:43:22.775335
+epoch # 115 done, 2023-08-04 15:53:49.535689
+epoch # 116 done, 2023-08-04 16:04:16.700203
+epoch # 117 done, 2023-08-04 16:14:39.113261
+epoch # 118 done, 2023-08-04 16:25:00.939266
+epoch # 119 done, 2023-08-04 16:35:24.441537
+epoch # 120 done, 2023-08-04 16:45:42.346777
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.94      0.50      0.65    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.96      0.75      0.82   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 120 done, 2023-08-04 16:56:26.501686
+epoch # 121 done, 2023-08-04 17:06:48.031792
+epoch # 122 done, 2023-08-04 17:17:13.449487
+epoch # 123 done, 2023-08-04 17:27:35.526258
+epoch # 124 done, 2023-08-04 17:37:59.369350
+epoch # 125 done, 2023-08-04 17:48:19.050945
+epoch # 126 done, 2023-08-04 17:58:39.477468
+epoch # 127 done, 2023-08-04 18:09:06.755163
+epoch # 128 done, 2023-08-04 18:19:31.858152
+epoch # 129 done, 2023-08-04 18:29:56.891548
+epoch # 130 done, 2023-08-04 18:40:20.659419
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.95      0.49      0.64    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.96      0.74      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 130 done, 2023-08-04 18:51:06.685763
+epoch # 131 done, 2023-08-04 19:01:26.317800
+epoch # 132 done, 2023-08-04 19:11:48.446948
+epoch # 133 done, 2023-08-04 19:22:16.933468
+epoch # 134 done, 2023-08-04 19:32:40.499669
+epoch # 135 done, 2023-08-04 19:43:05.347174
+epoch # 136 done, 2023-08-04 19:53:30.504287
+epoch # 137 done, 2023-08-04 20:03:55.204117
+epoch # 138 done, 2023-08-04 20:14:22.575873
+epoch # 139 done, 2023-08-04 20:24:44.714844
+epoch # 140 done, 2023-08-04 20:35:08.279030
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.95      0.49      0.65    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.96      0.74      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 140 done, 2023-08-04 20:45:51.894662
+epoch # 141 done, 2023-08-04 20:56:16.469526
+epoch # 142 done, 2023-08-04 21:06:36.677073
+epoch # 143 done, 2023-08-04 21:16:56.873383
+epoch # 144 done, 2023-08-04 21:27:24.658615
+epoch # 145 done, 2023-08-04 21:37:44.626994
+epoch # 146 done, 2023-08-04 21:48:09.387089
+epoch # 147 done, 2023-08-04 21:58:29.642926
+epoch # 148 done, 2023-08-04 22:08:53.267919
+epoch # 149 done, 2023-08-04 22:19:13.119922
+epoch # 150 done, 2023-08-04 22:29:35.218660
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.95      0.49      0.64    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.96      0.74      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 150 done, 2023-08-04 22:40:17.506618
+epoch # 151 done, 2023-08-04 22:50:39.538489
+epoch # 152 done, 2023-08-04 23:01:06.152536
+epoch # 153 done, 2023-08-04 23:11:27.327548
+epoch # 154 done, 2023-08-04 23:21:52.847759
+epoch # 155 done, 2023-08-04 23:32:13.566863
+epoch # 156 done, 2023-08-04 23:42:36.972267
+epoch # 157 done, 2023-08-04 23:52:50.843076
+epoch # 158 done, 2023-08-05 00:03:10.049341
+epoch # 159 done, 2023-08-05 00:13:29.425788
+epoch # 160 done, 2023-08-05 00:23:51.707507
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.96      0.47      0.63    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.96      0.74      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 160 done, 2023-08-05 00:34:39.316388
+epoch # 161 done, 2023-08-05 00:45:00.794000
+epoch # 162 done, 2023-08-05 00:55:22.979391
+epoch # 163 done, 2023-08-05 01:05:45.960575
+epoch # 164 done, 2023-08-05 01:16:05.707368
+epoch # 165 done, 2023-08-05 01:26:28.883187
+epoch # 166 done, 2023-08-05 01:36:50.335466
+epoch # 167 done, 2023-08-05 01:47:15.661518
+epoch # 168 done, 2023-08-05 01:57:38.227958
+epoch # 169 done, 2023-08-05 02:08:03.215896
+epoch # 170 done, 2023-08-05 02:18:19.114787
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.96      0.47      0.63    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.96      0.74      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 170 done, 2023-08-05 02:28:55.963427
+epoch # 171 done, 2023-08-05 02:39:20.001312
+epoch # 172 done, 2023-08-05 02:49:44.642003
+epoch # 173 done, 2023-08-05 03:00:11.246644
+epoch # 174 done, 2023-08-05 03:10:31.547619
+epoch # 175 done, 2023-08-05 03:20:56.370630
+epoch # 176 done, 2023-08-05 03:31:19.703714
+epoch # 177 done, 2023-08-05 03:41:44.939530
+epoch # 178 done, 2023-08-05 03:52:12.975620
+epoch # 179 done, 2023-08-05 04:02:37.855098
+epoch # 180 done, 2023-08-05 04:13:05.078283
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.96      0.48      0.64    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.96      0.74      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 180 done, 2023-08-05 04:23:52.024851
+epoch # 181 done, 2023-08-05 04:34:04.661487
+epoch # 182 done, 2023-08-05 04:44:31.885216
+epoch # 183 done, 2023-08-05 04:54:58.954728
+epoch # 184 done, 2023-08-05 05:05:22.503705
+epoch # 185 done, 2023-08-05 05:15:46.106266
+epoch # 186 done, 2023-08-05 05:26:07.325221
+epoch # 187 done, 2023-08-05 05:36:27.622338
+epoch # 188 done, 2023-08-05 05:46:51.181479
+epoch # 189 done, 2023-08-05 05:57:18.341661
+epoch # 190 done, 2023-08-05 06:07:47.709745
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.96      0.47      0.63    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.73      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 190 done, 2023-08-05 06:18:30.467608
+epoch # 191 done, 2023-08-05 06:28:54.240196
+epoch # 192 done, 2023-08-05 06:39:20.568468
+epoch # 193 done, 2023-08-05 06:49:45.547851
+epoch # 194 done, 2023-08-05 07:00:09.385305
+epoch # 195 done, 2023-08-05 07:10:34.770447
+epoch # 196 done, 2023-08-05 07:21:02.193263
+epoch # 197 done, 2023-08-05 07:31:30.711839
+epoch # 198 done, 2023-08-05 07:41:56.935923
+epoch # 199 done, 2023-08-05 07:52:26.561451
+epoch # 200 done, 2023-08-05 08:02:50.574936
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.96      0.46      0.63    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.73      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 200 done, 2023-08-05 08:13:41.826367
+epoch # 201 done, 2023-08-05 08:24:05.340226
+epoch # 202 done, 2023-08-05 08:34:27.457955
+epoch # 203 done, 2023-08-05 08:44:51.299132
+epoch # 204 done, 2023-08-05 08:55:12.839181
+epoch # 205 done, 2023-08-05 09:05:37.345338
+epoch # 206 done, 2023-08-05 09:16:05.034341
+epoch # 207 done, 2023-08-05 09:26:32.219997
+epoch # 208 done, 2023-08-05 09:37:00.590370
+epoch # 209 done, 2023-08-05 09:47:28.545741
+epoch # 210 done, 2023-08-05 09:57:53.317322
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.96      0.47      0.63    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.74      0.81   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 210 done, 2023-08-05 10:08:40.423715
+epoch # 211 done, 2023-08-05 10:19:05.451217
+epoch # 212 done, 2023-08-05 10:29:28.955618
+epoch # 213 done, 2023-08-05 10:39:52.103122
+epoch # 214 done, 2023-08-05 10:50:16.075860
+epoch # 215 done, 2023-08-05 11:00:38.599114
+epoch # 216 done, 2023-08-05 11:11:05.709597
+epoch # 217 done, 2023-08-05 11:21:30.717911
+epoch # 218 done, 2023-08-05 11:31:53.244297
+epoch # 219 done, 2023-08-05 11:42:17.314010
+epoch # 220 done, 2023-08-05 11:52:41.549367
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.46      0.62    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.73      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 220 done, 2023-08-05 12:03:27.878545
+epoch # 221 done, 2023-08-05 12:13:50.954626
+epoch # 222 done, 2023-08-05 12:24:15.943383
+epoch # 223 done, 2023-08-05 12:34:39.392395
+epoch # 224 done, 2023-08-05 12:45:07.906956
+epoch # 225 done, 2023-08-05 12:55:27.827230
+epoch # 226 done, 2023-08-05 13:05:51.615207
+epoch # 227 done, 2023-08-05 13:16:17.563254
+epoch # 228 done, 2023-08-05 13:26:35.643803
+epoch # 229 done, 2023-08-05 13:36:59.647619
+epoch # 230 done, 2023-08-05 13:47:21.058296
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.46      0.62    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.73      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 230 done, 2023-08-05 13:57:59.409254
+epoch # 231 done, 2023-08-05 14:08:24.650997
+epoch # 232 done, 2023-08-05 14:18:48.833959
+epoch # 233 done, 2023-08-05 14:29:14.515795
+epoch # 234 done, 2023-08-05 14:39:38.451889
+epoch # 235 done, 2023-08-05 14:50:04.131724
+epoch # 236 done, 2023-08-05 15:00:31.685894
+epoch # 237 done, 2023-08-05 15:10:57.808553
+epoch # 238 done, 2023-08-05 15:21:19.111065
+epoch # 239 done, 2023-08-05 15:31:44.394284
+epoch # 240 done, 2023-08-05 15:42:11.823356
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.46      0.62    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.73      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 240 done, 2023-08-05 15:52:52.817852
+epoch # 241 done, 2023-08-05 16:03:08.821634
+epoch # 242 done, 2023-08-05 16:13:28.516447
+epoch # 243 done, 2023-08-05 16:23:52.180938
+epoch # 244 done, 2023-08-05 16:34:16.400451
+epoch # 245 done, 2023-08-05 16:44:41.790397
+epoch # 246 done, 2023-08-05 16:55:06.239717
+epoch # 247 done, 2023-08-05 17:05:29.355634
+epoch # 248 done, 2023-08-05 17:15:50.485832
+epoch # 249 done, 2023-08-05 17:26:00.625576
+epoch # 250 done, 2023-08-05 17:36:24.991959
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.45      0.62    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.73      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 250 done, 2023-08-05 17:47:11.846926
+epoch # 251 done, 2023-08-05 17:57:32.890700
+epoch # 252 done, 2023-08-05 18:07:58.950201
+epoch # 253 done, 2023-08-05 18:18:20.505529
+epoch # 254 done, 2023-08-05 18:28:44.585524
+epoch # 255 done, 2023-08-05 18:39:07.533275
+epoch # 256 done, 2023-08-05 18:49:28.393100
+epoch # 257 done, 2023-08-05 18:59:52.150012
+epoch # 258 done, 2023-08-05 19:10:13.785279
+epoch # 259 done, 2023-08-05 19:20:37.390554
+epoch # 260 done, 2023-08-05 19:30:59.786799
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.45      0.62    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.73      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 260 done, 2023-08-05 19:41:43.166268
+epoch # 261 done, 2023-08-05 19:52:12.041541
+epoch # 262 done, 2023-08-05 20:02:22.838638
+epoch # 263 done, 2023-08-05 20:12:41.450358
+epoch # 264 done, 2023-08-05 20:23:06.065757
+epoch # 265 done, 2023-08-05 20:33:27.637380
+epoch # 266 done, 2023-08-05 20:43:46.459097
+epoch # 267 done, 2023-08-05 20:54:09.730352
+epoch # 268 done, 2023-08-05 21:04:32.728520
+epoch # 269 done, 2023-08-05 21:14:56.712658
+epoch # 270 done, 2023-08-05 21:25:19.210864
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.46      0.62    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.73      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 270 done, 2023-08-05 21:35:59.410863
+epoch # 271 done, 2023-08-05 21:46:27.810628
+epoch # 272 done, 2023-08-05 21:56:48.502299
+epoch # 273 done, 2023-08-05 22:07:11.638873
+epoch # 274 done, 2023-08-05 22:17:27.324426
+epoch # 275 done, 2023-08-05 22:27:50.130665
+epoch # 276 done, 2023-08-05 22:38:15.731011
+epoch # 277 done, 2023-08-05 22:48:36.937226
+epoch # 278 done, 2023-08-05 22:59:03.500057
+epoch # 279 done, 2023-08-05 23:09:30.357122
+epoch # 280 done, 2023-08-05 23:19:57.961594
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.45      0.61    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.72      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 280 done, 2023-08-05 23:30:45.933427
+epoch # 281 done, 2023-08-05 23:41:11.151720
+epoch # 282 done, 2023-08-05 23:51:37.592376
+epoch # 283 done, 2023-08-06 00:02:05.261575
+epoch # 284 done, 2023-08-06 00:12:32.403996
+epoch # 285 done, 2023-08-06 00:23:01.257917
+epoch # 286 done, 2023-08-06 00:33:29.979554
+epoch # 287 done, 2023-08-06 00:43:56.611214
+epoch # 288 done, 2023-08-06 00:54:26.704920
+epoch # 289 done, 2023-08-06 01:04:53.350503
+epoch # 290 done, 2023-08-06 01:15:20.750452
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.45      0.62    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.72      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 290 done, 2023-08-06 01:26:08.115432
+epoch # 291 done, 2023-08-06 01:36:36.586436
+epoch # 292 done, 2023-08-06 01:47:02.755990
+epoch # 293 done, 2023-08-06 01:57:29.001392
+epoch # 294 done, 2023-08-06 02:07:59.481265
+epoch # 295 done, 2023-08-06 02:18:27.195771
+epoch # 296 done, 2023-08-06 02:28:54.136522
+epoch # 297 done, 2023-08-06 02:39:21.181435
+epoch # 298 done, 2023-08-06 02:49:48.970539
+epoch # 299 done, 2023-08-06 03:00:16.352934
+epoch # 300 done, 2023-08-06 03:10:44.723224
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.45      0.61    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.72      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 300 done, 2023-08-06 03:21:32.059929
+epoch # 301 done, 2023-08-06 03:31:57.821122
+epoch # 302 done, 2023-08-06 03:42:21.845855
+epoch # 303 done, 2023-08-06 03:52:49.894890
+epoch # 304 done, 2023-08-06 04:03:15.427745
+epoch # 305 done, 2023-08-06 04:13:38.595022
+epoch # 306 done, 2023-08-06 04:24:04.370796
+epoch # 307 done, 2023-08-06 04:34:32.283153
+epoch # 308 done, 2023-08-06 04:44:55.463879
+epoch # 309 done, 2023-08-06 04:55:21.759182
+epoch # 310 done, 2023-08-06 05:05:46.342365
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.97      0.44      0.61    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.72      0.80   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 310 done, 2023-08-06 05:16:33.740413
+epoch # 311 done, 2023-08-06 05:27:03.915744
+epoch # 312 done, 2023-08-06 05:37:32.169231
+epoch # 313 done, 2023-08-06 05:47:56.856312
+epoch # 314 done, 2023-08-06 05:58:26.354435
+epoch # 315 done, 2023-08-06 06:08:54.025574
+epoch # 316 done, 2023-08-06 06:19:21.123941
+epoch # 317 done, 2023-08-06 06:29:46.318265
+epoch # 318 done, 2023-08-06 06:40:12.548432
+epoch # 319 done, 2023-08-06 06:50:38.374819
+epoch # 320 done, 2023-08-06 07:01:07.656120
+               precision    recall  f1-score   support
+
+negative pair       0.97      1.00      0.98   3373960
+positive pair       0.98      0.44      0.61    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.97      0.72      0.79   3576791
+ weighted avg       0.97      0.97      0.96   3576791
+
+val # 320 done, 2023-08-06 07:11:55.124121
+epoch # 321 done, 2023-08-06 07:22:21.135507
+epoch # 322 done, 2023-08-06 07:32:47.786312
+epoch # 323 done, 2023-08-06 07:43:13.436245
+epoch # 324 done, 2023-08-06 07:53:41.298170
+
+new data
+train
+0212: pos_pair = 29, neg_pair = 1147
+0110: pos_pair = 106, neg_pair = 2172
+0915: pos_pair = 29, neg_pair = 1456
+0443: pos_pair = 60, neg_pair = 1956
+1484: pos_pair = 60, neg_pair = 975
+0677: pos_pair = 43, neg_pair = 453
+1386: pos_pair = 35, neg_pair = 1190
+0413: pos_pair = 36, neg_pair = 1140
+0098: pos_pair = 24, neg_pair = 537
+0993: pos_pair = 54, neg_pair = 1272
+0016: pos_pair = 23, neg_pair = 572
+0845: pos_pair = 86, neg_pair = 2764
+0701: pos_pair = 97, neg_pair = 849
+0175: pos_pair = 64, neg_pair = 1647
+1502: pos_pair = 15, neg_pair = 420
+1349: pos_pair = 42, neg_pair = 1389
+1134: pos_pair = 27, neg_pair = 639
+0627: pos_pair = 33, neg_pair = 670
+1212: pos_pair = 58, neg_pair = 1427
+0488: pos_pair = 23, neg_pair = 355
+0410: pos_pair = 16, neg_pair = 390
+1546: pos_pair = 19, neg_pair = 684
+0570: pos_pair = 86, neg_pair = 1684
+0737: pos_pair = 39, neg_pair = 1731
+0061: pos_pair = 23, neg_pair = 1012
+1574: pos_pair = 32, neg_pair = 1193
+0001: pos_pair = 73, neg_pair = 1943
+0153: pos_pair = 44, neg_pair = 1909
+0132: pos_pair = 35, neg_pair = 745
+1000: pos_pair = 148, neg_pair = 2702
+0394: pos_pair = 88, neg_pair = 1290
+0201: pos_pair = 27, neg_pair = 438
+0156: pos_pair = 60, neg_pair = 1425
+0548: pos_pair = 35, neg_pair = 706
+1183: pos_pair = 42, neg_pair = 1849
+0983: pos_pair = 23, neg_pair = 1012
+0517: pos_pair = 55, neg_pair = 473
+1234: pos_pair = 24, neg_pair = 276
+1221: pos_pair = 82, neg_pair = 2474
+0012: pos_pair = 36, neg_pair = 1449
+0295: pos_pair = 35, neg_pair = 1141
+0071: pos_pair = 52, neg_pair = 1601
+1548: pos_pair = 17, neg_pair = 544
+1286: pos_pair = 36, neg_pair = 867
+0807: pos_pair = 37, neg_pair = 824
+1148: pos_pair = 58, neg_pair = 1595
+1520: pos_pair = 65, neg_pair = 1646
+0262: pos_pair = 49, neg_pair = 1176
+0856: pos_pair = 14, neg_pair = 286
+1115: pos_pair = 220, neg_pair = 1158
+0919: pos_pair = 14, neg_pair = 364
+1448: pos_pair = 59, neg_pair = 437
+0400: pos_pair = 65, neg_pair = 881
+0883: pos_pair = 47, neg_pair = 1331
+0499: pos_pair = 29, neg_pair = 917
+0048: pos_pair = 69, neg_pair = 3672
+0412: pos_pair = 62, neg_pair = 928
+0558: pos_pair = 43, neg_pair = 1335
+1381: pos_pair = 29, neg_pair = 377
+0126: pos_pair = 50, neg_pair = 2095
+1233: pos_pair = 39, neg_pair = 1287
+1415: pos_pair = 40, neg_pair = 2445
+1418: pos_pair = 37, neg_pair = 1733
+0042: pos_pair = 11, neg_pair = 160
+1283: pos_pair = 16, neg_pair = 309
+1450: pos_pair = 53, neg_pair = 1543
+0319: pos_pair = 23, neg_pair = 538
+1468: pos_pair = 41, neg_pair = 1670
+0591: pos_pair = 36, neg_pair = 1560
+1226: pos_pair = 21, neg_pair = 840
+0036: pos_pair = 303, neg_pair = 2043
+0520: pos_pair = 24, neg_pair = 1104
+1531: pos_pair = 87, neg_pair = 774
+0835: pos_pair = 18, neg_pair = 510
+0973: pos_pair = 9, neg_pair = 144
+0264: pos_pair = 49, neg_pair = 2579
+1316: pos_pair = 32, neg_pair = 1453
+0381: pos_pair = 36, neg_pair = 1449
+0896: pos_pair = 23, neg_pair = 757
+1321: pos_pair = 62, neg_pair = 1163
+0587: pos_pair = 66, neg_pair = 795
+0389: pos_pair = 48, neg_pair = 3522
+1276: pos_pair = 23, neg_pair = 757
+1099: pos_pair = 54, neg_pair = 1027
+0122: pos_pair = 37, neg_pair = 783
+0049: pos_pair = 24, neg_pair = 1104
+0702: pos_pair = 75, neg_pair = 2851
+1540: pos_pair = 33, neg_pair = 1563
+0145: pos_pair = 9, neg_pair = 144
+1052: pos_pair = 60, neg_pair = 1651
+0873: pos_pair = 32, neg_pair = 1049
+1339: pos_pair = 16, neg_pair = 390
+0303: pos_pair = 29, neg_pair = 532
+0247: pos_pair = 55, neg_pair = 2646
+1224: pos_pair = 58, neg_pair = 2357
+1449: pos_pair = 33, neg_pair = 913
+0592: pos_pair = 62, neg_pair = 2353
+0740: pos_pair = 13, neg_pair = 240
+0192: pos_pair = 31, neg_pair = 1244
+0710: pos_pair = 23, neg_pair = 643
+1247: pos_pair = 20, neg_pair = 541
+1471: pos_pair = 54, neg_pair = 1837
+1012: pos_pair = 19, neg_pair = 684
+1446: pos_pair = 34, neg_pair = 827
+0869: pos_pair = 20, neg_pair = 386
+1279: pos_pair = 58, neg_pair = 1268
+0343: pos_pair = 50, neg_pair = 1175
+0066: pos_pair = 116, neg_pair = 2512
+0874: pos_pair = 41, neg_pair = 739
+1085: pos_pair = 59, neg_pair = 1319
+0468: pos_pair = 141, neg_pair = 2137
+0610: pos_pair = 65, neg_pair = 2861
+0479: pos_pair = 31, neg_pair = 1050
+0849: pos_pair = 98, neg_pair = 1732
+0682: pos_pair = 44, neg_pair = 1282
+0386: pos_pair = 59, neg_pair = 844
+0358: pos_pair = 33, neg_pair = 1920
+1273: pos_pair = 20, neg_pair = 211
+1476: pos_pair = 40, neg_pair = 1185
+1288: pos_pair = 24, neg_pair = 276
+1021: pos_pair = 24, neg_pair = 382
+0243: pos_pair = 30, neg_pair = 1566
+1564: pos_pair = 60, neg_pair = 570
+0655: pos_pair = 23, neg_pair = 1012
+1126: pos_pair = 23, neg_pair = 757
+0512: pos_pair = 44, neg_pair = 1181
+0101: pos_pair = 24, neg_pair = 1104
+0147: pos_pair = 92, neg_pair = 1988
+0806: pos_pair = 69, neg_pair = 1156
+1392: pos_pair = 33, neg_pair = 1563
+0741: pos_pair = 74, neg_pair = 1637
+0380: pos_pair = 85, neg_pair = 1685
+0821: pos_pair = 28, neg_pair = 1197
+1361: pos_pair = 49, neg_pair = 3111
+1522: pos_pair = 84, neg_pair = 1092
+0198: pos_pair = 18, neg_pair = 333
+0546: pos_pair = 42, neg_pair = 993
+0859: pos_pair = 22, neg_pair = 573
+0078: pos_pair = 34, neg_pair = 2244
+1407: pos_pair = 31, neg_pair = 564
+1004: pos_pair = 42, neg_pair = 1389
+1464: pos_pair = 73, neg_pair = 3248
+0258: pos_pair = 24, neg_pair = 606
+0687: pos_pair = 47, neg_pair = 943
+1217: pos_pair = 17, neg_pair = 308
+0108: pos_pair = 27, neg_pair = 1404
+1497: pos_pair = 15, neg_pair = 420
+0980: pos_pair = 49, neg_pair = 1079
+0892: pos_pair = 22, neg_pair = 681
+1384: pos_pair = 16, neg_pair = 480
+0423: pos_pair = 41, neg_pair = 1040
+0233: pos_pair = 51, neg_pair = 1965
+0891: pos_pair = 98, neg_pair = 1855
+0172: pos_pair = 78, neg_pair = 868
+1455: pos_pair = 45, neg_pair = 1281
+0724: pos_pair = 55, neg_pair = 1121
+1315: pos_pair = 32, neg_pair = 199
+0026: pos_pair = 35, neg_pair = 631
+1090: pos_pair = 59, neg_pair = 3101
+1053: pos_pair = 19, neg_pair = 477
+0689: pos_pair = 83, neg_pair = 2332
+1006: pos_pair = 27, neg_pair = 876
+1195: pos_pair = 87, neg_pair = 2994
+0341: pos_pair = 19, neg_pair = 576
+1332: pos_pair = 48, neg_pair = 942
+1092: pos_pair = 22, neg_pair = 798
+0976: pos_pair = 44, neg_pair = 586
+0529: pos_pair = 45, neg_pair = 2035
+0904: pos_pair = 40, neg_pair = 1235
+1074: pos_pair = 98, neg_pair = 2248
+0176: pos_pair = 20, neg_pair = 760
+1149: pos_pair = 15, neg_pair = 336
+1120: pos_pair = 95, neg_pair = 3226
+1533: pos_pair = 17, neg_pair = 448
+0411: pos_pair = 122, neg_pair = 2089
+0217: pos_pair = 22, neg_pair = 924
+0362: pos_pair = 45, neg_pair = 1971
+0260: pos_pair = 38, neg_pair = 1447
+0205: pos_pair = 19, neg_pair = 477
+1499: pos_pair = 27, neg_pair = 1404
+1552: pos_pair = 45, neg_pair = 1281
+1318: pos_pair = 91, neg_pair = 1925
+0933: pos_pair = 68, neg_pair = 2077
+1373: pos_pair = 16, neg_pair = 480
+0789: pos_pair = 84, neg_pair = 2766
+1046: pos_pair = 50, neg_pair = 1661
+0315: pos_pair = 51, neg_pair = 2577
+0561: pos_pair = 111, neg_pair = 2590
+0782: pos_pair = 52, neg_pair = 2504
+0911: pos_pair = 59, neg_pair = 1022
+0169: pos_pair = 31, neg_pair = 789
+0089: pos_pair = 48, neg_pair = 1278
+1433: pos_pair = 38, neg_pair = 952
+0927: pos_pair = 84, neg_pair = 997
+0446: pos_pair = 63, neg_pair = 678
+0784: pos_pair = 49, neg_pair = 1491
+0978: pos_pair = 54, neg_pair = 2721
+0803: pos_pair = 75, neg_pair = 2481
+0515: pos_pair = 26, neg_pair = 1009
+0088: pos_pair = 73, neg_pair = 1152
+0641: pos_pair = 34, neg_pair = 1397
+0269: pos_pair = 65, neg_pair = 2420
+0237: pos_pair = 25, neg_pair = 795
+1304: pos_pair = 40, neg_pair = 1500
+1465: pos_pair = 108, neg_pair = 2667
+1460: pos_pair = 29, neg_pair = 499
+1377: pos_pair = 31, neg_pair = 1347
+0662: pos_pair = 35, neg_pair = 1450
+1430: pos_pair = 81, neg_pair = 3322
+0972: pos_pair = 27, neg_pair = 963
+0686: pos_pair = 44, neg_pair = 1609
+0802: pos_pair = 54, neg_pair = 1272
+1414: pos_pair = 16, neg_pair = 480
+0617: pos_pair = 55, neg_pair = 1170
+0550: pos_pair = 15, neg_pair = 261
+0077: pos_pair = 76, neg_pair = 1005
+1188: pos_pair = 57, neg_pair = 1168
+0040: pos_pair = 35, neg_pair = 1981
+0584: pos_pair = 39, neg_pair = 1731
+1353: pos_pair = 48, neg_pair = 987
+1164: pos_pair = 17, neg_pair = 308
+0112: pos_pair = 26, neg_pair = 604
+1186: pos_pair = 63, neg_pair = 1477
+1346: pos_pair = 32, neg_pair = 1294
+0114: pos_pair = 31, neg_pair = 872
+0511: pos_pair = 49, neg_pair = 1781
+0407: pos_pair = 26, neg_pair = 1300
+1171: pos_pair = 39, neg_pair = 1042
+0194: pos_pair = 17, neg_pair = 448
+0017: pos_pair = 50, neg_pair = 1328
+1570: pos_pair = 27, neg_pair = 534
+0609: pos_pair = 62, neg_pair = 1954
+1358: pos_pair = 110, neg_pair = 1268
+0796: pos_pair = 20, neg_pair = 646
+0060: pos_pair = 77, neg_pair = 913
+1223: pos_pair = 28, neg_pair = 378
+0768: pos_pair = 43, neg_pair = 552
+0574: pos_pair = 38, neg_pair = 665
+0536: pos_pair = 25, neg_pair = 678
+1344: pos_pair = 83, neg_pair = 3157
+0566: pos_pair = 26, neg_pair = 877
+0135: pos_pair = 16, neg_pair = 480
+0455: pos_pair = 48, neg_pair = 2508
+1454: pos_pair = 75, neg_pair = 2271
+0465: pos_pair = 26, neg_pair = 1300
+1380: pos_pair = 32, neg_pair = 1193
+1495: pos_pair = 252, neg_pair = 1023
+1426: pos_pair = 41, neg_pair = 1612
+1011: pos_pair = 17, neg_pair = 448
+1060: pos_pair = 48, neg_pair = 1128
+1370: pos_pair = 28, neg_pair = 1053
+1093: pos_pair = 18, neg_pair = 612
+0671: pos_pair = 32, neg_pair = 1294
+1444: pos_pair = 64, neg_pair = 882
+0167: pos_pair = 54, neg_pair = 1962
+0404: pos_pair = 43, neg_pair = 1283
+0764: pos_pair = 22, neg_pair = 681
+0030: pos_pair = 39, neg_pair = 1446
+1395: pos_pair = 8, neg_pair = 112
+1394: pos_pair = 16, neg_pair = 480
+1172: pos_pair = 14, neg_pair = 364
+0747: pos_pair = 112, neg_pair = 1968
+0082: pos_pair = 118, neg_pair = 1898
+0965: pos_pair = 77, neg_pair = 913
+0707: pos_pair = 64, neg_pair = 2492
+0029: pos_pair = 34, neg_pair = 1001
+0047: pos_pair = 20, neg_pair = 541
+0117: pos_pair = 67, neg_pair = 1703
+1563: pos_pair = 33, neg_pair = 463
+0852: pos_pair = 60, neg_pair = 1371
+1108: pos_pair = 83, neg_pair = 1243
+0376: pos_pair = 54, neg_pair = 1122
+0287: pos_pair = 32, neg_pair = 374
+0811: pos_pair = 40, neg_pair = 1338
+1086: pos_pair = 55, neg_pair = 2430
+1191: pos_pair = 56, neg_pair = 1835
+1357: pos_pair = 61, neg_pair = 719
+1256: pos_pair = 20, neg_pair = 760
+0314: pos_pair = 13, neg_pair = 312
+0321: pos_pair = 89, neg_pair = 1864
+1341: pos_pair = 21, neg_pair = 840
+0215: pos_pair = 26, neg_pair = 569
+0206: pos_pair = 72, neg_pair = 2484
+1255: pos_pair = 46, neg_pair = 944
+0470: pos_pair = 33, neg_pair = 1293
+0250: pos_pair = 39, neg_pair = 2736
+0736: pos_pair = 66, neg_pair = 1419
+1208: pos_pair = 47, neg_pair = 1331
+0384: pos_pair = 43, neg_pair = 363
+0415: pos_pair = 74, neg_pair = 3412
+0817: pos_pair = 18, neg_pair = 612
+0013: pos_pair = 26, neg_pair = 569
+0501: pos_pair = 18, neg_pair = 510
+0497: pos_pair = 33, neg_pair = 1095
+1263: pos_pair = 22, neg_pair = 924
+0988: pos_pair = 60, neg_pair = 1425
+1559: pos_pair = 55, neg_pair = 1121
+1002: pos_pair = 52, neg_pair = 2294
+0418: pos_pair = 130, neg_pair = 2645
+1462: pos_pair = 59, neg_pair = 1894
+0787: pos_pair = 56, neg_pair = 2024
+1017: pos_pair = 25, neg_pair = 605
+0170: pos_pair = 38, neg_pair = 1447
+0926: pos_pair = 22, neg_pair = 681
+0962: pos_pair = 27, neg_pair = 1008
+0045: pos_pair = 31, neg_pair = 959
+1022: pos_pair = 33, neg_pair = 1002
+0775: pos_pair = 36, neg_pair = 630
+0797: pos_pair = 27, neg_pair = 351
+1277: pos_pair = 54, neg_pair = 2872
+0553: pos_pair = 41, neg_pair = 1184
+1051: pos_pair = 31, neg_pair = 1347
+0361: pos_pair = 67, neg_pair = 1644
+1303: pos_pair = 49, neg_pair = 1226
+1146: pos_pair = 140, neg_pair = 806
+1438: pos_pair = 34, neg_pair = 869
+0909: pos_pair = 54, neg_pair = 849
+0951: pos_pair = 16, neg_pair = 390
+0330: pos_pair = 37, neg_pair = 1139
+0367: pos_pair = 60, neg_pair = 1371
+0708: pos_pair = 15, neg_pair = 420
+1194: pos_pair = 64, neg_pair = 1952
+0378: pos_pair = 25, neg_pair = 795
+1308: pos_pair = 45, neg_pair = 231
+0067: pos_pair = 23, neg_pair = 880
+0351: pos_pair = 65, neg_pair = 755
+0044: pos_pair = 36, neg_pair = 1045
+0578: pos_pair = 23, neg_pair = 572
+0471: pos_pair = 37, neg_pair = 1503
+1536: pos_pair = 52, neg_pair = 1223
+1193: pos_pair = 84, neg_pair = 819
+1222: pos_pair = 71, neg_pair = 1699
+0223: pos_pair = 94, neg_pair = 2534
+0327: pos_pair = 64, neg_pair = 1421
+1216: pos_pair = 45, neg_pair = 945
+0600: pos_pair = 51, neg_pair = 984
+0035: pos_pair = 90, neg_pair = 2760
+1313: pos_pair = 21, neg_pair = 720
+1527: pos_pair = 70, neg_pair = 2705
+0840: pos_pair = 52, neg_pair = 2433
+0232: pos_pair = 18, neg_pair = 612
+1033: pos_pair = 49, neg_pair = 3437
+1300: pos_pair = 68, neg_pair = 2417
+1493: pos_pair = 78, neg_pair = 2478
+0906: pos_pair = 99, neg_pair = 2827
+1187: pos_pair = 80, neg_pair = 3241
+0948: pos_pair = 58, neg_pair = 1070
+0543: pos_pair = 46, neg_pair = 3870
+0388: pos_pair = 11, neg_pair = 220
+0448: pos_pair = 245, neg_pair = 1133
+1266: pos_pair = 26, neg_pair = 877
+0359: pos_pair = 23, neg_pair = 757
+0505: pos_pair = 68, neg_pair = 673
+0851: pos_pair = 33, neg_pair = 913
+1387: pos_pair = 32, neg_pair = 598
+1354: pos_pair = 58, neg_pair = 2357
+1232: pos_pair = 35, neg_pair = 1190
+0355: pos_pair = 59, neg_pair = 1319
+1162: pos_pair = 24, neg_pair = 1104
+1307: pos_pair = 69, neg_pair = 2934
+1352: pos_pair = 27, neg_pair = 1101
+1258: pos_pair = 26, neg_pair = 409
+0084: pos_pair = 51, neg_pair = 1602
+0111: pos_pair = 27, neg_pair = 1101
+1110: pos_pair = 84, neg_pair = 2691
+0239: pos_pair = 16, neg_pair = 309
+0683: pos_pair = 63, neg_pair = 927
+0628: pos_pair = 86, neg_pair = 2329
+1543: pos_pair = 48, neg_pair = 1128
+0252: pos_pair = 25, neg_pair = 678
+0469: pos_pair = 37, neg_pair = 998
+1024: pos_pair = 481, neg_pair = 647
+0946: pos_pair = 23, neg_pair = 1012
+1007: pos_pair = 78, neg_pair = 450
+0265: pos_pair = 44, neg_pair = 1972
+0750: pos_pair = 24, neg_pair = 756
+0669: pos_pair = 88, neg_pair = 815
+1015: pos_pair = 51, neg_pair = 2875
+1422: pos_pair = 19, neg_pair = 684
+0725: pos_pair = 14, neg_pair = 217
+0240: pos_pair = 118, neg_pair = 2367
+1059: pos_pair = 50, neg_pair = 1381
+0657: pos_pair = 40, neg_pair = 950
+0823: pos_pair = 32, neg_pair = 1193
+0150: pos_pair = 65, neg_pair = 1160
+1114: pos_pair = 27, neg_pair = 639
+0974: pos_pair = 14, neg_pair = 286
+1514: pos_pair = 74, neg_pair = 1879
+0202: pos_pair = 47, neg_pair = 2231
+1408: pos_pair = 22, neg_pair = 924
+0105: pos_pair = 70, neg_pair = 2208
+0309: pos_pair = 36, neg_pair = 744
+1320: pos_pair = 20, neg_pair = 760
+0249: pos_pair = 25, neg_pair = 1200
+1034: pos_pair = 114, neg_pair = 2889
+0936: pos_pair = 28, neg_pair = 1053
+0484: pos_pair = 96, neg_pair = 807
+0930: pos_pair = 37, neg_pair = 2664
+0268: pos_pair = 40, neg_pair = 821
+0216: pos_pair = 27, neg_pair = 501
+0626: pos_pair = 12, neg_pair = 264
+1360: pos_pair = 44, neg_pair = 1726
+0860: pos_pair = 46, neg_pair = 900
+1482: pos_pair = 76, neg_pair = 1302
+1182: pos_pair = 27, neg_pair = 534
+0794: pos_pair = 41, neg_pair = 2039
+1211: pos_pair = 35, neg_pair = 631
+0452: pos_pair = 148, neg_pair = 842
+0830: pos_pair = 35, neg_pair = 1046
+0289: pos_pair = 53, neg_pair = 982
+1152: pos_pair = 37, neg_pair = 1091
+0437: pos_pair = 42, neg_pair = 778
+0834: pos_pair = 21, neg_pair = 609
+0640: pos_pair = 66, neg_pair = 1312
+1165: pos_pair = 103, neg_pair = 1437
+0847: pos_pair = 27, neg_pair = 1404
+0818: pos_pair = 31, neg_pair = 1860
+1112: pos_pair = 52, neg_pair = 1601
+0155: pos_pair = 33, neg_pair = 1563
+0748: pos_pair = 15, neg_pair = 420
+0735: pos_pair = 57, neg_pair = 1773
+0932: pos_pair = 44, neg_pair = 902
+1163: pos_pair = 17, neg_pair = 544
+0907: pos_pair = 27, neg_pair = 1404
+0729: pos_pair = 29, neg_pair = 917
+0837: pos_pair = 24, neg_pair = 966
+0396: pos_pair = 55, neg_pair = 2090
+1416: pos_pair = 37, neg_pair = 1289
+1547: pos_pair = 28, neg_pair = 962
+0500: pos_pair = 33, neg_pair = 432
+1045: pos_pair = 18, neg_pair = 192
+0441: pos_pair = 28, neg_pair = 1100
+1427: pos_pair = 134, neg_pair = 2144
+0844: pos_pair = 21, neg_pair = 609
+0523: pos_pair = 86, neg_pair = 2399
+1350: pos_pair = 40, neg_pair = 740
+0023: pos_pair = 53, neg_pair = 1325
+1437: pos_pair = 88, neg_pair = 1508
+0672: pos_pair = 11, neg_pair = 220
+0777: pos_pair = 25, neg_pair = 570
+0142: pos_pair = 150, neg_pair = 2625
+0947: pos_pair = 49, neg_pair = 854
+0329: pos_pair = 13, neg_pair = 312
+0825: pos_pair = 44, neg_pair = 1909
+0229: pos_pair = 35, neg_pair = 1343
+0313: pos_pair = 43, neg_pair = 992
+0427: pos_pair = 52, neg_pair = 1488
+1355: pos_pair = 18, neg_pair = 417
+0092: pos_pair = 23, neg_pair = 680
+1133: pos_pair = 64, neg_pair = 1112
+0799: pos_pair = 21, neg_pair = 414
+0033: pos_pair = 26, neg_pair = 352
+0106: pos_pair = 29, neg_pair = 1456
+0884: pos_pair = 24, neg_pair = 537
+0182: pos_pair = 33, neg_pair = 787
+1459: pos_pair = 16, neg_pair = 480
+0442: pos_pair = 57, neg_pair = 2221
+0929: pos_pair = 53, neg_pair = 937
+0491: pos_pair = 48, neg_pair = 1605
+1119: pos_pair = 19, neg_pair = 387
+0123: pos_pair = 58, neg_pair = 1217
+0024: pos_pair = 78, neg_pair = 2067
+0481: pos_pair = 33, neg_pair = 1048
+0739: pos_pair = 21, neg_pair = 720
+0207: pos_pair = 50, neg_pair = 940
+0390: pos_pair = 27, neg_pair = 1404
+0392: pos_pair = 318, neg_pair = 1573
+1431: pos_pair = 77, neg_pair = 958
+0530: pos_pair = 53, neg_pair = 4133
+1343: pos_pair = 32, neg_pair = 709
+0162: pos_pair = 53, neg_pair = 1717
+0791: pos_pair = 34, neg_pair = 869
+0508: pos_pair = 96, neg_pair = 1500
+0839: pos_pair = 17, neg_pair = 361
+0977: pos_pair = 35, neg_pair = 461
+1220: pos_pair = 22, neg_pair = 573
+0482: pos_pair = 33, neg_pair = 1563
+1411: pos_pair = 44, neg_pair = 1282
+1289: pos_pair = 48, neg_pair = 1782
+0363: pos_pair = 22, neg_pair = 924
+0676: pos_pair = 21, neg_pair = 609
+0633: pos_pair = 47, neg_pair = 899
+0460: pos_pair = 21, neg_pair = 330
+1517: pos_pair = 85, neg_pair = 950
+1336: pos_pair = 55, neg_pair = 1073
+1447: pos_pair = 30, neg_pair = 873
+0285: pos_pair = 79, neg_pair = 2336
+1087: pos_pair = 55, neg_pair = 2156
+0421: pos_pair = 42, neg_pair = 1669
+1131: pos_pair = 62, neg_pair = 1954
+0332: pos_pair = 17, neg_pair = 544
+1561: pos_pair = 27, neg_pair = 1248
+0756: pos_pair = 58, neg_pair = 1833
+0589: pos_pair = 37, neg_pair = 1238
+1143: pos_pair = 66, neg_pair = 1159
+1439: pos_pair = 83, neg_pair = 1570
+1189: pos_pair = 62, neg_pair = 2018
+0733: pos_pair = 133, neg_pair = 2717
+0002: pos_pair = 49, neg_pair = 1604
+0970: pos_pair = 26, neg_pair = 794
+1140: pos_pair = 17, neg_pair = 283
+0720: pos_pair = 15, neg_pair = 420
+0493: pos_pair = 43, neg_pair = 1910
+1545: pos_pair = 22, neg_pair = 573
+0868: pos_pair = 95, neg_pair = 2461
+0638: pos_pair = 36, neg_pair = 2109
+0053: pos_pair = 18, neg_pair = 213
+0538: pos_pair = 24, neg_pair = 717
+1403: pos_pair = 77, neg_pair = 1939
+0928: pos_pair = 37, neg_pair = 1341
+0902: pos_pair = 58, neg_pair = 2357
+1026: pos_pair = 62, neg_pair = 2216
+0599: pos_pair = 20, neg_pair = 760
+0335: pos_pair = 44, neg_pair = 1441
+1420: pos_pair = 32, neg_pair = 1508
+0596: pos_pair = 41, neg_pair = 1135
+1083: pos_pair = 102, neg_pair = 2244
+0788: pos_pair = 64, neg_pair = 2214
+0595: pos_pair = 69, neg_pair = 634
+0693: pos_pair = 23, neg_pair = 1012
+0279: pos_pair = 57, neg_pair = 1713
+1179: pos_pair = 57, neg_pair = 1483
+1351: pos_pair = 36, neg_pair = 2520
+0524: pos_pair = 35, neg_pair = 911
+1452: pos_pair = 58, neg_pair = 1895
+0305: pos_pair = 26, neg_pair = 1009
+0242: pos_pair = 129, neg_pair = 2149
+0533: pos_pair = 47, neg_pair = 656
+1532: pos_pair = 45, neg_pair = 1180
+1264: pos_pair = 25, neg_pair = 605
+0567: pos_pair = 144, neg_pair = 2631
+0447: pos_pair = 28, neg_pair = 918
+0422: pos_pair = 45, neg_pair = 1230
+0065: pos_pair = 18, neg_pair = 612
+0857: pos_pair = 32, neg_pair = 1294
+1463: pos_pair = 43, neg_pair = 1668
+0344: pos_pair = 16, neg_pair = 390
+1295: pos_pair = 51, neg_pair = 1545
+0745: pos_pair = 38, neg_pair = 1502
+0846: pos_pair = 29, neg_pair = 601
+1082: pos_pair = 43, neg_pair = 587
+0234: pos_pair = 78, neg_pair = 2697
+1113: pos_pair = 50, neg_pair = 1381
+0685: pos_pair = 32, neg_pair = 1144
+1065: pos_pair = 45, neg_pair = 516
+0131: pos_pair = 78, neg_pair = 2200
+0331: pos_pair = 43, neg_pair = 1232
+0267: pos_pair = 74, neg_pair = 2341
+1031: pos_pair = 23, neg_pair = 572
+0019: pos_pair = 17, neg_pair = 361
+0134: pos_pair = 48, neg_pair = 898
+0762: pos_pair = 46, neg_pair = 3357
+0350: pos_pair = 99, neg_pair = 2247
+1374: pos_pair = 20, neg_pair = 760
+0918: pos_pair = 20, neg_pair = 760
+1478: pos_pair = 40, neg_pair = 1041
+0430: pos_pair = 21, neg_pair = 720
+1425: pos_pair = 214, neg_pair = 1382
+0199: pos_pair = 61, neg_pair = 1479
+1057: pos_pair = 129, neg_pair = 2427
+1047: pos_pair = 21, neg_pair = 720
+0985: pos_pair = 49, neg_pair = 986
+0577: pos_pair = 25, neg_pair = 795
+0734: pos_pair = 25, neg_pair = 795
+0945: pos_pair = 35, neg_pair = 1046
+0292: pos_pair = 27, neg_pair = 1248
+1362: pos_pair = 20, neg_pair = 760
+1325: pos_pair = 32, neg_pair = 914
+1542: pos_pair = 17, neg_pair = 448
+0526: pos_pair = 92, neg_pair = 811
+1472: pos_pair = 51, neg_pair = 1489
+1492: pos_pair = 65, neg_pair = 1261
+1305: pos_pair = 36, neg_pair = 2520
+1333: pos_pair = 31, neg_pair = 1347
+0890: pos_pair = 29, neg_pair = 637
+1518: pos_pair = 27, neg_pair = 568
+0466: pos_pair = 76, neg_pair = 914
+0522: pos_pair = 27, neg_pair = 753
+0897: pos_pair = 94, neg_pair = 1736
+1299: pos_pair = 57, neg_pair = 1119
+1145: pos_pair = 41, neg_pair = 905
+1296: pos_pair = 24, neg_pair = 1104
+0116: pos_pair = 37, neg_pair = 1091
+1340: pos_pair = 68, neg_pair = 2488
+0525: pos_pair = 20, neg_pair = 541
+0836: pos_pair = 51, neg_pair = 2650
+0328: pos_pair = 51, neg_pair = 1840
+0195: pos_pair = 58, neg_pair = 762
+1569: pos_pair = 27, neg_pair = 1101
+0063: pos_pair = 72, neg_pair = 1524
+1481: pos_pair = 52, neg_pair = 1488
+0149: pos_pair = 84, neg_pair = 657
+1558: pos_pair = 42, neg_pair = 1039
+0841: pos_pair = 62, neg_pair = 1954
+0495: pos_pair = 47, neg_pair = 2164
+0312: pos_pair = 25, neg_pair = 716
+0810: pos_pair = 40, neg_pair = 590
+0711: pos_pair = 21, neg_pair = 609
+0397: pos_pair = 58, neg_pair = 1895
+0992: pos_pair = 33, neg_pair = 708
+0143: pos_pair = 16, neg_pair = 390
+0347: pos_pair = 100, neg_pair = 2456
+0563: pos_pair = 46, neg_pair = 1280
+0824: pos_pair = 19, neg_pair = 332
+1396: pos_pair = 117, neg_pair = 1423
+0486: pos_pair = 46, neg_pair = 389
+0743: pos_pair = 48, neg_pair = 1330
+0377: pos_pair = 25, neg_pair = 605
+0822: pos_pair = 46, neg_pair = 1550
+1390: pos_pair = 71, neg_pair = 790
+0678: pos_pair = 18, neg_pair = 510
+1157: pos_pair = 47, neg_pair = 2879
+0853: pos_pair = 51, neg_pair = 1174
+0994: pos_pair = 60, neg_pair = 2218
+0885: pos_pair = 51, neg_pair = 984
+1509: pos_pair = 56, neg_pair = 1597
+0296: pos_pair = 42, neg_pair = 738
+1504: pos_pair = 26, neg_pair = 677
+0409: pos_pair = 47, neg_pair = 2231
+1406: pos_pair = 62, neg_pair = 1591
+1483: pos_pair = 24, neg_pair = 186
+1196: pos_pair = 439, neg_pair = 1907
+1136: pos_pair = 19, neg_pair = 684
+0746: pos_pair = 19, neg_pair = 387
+0454: pos_pair = 92, neg_pair = 1924
+0831: pos_pair = 58, neg_pair = 2087
+0938: pos_pair = 62, neg_pair = 758
+1178: pos_pair = 48, neg_pair = 2580
+0007: pos_pair = 16, neg_pair = 480
+0949: pos_pair = 58, neg_pair = 1595
+0903: pos_pair = 45, neg_pair = 1495
+1397: pos_pair = 27, neg_pair = 1008
+1038: pos_pair = 18, neg_pair = 510
+0445: pos_pair = 75, neg_pair = 1521
+0235: pos_pair = 54, neg_pair = 1542
+0521: pos_pair = 16, neg_pair = 480
+0758: pos_pair = 18, neg_pair = 612
+1111: pos_pair = 157, neg_pair = 2258
+0594: pos_pair = 72, neg_pair = 1944
+0731: pos_pair = 30, neg_pair = 435
+1369: pos_pair = 30, neg_pair = 531
+0621: pos_pair = 49, neg_pair = 1662
+0700: pos_pair = 71, neg_pair = 1820
+1161: pos_pair = 18, neg_pair = 417
+1287: pos_pair = 33, neg_pair = 1095
+0652: pos_pair = 79, neg_pair = 1874
+0166: pos_pair = 35, neg_pair = 1343
+0717: pos_pair = 16, neg_pair = 309
+0146: pos_pair = 89, neg_pair = 901
+0365: pos_pair = 36, neg_pair = 1140
+0222: pos_pair = 53, neg_pair = 1325
+1016: pos_pair = 80, neg_pair = 2770
+1019: pos_pair = 46, neg_pair = 1665
+0935: pos_pair = 20, neg_pair = 445
+0937: pos_pair = 66, neg_pair = 2349
+0889: pos_pair = 63, neg_pair = 1953
+0346: pos_pair = 16, neg_pair = 309
+0549: pos_pair = 67, neg_pair = 1586
+1356: pos_pair = 80, neg_pair = 3323
+0211: pos_pair = 73, neg_pair = 2138
+0348: pos_pair = 30, neg_pair = 1740
+0174: pos_pair = 37, neg_pair = 1448
+0095: pos_pair = 17, neg_pair = 361
+1290: pos_pair = 47, neg_pair = 656
+0257: pos_pair = 16, neg_pair = 480
+1029: pos_pair = 110, neg_pair = 2168
+0050: pos_pair = 49, neg_pair = 2162
+0559: pos_pair = 80, neg_pair = 2065
+1312: pos_pair = 18, neg_pair = 510
+0793: pos_pair = 44, neg_pair = 902
+0046: pos_pair = 48, neg_pair = 1437
+1294: pos_pair = 62, neg_pair = 2864
+0786: pos_pair = 76, neg_pair = 2480
+0648: pos_pair = 23, neg_pair = 538
+1553: pos_pair = 22, neg_pair = 413
+0034: pos_pair = 39, neg_pair = 1042
+0483: pos_pair = 20, neg_pair = 760
+0774: pos_pair = 46, neg_pair = 989
+1039: pos_pair = 37, neg_pair = 704
+1262: pos_pair = 75, neg_pair = 1941
+1376: pos_pair = 26, neg_pair = 794
+1513: pos_pair = 32, neg_pair = 1346
+0298: pos_pair = 28, neg_pair = 437
+0757: pos_pair = 45, neg_pair = 2370
+1141: pos_pair = 58, neg_pair = 2498
+1240: pos_pair = 76, neg_pair = 2069
+0882: pos_pair = 29, neg_pair = 917
+0820: pos_pair = 30, neg_pair = 1296
+0611: pos_pair = 31, neg_pair = 749
+1292: pos_pair = 16, neg_pair = 390
+0781: pos_pair = 57, neg_pair = 2718
+0058: pos_pair = 17, neg_pair = 448
+1428: pos_pair = 30, neg_pair = 498
+1322: pos_pair = 90, neg_pair = 2611
+0943: pos_pair = 25, neg_pair = 1200
+0200: pos_pair = 39, neg_pair = 1089
+0439: pos_pair = 27, neg_pair = 1101
+0646: pos_pair = 33, neg_pair = 787
+1554: pos_pair = 17, neg_pair = 544
+1523: pos_pair = 39, neg_pair = 951
+0236: pos_pair = 31, neg_pair = 1509
+0623: pos_pair = 20, neg_pair = 541
+0842: pos_pair = 214, neg_pair = 1011
+0639: pos_pair = 41, neg_pair = 739
+0714: pos_pair = 17, neg_pair = 544
+0230: pos_pair = 39, neg_pair = 1186
+1054: pos_pair = 21, neg_pair = 840
+0694: pos_pair = 26, neg_pair = 1150
+0540: pos_pair = 22, neg_pair = 474
+0272: pos_pair = 37, neg_pair = 704
+1231: pos_pair = 25, neg_pair = 1200
+0214: pos_pair = 174, neg_pair = 1971
+0557: pos_pair = 15, neg_pair = 420
+0597: pos_pair = 44, neg_pair = 2882
+1073: pos_pair = 16, neg_pair = 194
+0137: pos_pair = 58, neg_pair = 3947
+0136: pos_pair = 29, neg_pair = 1624
+0879: pos_pair = 30, neg_pair = 1245
+0168: pos_pair = 26, neg_pair = 409
+0755: pos_pair = 32, neg_pair = 1621
+0995: pos_pair = 22, neg_pair = 798
+1314: pos_pair = 55, neg_pair = 1430
+0862: pos_pair = 61, neg_pair = 1830
+0173: pos_pair = 63, neg_pair = 2017
+0876: pos_pair = 22, neg_pair = 506
+1535: pos_pair = 51, neg_pair = 1489
+0450: pos_pair = 76, neg_pair = 2270
+1063: pos_pair = 31, neg_pair = 1097
+1257: pos_pair = 33, neg_pair = 1398
+0826: pos_pair = 74, neg_pair = 2071
+0008: pos_pair = 69, neg_pair = 1761
+1549: pos_pair = 66, neg_pair = 1587
+0368: pos_pair = 64, neg_pair = 1827
+1127: pos_pair = 113, neg_pair = 1483
+1516: pos_pair = 121, neg_pair = 2882
+1228: pos_pair = 49, neg_pair = 1226
+0094: pos_pair = 19, neg_pair = 576
+1391: pos_pair = 89, neg_pair = 2467
+0864: pos_pair = 39, neg_pair = 1186
+1435: pos_pair = 25, neg_pair = 921
+1055: pos_pair = 45, neg_pair = 858
+0473: pos_pair = 34, neg_pair = 869
+0436: pos_pair = 45, neg_pair = 2233
+0171: pos_pair = 29, neg_pair = 566
+1529: pos_pair = 41, neg_pair = 1087
+0551: pos_pair = 31, neg_pair = 710
+1170: pos_pair = 23, neg_pair = 1012
+1219: pos_pair = 54, neg_pair = 1657
+0704: pos_pair = 73, neg_pair = 1202
+1331: pos_pair = 84, neg_pair = 1191
+1013: pos_pair = 49, neg_pair = 1604
+0052: pos_pair = 53, neg_pair = 688
+0160: pos_pair = 304, neg_pair = 1907
+1281: pos_pair = 34, neg_pair = 1857
+1519: pos_pair = 59, neg_pair = 2791
+0164: pos_pair = 56, neg_pair = 1597
+0726: pos_pair = 46, neg_pair = 2655
+0925: pos_pair = 38, neg_pair = 703
+0402: pos_pair = 38, neg_pair = 823
+0593: pos_pair = 84, neg_pair = 2127
+0895: pos_pair = 58, neg_pair = 845
+1417: pos_pair = 26, neg_pair = 1009
+1402: pos_pair = 15, neg_pair = 420
+0939: pos_pair = 34, neg_pair = 1001
+1253: pos_pair = 76, neg_pair = 2850
+0178: pos_pair = 20, neg_pair = 760
+1132: pos_pair = 30, neg_pair = 1245
+1445: pos_pair = 35, neg_pair = 785
+1032: pos_pair = 21, neg_pair = 840
+0004: pos_pair = 22, neg_pair = 608
+0698: pos_pair = 26, neg_pair = 794
+0339: pos_pair = 48, neg_pair = 1968
+1123: pos_pair = 13, neg_pair = 240
+0910: pos_pair = 28, neg_pair = 1053
+0395: pos_pair = 27, neg_pair = 963
+1568: pos_pair = 43, neg_pair = 1038
+1423: pos_pair = 47, neg_pair = 943
+0634: pos_pair = 40, neg_pair = 1613
+0513: pos_pair = 83, neg_pair = 778
+0996: pos_pair = 30, neg_pair = 1098
+0952: pos_pair = 81, neg_pair = 1689
+0914: pos_pair = 24, neg_pair = 837
+1375: pos_pair = 25, neg_pair = 795
+0645: pos_pair = 45, neg_pair = 816
+0210: pos_pair = 21, neg_pair = 540
+0656: pos_pair = 73, neg_pair = 1580
+0871: pos_pair = 23, neg_pair = 1012
+1066: pos_pair = 49, neg_pair = 2229
+0544: pos_pair = 72, neg_pair = 831
+1275: pos_pair = 34, neg_pair = 669
+0565: pos_pair = 52, neg_pair = 1718
+0833: pos_pair = 77, neg_pair = 1519
+0083: pos_pair = 49, neg_pair = 1127
+0477: pos_pair = 62, neg_pair = 799
+0643: pos_pair = 60, neg_pair = 2641
+0653: pos_pair = 26, neg_pair = 535
+1124: pos_pair = 43, neg_pair = 1553
+0732: pos_pair = 74, neg_pair = 1942
+1537: pos_pair = 47, neg_pair = 2299
+1413: pos_pair = 24, neg_pair = 1104
+0659: pos_pair = 19, neg_pair = 576
+1458: pos_pair = 21, neg_pair = 840
+0183: pos_pair = 31, neg_pair = 872
+0752: pos_pair = 99, neg_pair = 1441
+0318: pos_pair = 24, neg_pair = 837
+0602: pos_pair = 46, neg_pair = 815
+0081: pos_pair = 27, neg_pair = 753
+1505: pos_pair = 28, neg_pair = 833
+0772: pos_pair = 76, neg_pair = 2927
+0954: pos_pair = 32, neg_pair = 1003
+1556: pos_pair = 53, neg_pair = 2293
+0531: pos_pair = 23, neg_pair = 1012
+0955: pos_pair = 37, neg_pair = 909
+1249: pos_pair = 54, neg_pair = 1657
+1272: pos_pair = 27, neg_pair = 603
+0379: pos_pair = 56, neg_pair = 1540
+0723: pos_pair = 55, neg_pair = 1898
+0771: pos_pair = 37, neg_pair = 1733
+0759: pos_pair = 114, neg_pair = 2232
+1209: pos_pair = 55, neg_pair = 686
+1474: pos_pair = 26, neg_pair = 877
+0674: pos_pair = 36, neg_pair = 2310
+0451: pos_pair = 28, neg_pair = 1512
+0961: pos_pair = 31, neg_pair = 830
+1104: pos_pair = 38, neg_pair = 1615
+0103: pos_pair = 17, neg_pair = 544
+1412: pos_pair = 82, neg_pair = 1514
+0886: pos_pair = 23, neg_pair = 757
+1461: pos_pair = 44, neg_pair = 1282
+0426: pos_pair = 35, neg_pair = 1046
+0632: pos_pair = 33, neg_pair = 1563
+0054: pos_pair = 72, neg_pair = 1306
+1241: pos_pair = 22, neg_pair = 474
+0000: pos_pair = 28, neg_pair = 833
+0433: pos_pair = 23, neg_pair = 383
+1176: pos_pair = 35, neg_pair = 1046
+0779: pos_pair = 34, neg_pair = 1857
+0364: pos_pair = 41, neg_pair = 905
+1117: pos_pair = 18, neg_pair = 612
+0572: pos_pair = 22, neg_pair = 681
+0009: pos_pair = 34, neg_pair = 317
+1399: pos_pair = 18, neg_pair = 172
+1158: pos_pair = 27, neg_pair = 876
+0568: pos_pair = 59, neg_pair = 1216
+0158: pos_pair = 34, neg_pair = 561
+0241: pos_pair = 65, neg_pair = 1160
+1245: pos_pair = 46, neg_pair = 1439
+0916: pos_pair = 26, neg_pair = 1300
+0485: pos_pair = 20, neg_pair = 760
+0464: pos_pair = 85, neg_pair = 735
+0615: pos_pair = 52, neg_pair = 1601
+0475: pos_pair = 40, neg_pair = 1391
+1501: pos_pair = 126, neg_pair = 1954
+0259: pos_pair = 24, neg_pair = 1104
+0073: pos_pair = 58, neg_pair = 1268
+0934: pos_pair = 43, neg_pair = 1442
+0188: pos_pair = 27, neg_pair = 963
+0801: pos_pair = 29, neg_pair = 1052
+0022: pos_pair = 28, neg_pair = 1512
+0276: pos_pair = 19, neg_pair = 477
+0968: pos_pair = 22, neg_pair = 924
+1042: pos_pair = 37, neg_pair = 2043
+0401: pos_pair = 52, neg_pair = 1659
+0480: pos_pair = 18, neg_pair = 612
+0812: pos_pair = 70, neg_pair = 1641
+0545: pos_pair = 41, neg_pair = 2374
+0414: pos_pair = 57, neg_pair = 804
+0043: pos_pair = 20, neg_pair = 646
+1345: pos_pair = 18, neg_pair = 417
+0730: pos_pair = 52, neg_pair = 809
+1242: pos_pair = 18, neg_pair = 333
+1441: pos_pair = 57, neg_pair = 2946
+0829: pos_pair = 53, neg_pair = 893
+1466: pos_pair = 119, neg_pair = 3709
+0814: pos_pair = 38, neg_pair = 1792
+0631: pos_pair = 104, neg_pair = 2452
+1155: pos_pair = 23, neg_pair = 572
+1139: pos_pair = 34, neg_pair = 494
+0571: pos_pair = 60, neg_pair = 1893
+1557: pos_pair = 40, neg_pair = 2040
+0658: pos_pair = 55, neg_pair = 1220
+0898: pos_pair = 54, neg_pair = 2721
+0304: pos_pair = 23, neg_pair = 355
+0753: pos_pair = 30, neg_pair = 711
+0006: pos_pair = 84, neg_pair = 1996
+1070: pos_pair = 50, neg_pair = 1225
+0281: pos_pair = 14, neg_pair = 364
+0113: pos_pair = 29, neg_pair = 1456
+1567: pos_pair = 71, neg_pair = 709
+0776: pos_pair = 23, neg_pair = 643
+0953: pos_pair = 68, neg_pair = 2417
+1102: pos_pair = 90, neg_pair = 1341
+0373: pos_pair = 23, neg_pair = 1012
+0604: pos_pair = 37, neg_pair = 866
+1512: pos_pair = 68, neg_pair = 2417
+0284: pos_pair = 34, neg_pair = 827
+1385: pos_pair = 38, neg_pair = 908
+1109: pos_pair = 67, neg_pair = 1158
+0975: pos_pair = 30, neg_pair = 873
+0251: pos_pair = 68, neg_pair = 1823
+0721: pos_pair = 48, neg_pair = 772
+0072: pos_pair = 18, neg_pair = 510
+1366: pos_pair = 56, neg_pair = 1897
+1246: pos_pair = 42, neg_pair = 1233
+0121: pos_pair = 34, neg_pair = 1397
+1539: pos_pair = 53, neg_pair = 1487
+1347: pos_pair = 37, neg_pair = 2241
+0667: pos_pair = 46, neg_pair = 1385
+0816: pos_pair = 103, neg_pair = 2747
+0102: pos_pair = 35, neg_pair = 2176
+1091: pos_pair = 42, neg_pair = 1389
+0607: pos_pair = 47, neg_pair = 1723
+0360: pos_pair = 46, neg_pair = 1082
+0091: pos_pair = 60, neg_pair = 1593
+1319: pos_pair = 42, neg_pair = 738
+1526: pos_pair = 58, neg_pair = 1482
+1166: pos_pair = 40, neg_pair = 995
+0922: pos_pair = 59, neg_pair = 2569
+1285: pos_pair = 46, neg_pair = 1229
+1061: pos_pair = 54, neg_pair = 1962
+1280: pos_pair = 46, neg_pair = 1494
+1089: pos_pair = 66, neg_pair = 2349
+0342: pos_pair = 52, neg_pair = 1601
+0552: pos_pair = 15, neg_pair = 336
+0504: pos_pair = 55, neg_pair = 1323
+0690: pos_pair = 34, neg_pair = 1241
+0679: pos_pair = 23, neg_pair = 1012
+1040: pos_pair = 33, neg_pair = 1920
+1010: pos_pair = 76, neg_pair = 2004
+1121: pos_pair = 59, neg_pair = 1594
+0228: pos_pair = 18, neg_pair = 612
+0458: pos_pair = 30, neg_pair = 873
+1151: pos_pair = 73, neg_pair = 1880
+1324: pos_pair = 50, neg_pair = 896
+0959: pos_pair = 66, neg_pair = 1312
+0555: pos_pair = 46, neg_pair = 900
+0419: pos_pair = 46, neg_pair = 944
+1236: pos_pair = 26, neg_pair = 754
+0457: pos_pair = 23, neg_pair = 757
+0177: pos_pair = 86, neg_pair = 3074
+0813: pos_pair = 85, neg_pair = 2841
+1487: pos_pair = 66, neg_pair = 1950
+0227: pos_pair = 35, neg_pair = 1618
+0984: pos_pair = 37, neg_pair = 1733
+0425: pos_pair = 273, neg_pair = 1212
+1291: pos_pair = 30, neg_pair = 750
+0619: pos_pair = 31, neg_pair = 320
+1250: pos_pair = 32, neg_pair = 1049
+0838: pos_pair = 25, neg_pair = 921
+1135: pos_pair = 80, neg_pair = 2770
+1367: pos_pair = 68, neg_pair = 1258
+0722: pos_pair = 37, neg_pair = 1394
+0908: pos_pair = 62, neg_pair = 2639
+1405: pos_pair = 32, neg_pair = 244
+0649: pos_pair = 64, neg_pair = 1367
+0828: pos_pair = 37, neg_pair = 1188
+0187: pos_pair = 75, neg_pair = 2851
+0118: pos_pair = 24, neg_pair = 1104
+1014: pos_pair = 65, neg_pair = 2491
+0487: pos_pair = 33, neg_pair = 1293
+0337: pos_pair = 18, neg_pair = 360
+1105: pos_pair = 69, neg_pair = 1012
+0680: pos_pair = 44, neg_pair = 1334
+1515: pos_pair = 56, neg_pair = 1714
+0917: pos_pair = 53, neg_pair = 1123
+0051: pos_pair = 24, neg_pair = 837
+0858: pos_pair = 17, neg_pair = 544
+0699: pos_pair = 17, neg_pair = 544
+0140: pos_pair = 70, neg_pair = 1760
+0727: pos_pair = 17, neg_pair = 544
+0280: pos_pair = 34, neg_pair = 956
+1521: pos_pair = 62, neg_pair = 2353
+0225: pos_pair = 57, neg_pair = 1269
+1432: pos_pair = 27, neg_pair = 1248
+1309: pos_pair = 15, neg_pair = 420
+1429: pos_pair = 51, neg_pair = 1602
+1259: pos_pair = 98, neg_pair = 1855
+0462: pos_pair = 34, neg_pair = 1677
+1306: pos_pair = 111, neg_pair = 669
+1204: pos_pair = 23, neg_pair = 328
+0107: pos_pair = 20, neg_pair = 760
+0474: pos_pair = 13, neg_pair = 312
+0261: pos_pair = 36, neg_pair = 999
+0371: pos_pair = 18, neg_pair = 417
+0273: pos_pair = 116, neg_pair = 2965
+0624: pos_pair = 50, neg_pair = 2161
+0080: pos_pair = 32, neg_pair = 634
+0138: pos_pair = 46, neg_pair = 900
+0719: pos_pair = 66, neg_pair = 2937
+0666: pos_pair = 36, neg_pair = 910
+1480: pos_pair = 84, neg_pair = 906
+1440: pos_pair = 32, neg_pair = 958
+0783: pos_pair = 19, neg_pair = 576
+0186: pos_pair = 43, neg_pair = 1497
+0087: pos_pair = 68, neg_pair = 878
+0636: pos_pair = 129, neg_pair = 2217
+0815: pos_pair = 33, neg_pair = 495
+1067: pos_pair = 37, neg_pair = 1188
+1530: pos_pair = 35, neg_pair = 2176
+0301: pos_pair = 30, neg_pair = 531
+1198: pos_pair = 64, neg_pair = 1367
+1442: pos_pair = 24, neg_pair = 837
+0848: pos_pair = 24, neg_pair = 1104
+0650: pos_pair = 44, neg_pair = 1609
+0695: pos_pair = 54, neg_pair = 766
+0509: pos_pair = 28, neg_pair = 182
+1382: pos_pair = 26, neg_pair = 1300
+0086: pos_pair = 23, neg_pair = 880
+0253: pos_pair = 24, neg_pair = 717
+0651: pos_pair = 102, neg_pair = 2043
+1056: pos_pair = 110, neg_pair = 2518
+0585: pos_pair = 34, neg_pair = 632
+1230: pos_pair = 46, neg_pair = 1907
+1018: pos_pair = 19, neg_pair = 684
+1562: pos_pair = 24, neg_pair = 966
+0881: pos_pair = 140, neg_pair = 2786
+0274: pos_pair = 28, neg_pair = 407
+0031: pos_pair = 74, neg_pair = 2272
+0580: pos_pair = 35, neg_pair = 1343
+1080: pos_pair = 51, neg_pair = 810
+0435: pos_pair = 45, neg_pair = 1281
+0238: pos_pair = 44, neg_pair = 902
+0369: pos_pair = 56, neg_pair = 2429
+1076: pos_pair = 18, neg_pair = 510
+0586: pos_pair = 35, neg_pair = 1795
+1062: pos_pair = 31, neg_pair = 830
+0960: pos_pair = 95, neg_pair = 1283
+0630: pos_pair = 44, neg_pair = 421
+1443: pos_pair = 45, neg_pair = 1281
+1173: pos_pair = 33, neg_pair = 787
+0476: pos_pair = 49, neg_pair = 1721
+1378: pos_pair = 22, neg_pair = 798
+0254: pos_pair = 122, neg_pair = 2023
+0263: pos_pair = 127, neg_pair = 734
+0282: pos_pair = 82, neg_pair = 2333
+1200: pos_pair = 52, neg_pair = 1029
+1508: pos_pair = 71, neg_pair = 2932
+1419: pos_pair = 63, neg_pair = 1212
+1498: pos_pair = 30, neg_pair = 600
+0079: pos_pair = 40, neg_pair = 950
+0037: pos_pair = 54, neg_pair = 612
+0692: pos_pair = 19, neg_pair = 684
+1229: pos_pair = 27, neg_pair = 963
+0875: pos_pair = 28, neg_pair = 833
+0416: pos_pair = 123, neg_pair = 1588
+0697: pos_pair = 59, neg_pair = 1069
+0255: pos_pair = 21, neg_pair = 840
+1020: pos_pair = 25, neg_pair = 1200
+1267: pos_pair = 50, neg_pair = 2578
+0124: pos_pair = 43, neg_pair = 1085
+1421: pos_pair = 17, neg_pair = 544
+0673: pos_pair = 84, neg_pair = 2617
+0489: pos_pair = 40, neg_pair = 1041
+0877: pos_pair = 28, neg_pair = 1053
+0196: pos_pair = 140, neg_pair = 1630
+0971: pos_pair = 102, neg_pair = 2176
+1310: pos_pair = 35, neg_pair = 1795
+0749: pos_pair = 139, neg_pair = 1877
+0478: pos_pair = 27, neg_pair = 753
+0661: pos_pair = 33, neg_pair = 402
+1072: pos_pair = 31, neg_pair = 1194
+0861: pos_pair = 113, neg_pair = 2588
+0573: pos_pair = 12, neg_pair = 198
+1524: pos_pair = 72, neg_pair = 2139
+1144: pos_pair = 45, neg_pair = 945
+0766: pos_pair = 7, neg_pair = 84
+1107: pos_pair = 17, neg_pair = 448
+0562: pos_pair = 46, neg_pair = 2165
+1491: pos_pair = 70, neg_pair = 2631
+1174: pos_pair = 17, neg_pair = 236
+1009: pos_pair = 41, neg_pair = 1444
+0956: pos_pair = 39, neg_pair = 1672
+0982: pos_pair = 21, neg_pair = 840
+0391: pos_pair = 14, neg_pair = 364
+1565: pos_pair = 56, neg_pair = 1655
+0767: pos_pair = 54, neg_pair = 1122
+0913: pos_pair = 74, neg_pair = 1756
+0128: pos_pair = 57, neg_pair = 723
+0204: pos_pair = 85, neg_pair = 1293
+0532: pos_pair = 17, neg_pair = 361
+1156: pos_pair = 12, neg_pair = 264
+0398: pos_pair = 30, neg_pair = 1401
+1106: pos_pair = 42, neg_pair = 1086
+0598: pos_pair = 52, neg_pair = 1601
+0763: pos_pair = 65, neg_pair = 313
+1389: pos_pair = 32, neg_pair = 1621
+0345: pos_pair = 53, neg_pair = 1222
+0696: pos_pair = 28, neg_pair = 602
+0159: pos_pair = 28, neg_pair = 1197
+0129: pos_pair = 15, neg_pair = 420
+0716: pos_pair = 38, neg_pair = 628
+0798: pos_pair = 23, neg_pair = 1012
+0310: pos_pair = 98, neg_pair = 1555
+1201: pos_pair = 51, neg_pair = 1077
+0208: pos_pair = 33, neg_pair = 1737
+0275: pos_pair = 32, neg_pair = 1193
+1213: pos_pair = 17, neg_pair = 544
+0601: pos_pair = 61, neg_pair = 1214
+1150: pos_pair = 10, neg_pair = 180
+0893: pos_pair = 33, neg_pair = 1563
+1293: pos_pair = 40, neg_pair = 1851
+1469: pos_pair = 54, neg_pair = 2091
+1142: pos_pair = 54, neg_pair = 726
+1048: pos_pair = 30, neg_pair = 1245
+0005: pos_pair = 25, neg_pair = 1056
+0032: pos_pair = 133, neg_pair = 2145
+1503: pos_pair = 41, neg_pair = 1555
+0560: pos_pair = 18, neg_pair = 510
+1235: pos_pair = 19, neg_pair = 684
+1260: pos_pair = 37, neg_pair = 2664
+0154: pos_pair = 38, neg_pair = 1853
+0706: pos_pair = 46, neg_pair = 1280
+1550: pos_pair = 17, neg_pair = 361
+1511: pos_pair = 63, neg_pair = 1477
+1116: pos_pair = 35, neg_pair = 1396
+1335: pos_pair = 87, neg_pair = 1993
+0151: pos_pair = 36, neg_pair = 2310
+0041: pos_pair = 49, neg_pair = 1781
+0300: pos_pair = 50, neg_pair = 853
+0320: pos_pair = 62, neg_pair = 1954
+0068: pos_pair = 48, neg_pair = 2032
+0459: pos_pair = 49, neg_pair = 1904
+1298: pos_pair = 27, neg_pair = 1248
+0463: pos_pair = 24, neg_pair = 642
+0408: pos_pair = 48, neg_pair = 1437
+1202: pos_pair = 39, neg_pair = 741
+1337: pos_pair = 93, neg_pair = 1132
+0290: pos_pair = 18, neg_pair = 612
+1329: pos_pair = 25, neg_pair = 716
+1205: pos_pair = 34, neg_pair = 2244
+1137: pos_pair = 26, neg_pair = 569
+1064: pos_pair = 25, neg_pair = 1200
+1023: pos_pair = 59, neg_pair = 1481
+1096: pos_pair = 30, neg_pair = 636
+0193: pos_pair = 98, neg_pair = 2752
+0125: pos_pair = 34, neg_pair = 1094
+0456: pos_pair = 30, neg_pair = 1566
+0434: pos_pair = 128, neg_pair = 2083
+0357: pos_pair = 22, neg_pair = 924
+1081: pos_pair = 24, neg_pair = 1104
+0213: pos_pair = 17, neg_pair = 544
+1269: pos_pair = 49, neg_pair = 1721
+0625: pos_pair = 41, neg_pair = 1040
+0754: pos_pair = 29, neg_pair = 1052
+1477: pos_pair = 25, neg_pair = 795
+1078: pos_pair = 32, neg_pair = 1049
+0920: pos_pair = 21, neg_pair = 414
+1393: pos_pair = 75, neg_pair = 2481
+0323: pos_pair = 37, neg_pair = 953
+1297: pos_pair = 48, neg_pair = 2097
+0503: pos_pair = 46, neg_pair = 815
+0773: pos_pair = 56, neg_pair = 1219
+0027: pos_pair = 95, neg_pair = 1558
+0191: pos_pair = 26, neg_pair = 604
+1453: pos_pair = 36, neg_pair = 1794
+1364: pos_pair = 32, neg_pair = 829
+0923: pos_pair = 18, neg_pair = 612
+0372: pos_pair = 56, neg_pair = 1429
+0665: pos_pair = 47, neg_pair = 1783
+0688: pos_pair = 36, neg_pair = 999
+0940: pos_pair = 38, neg_pair = 665
+0119: pos_pair = 38, neg_pair = 865
+0440: pos_pair = 21, neg_pair = 304
+0014: pos_pair = 22, neg_pair = 924
+0855: pos_pair = 61, neg_pair = 800
+1138: pos_pair = 26, neg_pair = 754
+1363: pos_pair = 68, neg_pair = 2210
+1451: pos_pair = 37, neg_pair = 1394
+0055: pos_pair = 76, neg_pair = 870
+1254: pos_pair = 75, neg_pair = 2851
+1252: pos_pair = 59, neg_pair = 571
+0843: pos_pair = 38, neg_pair = 1090
+1100: pos_pair = 97, neg_pair = 1388
+1560: pos_pair = 73, neg_pair = 2007
+0333: pos_pair = 64, neg_pair = 1532
+0582: pos_pair = 62, neg_pair = 2149
+0449: pos_pair = 33, neg_pair = 1452
+0056: pos_pair = 51, neg_pair = 477
+0133: pos_pair = 65, neg_pair = 1111
+0507: pos_pair = 62, neg_pair = 1708
+1071: pos_pair = 20, neg_pair = 646
+1410: pos_pair = 41, neg_pair = 554
+0221: pos_pair = 40, neg_pair = 1041
+0987: pos_pair = 48, neg_pair = 1663
+1571: pos_pair = 91, neg_pair = 1925
+0085: pos_pair = 23, neg_pair = 1012
+0334: pos_pair = 42, neg_pair = 1669
+0703: pos_pair = 36, neg_pair = 1734
+0374: pos_pair = 81, neg_pair = 2334
+1003: pos_pair = 77, neg_pair = 958
+1243: pos_pair = 12, neg_pair = 264
+0866: pos_pair = 71, neg_pair = 1105
+1215: pos_pair = 34, neg_pair = 827
+1097: pos_pair = 27, neg_pair = 1248
+0718: pos_pair = 22, neg_pair = 681
+1265: pos_pair = 91, neg_pair = 2759
+0760: pos_pair = 40, neg_pair = 663
+1244: pos_pair = 44, neg_pair = 1609
+1555: pos_pair = 24, neg_pair = 537
+0219: pos_pair = 49, neg_pair = 1277
+1129: pos_pair = 39, neg_pair = 996
+0093: pos_pair = 21, neg_pair = 255
+0256: pos_pair = 41, neg_pair = 739
+0647: pos_pair = 44, neg_pair = 1847
+0998: pos_pair = 82, neg_pair = 2264
+1008: pos_pair = 25, neg_pair = 353
+0622: pos_pair = 25, neg_pair = 300
+1237: pos_pair = 61, neg_pair = 1830
+0130: pos_pair = 19, neg_pair = 576
+1118: pos_pair = 57, neg_pair = 1428
+0180: pos_pair = 68, neg_pair = 2210
+0349: pos_pair = 69, neg_pair = 2142
+0197: pos_pair = 92, neg_pair = 2989
+0366: pos_pair = 34, neg_pair = 669
+0827: pos_pair = 18, neg_pair = 417
+0554: pos_pair = 30, neg_pair = 790
+1311: pos_pair = 26, neg_pair = 794
+0399: pos_pair = 26, neg_pair = 380
+0738: pos_pair = 90, neg_pair = 2395
+0070: pos_pair = 43, neg_pair = 737
+1192: pos_pair = 46, neg_pair = 944
+0765: pos_pair = 77, neg_pair = 3083
+1098: pos_pair = 44, neg_pair = 776
+0912: pos_pair = 32, neg_pair = 1144
+1541: pos_pair = 78, neg_pair = 1050
+0403: pos_pair = 23, neg_pair = 880
+1197: pos_pair = 47, neg_pair = 1844
+0317: pos_pair = 75, neg_pair = 1006
+0608: pos_pair = 43, neg_pair = 1388
+1049: pos_pair = 60, neg_pair = 2496
+0283: pos_pair = 34, neg_pair = 494
+1470: pos_pair = 194, neg_pair = 1184
+1372: pos_pair = 29, neg_pair = 637
+1180: pos_pair = 90, neg_pair = 2685
+0096: pos_pair = 13, neg_pair = 312
+1473: pos_pair = 19, neg_pair = 387
+0271: pos_pair = 31, neg_pair = 1097
+0163: pos_pair = 69, neg_pair = 672
+0306: pos_pair = 23, neg_pair = 680
+0901: pos_pair = 51, neg_pair = 1840
+1371: pos_pair = 32, neg_pair = 958
+0248: pos_pair = 75, neg_pair = 2626
+0467: pos_pair = 60, neg_pair = 2151
+1005: pos_pair = 16, neg_pair = 260
+0307: pos_pair = 56, neg_pair = 934
+1101: pos_pair = 14, neg_pair = 364
+1270: pos_pair = 19, neg_pair = 684
+1058: pos_pair = 110, neg_pair = 2591
+0620: pos_pair = 46, neg_pair = 2232
+0606: pos_pair = 31, neg_pair = 872
+0387: pos_pair = 25, neg_pair = 1056
+0356: pos_pair = 50, neg_pair = 653
+0294: pos_pair = 38, neg_pair = 2042
+1573: pos_pair = 19, neg_pair = 387
+0537: pos_pair = 34, neg_pair = 2244
+0612: pos_pair = 26, neg_pair = 502
+1424: pos_pair = 25, neg_pair = 353
+0705: pos_pair = 13, neg_pair = 312
+0958: pos_pair = 41, neg_pair = 1040
+0015: pos_pair = 21, neg_pair = 444
+val
+0184: pos_pair = 119, neg_pair = 2807
+0510: pos_pair = 40, neg_pair = 590
+0074: pos_pair = 70, neg_pair = 1760
+0924: pos_pair = 30, neg_pair = 1740
+1327: pos_pair = 47, neg_pair = 1606
+0069: pos_pair = 14, neg_pair = 364
+0518: pos_pair = 57, neg_pair = 3103
+0581: pos_pair = 11, neg_pair = 220
+1181: pos_pair = 39, neg_pair = 1137
+1359: pos_pair = 33, neg_pair = 1737
+1030: pos_pair = 125, neg_pair = 2086
+1338: pos_pair = 12, neg_pair = 198
+0220: pos_pair = 62, neg_pair = 2083
+1525: pos_pair = 55, neg_pair = 1430
+0863: pos_pair = 15, neg_pair = 216
+1282: pos_pair = 63, neg_pair = 1368
+0424: pos_pair = 52, neg_pair = 1173
+0644: pos_pair = 33, neg_pair = 345
+1507: pos_pair = 32, neg_pair = 598
+0291: pos_pair = 40, neg_pair = 590
+1528: pos_pair = 28, neg_pair = 1197
+0780: pos_pair = 26, neg_pair = 1150
+0751: pos_pair = 58, neg_pair = 2717
+0865: pos_pair = 36, neg_pair = 1045
+0832: pos_pair = 54, neg_pair = 1837
+1475: pos_pair = 42, neg_pair = 1498
+1434: pos_pair = 17, neg_pair = 448
+1534: pos_pair = 22, neg_pair = 924
+1094: pos_pair = 46, neg_pair = 2099
+0286: pos_pair = 26, neg_pair = 677
+0535: pos_pair = 55, neg_pair = 891
+0432: pos_pair = 35, neg_pair = 868
+1159: pos_pair = 17, neg_pair = 544
+0556: pos_pair = 35, neg_pair = 955
+0979: pos_pair = 55, neg_pair = 765
+1457: pos_pair = 49, neg_pair = 771
+0324: pos_pair = 33, neg_pair = 1398
+0417: pos_pair = 52, neg_pair = 1544
+1456: pos_pair = 36, neg_pair = 1092
+1365: pos_pair = 42, neg_pair = 993
+0999: pos_pair = 29, neg_pair = 1147
+0967: pos_pair = 23, neg_pair = 1012
+0790: pos_pair = 13, neg_pair = 240
+1190: pos_pair = 34, neg_pair = 956
+1334: pos_pair = 66, neg_pair = 1704
+0405: pos_pair = 10, neg_pair = 126
+0981: pos_pair = 48, neg_pair = 1278
+0288: pos_pair = 87, neg_pair = 3073
+0003: pos_pair = 133, neg_pair = 1407
+0231: pos_pair = 51, neg_pair = 1275
+0148: pos_pair = 147, neg_pair = 2554
+0894: pos_pair = 35, neg_pair = 745
+0498: pos_pair = 42, neg_pair = 1611
+1302: pos_pair = 70, neg_pair = 2705
+0514: pos_pair = 29, neg_pair = 751
+1496: pos_pair = 13, neg_pair = 312
+1168: pos_pair = 46, neg_pair = 1550
+1486: pos_pair = 61, neg_pair = 2495
+0942: pos_pair = 15, neg_pair = 336
+0618: pos_pair = 39, neg_pair = 1287
+1261: pos_pair = 123, neg_pair = 2362
+0244: pos_pair = 85, neg_pair = 1511
+0888: pos_pair = 57, neg_pair = 2358
+0921: pos_pair = 43, neg_pair = 1388
+0805: pos_pair = 21, neg_pair = 609
+0393: pos_pair = 25, neg_pair = 921
+0887: pos_pair = 72, neg_pair = 2854
+0616: pos_pair = 59, neg_pair = 976
+1238: pos_pair = 26, neg_pair = 227
+0209: pos_pair = 33, neg_pair = 1398
+1572: pos_pair = 28, neg_pair = 918
+0542: pos_pair = 21, neg_pair = 609
+1077: pos_pair = 45, neg_pair = 1230
+0144: pos_pair = 39, neg_pair = 1186
+0614: pos_pair = 69, neg_pair = 2076
+0492: pos_pair = 53, neg_pair = 1172
+1467: pos_pair = 72, neg_pair = 2008
+0795: pos_pair = 45, neg_pair = 1281
+0277: pos_pair = 62, neg_pair = 2423
+1271: pos_pair = 30, neg_pair = 873
+0637: pos_pair = 36, neg_pair = 825
+0340: pos_pair = 102, neg_pair = 1668
+0461: pos_pair = 102, neg_pair = 2901
+1278: pos_pair = 19, neg_pair = 477
+0950: pos_pair = 43, neg_pair = 1283
+1043: pos_pair = 31, neg_pair = 830
+0370: pos_pair = 17, neg_pair = 448
+0931: pos_pair = 31, neg_pair = 1244
+1301: pos_pair = 60, neg_pair = 1068
+0139: pos_pair = 18, neg_pair = 417
+1147: pos_pair = 55, neg_pair = 765
+1206: pos_pair = 90, neg_pair = 945
+0899: pos_pair = 27, neg_pair = 1248
+1251: pos_pair = 36, neg_pair = 954
+1342: pos_pair = 27, neg_pair = 1404
+1044: pos_pair = 41, neg_pair = 700
+0989: pos_pair = 61, neg_pair = 2084
+0808: pos_pair = 62, neg_pair = 2639
+0025: pos_pair = 37, neg_pair = 2241
+0590: pos_pair = 24, neg_pair = 717
+0226: pos_pair = 18, neg_pair = 417
+0872: pos_pair = 29, neg_pair = 1052
+0770: pos_pair = 15, neg_pair = 336
+1323: pos_pair = 21, neg_pair = 840
+0179: pos_pair = 52, neg_pair = 2433
+0713: pos_pair = 22, neg_pair = 573
+0018: pos_pair = 36, neg_pair = 1449
+0769: pos_pair = 98, neg_pair = 2113
+1084: pos_pair = 23, neg_pair = 880
+1379: pos_pair = 77, neg_pair = 1693
+1154: pos_pair = 26, neg_pair = 877
+1227: pos_pair = 48, neg_pair = 1782
+0603: pos_pair = 15, neg_pair = 261
+0246: pos_pair = 84, neg_pair = 1869
+0991: pos_pair = 44, neg_pair = 1552
+0997: pos_pair = 50, neg_pair = 2296
+0099: pos_pair = 38, neg_pair = 628
+1125: pos_pair = 66, neg_pair = 2784
+0472: pos_pair = 16, neg_pair = 260
+0728: pos_pair = 36, neg_pair = 1290
+1088: pos_pair = 167, neg_pair = 1159
+1037: pos_pair = 40, neg_pair = 1851
+0428: pos_pair = 32, neg_pair = 634
+0352: pos_pair = 38, neg_pair = 2042
+0064: pos_pair = 55, neg_pair = 648
+0664: pos_pair = 26, neg_pair = 1009
+0547: pos_pair = 42, neg_pair = 1336
+0654: pos_pair = 52, neg_pair = 768
+0878: pos_pair = 10, neg_pair = 126
+1225: pos_pair = 40, neg_pair = 863
+0059: pos_pair = 16, neg_pair = 480
+0326: pos_pair = 23, neg_pair = 757
+1122: pos_pair = 39, neg_pair = 1236
+0804: pos_pair = 57, neg_pair = 1896
+0185: pos_pair = 22, neg_pair = 573
+0266: pos_pair = 53, neg_pair = 1075
+0120: pos_pair = 33, neg_pair = 1398
+1036: pos_pair = 29, neg_pair = 712
+0900: pos_pair = 23, neg_pair = 1012
+0613: pos_pair = 59, neg_pair = 607
+1274: pos_pair = 48, neg_pair = 1080
+1035: pos_pair = 15, neg_pair = 420
+1284: pos_pair = 39, neg_pair = 822
+0761: pos_pair = 11, neg_pair = 220
+0104: pos_pair = 294, neg_pair = 1597
+1128: pos_pair = 69, neg_pair = 2416
+0293: pos_pair = 34, neg_pair = 1001
+0062: pos_pair = 111, neg_pair = 1659
+0224: pos_pair = 27, neg_pair = 1404
+0712: pos_pair = 27, neg_pair = 753
+1095: pos_pair = 67, neg_pair = 1703
+1510: pos_pair = 51, neg_pair = 1275
+0527: pos_pair = 62, neg_pair = 1369
+0539: pos_pair = 41, neg_pair = 662
+0867: pos_pair = 18, neg_pair = 510
+0161: pos_pair = 25, neg_pair = 716
+0020: pos_pair = 34, neg_pair = 2244
+test
+1317: pos_pair = 34, neg_pair = 431
+0905: pos_pair = 24, neg_pair = 1104
+1239: pos_pair = 56, neg_pair = 505
+1028: pos_pair = 32, neg_pair = 598
+0189: pos_pair = 21, neg_pair = 720
+0152: pos_pair = 35, neg_pair = 1093
+1069: pos_pair = 43, neg_pair = 1133
+0039: pos_pair = 167, neg_pair = 1159
+0944: pos_pair = 74, neg_pair = 3007
+0785: pos_pair = 56, neg_pair = 1429
+0588: pos_pair = 35, neg_pair = 2176
+0218: pos_pair = 36, neg_pair = 954
+0642: pos_pair = 61, neg_pair = 974
+0109: pos_pair = 24, neg_pair = 642
+1075: pos_pair = 35, neg_pair = 1505
+0663: pos_pair = 41, neg_pair = 1337
+1401: pos_pair = 34, neg_pair = 1094
+1538: pos_pair = 27, neg_pair = 1101
+0353: pos_pair = 28, neg_pair = 1197
+0675: pos_pair = 57, neg_pair = 1539
+0494: pos_pair = 50, neg_pair = 1225
+0057: pos_pair = 39, neg_pair = 1977
+0245: pos_pair = 23, neg_pair = 880
+0302: pos_pair = 28, neg_pair = 1053
+0429: pos_pair = 32, neg_pair = 871
+1330: pos_pair = 87, neg_pair = 1624
+1326: pos_pair = 23, neg_pair = 880
+0519: pos_pair = 21, neg_pair = 720
+0854: pos_pair = 22, neg_pair = 413
+0316: pos_pair = 35, neg_pair = 1618
+0742: pos_pair = 29, neg_pair = 1052
+0382: pos_pair = 113, neg_pair = 2588
+0819: pos_pair = 70, neg_pair = 1883
+0090: pos_pair = 57, neg_pair = 1374
+1368: pos_pair = 108, neg_pair = 1218
+0792: pos_pair = 316, neg_pair = 1962
+0311: pos_pair = 47, neg_pair = 814
+0744: pos_pair = 64, neg_pair = 1476
+1001: pos_pair = 53, neg_pair = 1543
+0385: pos_pair = 37, neg_pair = 909
+1153: pos_pair = 40, neg_pair = 2040
+1506: pos_pair = 45, neg_pair = 1083
+0963: pos_pair = 26, neg_pair = 1009
+0880: pos_pair = 47, neg_pair = 1129
+0964: pos_pair = 27, neg_pair = 1404
+1079: pos_pair = 24, neg_pair = 837
+1214: pos_pair = 41, neg_pair = 1135
+1490: pos_pair = 51, neg_pair = 1125
+0579: pos_pair = 37, neg_pair = 998
+1398: pos_pair = 94, neg_pair = 2117
+0691: pos_pair = 81, neg_pair = 585
+0715: pos_pair = 32, neg_pair = 788
+0354: pos_pair = 13, neg_pair = 312
+1383: pos_pair = 37, neg_pair = 2043
+1175: pos_pair = 61, neg_pair = 2217
+0299: pos_pair = 103, neg_pair = 1667
+0322: pos_pair = 21, neg_pair = 414
+0100: pos_pair = 35, neg_pair = 2380
+1068: pos_pair = 18, neg_pair = 282
+0605: pos_pair = 30, neg_pair = 1401
+0684: pos_pair = 28, neg_pair = 602
+1348: pos_pair = 63, neg_pair = 1477
+1248: pos_pair = 62, neg_pair = 2566
+0576: pos_pair = 32, neg_pair = 871
+1500: pos_pair = 24, neg_pair = 966
+0338: pos_pair = 23, neg_pair = 1012
+0969: pos_pair = 33, neg_pair = 597
+1494: pos_pair = 14, neg_pair = 217
+0406: pos_pair = 42, neg_pair = 1911
+1551: pos_pair = 50, neg_pair = 940
+0668: pos_pair = 79, neg_pair = 3081
+0670: pos_pair = 43, neg_pair = 1182
+0325: pos_pair = 71, neg_pair = 1469
+1025: pos_pair = 73, neg_pair = 3087
+0534: pos_pair = 35, neg_pair = 1450
+1199: pos_pair = 50, neg_pair = 1903
+0127: pos_pair = 30, neg_pair = 790
+1544: pos_pair = 15, neg_pair = 420
+1130: pos_pair = 16, neg_pair = 390
+0075: pos_pair = 18, neg_pair = 417
+0438: pos_pair = 52, neg_pair = 894
+0021: pos_pair = 50, neg_pair = 545
+0278: pos_pair = 58, neg_pair = 722
+1328: pos_pair = 20, neg_pair = 646
+0516: pos_pair = 27, neg_pair = 963
+1489: pos_pair = 56, neg_pair = 1270
+0528: pos_pair = 66, neg_pair = 837
+0635: pos_pair = 37, neg_pair = 1448
+0141: pos_pair = 62, neg_pair = 1649
+1185: pos_pair = 30, neg_pair = 673
+0190: pos_pair = 35, neg_pair = 1505
+0076: pos_pair = 17, neg_pair = 544
+1268: pos_pair = 66, neg_pair = 1704
+1409: pos_pair = 45, neg_pair = 3195
+0383: pos_pair = 82, neg_pair = 2844
+0800: pos_pair = 24, neg_pair = 756
+1167: pos_pair = 36, neg_pair = 744
+0957: pos_pair = 55, neg_pair = 935
+0038: pos_pair = 21, neg_pair = 150
+0010: pos_pair = 20, neg_pair = 646
+0165: pos_pair = 29, neg_pair = 566
+0569: pos_pair = 22, neg_pair = 798
+0660: pos_pair = 79, neg_pair = 1517
+1218: pos_pair = 84, neg_pair = 2061
+0941: pos_pair = 55, neg_pair = 1271
+0115: pos_pair = 21, neg_pair = 840
+1203: pos_pair = 27, neg_pair = 876
+0490: pos_pair = 28, neg_pair = 468
+1388: pos_pair = 36, neg_pair = 1617
+0297: pos_pair = 103, neg_pair = 2243
+0870: pos_pair = 28, neg_pair = 792
+0583: pos_pair = 74, neg_pair = 2204
+0564: pos_pair = 50, neg_pair = 2296
+0453: pos_pair = 42, neg_pair = 1284
+0308: pos_pair = 105, neg_pair = 2241
+0990: pos_pair = 56, neg_pair = 1169
+0850: pos_pair = 25, neg_pair = 921
+0181: pos_pair = 65, neg_pair = 530
+0431: pos_pair = 23, neg_pair = 880
+0444: pos_pair = 73, neg_pair = 2138
+0575: pos_pair = 71, neg_pair = 1759
+0629: pos_pair = 64, neg_pair = 1314
+0028: pos_pair = 19, neg_pair = 684
+0496: pos_pair = 28, neg_pair = 713
+1566: pos_pair = 17, neg_pair = 448
+1210: pos_pair = 26, neg_pair = 794
+0157: pos_pair = 33, neg_pair = 1143
+0270: pos_pair = 22, neg_pair = 681
+0011: pos_pair = 23, neg_pair = 328
+0420: pos_pair = 53, neg_pair = 1543
+1041: pos_pair = 27, neg_pair = 1101
+1436: pos_pair = 34, neg_pair = 2046
+1177: pos_pair = 64, neg_pair = 2282
+0709: pos_pair = 37, neg_pair = 743
+0541: pos_pair = 54, neg_pair = 1899
+1027: pos_pair = 47, neg_pair = 1549
+0809: pos_pair = 22, neg_pair = 924
+1400: pos_pair = 26, neg_pair = 439
+0506: pos_pair = 36, neg_pair = 999
+1485: pos_pair = 68, neg_pair = 1885
+0986: pos_pair = 26, neg_pair = 754
+0336: pos_pair = 86, neg_pair = 2840
+1207: pos_pair = 41, neg_pair = 905
+1404: pos_pair = 50, neg_pair = 1841
+0966: pos_pair = 29, neg_pair = 674
+0097: pos_pair = 18, neg_pair = 282
+1160: pos_pair = 37, neg_pair = 743
+1050: pos_pair = 129, neg_pair = 2016
+0778: pos_pair = 70, neg_pair = 920
+0375: pos_pair = 43, neg_pair = 623
+1103: pos_pair = 86, neg_pair = 1684
+0203: pos_pair = 67, neg_pair = 2489
+1169: pos_pair = 54, neg_pair = 1716
+1488: pos_pair = 59, neg_pair = 1711
+1479: pos_pair = 26, neg_pair = 920
+1184: pos_pair = 77, neg_pair = 2551
+0681: pos_pair = 61, neg_pair = 1650
+0502: pos_pair = 49, neg_pair = 2096

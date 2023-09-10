@@ -1,0 +1,23 @@
+closet        
+bathroom      
+bedroom       
+living room   
+kitchen       
+dining room   
+garage        
+laundry       
+hallway       
+stair         
+family room   
+breakfast nook
+pantry        
+loft          
+patio         
+office        
+doorway       
+basement      
+utility       
+balcony       
+attic         
+yard          
+other         

@@ -1,0 +1,28 @@
+house
+    num_floors : int
+    num_primary_panos : int
+    num_secondary_panos : int
+    floor_data
+        num_complete_rooms : int
+        complete_room_data
+            num_partial_rooms : int
+            partial_room_data
+                num_panos
+                pano
+                    floor_num : int
+                    is_primary : bool
+                    is_inside : bool
+                    label : string
+                    image_path : string
+
+new house
+    floor_data
+        complete_room_data
+            partial_room_data
+                pano
+                    floor_num : int
+                    is_primary : bool
+                    is_inside : bool
+                    label : string
+                    new_label : string
+                    image_path : string

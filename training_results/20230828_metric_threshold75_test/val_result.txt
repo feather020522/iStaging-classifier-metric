@@ -1,0 +1,6 @@
+Test set accuracy (pos/neg pair) at epoch 10 = 78.5699102236494
+Test set accuracy (pos/neg pair) at epoch 20 = 82.59831301870152
+Test set accuracy (pos/neg pair) at epoch 30 = 88.05951923294363
+Test set accuracy (pos/neg pair) at epoch 40 = 91.83012595825512
+Test set accuracy (pos/neg pair) at epoch 50 = 93.57138011352073
+Test set accuracy (pos/neg pair) at epoch 50 = 92.62312806238641

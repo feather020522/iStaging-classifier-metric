@@ -1,0 +1,133 @@
+
+new data
+train
+val
+test
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 50
+test set = self
+pos threshold = 0.75
+Start training, 2023-08-28 20:34:08.239794
+epoch # 1 done, 2023-08-28 20:36:21.895417
+epoch # 2 done, 2023-08-28 20:37:40.443265
+epoch # 3 done, 2023-08-28 20:38:59.118940
+epoch # 4 done, 2023-08-28 20:40:17.362062
+epoch # 5 done, 2023-08-28 20:41:36.655618
+epoch # 6 done, 2023-08-28 20:42:55.557637
+epoch # 7 done, 2023-08-28 20:44:14.009304
+epoch # 8 done, 2023-08-28 20:45:32.639451
+epoch # 9 done, 2023-08-28 20:46:52.079110
+epoch # 10 done, 2023-08-28 20:48:11.396083
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.78      0.87    417440
+positive pair       0.19      0.89      0.32     24770
+
+     accuracy                           0.79    442210
+    macro avg       0.59      0.83      0.59    442210
+ weighted avg       0.95      0.79      0.84    442210
+
+val # 10 done, 2023-08-28 20:49:31.228292
+epoch # 11 done, 2023-08-28 20:50:50.820277
+epoch # 12 done, 2023-08-28 20:52:10.212192
+epoch # 13 done, 2023-08-28 20:53:29.404420
+epoch # 14 done, 2023-08-28 20:54:48.954093
+epoch # 15 done, 2023-08-28 20:56:09.366594
+epoch # 16 done, 2023-08-28 20:57:28.417211
+epoch # 17 done, 2023-08-28 20:58:47.862210
+epoch # 18 done, 2023-08-28 21:00:07.400350
+epoch # 19 done, 2023-08-28 21:01:26.981076
+epoch # 20 done, 2023-08-28 21:02:46.282482
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.82      0.90    417440
+positive pair       0.23      0.89      0.37     24770
+
+     accuracy                           0.83    442210
+    macro avg       0.61      0.86      0.63    442210
+ weighted avg       0.95      0.83      0.87    442210
+
+val # 20 done, 2023-08-28 21:04:07.862530
+epoch # 21 done, 2023-08-28 21:05:27.222946
+epoch # 22 done, 2023-08-28 21:06:44.993778
+epoch # 23 done, 2023-08-28 21:08:02.933450
+epoch # 24 done, 2023-08-28 21:09:21.102044
+epoch # 25 done, 2023-08-28 21:10:39.106547
+epoch # 26 done, 2023-08-28 21:11:56.914024
+epoch # 27 done, 2023-08-28 21:13:16.470539
+epoch # 28 done, 2023-08-28 21:14:35.783472
+epoch # 29 done, 2023-08-28 21:15:55.263488
+epoch # 30 done, 2023-08-28 21:17:14.810995
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.88      0.93    417440
+positive pair       0.30      0.86      0.45     24770
+
+     accuracy                           0.88    442210
+    macro avg       0.65      0.87      0.69    442210
+ weighted avg       0.95      0.88      0.91    442210
+
+val # 30 done, 2023-08-28 21:18:35.461961
+epoch # 31 done, 2023-08-28 21:19:54.532407
+epoch # 32 done, 2023-08-28 21:21:14.894507
+epoch # 33 done, 2023-08-28 21:22:34.600223
+epoch # 34 done, 2023-08-28 21:23:53.528659
+epoch # 35 done, 2023-08-28 21:25:13.507184
+epoch # 36 done, 2023-08-28 21:26:31.580969
+epoch # 37 done, 2023-08-28 21:27:50.910243
+epoch # 38 done, 2023-08-28 21:29:10.462388
+epoch # 39 done, 2023-08-28 21:30:29.915336
+epoch # 40 done, 2023-08-28 21:31:49.314478
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.92      0.96    417440
+positive pair       0.39      0.82      0.53     24770
+
+     accuracy                           0.92    442210
+    macro avg       0.69      0.87      0.74    442210
+ weighted avg       0.96      0.92      0.93    442210
+
+val # 40 done, 2023-08-28 21:33:11.039166
+epoch # 41 done, 2023-08-28 21:34:31.384278
+epoch # 42 done, 2023-08-28 21:35:50.750810
+epoch # 43 done, 2023-08-28 21:37:10.124665
+epoch # 44 done, 2023-08-28 21:38:29.672668
+epoch # 45 done, 2023-08-28 21:39:49.055463
+epoch # 46 done, 2023-08-28 21:41:08.424193
+epoch # 47 done, 2023-08-28 21:42:27.680556
+epoch # 48 done, 2023-08-28 21:43:48.146270
+epoch # 49 done, 2023-08-28 21:45:07.550111
+epoch # 50 done, 2023-08-28 21:46:26.790940
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.94      0.97    417440
+positive pair       0.46      0.81      0.58     24770
+
+     accuracy                           0.94    442210
+    macro avg       0.72      0.88      0.77    442210
+ weighted avg       0.96      0.94      0.94    442210
+
+val # 50 done, 2023-08-28 21:47:47.981804
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.94      0.96    410388
+positive pair       0.41      0.75      0.53     24322
+
+     accuracy                           0.93    434710
+    macro avg       0.70      0.84      0.75    434710
+ weighted avg       0.95      0.93      0.94    434710
+
+Last val: test done, 2023-08-28 21:50:00.345670
+Finished Training
+
+new data
+train
+val
+test
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/metric_learning.py", line 275, in <module>
+    room_dataloader_train = DataLoader(
+TypeError: DataLoader.__init__() got an unexpected keyword argument 'mode'

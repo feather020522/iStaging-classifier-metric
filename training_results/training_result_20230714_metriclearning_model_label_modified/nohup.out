@@ -1,0 +1,179 @@
+parameters: 
+batch_size = 1
+shuffle_train = False
+num_workers = 6
+epoch = 20
+
+Start training, 2023-07-10 17:22:43.738089
+epoch # 1 done, 2023-07-10 17:39:22.840274
+epoch # 2 done, 2023-07-10 17:54:57.341575
+val # 2 done, 2023-07-10 18:01:09.156174
+epoch # 3 done, 2023-07-10 18:09:52.383307
+epoch # 4 done, 2023-07-10 18:18:24.001718
+val # 4 done, 2023-07-10 18:23:47.298956
+epoch # 5 done, 2023-07-10 18:32:16.979455
+epoch # 6 done, 2023-07-10 18:40:44.891847
+val # 6 done, 2023-07-10 18:46:05.903012
+epoch # 7 done, 2023-07-10 18:54:35.814745
+epoch # 8 done, 2023-07-10 19:03:02.867929
+val # 8 done, 2023-07-10 19:08:24.739084
+epoch # 9 done, 2023-07-10 19:16:53.096450
+epoch # 10 done, 2023-07-10 19:25:19.439777
+val # 10 done, 2023-07-10 19:30:41.057375
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/metric_learning.py", line 254, in <module>
+    running_loss += loss.item()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/metric_learning.py", line 203, in <module>
+    accuracy_calculator = AccuracyCalculator(include=("precision_at_1",), k=1)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/pytorch_metric_learning/utils/accuracy_calculator.py", line 239, in __init__
+    self.knn_func = FaissKNN() if knn_func is None else knn_func
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/pytorch_metric_learning/utils/inference.py", line 160, in __init__
+    faiss.IndexFlatL2 if index_init_fn is None else index_init_fn
+NameError: name 'faiss' is not defined
+parameters: 
+batch_size = 1
+shuffle_train = False
+num_workers = 6
+epoch = 20
+
+Start training, 2023-07-10 20:03:12.448438
+epoch # 1 done, 2023-07-10 20:11:57.783450
+epoch # 2 done, 2023-07-10 20:20:36.574224
+  0%|          | 0/40 [00:00<?, ?it/s]  0%|          | 0/40 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/metric_learning.py", line 300, in <module>
+    test(room_dataloader_train, room_dataloader_val, net, accuracy_calculator)
+  File "/home/tingwei/zillow_data/metric_learning.py", line 287, in test
+    train_embeddings, train_labels = get_all_embeddings(train_set, model)
+  File "/home/tingwei/zillow_data/metric_learning.py", line 282, in get_all_embeddings
+    return tester.get_all_embeddings(dataset, model)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/pytorch_metric_learning/testers/base_tester.py", line 119, in get_all_embeddings
+    embeddings, labels = self.compute_all_embeddings(
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/pytorch_metric_learning/testers/base_tester.py", line 77, in compute_all_embeddings
+    for i, data in enumerate(tqdm.tqdm(dataloader)):
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/tqdm/std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1376, in _next_data
+    return self._process_data(data)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1402, in _process_data
+    data.reraise()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/_utils.py", line 461, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+TypeError: 'DataLoader' object is not subscriptable
+
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/metric_learning.py", line 193, in <module>
+    net.cuda()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 689, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 689, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+KeyboardInterrupt
+parameters: 
+batch_size = 1
+shuffle_train = False
+num_workers = 6
+epoch = 20
+
+Start training, 2023-07-10 20:27:15.861400
+epoch # 1 done, 2023-07-10 20:35:59.868217
+  0%|          | 0/40 [00:00<?, ?it/s]  0%|          | 0/40 [00:57<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/metric_learning.py", line 300, in <module>
+    test(room_identifier_train, room_identifier_val, net, accuracy_calculator)
+  File "/home/tingwei/zillow_data/metric_learning.py", line 287, in test
+    train_embeddings, train_labels = get_all_embeddings(train_set, model)
+  File "/home/tingwei/zillow_data/metric_learning.py", line 282, in get_all_embeddings
+    return tester.get_all_embeddings(dataset, model)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/pytorch_metric_learning/testers/base_tester.py", line 119, in get_all_embeddings
+    embeddings, labels = self.compute_all_embeddings(
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/pytorch_metric_learning/testers/base_tester.py", line 77, in compute_all_embeddings
+    for i, data in enumerate(tqdm.tqdm(dataloader)):
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/tqdm/std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1376, in _next_data
+    return self._process_data(data)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1402, in _process_data
+    data.reraise()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/_utils.py", line 461, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    return self.collate_fn(data)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 175, in default_collate
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 175, in <listcomp>
+    return [default_collate(samples) for samples in transposed]  # Backwards compatibility.
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/collate.py", line 171, in default_collate
+    raise RuntimeError('each element in list of batch should be of equal size')
+RuntimeError: each element in list of batch should be of equal size
+
+parameters: 
+batch_size = 1
+shuffle_train = False
+num_workers = 6
+epoch = 20
+
+Start training, 2023-07-14 04:13:57.349313
+epoch # 1 done, 2023-07-14 04:30:36.701020
+val # 1 done, 2023-07-14 04:36:54.780536
+epoch # 2 done, 2023-07-14 04:52:48.027859
+val # 2 done, 2023-07-14 04:59:01.961335
+epoch # 3 done, 2023-07-14 05:07:32.663397
+val # 3 done, 2023-07-14 05:13:03.440141
+epoch # 4 done, 2023-07-14 05:21:33.330672
+val # 4 done, 2023-07-14 05:27:01.823002
+epoch # 5 done, 2023-07-14 05:35:26.903305
+val # 5 done, 2023-07-14 05:40:56.703095
+epoch # 6 done, 2023-07-14 05:49:22.527388
+val # 6 done, 2023-07-14 05:54:43.752713
+epoch # 7 done, 2023-07-14 06:03:08.758386
+val # 7 done, 2023-07-14 06:08:36.215982
+epoch # 8 done, 2023-07-14 06:17:26.857148
+val # 8 done, 2023-07-14 06:23:18.835040
+epoch # 9 done, 2023-07-14 06:32:32.922645
+val # 9 done, 2023-07-14 06:38:24.593553
+epoch # 10 done, 2023-07-14 06:55:15.470698
+val # 10 done, 2023-07-14 07:01:08.926649
+epoch # 11 done, 2023-07-14 07:11:14.900176
+val # 11 done, 2023-07-14 07:17:04.930740
+epoch # 12 done, 2023-07-14 07:26:17.442461
+val # 12 done, 2023-07-14 07:32:08.241685
+epoch # 13 done, 2023-07-14 07:45:35.752338
+val # 13 done, 2023-07-14 07:51:27.265159
+epoch # 14 done, 2023-07-14 08:00:55.803543
+val # 14 done, 2023-07-14 08:06:46.149538
+epoch # 15 done, 2023-07-14 08:15:53.137224
+val # 15 done, 2023-07-14 08:21:40.379548
+epoch # 16 done, 2023-07-14 08:30:47.426170
+val # 16 done, 2023-07-14 08:36:35.814984
+epoch # 17 done, 2023-07-14 08:50:29.182048
+val # 17 done, 2023-07-14 08:56:19.593124
+epoch # 18 done, 2023-07-14 09:06:24.630829
+val # 18 done, 2023-07-14 09:12:11.377651
+epoch # 19 done, 2023-07-14 09:21:20.393061
+val # 19 done, 2023-07-14 09:27:08.481781
+epoch # 20 done, 2023-07-14 09:41:54.289537
+val # 20 done, 2023-07-14 09:47:43.717657
+Finished Training

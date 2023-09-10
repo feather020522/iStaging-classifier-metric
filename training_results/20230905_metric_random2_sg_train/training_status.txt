@@ -1,0 +1,419 @@
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 200
+test set = train partition
+pos threshold = 0.75
+Start training, 2023-09-04 21:53:19.321207
+epoch # 1 done, 2023-09-04 22:02:27.040742
+epoch # 2 done, 2023-09-04 22:09:38.058535
+epoch # 3 done, 2023-09-04 22:16:41.805094
+epoch # 4 done, 2023-09-04 22:23:43.140899
+epoch # 5 done, 2023-09-04 22:30:42.281572
+epoch # 6 done, 2023-09-04 22:37:40.441089
+epoch # 7 done, 2023-09-04 22:44:38.418815
+epoch # 8 done, 2023-09-04 22:51:35.581001
+epoch # 9 done, 2023-09-04 22:58:32.570932
+epoch # 10 done, 2023-09-04 23:05:29.828878
+epoch # 11 done, 2023-09-04 23:12:27.946240
+epoch # 12 done, 2023-09-04 23:19:24.717178
+epoch # 13 done, 2023-09-04 23:26:21.572544
+epoch # 14 done, 2023-09-04 23:33:18.488394
+epoch # 15 done, 2023-09-04 23:40:16.110103
+epoch # 16 done, 2023-09-04 23:47:13.986123
+epoch # 17 done, 2023-09-04 23:54:10.207341
+epoch # 18 done, 2023-09-05 00:01:06.510076
+epoch # 19 done, 2023-09-05 00:08:04.537706
+epoch # 20 done, 2023-09-05 00:15:01.697500
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.93      0.96    417440
+positive pair       0.39      0.78      0.52     24770
+
+     accuracy                           0.92    442210
+    macro avg       0.69      0.85      0.74    442210
+ weighted avg       0.95      0.92      0.93    442210
+
+val # 20 on test done, 2023-09-05 00:16:24.307560
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.94      0.96   3373960
+positive pair       0.42      0.78      0.54    202831
+
+     accuracy                           0.93   3576791
+    macro avg       0.70      0.86      0.75   3576791
+ weighted avg       0.95      0.93      0.94   3576791
+
+val # 20 on train done, 2023-09-05 00:27:11.319255
+epoch # 21 done, 2023-09-05 00:34:08.360706
+epoch # 22 done, 2023-09-05 00:41:05.765446
+epoch # 23 done, 2023-09-05 00:48:02.946386
+epoch # 24 done, 2023-09-05 00:55:00.317405
+epoch # 25 done, 2023-09-05 01:01:57.828344
+epoch # 26 done, 2023-09-05 01:08:55.115028
+epoch # 27 done, 2023-09-05 01:15:51.718530
+epoch # 28 done, 2023-09-05 01:22:48.965784
+epoch # 29 done, 2023-09-05 01:29:45.601356
+epoch # 30 done, 2023-09-05 01:36:44.740485
+epoch # 31 done, 2023-09-05 01:43:41.837832
+epoch # 32 done, 2023-09-05 01:50:39.419115
+epoch # 33 done, 2023-09-05 01:57:36.858220
+epoch # 34 done, 2023-09-05 02:04:35.486103
+epoch # 35 done, 2023-09-05 02:11:34.584876
+epoch # 36 done, 2023-09-05 02:18:33.927040
+epoch # 37 done, 2023-09-05 02:25:31.699972
+epoch # 38 done, 2023-09-05 02:32:29.396595
+epoch # 39 done, 2023-09-05 02:39:27.170309
+epoch # 40 done, 2023-09-05 02:46:25.242823
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.96      0.97    417440
+positive pair       0.51      0.75      0.60     24770
+
+     accuracy                           0.94    442210
+    macro avg       0.75      0.85      0.79    442210
+ weighted avg       0.96      0.94      0.95    442210
+
+val # 40 on test done, 2023-09-05 02:47:48.095854
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.96      0.97   3373960
+positive pair       0.53      0.75      0.62    202831
+
+     accuracy                           0.95   3576791
+    macro avg       0.76      0.86      0.80   3576791
+ weighted avg       0.96      0.95      0.95   3576791
+
+val # 40 on train done, 2023-09-05 02:58:24.747070
+epoch # 41 done, 2023-09-05 03:05:21.742955
+epoch # 42 done, 2023-09-05 03:12:17.350678
+epoch # 43 done, 2023-09-05 03:19:13.551647
+epoch # 44 done, 2023-09-05 03:26:09.388789
+epoch # 45 done, 2023-09-05 03:33:05.125168
+epoch # 46 done, 2023-09-05 03:40:00.862835
+epoch # 47 done, 2023-09-05 03:46:57.096504
+epoch # 48 done, 2023-09-05 03:53:52.151369
+epoch # 49 done, 2023-09-05 04:00:48.161153
+epoch # 50 done, 2023-09-05 04:07:44.079592
+epoch # 51 done, 2023-09-05 04:14:40.900547
+epoch # 52 done, 2023-09-05 04:21:37.715494
+epoch # 53 done, 2023-09-05 04:28:35.160710
+epoch # 54 done, 2023-09-05 04:35:32.437881
+epoch # 55 done, 2023-09-05 04:42:29.218369
+epoch # 56 done, 2023-09-05 04:49:26.270694
+epoch # 57 done, 2023-09-05 04:56:23.489982
+epoch # 58 done, 2023-09-05 05:03:20.156661
+epoch # 59 done, 2023-09-05 05:10:17.584431
+epoch # 60 done, 2023-09-05 05:17:14.233755
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.97      0.98    417440
+positive pair       0.60      0.71      0.65     24770
+
+     accuracy                           0.96    442210
+    macro avg       0.79      0.84      0.81    442210
+ weighted avg       0.96      0.96      0.96    442210
+
+val # 60 on test done, 2023-09-05 05:18:36.298223
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.97      0.98   3373960
+positive pair       0.63      0.72      0.67    202831
+
+     accuracy                           0.96   3576791
+    macro avg       0.81      0.85      0.83   3576791
+ weighted avg       0.96      0.96      0.96   3576791
+
+val # 60 on train done, 2023-09-05 05:29:12.766892
+epoch # 61 done, 2023-09-05 05:36:08.385859
+epoch # 62 done, 2023-09-05 05:43:03.800425
+epoch # 63 done, 2023-09-05 05:50:00.041915
+epoch # 64 done, 2023-09-05 05:56:55.259052
+epoch # 65 done, 2023-09-05 06:03:52.518842
+epoch # 66 done, 2023-09-05 06:10:48.011530
+epoch # 67 done, 2023-09-05 06:17:43.561463
+epoch # 68 done, 2023-09-05 06:24:40.801007
+epoch # 69 done, 2023-09-05 06:31:39.750722
+epoch # 70 done, 2023-09-05 06:38:36.627162
+epoch # 71 done, 2023-09-05 06:45:33.827511
+epoch # 72 done, 2023-09-05 06:52:32.518607
+epoch # 73 done, 2023-09-05 06:59:29.210903
+epoch # 74 done, 2023-09-05 07:06:25.993232
+epoch # 75 done, 2023-09-05 07:13:25.326027
+epoch # 76 done, 2023-09-05 07:20:23.217479
+epoch # 77 done, 2023-09-05 07:27:21.711034
+epoch # 78 done, 2023-09-05 07:34:18.532837
+epoch # 79 done, 2023-09-05 07:41:15.314029
+epoch # 80 done, 2023-09-05 07:48:12.592908
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.98      0.98    417440
+positive pair       0.66      0.69      0.68     24770
+
+     accuracy                           0.96    442210
+    macro avg       0.82      0.83      0.83    442210
+ weighted avg       0.96      0.96      0.96    442210
+
+val # 80 on test done, 2023-09-05 07:49:34.343569
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.98      0.98   3373960
+positive pair       0.70      0.70      0.70    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.84      0.84      0.84   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 80 on train done, 2023-09-05 08:00:08.421204
+epoch # 81 done, 2023-09-05 08:07:03.301782
+epoch # 82 done, 2023-09-05 08:13:59.049553
+epoch # 83 done, 2023-09-05 08:20:54.849094
+epoch # 84 done, 2023-09-05 08:27:50.590555
+epoch # 85 done, 2023-09-05 08:34:46.781927
+epoch # 86 done, 2023-09-05 08:41:42.238590
+epoch # 87 done, 2023-09-05 08:48:39.658648
+epoch # 88 done, 2023-09-05 08:55:35.934173
+epoch # 89 done, 2023-09-05 09:02:32.498424
+epoch # 90 done, 2023-09-05 09:09:28.810056
+epoch # 91 done, 2023-09-05 09:16:24.890984
+epoch # 92 done, 2023-09-05 09:23:20.364501
+epoch # 93 done, 2023-09-05 09:30:15.477417
+epoch # 94 done, 2023-09-05 09:37:11.458426
+epoch # 95 done, 2023-09-05 09:44:08.661110
+epoch # 96 done, 2023-09-05 09:51:04.903486
+epoch # 97 done, 2023-09-05 09:58:02.480360
+epoch # 98 done, 2023-09-05 10:04:58.876721
+epoch # 99 done, 2023-09-05 10:11:55.566667
+epoch # 100 done, 2023-09-05 10:18:52.129935
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.98      0.98    417440
+positive pair       0.71      0.67      0.69     24770
+
+     accuracy                           0.97    442210
+    macro avg       0.84      0.82      0.83    442210
+ weighted avg       0.96      0.97      0.97    442210
+
+val # 100 on test done, 2023-09-05 10:20:14.742047
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98   3373960
+positive pair       0.74      0.67      0.70    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.86      0.83      0.84   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 100 on train done, 2023-09-05 10:30:44.133199
+epoch # 101 done, 2023-09-05 10:37:39.475451
+epoch # 102 done, 2023-09-05 10:44:33.822199
+epoch # 103 done, 2023-09-05 10:51:30.071661
+epoch # 104 done, 2023-09-05 10:58:25.540461
+epoch # 105 done, 2023-09-05 11:05:20.338923
+epoch # 106 done, 2023-09-05 11:12:15.893375
+epoch # 107 done, 2023-09-05 11:19:10.764219
+epoch # 108 done, 2023-09-05 11:26:06.266135
+epoch # 109 done, 2023-09-05 11:33:03.382610
+epoch # 110 done, 2023-09-05 11:39:59.049256
+epoch # 111 done, 2023-09-05 11:46:54.003032
+epoch # 112 done, 2023-09-05 11:53:48.681793
+epoch # 113 done, 2023-09-05 12:00:43.418560
+epoch # 114 done, 2023-09-05 12:07:39.482242
+epoch # 115 done, 2023-09-05 12:14:35.615254
+epoch # 116 done, 2023-09-05 12:21:31.054734
+epoch # 117 done, 2023-09-05 12:28:27.566044
+epoch # 118 done, 2023-09-05 12:35:24.214525
+epoch # 119 done, 2023-09-05 12:42:21.426682
+epoch # 120 done, 2023-09-05 12:49:17.861993
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98    417440
+positive pair       0.74      0.65      0.69     24770
+
+     accuracy                           0.97    442210
+    macro avg       0.86      0.82      0.84    442210
+ weighted avg       0.97      0.97      0.97    442210
+
+val # 120 on test done, 2023-09-05 12:50:40.767298
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98   3373960
+positive pair       0.77      0.67      0.71    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.87      0.83      0.85   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 120 on train done, 2023-09-05 13:01:14.589387
+epoch # 121 done, 2023-09-05 13:08:10.277286
+epoch # 122 done, 2023-09-05 13:15:06.086914
+epoch # 123 done, 2023-09-05 13:22:01.112336
+epoch # 124 done, 2023-09-05 13:28:56.180429
+epoch # 125 done, 2023-09-05 13:35:53.980182
+epoch # 126 done, 2023-09-05 13:42:48.776098
+epoch # 127 done, 2023-09-05 13:49:44.042167
+epoch # 128 done, 2023-09-05 13:56:40.552591
+epoch # 129 done, 2023-09-05 14:03:36.552423
+epoch # 130 done, 2023-09-05 14:10:32.871149
+epoch # 131 done, 2023-09-05 14:17:28.436657
+epoch # 132 done, 2023-09-05 14:24:23.637559
+epoch # 133 done, 2023-09-05 14:31:19.604867
+epoch # 134 done, 2023-09-05 14:38:15.150212
+epoch # 135 done, 2023-09-05 14:45:10.495094
+epoch # 136 done, 2023-09-05 14:52:06.678764
+epoch # 137 done, 2023-09-05 14:59:01.977086
+epoch # 138 done, 2023-09-05 15:05:59.711346
+epoch # 139 done, 2023-09-05 15:12:56.666351
+epoch # 140 done, 2023-09-05 15:19:53.430050
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98    417440
+positive pair       0.75      0.64      0.69     24770
+
+     accuracy                           0.97    442210
+    macro avg       0.86      0.81      0.84    442210
+ weighted avg       0.97      0.97      0.97    442210
+
+val # 140 on test done, 2023-09-05 15:21:15.131883
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98   3373960
+positive pair       0.78      0.66      0.72    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.88      0.83      0.85   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 140 on train done, 2023-09-05 15:31:48.448433
+epoch # 141 done, 2023-09-05 15:38:42.838842
+epoch # 142 done, 2023-09-05 15:45:37.658335
+epoch # 143 done, 2023-09-05 15:52:31.236890
+epoch # 144 done, 2023-09-05 15:59:26.152171
+epoch # 145 done, 2023-09-05 16:06:22.166027
+epoch # 146 done, 2023-09-05 16:13:16.367323
+epoch # 147 done, 2023-09-05 16:20:10.962812
+epoch # 148 done, 2023-09-05 16:27:06.254246
+epoch # 149 done, 2023-09-05 16:34:01.661944
+epoch # 150 done, 2023-09-05 16:40:56.900421
+epoch # 151 done, 2023-09-05 16:47:52.157845
+epoch # 152 done, 2023-09-05 16:54:47.036975
+epoch # 153 done, 2023-09-05 17:01:42.798100
+epoch # 154 done, 2023-09-05 17:08:37.329496
+epoch # 155 done, 2023-09-05 17:15:33.356795
+epoch # 156 done, 2023-09-05 17:22:28.463627
+epoch # 157 done, 2023-09-05 17:29:24.426920
+epoch # 158 done, 2023-09-05 17:36:19.048196
+epoch # 159 done, 2023-09-05 17:43:14.396977
+epoch # 160 done, 2023-09-05 17:50:10.138032
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98    417440
+positive pair       0.76      0.64      0.69     24770
+
+     accuracy                           0.97    442210
+    macro avg       0.87      0.81      0.84    442210
+ weighted avg       0.97      0.97      0.97    442210
+
+val # 160 on test done, 2023-09-05 17:51:31.699493
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98   3373960
+positive pair       0.80      0.65      0.72    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.89      0.82      0.85   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 160 on train done, 2023-09-05 18:02:01.715001
+epoch # 161 done, 2023-09-05 18:08:55.818434
+epoch # 162 done, 2023-09-05 18:15:51.068411
+epoch # 163 done, 2023-09-05 18:22:44.734985
+epoch # 164 done, 2023-09-05 18:29:40.071351
+epoch # 165 done, 2023-09-05 18:36:34.978661
+epoch # 166 done, 2023-09-05 18:43:30.924164
+epoch # 167 done, 2023-09-05 18:50:26.332791
+epoch # 168 done, 2023-09-05 18:57:21.891210
+epoch # 169 done, 2023-09-05 19:04:17.977708
+epoch # 170 done, 2023-09-05 19:11:12.684596
+epoch # 171 done, 2023-09-05 19:18:08.778852
+epoch # 172 done, 2023-09-05 19:25:04.258118
+epoch # 173 done, 2023-09-05 19:32:00.176926
+epoch # 174 done, 2023-09-05 19:38:56.032556
+epoch # 175 done, 2023-09-05 19:45:52.331152
+epoch # 176 done, 2023-09-05 19:52:49.250818
+epoch # 177 done, 2023-09-05 19:59:45.454179
+epoch # 178 done, 2023-09-05 20:06:40.765219
+epoch # 179 done, 2023-09-05 20:13:36.858148
+epoch # 180 done, 2023-09-05 20:20:31.350349
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98    417440
+positive pair       0.76      0.63      0.69     24770
+
+     accuracy                           0.97    442210
+    macro avg       0.87      0.81      0.84    442210
+ weighted avg       0.97      0.97      0.97    442210
+
+val # 180 on test done, 2023-09-05 20:21:52.945588
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98   3373960
+positive pair       0.80      0.65      0.72    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.89      0.82      0.85   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 180 on train done, 2023-09-05 20:32:24.459633
+epoch # 181 done, 2023-09-05 20:39:19.368810
+epoch # 182 done, 2023-09-05 20:46:16.021803
+epoch # 183 done, 2023-09-05 20:53:11.556840
+epoch # 184 done, 2023-09-05 21:00:06.390074
+epoch # 185 done, 2023-09-05 21:07:01.264792
+epoch # 186 done, 2023-09-05 21:13:57.112366
+epoch # 187 done, 2023-09-05 21:20:51.197456
+epoch # 188 done, 2023-09-05 21:27:46.174064
+epoch # 189 done, 2023-09-05 21:34:42.934088
+epoch # 190 done, 2023-09-05 21:41:38.479598
+epoch # 191 done, 2023-09-05 21:48:33.480992
+epoch # 192 done, 2023-09-05 21:55:27.778286
+epoch # 193 done, 2023-09-05 22:02:22.988769
+epoch # 194 done, 2023-09-05 22:09:18.130464
+epoch # 195 done, 2023-09-05 22:16:14.249741
+epoch # 196 done, 2023-09-05 22:23:09.185252
+epoch # 197 done, 2023-09-05 22:30:04.971458
+epoch # 198 done, 2023-09-05 22:37:01.012883
+epoch # 199 done, 2023-09-05 22:43:57.106313
+epoch # 200 done, 2023-09-05 22:50:52.148265
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98    417440
+positive pair       0.79      0.61      0.69     24770
+
+     accuracy                           0.97    442210
+    macro avg       0.88      0.80      0.84    442210
+ weighted avg       0.97      0.97      0.97    442210
+
+val # 200 on test done, 2023-09-05 22:52:13.738090
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.99   3373960
+positive pair       0.83      0.63      0.72    202831
+
+     accuracy                           0.97   3576791
+    macro avg       0.90      0.81      0.85   3576791
+ weighted avg       0.97      0.97      0.97   3576791
+
+val # 200 on train done, 2023-09-05 23:02:43.457378
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.99      0.98    410388
+positive pair       0.78      0.61      0.69     24322
+
+     accuracy                           0.97    434710
+    macro avg       0.88      0.80      0.83    434710
+ weighted avg       0.97      0.97      0.97    434710
+
+Last val: val done, 2023-09-05 23:04:03.413826
+Finished Training

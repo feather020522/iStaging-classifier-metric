@@ -1,0 +1,2244 @@
+
+new data
+train
+{}
+val
+{13: 6, 30: 1, 24: 6, 14: 9, 11: 5, 20: 9, 29: 2, 10: 3, 21: 8, 19: 7, 15: 5, 22: 6, 17: 8, 18: 8, 25: 6, 23: 7, 8: 3, 16: 7, 27: 2, 33: 1, 26: 1, 31: 1, 34: 1}
+test
+{11: 6, 24: 3, 14: 7, 19: 15, 21: 11, 20: 7, 33: 1, 17: 5, 26: 3, 22: 10, 23: 4, 13: 5, 27: 4, 18: 9, 30: 2, 31: 1, 35: 1, 15: 5, 10: 1, 16: 6, 25: 2, 7: 1, 9: 1, 32: 1}
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 300
+mini batch size = 48
+test set = self
+Start training, 2023-07-31 01:35:23.531003
+epoch # 1 done, 2023-07-31 01:35:29.530413
+epoch # 2 done, 2023-07-31 01:35:35.459343
+epoch # 3 done, 2023-07-31 01:35:41.296317
+epoch # 4 done, 2023-07-31 01:35:47.286940
+epoch # 5 done, 2023-07-31 01:35:53.179002
+epoch # 6 done, 2023-07-31 01:35:58.993081
+epoch # 7 done, 2023-07-31 01:36:04.738347
+epoch # 8 done, 2023-07-31 01:36:10.589759
+epoch # 9 done, 2023-07-31 01:36:16.583038
+epoch # 10 done, 2023-07-31 01:36:22.758752
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 10 done, 2023-07-31 01:36:29.189726
+epoch # 11 done, 2023-07-31 01:36:35.162133
+epoch # 12 done, 2023-07-31 01:36:41.073926
+epoch # 13 done, 2023-07-31 01:36:46.947022
+epoch # 14 done, 2023-07-31 01:36:52.883202
+epoch # 15 done, 2023-07-31 01:36:58.742105
+epoch # 16 done, 2023-07-31 01:37:04.584566
+epoch # 17 done, 2023-07-31 01:37:10.610574
+epoch # 18 done, 2023-07-31 01:37:16.559918
+epoch # 19 done, 2023-07-31 01:37:22.467279
+epoch # 20 done, 2023-07-31 01:37:28.326401
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 20 done, 2023-07-31 01:37:34.941012
+epoch # 21 done, 2023-07-31 01:37:40.754171
+epoch # 22 done, 2023-07-31 01:37:46.678396
+epoch # 23 done, 2023-07-31 01:37:52.565240
+epoch # 24 done, 2023-07-31 01:37:58.490194
+epoch # 25 done, 2023-07-31 01:38:04.318953
+epoch # 26 done, 2023-07-31 01:38:10.337623
+epoch # 27 done, 2023-07-31 01:38:16.446068
+epoch # 28 done, 2023-07-31 01:38:22.352537
+epoch # 29 done, 2023-07-31 01:38:28.322350
+epoch # 30 done, 2023-07-31 01:38:34.417584
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 30 done, 2023-07-31 01:38:40.867460
+epoch # 31 done, 2023-07-31 01:38:46.759140
+epoch # 32 done, 2023-07-31 01:38:52.847200
+epoch # 33 done, 2023-07-31 01:38:58.669359
+epoch # 34 done, 2023-07-31 01:39:04.455960
+epoch # 35 done, 2023-07-31 01:39:10.314799
+epoch # 36 done, 2023-07-31 01:39:16.380894
+epoch # 37 done, 2023-07-31 01:39:22.202665
+epoch # 38 done, 2023-07-31 01:39:28.260595
+epoch # 39 done, 2023-07-31 01:39:34.076305
+epoch # 40 done, 2023-07-31 01:39:40.038917
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 40 done, 2023-07-31 01:39:46.628516
+epoch # 41 done, 2023-07-31 01:39:52.599237
+epoch # 42 done, 2023-07-31 01:39:58.541481
+epoch # 43 done, 2023-07-31 01:40:04.350452
+epoch # 44 done, 2023-07-31 01:40:10.163939
+epoch # 45 done, 2023-07-31 01:40:15.993139
+epoch # 46 done, 2023-07-31 01:40:21.817852
+epoch # 47 done, 2023-07-31 01:40:27.924252
+epoch # 48 done, 2023-07-31 01:40:33.702302
+epoch # 49 done, 2023-07-31 01:40:39.522513
+epoch # 50 done, 2023-07-31 01:40:45.381614
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 50 done, 2023-07-31 01:40:51.955343
+epoch # 51 done, 2023-07-31 01:40:57.898910
+epoch # 52 done, 2023-07-31 01:41:03.791234
+epoch # 53 done, 2023-07-31 01:41:09.940162
+epoch # 54 done, 2023-07-31 01:41:16.005380
+epoch # 55 done, 2023-07-31 01:41:21.805942
+epoch # 56 done, 2023-07-31 01:41:27.917383
+epoch # 57 done, 2023-07-31 01:41:33.779353
+epoch # 58 done, 2023-07-31 01:41:39.615966
+epoch # 59 done, 2023-07-31 01:41:45.641817
+epoch # 60 done, 2023-07-31 01:41:51.519090
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 60 done, 2023-07-31 01:41:58.044506
+epoch # 61 done, 2023-07-31 01:42:03.873217
+epoch # 62 done, 2023-07-31 01:42:09.682920
+epoch # 63 done, 2023-07-31 01:42:15.615406
+epoch # 64 done, 2023-07-31 01:42:21.578845
+epoch # 65 done, 2023-07-31 01:42:27.471096
+epoch # 66 done, 2023-07-31 01:42:33.297885
+epoch # 67 done, 2023-07-31 01:42:39.155928
+epoch # 68 done, 2023-07-31 01:42:44.986727
+epoch # 69 done, 2023-07-31 01:42:50.835363
+epoch # 70 done, 2023-07-31 01:42:56.720183
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 70 done, 2023-07-31 01:43:03.138129
+epoch # 71 done, 2023-07-31 01:43:09.266553
+epoch # 72 done, 2023-07-31 01:43:15.419591
+epoch # 73 done, 2023-07-31 01:43:21.561898
+epoch # 74 done, 2023-07-31 01:43:27.334768
+epoch # 75 done, 2023-07-31 01:43:33.406637
+epoch # 76 done, 2023-07-31 01:43:39.175400
+epoch # 77 done, 2023-07-31 01:43:44.931754
+epoch # 78 done, 2023-07-31 01:43:50.990917
+epoch # 79 done, 2023-07-31 01:43:56.754875
+epoch # 80 done, 2023-07-31 01:44:02.676336
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 80 done, 2023-07-31 01:44:09.179675
+epoch # 81 done, 2023-07-31 01:44:15.124188
+epoch # 82 done, 2023-07-31 01:44:20.982033
+epoch # 83 done, 2023-07-31 01:44:26.756835
+epoch # 84 done, 2023-07-31 01:44:32.810964
+epoch # 85 done, 2023-07-31 01:44:38.640375
+epoch # 86 done, 2023-07-31 01:44:44.728879
+epoch # 87 done, 2023-07-31 01:44:50.598451
+epoch # 88 done, 2023-07-31 01:44:56.397501
+epoch # 89 done, 2023-07-31 01:45:02.245834
+epoch # 90 done, 2023-07-31 01:45:08.244238
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 90 done, 2023-07-31 01:45:15.031192
+epoch # 91 done, 2023-07-31 01:45:20.840274
+epoch # 92 done, 2023-07-31 01:45:26.612437
+epoch # 93 done, 2023-07-31 01:45:32.379153
+epoch # 94 done, 2023-07-31 01:45:38.539159
+epoch # 95 done, 2023-07-31 01:45:44.543733
+epoch # 96 done, 2023-07-31 01:45:50.905492
+epoch # 97 done, 2023-07-31 01:45:56.904037
+epoch # 98 done, 2023-07-31 01:46:02.816503
+epoch # 99 done, 2023-07-31 01:46:08.708219
+epoch # 100 done, 2023-07-31 01:46:14.680182
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 100 done, 2023-07-31 01:46:21.331786
+epoch # 101 done, 2023-07-31 01:46:27.828493
+epoch # 102 done, 2023-07-31 01:46:33.804401
+epoch # 103 done, 2023-07-31 01:46:39.837221
+epoch # 104 done, 2023-07-31 01:46:45.628627
+epoch # 105 done, 2023-07-31 01:46:51.601795
+epoch # 106 done, 2023-07-31 01:46:57.676556
+epoch # 107 done, 2023-07-31 01:47:03.522934
+epoch # 108 done, 2023-07-31 01:47:09.667326
+epoch # 109 done, 2023-07-31 01:47:15.762219
+epoch # 110 done, 2023-07-31 01:47:21.719571
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 110 done, 2023-07-31 01:47:28.195370
+epoch # 111 done, 2023-07-31 01:47:34.296144
+epoch # 112 done, 2023-07-31 01:47:40.509251
+epoch # 113 done, 2023-07-31 01:47:46.366581
+epoch # 114 done, 2023-07-31 01:47:52.190209
+epoch # 115 done, 2023-07-31 01:47:57.997185
+epoch # 116 done, 2023-07-31 01:48:04.362703
+epoch # 117 done, 2023-07-31 01:48:10.231220
+epoch # 118 done, 2023-07-31 01:48:16.027470
+epoch # 119 done, 2023-07-31 01:48:22.011350
+epoch # 120 done, 2023-07-31 01:48:28.076176
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 120 done, 2023-07-31 01:48:34.943499
+epoch # 121 done, 2023-07-31 01:48:40.754344
+epoch # 122 done, 2023-07-31 01:48:46.798203
+epoch # 123 done, 2023-07-31 01:48:53.207057
+epoch # 124 done, 2023-07-31 01:48:59.056127
+epoch # 125 done, 2023-07-31 01:49:04.997584
+epoch # 126 done, 2023-07-31 01:49:10.841016
+epoch # 127 done, 2023-07-31 01:49:16.931024
+epoch # 128 done, 2023-07-31 01:49:22.912269
+epoch # 129 done, 2023-07-31 01:49:28.966698
+epoch # 130 done, 2023-07-31 01:49:34.911228
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 130 done, 2023-07-31 01:49:41.684425
+epoch # 131 done, 2023-07-31 01:49:47.859350
+epoch # 132 done, 2023-07-31 01:49:53.650602
+epoch # 133 done, 2023-07-31 01:49:59.396655
+epoch # 134 done, 2023-07-31 01:50:05.321414
+epoch # 135 done, 2023-07-31 01:50:11.202540
+epoch # 136 done, 2023-07-31 01:50:17.191492
+epoch # 137 done, 2023-07-31 01:50:23.059568
+epoch # 138 done, 2023-07-31 01:50:29.063145
+epoch # 139 done, 2023-07-31 01:50:35.082868
+epoch # 140 done, 2023-07-31 01:50:41.191421
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 140 done, 2023-07-31 01:50:47.620583
+epoch # 141 done, 2023-07-31 01:50:53.484652
+epoch # 142 done, 2023-07-31 01:50:59.373460
+epoch # 143 done, 2023-07-31 01:51:05.273700
+epoch # 144 done, 2023-07-31 01:51:11.100432
+epoch # 145 done, 2023-07-31 01:51:17.030849
+epoch # 146 done, 2023-07-31 01:51:22.957764
+epoch # 147 done, 2023-07-31 01:51:28.991099
+epoch # 148 done, 2023-07-31 01:51:35.086559
+epoch # 149 done, 2023-07-31 01:51:40.897765
+epoch # 150 done, 2023-07-31 01:51:46.833840
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 150 done, 2023-07-31 01:51:53.138054
+epoch # 151 done, 2023-07-31 01:51:58.963337
+epoch # 152 done, 2023-07-31 01:52:04.769762
+epoch # 153 done, 2023-07-31 01:52:10.599002
+epoch # 154 done, 2023-07-31 01:52:16.437826
+epoch # 155 done, 2023-07-31 01:52:22.232775
+epoch # 156 done, 2023-07-31 01:52:28.103686
+epoch # 157 done, 2023-07-31 01:52:33.972242
+epoch # 158 done, 2023-07-31 01:52:39.775528
+epoch # 159 done, 2023-07-31 01:52:45.705910
+epoch # 160 done, 2023-07-31 01:52:51.597938
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 160 done, 2023-07-31 01:52:58.051234
+epoch # 161 done, 2023-07-31 01:53:04.017313
+epoch # 162 done, 2023-07-31 01:53:09.845966
+epoch # 163 done, 2023-07-31 01:53:15.861208
+epoch # 164 done, 2023-07-31 01:53:21.906322
+epoch # 165 done, 2023-07-31 01:53:27.775022
+epoch # 166 done, 2023-07-31 01:53:33.627745
+epoch # 167 done, 2023-07-31 01:53:39.415696
+epoch # 168 done, 2023-07-31 01:53:45.425598
+epoch # 169 done, 2023-07-31 01:53:51.316806
+epoch # 170 done, 2023-07-31 01:53:57.119906
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 170 done, 2023-07-31 01:54:03.603092
+epoch # 171 done, 2023-07-31 01:54:09.695418
+epoch # 172 done, 2023-07-31 01:54:15.567109
+epoch # 173 done, 2023-07-31 01:54:21.375091
+epoch # 174 done, 2023-07-31 01:54:27.175502
+epoch # 175 done, 2023-07-31 01:54:32.945930
+epoch # 176 done, 2023-07-31 01:54:38.772435
+epoch # 177 done, 2023-07-31 01:54:44.762334
+epoch # 178 done, 2023-07-31 01:54:50.933539
+epoch # 179 done, 2023-07-31 01:54:56.812500
+epoch # 180 done, 2023-07-31 01:55:02.571054
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 180 done, 2023-07-31 01:55:09.283860
+epoch # 181 done, 2023-07-31 01:55:15.068088
+epoch # 182 done, 2023-07-31 01:55:21.127029
+epoch # 183 done, 2023-07-31 01:55:26.918720
+epoch # 184 done, 2023-07-31 01:55:32.765356
+epoch # 185 done, 2023-07-31 01:55:38.562950
+epoch # 186 done, 2023-07-31 01:55:44.350394
+epoch # 187 done, 2023-07-31 01:55:50.128083
+epoch # 188 done, 2023-07-31 01:55:55.983137
+epoch # 189 done, 2023-07-31 01:56:01.735025
+epoch # 190 done, 2023-07-31 01:56:08.381555
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 190 done, 2023-07-31 01:56:14.869615
+epoch # 191 done, 2023-07-31 01:56:20.855354
+epoch # 192 done, 2023-07-31 01:56:26.755380
+epoch # 193 done, 2023-07-31 01:56:32.612886
+epoch # 194 done, 2023-07-31 01:56:38.907228
+epoch # 195 done, 2023-07-31 01:56:44.706895
+epoch # 196 done, 2023-07-31 01:56:50.810226
+epoch # 197 done, 2023-07-31 01:56:56.643364
+epoch # 198 done, 2023-07-31 01:57:02.549039
+epoch # 199 done, 2023-07-31 01:57:08.463599
+epoch # 200 done, 2023-07-31 01:57:14.219250
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 200 done, 2023-07-31 01:57:20.696371
+epoch # 201 done, 2023-07-31 01:57:26.621995
+epoch # 202 done, 2023-07-31 01:57:32.522195
+epoch # 203 done, 2023-07-31 01:57:38.804295
+epoch # 204 done, 2023-07-31 01:57:44.562753
+epoch # 205 done, 2023-07-31 01:57:50.645922
+epoch # 206 done, 2023-07-31 01:57:56.688088
+epoch # 207 done, 2023-07-31 01:58:02.678095
+epoch # 208 done, 2023-07-31 01:58:08.517495
+epoch # 209 done, 2023-07-31 01:58:14.327334
+epoch # 210 done, 2023-07-31 01:58:20.218714
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 210 done, 2023-07-31 01:58:26.643502
+epoch # 211 done, 2023-07-31 01:58:32.665966
+epoch # 212 done, 2023-07-31 01:58:38.421566
+epoch # 213 done, 2023-07-31 01:58:44.484978
+epoch # 214 done, 2023-07-31 01:58:51.047738
+epoch # 215 done, 2023-07-31 01:58:56.966583
+epoch # 216 done, 2023-07-31 01:59:03.032187
+epoch # 217 done, 2023-07-31 01:59:09.025949
+epoch # 218 done, 2023-07-31 01:59:14.814571
+epoch # 219 done, 2023-07-31 01:59:20.648499
+epoch # 220 done, 2023-07-31 01:59:26.934567
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 220 done, 2023-07-31 01:59:33.354683
+epoch # 221 done, 2023-07-31 01:59:39.192494
+epoch # 222 done, 2023-07-31 01:59:45.120492
+epoch # 223 done, 2023-07-31 01:59:50.965302
+epoch # 224 done, 2023-07-31 01:59:56.953955
+epoch # 225 done, 2023-07-31 02:00:02.809123
+epoch # 226 done, 2023-07-31 02:00:08.637973
+epoch # 227 done, 2023-07-31 02:00:14.674769
+epoch # 228 done, 2023-07-31 02:00:20.492044
+epoch # 229 done, 2023-07-31 02:00:26.344136
+epoch # 230 done, 2023-07-31 02:00:32.329056
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 230 done, 2023-07-31 02:00:38.815782
+epoch # 231 done, 2023-07-31 02:00:44.884591
+epoch # 232 done, 2023-07-31 02:00:50.708173
+epoch # 233 done, 2023-07-31 02:00:56.762018
+epoch # 234 done, 2023-07-31 02:01:02.670240
+epoch # 235 done, 2023-07-31 02:01:08.622973
+epoch # 236 done, 2023-07-31 02:01:14.570660
+epoch # 237 done, 2023-07-31 02:01:20.665972
+epoch # 238 done, 2023-07-31 02:01:26.752190
+epoch # 239 done, 2023-07-31 02:01:32.828471
+epoch # 240 done, 2023-07-31 02:01:38.757877
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 240 done, 2023-07-31 02:01:45.590287
+epoch # 241 done, 2023-07-31 02:01:51.675181
+epoch # 242 done, 2023-07-31 02:01:57.785384
+epoch # 243 done, 2023-07-31 02:02:03.810673
+epoch # 244 done, 2023-07-31 02:02:09.679041
+epoch # 245 done, 2023-07-31 02:02:15.476571
+epoch # 246 done, 2023-07-31 02:02:21.263133
+epoch # 247 done, 2023-07-31 02:02:27.310371
+epoch # 248 done, 2023-07-31 02:02:33.316550
+epoch # 249 done, 2023-07-31 02:02:39.283465
+epoch # 250 done, 2023-07-31 02:02:45.287671
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 250 done, 2023-07-31 02:02:51.880486
+epoch # 251 done, 2023-07-31 02:02:57.850939
+epoch # 252 done, 2023-07-31 02:03:03.695448
+epoch # 253 done, 2023-07-31 02:03:09.645608
+epoch # 254 done, 2023-07-31 02:03:15.687626
+epoch # 255 done, 2023-07-31 02:03:21.559200
+epoch # 256 done, 2023-07-31 02:03:27.613889
+epoch # 257 done, 2023-07-31 02:03:33.572141
+epoch # 258 done, 2023-07-31 02:03:39.471853
+epoch # 259 done, 2023-07-31 02:03:45.367551
+epoch # 260 done, 2023-07-31 02:03:51.229315
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 260 done, 2023-07-31 02:03:57.867224
+epoch # 261 done, 2023-07-31 02:04:03.916359
+epoch # 262 done, 2023-07-31 02:04:09.853208
+epoch # 263 done, 2023-07-31 02:04:15.714520
+epoch # 264 done, 2023-07-31 02:04:21.697963
+epoch # 265 done, 2023-07-31 02:04:27.522723
+epoch # 266 done, 2023-07-31 02:04:33.549451
+epoch # 267 done, 2023-07-31 02:04:39.367125
+epoch # 268 done, 2023-07-31 02:04:45.387273
+epoch # 269 done, 2023-07-31 02:04:51.230765
+epoch # 270 done, 2023-07-31 02:04:57.078859
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 270 done, 2023-07-31 02:05:03.744262
+epoch # 271 done, 2023-07-31 02:05:09.579987
+epoch # 272 done, 2023-07-31 02:05:15.523343
+epoch # 273 done, 2023-07-31 02:05:21.431124
+epoch # 274 done, 2023-07-31 02:05:27.331472
+epoch # 275 done, 2023-07-31 02:05:33.155289
+epoch # 276 done, 2023-07-31 02:05:39.016550
+epoch # 277 done, 2023-07-31 02:05:45.034278
+epoch # 278 done, 2023-07-31 02:05:50.850414
+epoch # 279 done, 2023-07-31 02:05:56.761542
+epoch # 280 done, 2023-07-31 02:06:02.626842
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 280 done, 2023-07-31 02:06:09.088235
+epoch # 281 done, 2023-07-31 02:06:14.844252
+epoch # 282 done, 2023-07-31 02:06:20.743301
+epoch # 283 done, 2023-07-31 02:06:26.527316
+epoch # 284 done, 2023-07-31 02:06:32.370512
+epoch # 285 done, 2023-07-31 02:06:38.162837
+epoch # 286 done, 2023-07-31 02:06:43.951690
+epoch # 287 done, 2023-07-31 02:06:50.035292
+epoch # 288 done, 2023-07-31 02:06:55.850230
+epoch # 289 done, 2023-07-31 02:07:01.777821
+epoch # 290 done, 2023-07-31 02:07:07.637026
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 290 done, 2023-07-31 02:07:14.334790
+epoch # 291 done, 2023-07-31 02:07:20.183447
+epoch # 292 done, 2023-07-31 02:07:26.104353
+epoch # 293 done, 2023-07-31 02:07:31.944276
+epoch # 294 done, 2023-07-31 02:07:38.025398
+epoch # 295 done, 2023-07-31 02:07:44.121254
+epoch # 296 done, 2023-07-31 02:07:49.983503
+epoch # 297 done, 2023-07-31 02:07:55.984063
+epoch # 298 done, 2023-07-31 02:08:01.810199
+epoch # 299 done, 2023-07-31 02:08:07.818947
+epoch # 300 done, 2023-07-31 02:08:13.607420
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00         0
+       wrong       0.00      0.00      0.00         0
+
+   micro avg       0.00      0.00      0.00         0
+   macro avg       0.00      0.00      0.00         0
+weighted avg       0.00      0.00      0.00         0
+
+val # 300 done, 2023-07-31 02:08:20.364042
+Finished Training
+
+new data
+train
+{}
+val
+{13: 6, 30: 1, 24: 6, 14: 9, 11: 5, 20: 9, 29: 2, 10: 3, 21: 8, 19: 7, 15: 5, 22: 6, 17: 8, 18: 8, 25: 6, 23: 7, 8: 3, 16: 7, 27: 2, 33: 1, 26: 1, 31: 1, 34: 1}
+test
+{11: 6, 24: 3, 14: 7, 19: 15, 21: 11, 20: 7, 33: 1, 17: 5, 26: 3, 22: 10, 23: 4, 13: 5, 27: 4, 18: 9, 30: 2, 31: 1, 35: 1, 15: 5, 10: 1, 16: 6, 25: 2, 7: 1, 9: 1, 32: 1}
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 1
+mini batch size = 48
+test set = self
+Start training, 2023-07-31 02:31:56.749596
+epoch # 1 done, 2023-07-31 02:32:02.803201
+              precision    recall  f1-score   support
+
+           0       0.95      0.04      0.08     25638
+           1       0.07      0.97      0.14      2010
+
+    accuracy                           0.11     27648
+   macro avg       0.51      0.51      0.11     27648
+weighted avg       0.88      0.11      0.08     27648
+
+val # 1 done, 2023-07-31 02:32:09.165566
+Finished Training
+
+new data
+train
+{}
+val
+{13: 6, 30: 1, 24: 6, 14: 9, 11: 5, 20: 9, 29: 2, 10: 3, 21: 8, 19: 7, 15: 5, 22: 6, 17: 8, 18: 8, 25: 6, 23: 7, 8: 3, 16: 7, 27: 2, 33: 1, 26: 1, 31: 1, 34: 1}
+test
+{11: 6, 24: 3, 14: 7, 19: 15, 21: 11, 20: 7, 33: 1, 17: 5, 26: 3, 22: 10, 23: 4, 13: 5, 27: 4, 18: 9, 30: 2, 31: 1, 35: 1, 15: 5, 10: 1, 16: 6, 25: 2, 7: 1, 9: 1, 32: 1}
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 1
+mini batch size = 48
+test set = self
+Start training, 2023-07-31 02:35:39.116918
+epoch # 1 done, 2023-07-31 02:35:44.900617
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+     correct       0.00      0.00      0.00     25638
+       wrong       0.07      1.00      0.14      2010
+
+    accuracy                           0.07     27648
+   macro avg       0.04      0.50      0.07     27648
+weighted avg       0.01      0.07      0.01     27648
+
+val # 1 done, 2023-07-31 02:35:51.181666
+Finished Training
+
+new data
+train
+{}
+val
+{13: 6, 30: 1, 24: 6, 14: 9, 11: 5, 20: 9, 29: 2, 10: 3, 21: 8, 19: 7, 15: 5, 22: 6, 17: 8, 18: 8, 25: 6, 23: 7, 8: 3, 16: 7, 27: 2, 33: 1, 26: 1, 31: 1, 34: 1}
+test
+{11: 6, 24: 3, 14: 7, 19: 15, 21: 11, 20: 7, 33: 1, 17: 5, 26: 3, 22: 10, 23: 4, 13: 5, 27: 4, 18: 9, 30: 2, 31: 1, 35: 1, 15: 5, 10: 1, 16: 6, 25: 2, 7: 1, 9: 1, 32: 1}
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 1
+mini batch size = 48
+test set = self
+Start training, 2023-07-31 02:36:37.778072
+epoch # 1 done, 2023-07-31 02:36:43.643251
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+    positive       0.00      0.00      0.00     25638
+    negative       0.07      1.00      0.14      2010
+
+    accuracy                           0.07     27648
+   macro avg       0.04      0.50      0.07     27648
+weighted avg       0.01      0.07      0.01     27648
+
+val # 1 done, 2023-07-31 02:36:50.050134
+Finished Training
+
+new data
+train
+{}
+val
+{13: 6, 30: 1, 24: 6, 14: 9, 11: 5, 20: 9, 29: 2, 10: 3, 21: 8, 19: 7, 15: 5, 22: 6, 17: 8, 18: 8, 25: 6, 23: 7, 8: 3, 16: 7, 27: 2, 33: 1, 26: 1, 31: 1, 34: 1}
+test
+{11: 6, 24: 3, 14: 7, 19: 15, 21: 11, 20: 7, 33: 1, 17: 5, 26: 3, 22: 10, 23: 4, 13: 5, 27: 4, 18: 9, 30: 2, 31: 1, 35: 1, 15: 5, 10: 1, 16: 6, 25: 2, 7: 1, 9: 1, 32: 1}
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 1
+mini batch size = 48
+test set = self
+Start training, 2023-07-31 02:42:42.790152
+epoch # 1 done, 2023-07-31 02:42:48.638941
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+               precision    recall  f1-score   support
+
+negative pair       0.00      0.00      0.00     25638
+positive pair       0.07      1.00      0.14      2010
+
+     accuracy                           0.07     27648
+    macro avg       0.04      0.50      0.07     27648
+ weighted avg       0.01      0.07      0.01     27648
+
+val # 1 done, 2023-07-31 02:42:55.014511
+Finished Training
+
+new data
+train
+{}
+val
+{13: 6, 30: 1, 24: 6, 14: 9, 11: 5, 20: 9, 29: 2, 10: 3, 21: 8, 19: 7, 15: 5, 22: 6, 17: 8, 18: 8, 25: 6, 23: 7, 8: 3, 16: 7, 27: 2, 33: 1, 26: 1, 31: 1, 34: 1}
+test
+{11: 6, 24: 3, 14: 7, 19: 15, 21: 11, 20: 7, 33: 1, 17: 5, 26: 3, 22: 10, 23: 4, 13: 5, 27: 4, 18: 9, 30: 2, 31: 1, 35: 1, 15: 5, 10: 1, 16: 6, 25: 2, 7: 1, 9: 1, 32: 1}
+parameters: 
+batch size = 1
+shuffle train = False
+num workers = 6
+epoch = 500
+mini batch size = 48
+test set = self
+Start training, 2023-07-31 02:44:44.177763
+epoch # 1 done, 2023-07-31 02:44:49.903907
+epoch # 2 done, 2023-07-31 02:44:55.839451
+epoch # 3 done, 2023-07-31 02:45:01.828065
+epoch # 4 done, 2023-07-31 02:45:07.697369
+epoch # 5 done, 2023-07-31 02:45:13.770131
+epoch # 6 done, 2023-07-31 02:45:19.749445
+epoch # 7 done, 2023-07-31 02:45:25.939014
+epoch # 8 done, 2023-07-31 02:45:31.902824
+epoch # 9 done, 2023-07-31 02:45:38.013430
+epoch # 10 done, 2023-07-31 02:45:43.966663
+               precision    recall  f1-score   support
+
+negative pair       0.98      0.76      0.86     25638
+positive pair       0.21      0.85      0.34      2010
+
+     accuracy                           0.76     27648
+    macro avg       0.60      0.80      0.60     27648
+ weighted avg       0.93      0.76      0.82     27648
+
+val # 10 done, 2023-07-31 02:45:50.591283
+epoch # 11 done, 2023-07-31 02:45:56.379418
+epoch # 12 done, 2023-07-31 02:46:02.247224
+epoch # 13 done, 2023-07-31 02:46:08.144657
+epoch # 14 done, 2023-07-31 02:46:13.990615
+epoch # 15 done, 2023-07-31 02:46:19.938278
+epoch # 16 done, 2023-07-31 02:46:25.701624
+epoch # 17 done, 2023-07-31 02:46:31.942024
+epoch # 18 done, 2023-07-31 02:46:37.850889
+epoch # 19 done, 2023-07-31 02:46:43.889734
+epoch # 20 done, 2023-07-31 02:46:49.893010
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.92      0.95     25638
+positive pair       0.46      0.87      0.60      2010
+
+     accuracy                           0.92     27648
+    macro avg       0.72      0.89      0.78     27648
+ weighted avg       0.95      0.92      0.93     27648
+
+val # 20 done, 2023-07-31 02:46:56.312837
+epoch # 21 done, 2023-07-31 02:47:02.156004
+epoch # 22 done, 2023-07-31 02:47:07.955403
+epoch # 23 done, 2023-07-31 02:47:13.922229
+epoch # 24 done, 2023-07-31 02:47:20.209102
+epoch # 25 done, 2023-07-31 02:47:26.055791
+epoch # 26 done, 2023-07-31 02:47:31.929424
+epoch # 27 done, 2023-07-31 02:47:38.055349
+epoch # 28 done, 2023-07-31 02:47:43.898468
+epoch # 29 done, 2023-07-31 02:47:49.819244
+epoch # 30 done, 2023-07-31 02:47:55.842662
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.97      0.98     25638
+positive pair       0.69      0.93      0.79      2010
+
+     accuracy                           0.96     27648
+    macro avg       0.84      0.95      0.89     27648
+ weighted avg       0.97      0.96      0.97     27648
+
+val # 30 done, 2023-07-31 02:48:02.429613
+epoch # 31 done, 2023-07-31 02:48:08.309537
+epoch # 32 done, 2023-07-31 02:48:14.277854
+epoch # 33 done, 2023-07-31 02:48:20.193753
+epoch # 34 done, 2023-07-31 02:48:26.017729
+epoch # 35 done, 2023-07-31 02:48:32.067371
+epoch # 36 done, 2023-07-31 02:48:38.099193
+epoch # 37 done, 2023-07-31 02:48:43.977854
+epoch # 38 done, 2023-07-31 02:48:49.772434
+epoch # 39 done, 2023-07-31 02:48:55.559375
+epoch # 40 done, 2023-07-31 02:49:01.643870
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.99      0.99     25638
+positive pair       0.88      0.90      0.89      2010
+
+     accuracy                           0.98     27648
+    macro avg       0.94      0.94      0.94     27648
+ weighted avg       0.98      0.98      0.98     27648
+
+val # 40 done, 2023-07-31 02:49:07.988428
+epoch # 41 done, 2023-07-31 02:49:13.946480
+epoch # 42 done, 2023-07-31 02:49:19.867251
+epoch # 43 done, 2023-07-31 02:49:25.766767
+epoch # 44 done, 2023-07-31 02:49:31.691499
+epoch # 45 done, 2023-07-31 02:49:37.537818
+epoch # 46 done, 2023-07-31 02:49:43.550407
+epoch # 47 done, 2023-07-31 02:49:49.359073
+epoch # 48 done, 2023-07-31 02:49:55.228265
+epoch # 49 done, 2023-07-31 02:50:01.150999
+epoch # 50 done, 2023-07-31 02:50:07.219613
+               precision    recall  f1-score   support
+
+negative pair       0.99      0.99      0.99     25638
+positive pair       0.93      0.88      0.91      2010
+
+     accuracy                           0.99     27648
+    macro avg       0.96      0.94      0.95     27648
+ weighted avg       0.99      0.99      0.99     27648
+
+val # 50 done, 2023-07-31 02:50:13.620923
+epoch # 51 done, 2023-07-31 02:50:19.666730
+epoch # 52 done, 2023-07-31 02:50:25.612612
+epoch # 53 done, 2023-07-31 02:50:31.398914
+epoch # 54 done, 2023-07-31 02:50:37.393482
+epoch # 55 done, 2023-07-31 02:50:43.235012
+epoch # 56 done, 2023-07-31 02:50:49.025983
+epoch # 57 done, 2023-07-31 02:50:55.080374
+epoch # 58 done, 2023-07-31 02:51:01.019084
+epoch # 59 done, 2023-07-31 02:51:06.798642
+epoch # 60 done, 2023-07-31 02:51:13.089534
+               precision    recall  f1-score   support
+
+negative pair       0.99      1.00      0.99     25638
+positive pair       0.96      0.91      0.93      2010
+
+     accuracy                           0.99     27648
+    macro avg       0.98      0.95      0.96     27648
+ weighted avg       0.99      0.99      0.99     27648
+
+val # 60 done, 2023-07-31 02:51:19.584531
+epoch # 61 done, 2023-07-31 02:51:25.335945
+epoch # 62 done, 2023-07-31 02:51:31.236006
+epoch # 63 done, 2023-07-31 02:51:37.066499
+epoch # 64 done, 2023-07-31 02:51:42.963783
+epoch # 65 done, 2023-07-31 02:51:48.845514
+epoch # 66 done, 2023-07-31 02:51:54.746222
+epoch # 67 done, 2023-07-31 02:52:00.718666
+epoch # 68 done, 2023-07-31 02:52:06.694538
+epoch # 69 done, 2023-07-31 02:52:12.695512
+epoch # 70 done, 2023-07-31 02:52:18.570652
+               precision    recall  f1-score   support
+
+negative pair       0.98      1.00      0.99     25638
+positive pair       0.98      0.80      0.88      2010
+
+     accuracy                           0.98     27648
+    macro avg       0.98      0.90      0.93     27648
+ weighted avg       0.98      0.98      0.98     27648
+
+val # 70 done, 2023-07-31 02:52:25.056627
+epoch # 71 done, 2023-07-31 02:52:31.055323
+epoch # 72 done, 2023-07-31 02:52:36.897223
+epoch # 73 done, 2023-07-31 02:52:42.751988
+epoch # 74 done, 2023-07-31 02:52:48.660492
+epoch # 75 done, 2023-07-31 02:52:54.675261
+epoch # 76 done, 2023-07-31 02:53:00.652552
+epoch # 77 done, 2023-07-31 02:53:06.588546
+epoch # 78 done, 2023-07-31 02:53:12.387745
+epoch # 79 done, 2023-07-31 02:53:18.247514
+epoch # 80 done, 2023-07-31 02:53:24.065442
+               precision    recall  f1-score   support
+
+negative pair       0.99      1.00      1.00     25638
+positive pair       0.99      0.93      0.96      2010
+
+     accuracy                           0.99     27648
+    macro avg       0.99      0.96      0.98     27648
+ weighted avg       0.99      0.99      0.99     27648
+
+val # 80 done, 2023-07-31 02:53:30.560805
+epoch # 81 done, 2023-07-31 02:53:36.400362
+epoch # 82 done, 2023-07-31 02:53:42.567625
+epoch # 83 done, 2023-07-31 02:53:48.577831
+epoch # 84 done, 2023-07-31 02:53:54.420411
+epoch # 85 done, 2023-07-31 02:54:00.458077
+epoch # 86 done, 2023-07-31 02:54:06.615481
+epoch # 87 done, 2023-07-31 02:54:12.612220
+epoch # 88 done, 2023-07-31 02:54:18.787637
+epoch # 89 done, 2023-07-31 02:54:24.809589
+epoch # 90 done, 2023-07-31 02:54:30.935598
+               precision    recall  f1-score   support
+
+negative pair       0.99      1.00      1.00     25638
+positive pair       1.00      0.87      0.93      2010
+
+     accuracy                           0.99     27648
+    macro avg       1.00      0.94      0.96     27648
+ weighted avg       0.99      0.99      0.99     27648
+
+val # 90 done, 2023-07-31 02:54:37.446544
+epoch # 91 done, 2023-07-31 02:54:43.374930
+epoch # 92 done, 2023-07-31 02:54:49.511561
+epoch # 93 done, 2023-07-31 02:54:55.565622
+epoch # 94 done, 2023-07-31 02:55:01.410348
+epoch # 95 done, 2023-07-31 02:55:07.379290
+epoch # 96 done, 2023-07-31 02:55:13.323059
+epoch # 97 done, 2023-07-31 02:55:19.244326
+epoch # 98 done, 2023-07-31 02:55:25.045096
+epoch # 99 done, 2023-07-31 02:55:30.977819
+epoch # 100 done, 2023-07-31 02:55:36.772276
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       0.99      0.94      0.97      2010
+
+     accuracy                           1.00     27648
+    macro avg       0.99      0.97      0.98     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 100 done, 2023-07-31 02:55:43.892880
+epoch # 101 done, 2023-07-31 02:55:49.766350
+epoch # 102 done, 2023-07-31 02:55:55.569477
+epoch # 103 done, 2023-07-31 02:56:01.435327
+epoch # 104 done, 2023-07-31 02:56:07.470505
+epoch # 105 done, 2023-07-31 02:56:13.378060
+epoch # 106 done, 2023-07-31 02:56:19.227346
+epoch # 107 done, 2023-07-31 02:56:25.228609
+epoch # 108 done, 2023-07-31 02:56:31.011225
+epoch # 109 done, 2023-07-31 02:56:37.014817
+epoch # 110 done, 2023-07-31 02:56:42.925543
+               precision    recall  f1-score   support
+
+negative pair       0.99      1.00      1.00     25638
+positive pair       1.00      0.87      0.93      2010
+
+     accuracy                           0.99     27648
+    macro avg       1.00      0.94      0.96     27648
+ weighted avg       0.99      0.99      0.99     27648
+
+val # 110 done, 2023-07-31 02:56:49.265504
+epoch # 111 done, 2023-07-31 02:56:55.220570
+epoch # 112 done, 2023-07-31 02:57:01.357422
+epoch # 113 done, 2023-07-31 02:57:07.261526
+epoch # 114 done, 2023-07-31 02:57:13.169383
+epoch # 115 done, 2023-07-31 02:57:19.219788
+epoch # 116 done, 2023-07-31 02:57:25.077973
+epoch # 117 done, 2023-07-31 02:57:31.314391
+epoch # 118 done, 2023-07-31 02:57:37.079330
+epoch # 119 done, 2023-07-31 02:57:43.027260
+epoch # 120 done, 2023-07-31 02:57:48.798982
+               precision    recall  f1-score   support
+
+negative pair       0.99      1.00      1.00     25638
+positive pair       1.00      0.93      0.96      2010
+
+     accuracy                           0.99     27648
+    macro avg       1.00      0.96      0.98     27648
+ weighted avg       0.99      0.99      0.99     27648
+
+val # 120 done, 2023-07-31 02:57:55.174623
+epoch # 121 done, 2023-07-31 02:58:01.020435
+epoch # 122 done, 2023-07-31 02:58:06.796172
+epoch # 123 done, 2023-07-31 02:58:12.762454
+epoch # 124 done, 2023-07-31 02:58:18.985427
+epoch # 125 done, 2023-07-31 02:58:24.972001
+epoch # 126 done, 2023-07-31 02:58:30.734121
+epoch # 127 done, 2023-07-31 02:58:36.715257
+epoch # 128 done, 2023-07-31 02:58:42.893779
+epoch # 129 done, 2023-07-31 02:58:48.879760
+epoch # 130 done, 2023-07-31 02:58:54.655462
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 130 done, 2023-07-31 02:59:01.247600
+epoch # 131 done, 2023-07-31 02:59:07.195967
+epoch # 132 done, 2023-07-31 02:59:13.130347
+epoch # 133 done, 2023-07-31 02:59:18.927047
+epoch # 134 done, 2023-07-31 02:59:24.941854
+epoch # 135 done, 2023-07-31 02:59:30.937608
+epoch # 136 done, 2023-07-31 02:59:36.916307
+epoch # 137 done, 2023-07-31 02:59:42.726103
+epoch # 138 done, 2023-07-31 02:59:48.725808
+epoch # 139 done, 2023-07-31 02:59:54.636338
+epoch # 140 done, 2023-07-31 03:00:00.482711
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.94      0.97      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.97      0.98     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 140 done, 2023-07-31 03:00:06.995507
+epoch # 141 done, 2023-07-31 03:00:12.806782
+epoch # 142 done, 2023-07-31 03:00:18.590353
+epoch # 143 done, 2023-07-31 03:00:24.450736
+epoch # 144 done, 2023-07-31 03:00:30.212271
+epoch # 145 done, 2023-07-31 03:00:36.021882
+epoch # 146 done, 2023-07-31 03:00:42.220059
+epoch # 147 done, 2023-07-31 03:00:48.029293
+epoch # 148 done, 2023-07-31 03:00:53.797386
+epoch # 149 done, 2023-07-31 03:00:59.544128
+epoch # 150 done, 2023-07-31 03:01:05.455160
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.95      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 150 done, 2023-07-31 03:01:11.935661
+epoch # 151 done, 2023-07-31 03:01:17.883043
+epoch # 152 done, 2023-07-31 03:01:23.647754
+epoch # 153 done, 2023-07-31 03:01:29.415019
+epoch # 154 done, 2023-07-31 03:01:35.374567
+epoch # 155 done, 2023-07-31 03:01:41.096214
+epoch # 156 done, 2023-07-31 03:01:46.886625
+epoch # 157 done, 2023-07-31 03:01:52.954215
+epoch # 158 done, 2023-07-31 03:01:58.999432
+epoch # 159 done, 2023-07-31 03:02:04.967776
+epoch # 160 done, 2023-07-31 03:02:10.841889
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.95      0.97      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.97      0.98     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 160 done, 2023-07-31 03:02:17.212175
+epoch # 161 done, 2023-07-31 03:02:23.307191
+epoch # 162 done, 2023-07-31 03:02:29.085308
+epoch # 163 done, 2023-07-31 03:02:34.972663
+epoch # 164 done, 2023-07-31 03:02:40.909940
+epoch # 165 done, 2023-07-31 03:02:46.808553
+epoch # 166 done, 2023-07-31 03:02:52.746917
+epoch # 167 done, 2023-07-31 03:02:58.599093
+epoch # 168 done, 2023-07-31 03:03:04.375107
+epoch # 169 done, 2023-07-31 03:03:10.235538
+epoch # 170 done, 2023-07-31 03:03:16.314882
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.94      0.97      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.97      0.98     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 170 done, 2023-07-31 03:03:22.646641
+epoch # 171 done, 2023-07-31 03:03:28.635247
+epoch # 172 done, 2023-07-31 03:03:34.879046
+epoch # 173 done, 2023-07-31 03:03:40.690150
+epoch # 174 done, 2023-07-31 03:03:46.712002
+epoch # 175 done, 2023-07-31 03:03:52.474413
+epoch # 176 done, 2023-07-31 03:03:58.333561
+epoch # 177 done, 2023-07-31 03:04:04.203660
+epoch # 178 done, 2023-07-31 03:04:10.099104
+epoch # 179 done, 2023-07-31 03:04:15.902577
+epoch # 180 done, 2023-07-31 03:04:21.919233
+               precision    recall  f1-score   support
+
+negative pair       0.99      1.00      1.00     25638
+positive pair       1.00      0.89      0.94      2010
+
+     accuracy                           0.99     27648
+    macro avg       1.00      0.95      0.97     27648
+ weighted avg       0.99      0.99      0.99     27648
+
+val # 180 done, 2023-07-31 03:04:28.254799
+epoch # 181 done, 2023-07-31 03:04:34.041267
+epoch # 182 done, 2023-07-31 03:04:39.951825
+epoch # 183 done, 2023-07-31 03:04:45.944544
+epoch # 184 done, 2023-07-31 03:04:51.839313
+epoch # 185 done, 2023-07-31 03:04:57.718616
+epoch # 186 done, 2023-07-31 03:05:03.534585
+epoch # 187 done, 2023-07-31 03:05:09.559892
+epoch # 188 done, 2023-07-31 03:05:15.454143
+epoch # 189 done, 2023-07-31 03:05:21.416339
+epoch # 190 done, 2023-07-31 03:05:27.403196
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 190 done, 2023-07-31 03:05:33.779851
+epoch # 191 done, 2023-07-31 03:05:39.607146
+epoch # 192 done, 2023-07-31 03:05:45.848380
+epoch # 193 done, 2023-07-31 03:05:51.709326
+epoch # 194 done, 2023-07-31 03:05:57.462307
+epoch # 195 done, 2023-07-31 03:06:03.738700
+epoch # 196 done, 2023-07-31 03:06:09.611269
+epoch # 197 done, 2023-07-31 03:06:15.819754
+epoch # 198 done, 2023-07-31 03:06:21.898879
+epoch # 199 done, 2023-07-31 03:06:28.047608
+epoch # 200 done, 2023-07-31 03:06:33.839200
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.94      0.97      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.97      0.98     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 200 done, 2023-07-31 03:06:40.382792
+epoch # 201 done, 2023-07-31 03:06:46.215805
+epoch # 202 done, 2023-07-31 03:06:52.330557
+epoch # 203 done, 2023-07-31 03:06:58.090477
+epoch # 204 done, 2023-07-31 03:07:04.098653
+epoch # 205 done, 2023-07-31 03:07:09.861663
+epoch # 206 done, 2023-07-31 03:07:16.059192
+epoch # 207 done, 2023-07-31 03:07:22.067069
+epoch # 208 done, 2023-07-31 03:07:28.047211
+epoch # 209 done, 2023-07-31 03:07:33.901652
+epoch # 210 done, 2023-07-31 03:07:39.831568
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 210 done, 2023-07-31 03:07:46.327320
+epoch # 211 done, 2023-07-31 03:07:52.413325
+epoch # 212 done, 2023-07-31 03:07:58.184306
+epoch # 213 done, 2023-07-31 03:08:04.066083
+epoch # 214 done, 2023-07-31 03:08:09.791951
+epoch # 215 done, 2023-07-31 03:08:15.717784
+epoch # 216 done, 2023-07-31 03:08:21.796441
+epoch # 217 done, 2023-07-31 03:08:27.590801
+epoch # 218 done, 2023-07-31 03:08:33.606120
+epoch # 219 done, 2023-07-31 03:08:39.610924
+epoch # 220 done, 2023-07-31 03:08:45.842406
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.99      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 220 done, 2023-07-31 03:08:52.291385
+epoch # 221 done, 2023-07-31 03:08:58.215200
+epoch # 222 done, 2023-07-31 03:09:04.313483
+epoch # 223 done, 2023-07-31 03:09:10.373789
+epoch # 224 done, 2023-07-31 03:09:16.635024
+epoch # 225 done, 2023-07-31 03:09:22.643755
+epoch # 226 done, 2023-07-31 03:09:28.734446
+epoch # 227 done, 2023-07-31 03:09:34.840487
+epoch # 228 done, 2023-07-31 03:09:40.783449
+epoch # 229 done, 2023-07-31 03:09:46.623863
+epoch # 230 done, 2023-07-31 03:09:52.523410
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.95      0.97      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.97      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 230 done, 2023-07-31 03:09:58.886960
+epoch # 231 done, 2023-07-31 03:10:04.723644
+epoch # 232 done, 2023-07-31 03:10:10.605819
+epoch # 233 done, 2023-07-31 03:10:16.964955
+epoch # 234 done, 2023-07-31 03:10:23.214049
+epoch # 235 done, 2023-07-31 03:10:29.274491
+epoch # 236 done, 2023-07-31 03:10:35.183722
+epoch # 237 done, 2023-07-31 03:10:41.038897
+epoch # 238 done, 2023-07-31 03:10:46.934063
+epoch # 239 done, 2023-07-31 03:10:52.974494
+epoch # 240 done, 2023-07-31 03:10:59.286018
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 240 done, 2023-07-31 03:11:05.841293
+epoch # 241 done, 2023-07-31 03:11:11.979480
+epoch # 242 done, 2023-07-31 03:11:18.017235
+epoch # 243 done, 2023-07-31 03:11:24.036376
+epoch # 244 done, 2023-07-31 03:11:30.105468
+epoch # 245 done, 2023-07-31 03:11:36.074588
+epoch # 246 done, 2023-07-31 03:11:42.423897
+epoch # 247 done, 2023-07-31 03:11:48.265949
+epoch # 248 done, 2023-07-31 03:11:54.306586
+epoch # 249 done, 2023-07-31 03:12:00.247091
+epoch # 250 done, 2023-07-31 03:12:06.059404
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.99      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 250 done, 2023-07-31 03:12:12.567607
+epoch # 251 done, 2023-07-31 03:12:19.163468
+epoch # 252 done, 2023-07-31 03:12:25.372072
+epoch # 253 done, 2023-07-31 03:12:31.445926
+epoch # 254 done, 2023-07-31 03:12:37.442932
+epoch # 255 done, 2023-07-31 03:12:43.431052
+epoch # 256 done, 2023-07-31 03:12:49.582980
+epoch # 257 done, 2023-07-31 03:12:56.319478
+epoch # 258 done, 2023-07-31 03:13:02.279961
+epoch # 259 done, 2023-07-31 03:13:08.170845
+epoch # 260 done, 2023-07-31 03:13:14.283730
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 260 done, 2023-07-31 03:13:20.757756
+epoch # 261 done, 2023-07-31 03:13:26.862101
+epoch # 262 done, 2023-07-31 03:13:32.955993
+epoch # 263 done, 2023-07-31 03:13:39.015760
+epoch # 264 done, 2023-07-31 03:13:44.987545
+epoch # 265 done, 2023-07-31 03:13:50.991880
+epoch # 266 done, 2023-07-31 03:13:56.875716
+epoch # 267 done, 2023-07-31 03:14:02.762245
+epoch # 268 done, 2023-07-31 03:14:08.763118
+epoch # 269 done, 2023-07-31 03:14:14.783725
+epoch # 270 done, 2023-07-31 03:14:21.091447
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.99      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 270 done, 2023-07-31 03:14:27.532587
+epoch # 271 done, 2023-07-31 03:14:33.698607
+epoch # 272 done, 2023-07-31 03:14:39.492540
+epoch # 273 done, 2023-07-31 03:14:45.426531
+epoch # 274 done, 2023-07-31 03:14:51.251019
+epoch # 275 done, 2023-07-31 03:14:57.200020
+epoch # 276 done, 2023-07-31 03:15:03.676438
+epoch # 277 done, 2023-07-31 03:15:09.658762
+epoch # 278 done, 2023-07-31 03:15:15.771114
+epoch # 279 done, 2023-07-31 03:15:21.683624
+epoch # 280 done, 2023-07-31 03:15:27.905665
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 280 done, 2023-07-31 03:15:34.523339
+epoch # 281 done, 2023-07-31 03:15:40.435962
+epoch # 282 done, 2023-07-31 03:15:46.302215
+epoch # 283 done, 2023-07-31 03:15:52.485606
+epoch # 284 done, 2023-07-31 03:15:58.433810
+epoch # 285 done, 2023-07-31 03:16:04.577611
+epoch # 286 done, 2023-07-31 03:16:10.574446
+epoch # 287 done, 2023-07-31 03:16:16.611309
+epoch # 288 done, 2023-07-31 03:16:22.995065
+epoch # 289 done, 2023-07-31 03:16:28.837999
+epoch # 290 done, 2023-07-31 03:16:34.688549
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 290 done, 2023-07-31 03:16:41.202955
+epoch # 291 done, 2023-07-31 03:16:47.081603
+epoch # 292 done, 2023-07-31 03:16:53.118025
+epoch # 293 done, 2023-07-31 03:16:59.091092
+epoch # 294 done, 2023-07-31 03:17:04.805820
+epoch # 295 done, 2023-07-31 03:17:10.794519
+epoch # 296 done, 2023-07-31 03:17:16.719400
+epoch # 297 done, 2023-07-31 03:17:22.554645
+epoch # 298 done, 2023-07-31 03:17:28.604225
+epoch # 299 done, 2023-07-31 03:17:34.650668
+epoch # 300 done, 2023-07-31 03:17:40.492283
+               precision    recall  f1-score   support
+
+negative pair       0.99      1.00      1.00     25638
+positive pair       1.00      0.90      0.95      2010
+
+     accuracy                           0.99     27648
+    macro avg       1.00      0.95      0.97     27648
+ weighted avg       0.99      0.99      0.99     27648
+
+val # 300 done, 2023-07-31 03:17:47.012688
+epoch # 301 done, 2023-07-31 03:17:53.049819
+epoch # 302 done, 2023-07-31 03:17:58.946430
+epoch # 303 done, 2023-07-31 03:18:04.707368
+epoch # 304 done, 2023-07-31 03:18:10.709863
+epoch # 305 done, 2023-07-31 03:18:16.798949
+epoch # 306 done, 2023-07-31 03:18:22.863755
+epoch # 307 done, 2023-07-31 03:18:28.722445
+epoch # 308 done, 2023-07-31 03:18:34.593546
+epoch # 309 done, 2023-07-31 03:18:40.360376
+epoch # 310 done, 2023-07-31 03:18:46.126253
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 310 done, 2023-07-31 03:18:52.505590
+epoch # 311 done, 2023-07-31 03:18:58.203543
+epoch # 312 done, 2023-07-31 03:19:04.189458
+epoch # 313 done, 2023-07-31 03:19:10.202393
+epoch # 314 done, 2023-07-31 03:19:16.182361
+epoch # 315 done, 2023-07-31 03:19:22.209671
+epoch # 316 done, 2023-07-31 03:19:28.214978
+epoch # 317 done, 2023-07-31 03:19:34.520102
+epoch # 318 done, 2023-07-31 03:19:40.284172
+epoch # 319 done, 2023-07-31 03:19:46.013897
+epoch # 320 done, 2023-07-31 03:19:52.017574
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 320 done, 2023-07-31 03:19:58.499061
+epoch # 321 done, 2023-07-31 03:20:04.289763
+epoch # 322 done, 2023-07-31 03:20:10.105019
+epoch # 323 done, 2023-07-31 03:20:16.105740
+epoch # 324 done, 2023-07-31 03:20:21.907271
+epoch # 325 done, 2023-07-31 03:20:27.714608
+epoch # 326 done, 2023-07-31 03:20:33.690532
+epoch # 327 done, 2023-07-31 03:20:39.654908
+epoch # 328 done, 2023-07-31 03:20:45.909946
+epoch # 329 done, 2023-07-31 03:20:52.096154
+epoch # 330 done, 2023-07-31 03:20:58.094366
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 330 done, 2023-07-31 03:21:04.577497
+epoch # 331 done, 2023-07-31 03:21:10.504125
+epoch # 332 done, 2023-07-31 03:21:16.315379
+epoch # 333 done, 2023-07-31 03:21:22.118564
+epoch # 334 done, 2023-07-31 03:21:28.056469
+epoch # 335 done, 2023-07-31 03:21:34.003565
+epoch # 336 done, 2023-07-31 03:21:39.979006
+epoch # 337 done, 2023-07-31 03:21:46.055160
+epoch # 338 done, 2023-07-31 03:21:52.186085
+epoch # 339 done, 2023-07-31 03:21:58.313899
+epoch # 340 done, 2023-07-31 03:22:04.434670
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 340 done, 2023-07-31 03:22:11.103217
+epoch # 341 done, 2023-07-31 03:22:17.061567
+epoch # 342 done, 2023-07-31 03:22:22.932009
+epoch # 343 done, 2023-07-31 03:22:29.194426
+epoch # 344 done, 2023-07-31 03:22:35.199299
+epoch # 345 done, 2023-07-31 03:22:41.042229
+epoch # 346 done, 2023-07-31 03:22:47.025984
+epoch # 347 done, 2023-07-31 03:22:52.909369
+epoch # 348 done, 2023-07-31 03:22:58.802851
+epoch # 349 done, 2023-07-31 03:23:05.134360
+epoch # 350 done, 2023-07-31 03:23:11.027592
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 350 done, 2023-07-31 03:23:17.330061
+epoch # 351 done, 2023-07-31 03:23:23.626872
+epoch # 352 done, 2023-07-31 03:23:29.703954
+epoch # 353 done, 2023-07-31 03:23:35.620284
+epoch # 354 done, 2023-07-31 03:23:41.488402
+epoch # 355 done, 2023-07-31 03:23:47.305714
+epoch # 356 done, 2023-07-31 03:23:53.123704
+epoch # 357 done, 2023-07-31 03:23:59.119479
+epoch # 358 done, 2023-07-31 03:24:04.931790
+epoch # 359 done, 2023-07-31 03:24:10.742811
+epoch # 360 done, 2023-07-31 03:24:16.549606
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 360 done, 2023-07-31 03:24:23.575097
+epoch # 361 done, 2023-07-31 03:24:29.415554
+epoch # 362 done, 2023-07-31 03:24:35.736342
+epoch # 363 done, 2023-07-31 03:24:42.194514
+epoch # 364 done, 2023-07-31 03:24:48.542092
+epoch # 365 done, 2023-07-31 03:24:54.472423
+epoch # 366 done, 2023-07-31 03:25:00.648597
+epoch # 367 done, 2023-07-31 03:25:06.639229
+epoch # 368 done, 2023-07-31 03:25:12.586458
+epoch # 369 done, 2023-07-31 03:25:18.663933
+epoch # 370 done, 2023-07-31 03:25:24.466063
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.95      0.97      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.97      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 370 done, 2023-07-31 03:25:30.893451
+epoch # 371 done, 2023-07-31 03:25:37.158330
+epoch # 372 done, 2023-07-31 03:25:43.572535
+epoch # 373 done, 2023-07-31 03:25:49.671588
+epoch # 374 done, 2023-07-31 03:25:55.683451
+epoch # 375 done, 2023-07-31 03:26:01.758803
+epoch # 376 done, 2023-07-31 03:26:08.063324
+epoch # 377 done, 2023-07-31 03:26:14.360311
+epoch # 378 done, 2023-07-31 03:26:20.297944
+epoch # 379 done, 2023-07-31 03:26:26.064844
+epoch # 380 done, 2023-07-31 03:26:31.974364
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.95      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 380 done, 2023-07-31 03:26:38.932001
+epoch # 381 done, 2023-07-31 03:26:45.026318
+epoch # 382 done, 2023-07-31 03:26:50.887158
+epoch # 383 done, 2023-07-31 03:26:56.880622
+epoch # 384 done, 2023-07-31 03:27:02.842244
+epoch # 385 done, 2023-07-31 03:27:08.653949
+epoch # 386 done, 2023-07-31 03:27:14.578260
+epoch # 387 done, 2023-07-31 03:27:20.707245
+epoch # 388 done, 2023-07-31 03:27:26.883983
+epoch # 389 done, 2023-07-31 03:27:32.777611
+epoch # 390 done, 2023-07-31 03:27:39.324338
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 390 done, 2023-07-31 03:27:45.872344
+epoch # 391 done, 2023-07-31 03:27:52.049676
+epoch # 392 done, 2023-07-31 03:27:58.033339
+epoch # 393 done, 2023-07-31 03:28:04.129325
+epoch # 394 done, 2023-07-31 03:28:10.045961
+epoch # 395 done, 2023-07-31 03:28:16.227551
+epoch # 396 done, 2023-07-31 03:28:22.293011
+epoch # 397 done, 2023-07-31 03:28:28.275097
+epoch # 398 done, 2023-07-31 03:28:34.146896
+epoch # 399 done, 2023-07-31 03:28:40.435380
+epoch # 400 done, 2023-07-31 03:28:46.496276
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 400 done, 2023-07-31 03:28:53.270381
+epoch # 401 done, 2023-07-31 03:28:59.549524
+epoch # 402 done, 2023-07-31 03:29:05.416066
+epoch # 403 done, 2023-07-31 03:29:11.379271
+epoch # 404 done, 2023-07-31 03:29:17.346752
+epoch # 405 done, 2023-07-31 03:29:23.305381
+epoch # 406 done, 2023-07-31 03:29:29.253740
+epoch # 407 done, 2023-07-31 03:29:35.176535
+epoch # 408 done, 2023-07-31 03:29:41.255060
+epoch # 409 done, 2023-07-31 03:29:47.298252
+epoch # 410 done, 2023-07-31 03:29:53.398486
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 410 done, 2023-07-31 03:29:59.817630
+epoch # 411 done, 2023-07-31 03:30:05.722597
+epoch # 412 done, 2023-07-31 03:30:11.651270
+epoch # 413 done, 2023-07-31 03:30:17.430989
+epoch # 414 done, 2023-07-31 03:30:23.281050
+epoch # 415 done, 2023-07-31 03:30:29.638924
+epoch # 416 done, 2023-07-31 03:30:35.512008
+epoch # 417 done, 2023-07-31 03:30:42.080345
+epoch # 418 done, 2023-07-31 03:30:48.022887
+epoch # 419 done, 2023-07-31 03:30:54.069577
+epoch # 420 done, 2023-07-31 03:30:59.956068
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.98      0.99      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 420 done, 2023-07-31 03:31:06.624203
+epoch # 421 done, 2023-07-31 03:31:12.435020
+epoch # 422 done, 2023-07-31 03:31:18.393503
+epoch # 423 done, 2023-07-31 03:31:24.280134
+epoch # 424 done, 2023-07-31 03:31:30.156052
+epoch # 425 done, 2023-07-31 03:31:35.951362
+epoch # 426 done, 2023-07-31 03:31:41.958497
+epoch # 427 done, 2023-07-31 03:31:47.833104
+epoch # 428 done, 2023-07-31 03:31:53.923091
+epoch # 429 done, 2023-07-31 03:31:59.832140
+epoch # 430 done, 2023-07-31 03:32:05.779511
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.99      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 430 done, 2023-07-31 03:32:12.166129
+epoch # 431 done, 2023-07-31 03:32:17.990076
+epoch # 432 done, 2023-07-31 03:32:23.777740
+epoch # 433 done, 2023-07-31 03:32:29.783791
+epoch # 434 done, 2023-07-31 03:32:35.699217
+epoch # 435 done, 2023-07-31 03:32:41.743250
+epoch # 436 done, 2023-07-31 03:32:47.685887
+epoch # 437 done, 2023-07-31 03:32:53.549550
+epoch # 438 done, 2023-07-31 03:32:59.334546
+epoch # 439 done, 2023-07-31 03:33:05.234101
+epoch # 440 done, 2023-07-31 03:33:11.030951
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 440 done, 2023-07-31 03:33:17.347937
+epoch # 441 done, 2023-07-31 03:33:23.442174
+epoch # 442 done, 2023-07-31 03:33:29.694714
+epoch # 443 done, 2023-07-31 03:33:35.526571
+epoch # 444 done, 2023-07-31 03:33:41.634086
+epoch # 445 done, 2023-07-31 03:33:47.615312
+epoch # 446 done, 2023-07-31 03:33:53.654692
+epoch # 447 done, 2023-07-31 03:33:59.777478
+epoch # 448 done, 2023-07-31 03:34:06.081584
+epoch # 449 done, 2023-07-31 03:34:11.852287
+epoch # 450 done, 2023-07-31 03:34:17.762407
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.99      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 450 done, 2023-07-31 03:34:24.176372
+epoch # 451 done, 2023-07-31 03:34:30.215749
+epoch # 452 done, 2023-07-31 03:34:36.034364
+epoch # 453 done, 2023-07-31 03:34:42.109730
+epoch # 454 done, 2023-07-31 03:34:48.404548
+epoch # 455 done, 2023-07-31 03:34:54.140203
+epoch # 456 done, 2023-07-31 03:35:00.131379
+epoch # 457 done, 2023-07-31 03:35:06.410322
+epoch # 458 done, 2023-07-31 03:35:12.241122
+epoch # 459 done, 2023-07-31 03:35:18.155386
+epoch # 460 done, 2023-07-31 03:35:24.066735
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.95      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 460 done, 2023-07-31 03:35:30.449708
+epoch # 461 done, 2023-07-31 03:35:36.322020
+epoch # 462 done, 2023-07-31 03:35:42.482583
+epoch # 463 done, 2023-07-31 03:35:48.421332
+epoch # 464 done, 2023-07-31 03:35:54.545813
+epoch # 465 done, 2023-07-31 03:36:00.357832
+epoch # 466 done, 2023-07-31 03:36:06.471877
+epoch # 467 done, 2023-07-31 03:36:12.443550
+epoch # 468 done, 2023-07-31 03:36:18.487274
+epoch # 469 done, 2023-07-31 03:36:24.448063
+epoch # 470 done, 2023-07-31 03:36:30.260208
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.97      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 470 done, 2023-07-31 03:36:36.587962
+epoch # 471 done, 2023-07-31 03:36:42.698381
+epoch # 472 done, 2023-07-31 03:36:48.511175
+epoch # 473 done, 2023-07-31 03:36:54.602722
+epoch # 474 done, 2023-07-31 03:37:00.550071
+epoch # 475 done, 2023-07-31 03:37:06.457338
+epoch # 476 done, 2023-07-31 03:37:12.252373
+epoch # 477 done, 2023-07-31 03:37:18.819442
+epoch # 478 done, 2023-07-31 03:37:24.638765
+epoch # 479 done, 2023-07-31 03:37:30.488413
+epoch # 480 done, 2023-07-31 03:37:36.519276
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.96      0.98      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.98      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 480 done, 2023-07-31 03:37:43.011015
+epoch # 481 done, 2023-07-31 03:37:48.771258
+epoch # 482 done, 2023-07-31 03:37:54.941752
+epoch # 483 done, 2023-07-31 03:38:00.787199
+epoch # 484 done, 2023-07-31 03:38:06.807531
+epoch # 485 done, 2023-07-31 03:38:12.865345
+epoch # 486 done, 2023-07-31 03:38:18.780231
+epoch # 487 done, 2023-07-31 03:38:24.762457
+epoch # 488 done, 2023-07-31 03:38:30.566272
+epoch # 489 done, 2023-07-31 03:38:36.348338
+epoch # 490 done, 2023-07-31 03:38:42.330355
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.94      0.97      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.97      0.98     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 490 done, 2023-07-31 03:38:48.712261
+epoch # 491 done, 2023-07-31 03:38:54.798111
+epoch # 492 done, 2023-07-31 03:39:01.093642
+epoch # 493 done, 2023-07-31 03:39:07.021168
+epoch # 494 done, 2023-07-31 03:39:13.087884
+epoch # 495 done, 2023-07-31 03:39:18.880091
+epoch # 496 done, 2023-07-31 03:39:24.944215
+epoch # 497 done, 2023-07-31 03:39:30.993979
+epoch # 498 done, 2023-07-31 03:39:37.102619
+epoch # 499 done, 2023-07-31 03:39:42.931256
+epoch # 500 done, 2023-07-31 03:39:48.824035
+               precision    recall  f1-score   support
+
+negative pair       1.00      1.00      1.00     25638
+positive pair       1.00      0.98      0.99      2010
+
+     accuracy                           1.00     27648
+    macro avg       1.00      0.99      0.99     27648
+ weighted avg       1.00      1.00      1.00     27648
+
+val # 500 done, 2023-07-31 03:39:55.639140
+Finished Training
