@@ -1,0 +1,155 @@
+Classifier accuracy: 56.666666666666664 %
+
+Classifier accuracy: 70.96774193548387 %
+
+Classifier accuracy: 78.78787878787878 %
+
+Classifier accuracy: 45.16129032258065 %
+
+Classifier accuracy: 70.37037037037037 %
+
+Classifier accuracy: 45.945945945945944 %
+
+Classifier accuracy: 61.111111111111114 %
+
+Classifier accuracy: 77.41935483870968 %
+
+Classifier accuracy: 66.66666666666667 %
+
+Classifier accuracy: 69.6969696969697 %
+
+Classifier accuracy: 61.29032258064516 %
+
+Classifier accuracy: 71.875 %
+
+Classifier accuracy: 62.16216216216216 %
+
+Classifier accuracy: 84.21052631578948 %
+
+Classifier accuracy: 53.125 %
+
+Classifier accuracy: 54.166666666666664 %
+
+Classifier accuracy: 64.0 %
+
+Classifier accuracy: 79.41176470588235 %
+
+Classifier accuracy: 91.89189189189189 %
+
+Classifier accuracy: 65.51724137931035 %
+
+Classifier accuracy: 61.29032258064516 %
+
+Classifier accuracy: 56.75675675675676 %
+
+Classifier accuracy: 76.47058823529412 %
+
+Classifier accuracy: 70.58823529411765 %
+
+Classifier accuracy: 80.76923076923077 %
+
+Classifier accuracy: 62.857142857142854 %
+
+Classifier accuracy: 73.6842105263158 %
+
+Classifier accuracy: 72.5 %
+
+Classifier accuracy: 71.42857142857143 %
+
+Classifier accuracy: 46.875 %
+
+Classifier accuracy: 60.0 %
+
+Classifier accuracy: 82.6086956521739 %
+
+Classifier accuracy: 48.38709677419355 %
+
+Classifier accuracy: 47.05882352941177 %
+
+Classifier accuracy: 50.0 %
+
+Classifier accuracy: 83.33333333333333 %
+
+Classifier accuracy: 56.25 %
+
+Classifier accuracy: 82.6086956521739 %
+
+Classifier accuracy: 82.5 %
+
+Classifier accuracy: 60.0 %
+
+Classifier accuracy: 78.26086956521739 %
+
+Classifier accuracy: 69.6969696969697 %
+
+Classifier accuracy: 71.875 %
+
+Classifier accuracy: 75.0 %
+
+Classifier accuracy: 55.0 %
+
+Classifier accuracy: 57.69230769230769 %
+
+Classifier accuracy: 55.88235294117647 %
+
+Classifier accuracy: 82.85714285714286 %
+
+Classifier accuracy: 46.666666666666664 %
+
+Classifier accuracy: 69.23076923076923 %
+
+Classifier accuracy: 61.53846153846154 %
+
+Classifier accuracy: 67.85714285714286 %
+
+Classifier accuracy: 66.66666666666667 %
+
+Classifier accuracy: 64.51612903225806 %
+
+Classifier accuracy: 84.61538461538461 %
+
+Classifier accuracy: 65.71428571428571 %
+
+Classifier accuracy: 59.375 %
+
+Classifier accuracy: 55.88235294117647 %
+
+Classifier accuracy: 79.41176470588235 %
+
+Classifier accuracy: 63.1578947368421 %
+
+Classifier accuracy: 80.64516129032258 %
+
+Classifier accuracy: 60.0 %
+
+Classifier accuracy: 78.78787878787878 %
+
+Classifier accuracy: 60.0 %
+
+Classifier accuracy: 65.38461538461539 %
+
+Classifier accuracy: 50.0 %
+
+Classifier accuracy: 72.72727272727273 %
+
+Classifier accuracy: 59.375 %
+
+Classifier accuracy: 86.36363636363636 %
+
+Classifier accuracy: 80.76923076923077 %
+
+Classifier accuracy: 79.48717948717949 %
+
+Classifier accuracy: 68.75 %
+
+Classifier accuracy: 68.96551724137932 %
+
+Classifier accuracy: 85.0 %
+
+Classifier accuracy: 71.875 %
+
+Classifier accuracy: 80.64516129032258 %
+
+Classifier accuracy: 54.54545454545455 %
+
+Average accuracy: 67.41077330882773

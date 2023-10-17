@@ -1,0 +1,155 @@
+Metric accuracy: 87.77777777777777 %
+
+Metric accuracy: 91.88345473465141 %
+
+Metric accuracy: 81.08356290174471 %
+
+Metric accuracy: 90.21852237252861 %
+
+Metric accuracy: 90.6721536351166 %
+
+Metric accuracy: 86.85171658144631 %
+
+Metric accuracy: 93.67283950617283 %
+
+Metric accuracy: 92.2996878251821 %
+
+Metric accuracy: 90.79552925706771 %
+
+Metric accuracy: 86.40955004591368 %
+
+Metric accuracy: 90.6347554630593 %
+
+Metric accuracy: 91.796875 %
+
+Metric accuracy: 91.23447772096421 %
+
+Metric accuracy: 88.36565096952909 %
+
+Metric accuracy: 88.0859375 %
+
+Metric accuracy: 88.54166666666667 %
+
+Metric accuracy: 88.8 %
+
+Metric accuracy: 92.90657439446366 %
+
+Metric accuracy: 91.672753834916 %
+
+Metric accuracy: 89.53626634958383 %
+
+Metric accuracy: 92.50780437044745 %
+
+Metric accuracy: 90.50401753104455 %
+
+Metric accuracy: 88.92733564013841 %
+
+Metric accuracy: 89.61937716262976 %
+
+Metric accuracy: 89.94082840236686 %
+
+Metric accuracy: 90.04081632653062 %
+
+Metric accuracy: 88.36565096952909 %
+
+Metric accuracy: 92.0 %
+
+Metric accuracy: 86.98979591836735 %
+
+Metric accuracy: 83.0078125 %
+
+Metric accuracy: 85.95918367346938 %
+
+Metric accuracy: 79.58412098298676 %
+
+Metric accuracy: 90.6347554630593 %
+
+Metric accuracy: 89.61937716262976 %
+
+Metric accuracy: 94.63667820069205 %
+
+Metric accuracy: 94.44444444444444 %
+
+Metric accuracy: 91.40625 %
+
+Metric accuracy: 89.03591682419659 %
+
+Metric accuracy: 91.875 %
+
+Metric accuracy: 90.0 %
+
+Metric accuracy: 93.19470699432893 %
+
+Metric accuracy: 93.02112029384757 %
+
+Metric accuracy: 90.625 %
+
+Metric accuracy: 91.5 %
+
+Metric accuracy: 91.5 %
+
+Metric accuracy: 90.82840236686391 %
+
+Metric accuracy: 89.61937716262976 %
+
+Metric accuracy: 89.22448979591837 %
+
+Metric accuracy: 85.77777777777777 %
+
+Metric accuracy: 89.3491124260355 %
+
+Metric accuracy: 91.12426035502959 %
+
+Metric accuracy: 79.59183673469387 %
+
+Metric accuracy: 94.5578231292517 %
+
+Metric accuracy: 93.34027055150885 %
+
+Metric accuracy: 87.8698224852071 %
+
+Metric accuracy: 86.61224489795919 %
+
+Metric accuracy: 92.1875 %
+
+Metric accuracy: 82.8719723183391 %
+
+Metric accuracy: 88.75432525951557 %
+
+Metric accuracy: 92.24376731301939 %
+
+Metric accuracy: 92.50780437044745 %
+
+Metric accuracy: 93.5 %
+
+Metric accuracy: 92.28650137741047 %
+
+Metric accuracy: 87.125 %
+
+Metric accuracy: 92.01183431952663 %
+
+Metric accuracy: 88.19444444444444 %
+
+Metric accuracy: 91.00091827364555 %
+
+Metric accuracy: 94.140625 %
+
+Metric accuracy: 90.49586776859505 %
+
+Metric accuracy: 89.94082840236686 %
+
+Metric accuracy: 90.92702169625247 %
+
+Metric accuracy: 92.96875 %
+
+Metric accuracy: 90.96313912009512 %
+
+Metric accuracy: 92.0 %
+
+Metric accuracy: 90.234375 %
+
+Metric accuracy: 87.92924037460978 %
+
+Metric accuracy: 88.06244260789715 %
+
+Average accuracy: 89.8756041652797

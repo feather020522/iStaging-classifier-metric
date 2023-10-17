@@ -1,0 +1,155 @@
+Label accuracy after grouping: 56.666666666666664 %
+
+Label accuracy after grouping: 67.74193548387096 %
+
+Label accuracy after grouping: 69.6969696969697 %
+
+Label accuracy after grouping: 51.61290322580645 %
+
+Label accuracy after grouping: 70.37037037037037 %
+
+Label accuracy after grouping: 45.945945945945944 %
+
+Label accuracy after grouping: 58.333333333333336 %
+
+Label accuracy after grouping: 77.41935483870968 %
+
+Label accuracy after grouping: 71.7948717948718 %
+
+Label accuracy after grouping: 66.66666666666667 %
+
+Label accuracy after grouping: 58.064516129032256 %
+
+Label accuracy after grouping: 65.625 %
+
+Label accuracy after grouping: 59.45945945945946 %
+
+Label accuracy after grouping: 89.47368421052632 %
+
+Label accuracy after grouping: 62.5 %
+
+Label accuracy after grouping: 50.0 %
+
+Label accuracy after grouping: 56.0 %
+
+Label accuracy after grouping: 79.41176470588235 %
+
+Label accuracy after grouping: 89.1891891891892 %
+
+Label accuracy after grouping: 68.96551724137932 %
+
+Label accuracy after grouping: 61.29032258064516 %
+
+Label accuracy after grouping: 51.351351351351354 %
+
+Label accuracy after grouping: 70.58823529411765 %
+
+Label accuracy after grouping: 64.70588235294117 %
+
+Label accuracy after grouping: 76.92307692307692 %
+
+Label accuracy after grouping: 57.142857142857146 %
+
+Label accuracy after grouping: 63.1578947368421 %
+
+Label accuracy after grouping: 67.5 %
+
+Label accuracy after grouping: 67.85714285714286 %
+
+Label accuracy after grouping: 43.75 %
+
+Label accuracy after grouping: 68.57142857142857 %
+
+Label accuracy after grouping: 82.6086956521739 %
+
+Label accuracy after grouping: 41.935483870967744 %
+
+Label accuracy after grouping: 41.1764705882353 %
+
+Label accuracy after grouping: 61.76470588235294 %
+
+Label accuracy after grouping: 83.33333333333333 %
+
+Label accuracy after grouping: 56.25 %
+
+Label accuracy after grouping: 86.95652173913044 %
+
+Label accuracy after grouping: 77.5 %
+
+Label accuracy after grouping: 63.333333333333336 %
+
+Label accuracy after grouping: 78.26086956521739 %
+
+Label accuracy after grouping: 63.63636363636363 %
+
+Label accuracy after grouping: 81.25 %
+
+Label accuracy after grouping: 67.5 %
+
+Label accuracy after grouping: 55.0 %
+
+Label accuracy after grouping: 53.84615384615385 %
+
+Label accuracy after grouping: 50.0 %
+
+Label accuracy after grouping: 74.28571428571429 %
+
+Label accuracy after grouping: 40.0 %
+
+Label accuracy after grouping: 69.23076923076923 %
+
+Label accuracy after grouping: 53.84615384615385 %
+
+Label accuracy after grouping: 53.57142857142857 %
+
+Label accuracy after grouping: 66.66666666666667 %
+
+Label accuracy after grouping: 67.74193548387096 %
+
+Label accuracy after grouping: 65.38461538461539 %
+
+Label accuracy after grouping: 40.0 %
+
+Label accuracy after grouping: 50.0 %
+
+Label accuracy after grouping: 67.6470588235294 %
+
+Label accuracy after grouping: 76.47058823529412 %
+
+Label accuracy after grouping: 63.1578947368421 %
+
+Label accuracy after grouping: 80.64516129032258 %
+
+Label accuracy after grouping: 60.0 %
+
+Label accuracy after grouping: 72.72727272727273 %
+
+Label accuracy after grouping: 55.0 %
+
+Label accuracy after grouping: 80.76923076923077 %
+
+Label accuracy after grouping: 66.66666666666667 %
+
+Label accuracy after grouping: 66.66666666666667 %
+
+Label accuracy after grouping: 59.375 %
+
+Label accuracy after grouping: 81.81818181818181 %
+
+Label accuracy after grouping: 73.07692307692308 %
+
+Label accuracy after grouping: 76.92307692307692 %
+
+Label accuracy after grouping: 68.75 %
+
+Label accuracy after grouping: 75.86206896551724 %
+
+Label accuracy after grouping: 80.0 %
+
+Label accuracy after grouping: 59.375 %
+
+Label accuracy after grouping: 74.19354838709677 %
+
+Label accuracy after grouping: 51.515151515151516 %
+
+Average accuracy: 65.24019540632904

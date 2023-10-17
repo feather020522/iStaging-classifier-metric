@@ -1,0 +1,155 @@
+alpha set
+parameters: 
+batch_size = 24
+shuffle_train = True
+num_workers = 8
+epoch = 100
+augmentation = numpy.roll + colorJitter
+Start training, 2023-09-18 20:28:36.133786
+epoch # 1 done, 2023-09-18 20:34:46.932618
+epoch # 2 done, 2023-09-18 20:40:45.138527
+epoch # 3 done, 2023-09-18 20:46:41.738815
+epoch # 4 done, 2023-09-18 20:52:40.827129
+epoch # 5 done, 2023-09-18 20:58:36.993015
+epoch # 6 done, 2023-09-18 21:04:33.442643
+epoch # 7 done, 2023-09-18 21:10:29.766887
+epoch # 8 done, 2023-09-18 21:16:27.816724
+epoch # 9 done, 2023-09-18 21:22:24.544966
+epoch # 10 done, 2023-09-18 21:28:20.985628
+val # 10 done, 2023-09-18 21:34:17.099151
+epoch # 11 done, 2023-09-18 21:40:12.959061
+epoch # 12 done, 2023-09-18 21:46:09.964449
+epoch # 13 done, 2023-09-18 21:52:07.095168
+epoch # 14 done, 2023-09-18 21:58:05.237457
+epoch # 15 done, 2023-09-18 22:04:03.808723
+epoch # 16 done, 2023-09-18 22:10:04.962144
+epoch # 17 done, 2023-09-18 22:16:12.337312
+epoch # 18 done, 2023-09-18 22:22:11.790923
+epoch # 19 done, 2023-09-18 22:28:09.862936
+epoch # 20 done, 2023-09-18 22:34:09.022335
+val # 20 done, 2023-09-18 22:40:02.633495
+epoch # 21 done, 2023-09-18 22:46:00.048852
+epoch # 22 done, 2023-09-18 22:51:59.143060
+epoch # 23 done, 2023-09-18 22:57:57.337283
+epoch # 24 done, 2023-09-18 23:03:54.581366
+epoch # 25 done, 2023-09-18 23:09:52.873853
+epoch # 26 done, 2023-09-18 23:15:52.184883
+epoch # 27 done, 2023-09-18 23:21:48.740733
+epoch # 28 done, 2023-09-18 23:27:47.252910
+epoch # 29 done, 2023-09-18 23:33:45.727463
+epoch # 30 done, 2023-09-18 23:39:41.847374
+val # 30 done, 2023-09-18 23:45:37.391223
+epoch # 31 done, 2023-09-18 23:51:33.497681
+epoch # 32 done, 2023-09-18 23:57:32.035630
+epoch # 33 done, 2023-09-19 00:03:28.381352
+epoch # 34 done, 2023-09-19 00:09:26.472288
+epoch # 35 done, 2023-09-19 00:15:24.302519
+epoch # 36 done, 2023-09-19 00:21:22.757502
+epoch # 37 done, 2023-09-19 00:27:19.755017
+epoch # 38 done, 2023-09-19 00:33:15.793526
+epoch # 39 done, 2023-09-19 00:39:12.145705
+epoch # 40 done, 2023-09-19 00:45:10.273270
+val # 40 done, 2023-09-19 00:50:59.380268
+epoch # 41 done, 2023-09-19 00:56:56.776684
+epoch # 42 done, 2023-09-19 01:02:53.016718
+epoch # 43 done, 2023-09-19 01:08:52.049289
+epoch # 44 done, 2023-09-19 01:14:49.667558
+epoch # 45 done, 2023-09-19 01:20:48.417376
+epoch # 46 done, 2023-09-19 01:26:45.786628
+epoch # 47 done, 2023-09-19 01:32:43.454468
+epoch # 48 done, 2023-09-19 01:38:41.739182
+epoch # 49 done, 2023-09-19 01:44:40.671063
+epoch # 50 done, 2023-09-19 01:50:37.549098
+val # 50 done, 2023-09-19 01:56:26.354541
+epoch # 51 done, 2023-09-19 02:02:25.683055
+epoch # 52 done, 2023-09-19 02:08:23.969858
+epoch # 53 done, 2023-09-19 02:14:23.938372
+epoch # 54 done, 2023-09-19 02:20:22.999228
+epoch # 55 done, 2023-09-19 02:26:21.791657
+epoch # 56 done, 2023-09-19 02:32:20.118283
+epoch # 57 done, 2023-09-19 02:38:18.554333
+epoch # 58 done, 2023-09-19 02:44:16.534849
+epoch # 59 done, 2023-09-19 02:50:14.952526
+epoch # 60 done, 2023-09-19 02:56:13.840885
+val # 60 done, 2023-09-19 03:02:12.322421
+epoch # 61 done, 2023-09-19 03:08:11.522012
+epoch # 62 done, 2023-09-19 03:14:09.050875
+epoch # 63 done, 2023-09-19 03:20:07.052494
+epoch # 64 done, 2023-09-19 03:26:04.241335
+epoch # 65 done, 2023-09-19 03:32:03.172491
+epoch # 66 done, 2023-09-19 03:38:01.924215
+epoch # 67 done, 2023-09-19 03:43:59.810616
+epoch # 68 done, 2023-09-19 03:49:59.280689
+epoch # 69 done, 2023-09-19 03:55:58.604280
+epoch # 70 done, 2023-09-19 04:01:58.577338
+val # 70 done, 2023-09-19 04:07:48.952688
+epoch # 71 done, 2023-09-19 04:13:47.178884
+epoch # 72 done, 2023-09-19 04:19:47.173604
+epoch # 73 done, 2023-09-19 04:25:45.758199
+epoch # 74 done, 2023-09-19 04:31:44.094956
+epoch # 75 done, 2023-09-19 04:37:43.333400
+epoch # 76 done, 2023-09-19 04:43:42.573080
+epoch # 77 done, 2023-09-19 04:49:40.194930
+epoch # 78 done, 2023-09-19 04:55:37.974494
+epoch # 79 done, 2023-09-19 05:01:35.261582
+epoch # 80 done, 2023-09-19 05:07:33.680952
+val # 80 done, 2023-09-19 05:13:28.556609
+epoch # 81 done, 2023-09-19 05:19:27.786801
+epoch # 82 done, 2023-09-19 05:25:24.790588
+epoch # 83 done, 2023-09-19 05:31:23.088462
+epoch # 84 done, 2023-09-19 05:37:21.825064
+epoch # 85 done, 2023-09-19 05:43:19.190170
+epoch # 86 done, 2023-09-19 05:49:15.546940
+epoch # 87 done, 2023-09-19 05:55:13.263497
+epoch # 88 done, 2023-09-19 06:01:11.043446
+epoch # 89 done, 2023-09-19 06:07:09.073505
+epoch # 90 done, 2023-09-19 06:13:06.963183
+val # 90 done, 2023-09-19 06:19:07.339291
+epoch # 91 done, 2023-09-19 06:25:06.640418
+epoch # 92 done, 2023-09-19 06:31:05.842577
+epoch # 93 done, 2023-09-19 06:37:05.249867
+epoch # 94 done, 2023-09-19 06:43:04.318299
+epoch # 95 done, 2023-09-19 06:49:03.015198
+epoch # 96 done, 2023-09-19 06:55:01.972954
+epoch # 97 done, 2023-09-19 07:01:00.988497
+epoch # 98 done, 2023-09-19 07:06:58.608845
+epoch # 99 done, 2023-09-19 07:12:55.983242
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+epoch # 100 done, 2023-09-19 07:18:53.512818
+val # 100 done, 2023-09-19 07:24:45.796148
+              precision    recall  f1-score   support
+
+           0       0.78      0.80      0.79       728
+           1       0.87      0.87      0.87       867
+           2       0.80      0.84      0.82      1397
+           3       0.50      0.58      0.53       666
+           4       0.67      0.68      0.67       498
+           5       0.44      0.41      0.43       388
+           6       0.91      0.84      0.87       339
+           7       0.67      0.70      0.68       217
+           8       0.56      0.71      0.62       702
+           9       0.31      0.19      0.24       125
+          10       0.09      0.04      0.05       170
+          11       0.43      0.35      0.39       150
+          12       0.34      0.28      0.31        50
+          13       0.08      0.04      0.05        48
+          14       0.30      0.20      0.24        15
+          15       0.07      0.04      0.06        45
+          16       0.17      0.08      0.11        59
+          17       0.38      0.28      0.32        76
+          18       0.32      0.13      0.18        47
+          19       0.33      0.50      0.40         2
+          20       0.00      0.00      0.00         0
+          21       0.00      0.00      0.00         1
+          22       0.04      0.01      0.02        74
+
+    accuracy                           0.67      6664
+   macro avg       0.39      0.37      0.38      6664
+weighted avg       0.65      0.67      0.66      6664
+
+Finished Training

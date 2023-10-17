@@ -46,26 +46,26 @@ l3 = [0, 0, 1, 2, 2, 2, 3, 1, 3]
 # r = [2, 2, 2, 2, 2, 2, 2, 2]
 # r2 = []
 
-def GetBalancePosNegPair(ip_labels):
-        # panos = []
-        labels = []
-        count = dict(Counter(labels))
-        max_label = max(ip_labels)
-        label_cnt = 0
+# def GetBalancePosNegPair(ip_labels):
+#         # panos = []
+#         labels = []
+#         count = dict(Counter(labels))
+#         max_label = max(ip_labels)
+#         label_cnt = 0
 
-        # random get 2
-        while (label_cnt < max_label):
-            if (count.get(label_cnt) == None):
-                cur_label_keys = [k for k, v in enumerate(ip_labels) if v == label_cnt]
-                print(cur_label_keys)
-                cur_get_labels = random.sample(cur_label_keys, 2)
-                print(cur_get_labels)
-                for j in cur_get_labels:
-                    # panos.append(ip_panos[j])
-                    labels.append(ip_labels[j])
-                label_cnt += 1
+#         # random get 2
+#         while (label_cnt < max_label):
+#             if (count.get(label_cnt) == None):
+#                 cur_label_keys = [k for k, v in enumerate(ip_labels) if v == label_cnt]
+#                 print(cur_label_keys)
+#                 cur_get_labels = random.sample(cur_label_keys, 2)
+#                 print(cur_get_labels)
+#                 for j in cur_get_labels:
+#                     # panos.append(ip_panos[j])
+#                     labels.append(ip_labels[j])
+#                 label_cnt += 1
 
-        return labels
+#         return labels
 
 # l4 = GetBalancePosNegPair(l3)
 # print(l4)
@@ -73,10 +73,46 @@ def GetBalancePosNegPair(ip_labels):
 # count = dict(Counter(l3))
 # print(len(count.items()))
 
-l5 = [(0, 1), (1, 3), (8, 6), (5, 2), (9, 4)]
-l5 = sorted(l5, key = lambda x: x[1])
-print(l5)
+# l5 = [(0, 1), (1, 3), (8, 6), (5, 2), (9, 4)]
+# l5 = sorted(l5, key = lambda x: x[1])
+# print(l5)
 
+l6 = [[1, 4, 1, 1],
+[7, 11, 1, 1],
+[9, 3, 1, 0],
+[10, 5, 1, 1]]
+
+pri_dic = []
+sec_dic = []
+# for idx in range(0, 4):
+#     if l6[idx][3] == 1:
+#         pri_dic += l6[idx][1]
+#     else:
+#         sec_dic += l6[idx][1]
+# l6[0:4][1] = [4, 4, 4, 4]
+# print(l6[0:4])
+# print(l6)
+
+l7 = [1, 2, 2, 3, 3]
+# print(max(l7, key = l7.count))
+# print(Counter(l7).most_common(2))
+
+# l8 = [[0, 1], [2, 0]]
+
+# label_dic = []
+# diff_dic = []
+
+# for i in 2:
+#     label_dic, diff_dic += l8[0], l8[1]
+
+a = "a"
+b = "b"
+print(a, b)
+
+l = [1, 2]
+l2 = [2, 3]
+l = [x + y for x, y in zip(l, l2)]
+print(l)
 # def d(l):
 #     count = dict(Counter(l))
 #     count2 = dict(Counter(r2))

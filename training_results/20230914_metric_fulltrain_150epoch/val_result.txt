@@ -1,0 +1,10 @@
+Test set accuracy (pos/neg pair) at epoch 15 on dataset test = 92.04314692114606
+Test set accuracy (pos/neg pair) at epoch 30 on dataset test = 93.93500825399697
+Test set accuracy (pos/neg pair) at epoch 45 on dataset test = 95.28142737613351
+Test set accuracy (pos/neg pair) at epoch 60 on dataset test = 95.921847086226
+Test set accuracy (pos/neg pair) at epoch 75 on dataset test = 96.14481807286131
+Test set accuracy (pos/neg pair) at epoch 90 on dataset test = 96.33070260735849
+Test set accuracy (pos/neg pair) at epoch 105 on dataset test = 96.46638474932725
+Test set accuracy (pos/neg pair) at epoch 120 on dataset test = 96.61292146265349
+Test set accuracy (pos/neg pair) at epoch 135 on dataset test = 96.73367856900568
+Test set accuracy (pos/neg pair) at epoch 150 on dataset test = 96.79654462811786

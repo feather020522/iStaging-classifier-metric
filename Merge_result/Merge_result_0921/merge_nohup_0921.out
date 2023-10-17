@@ -1,0 +1,804 @@
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 192, in <module>
+    classifier_model.load_state_dict(torch.load("./classifier_100epochs_resnet50.pth"))
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1604, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for ResNet:
+	Missing key(s) in state_dict: "conv1.weight", "bn1.weight", "bn1.bias", "bn1.running_mean", "bn1.running_var", "layer1.0.conv1.weight", "layer1.0.bn1.weight", "layer1.0.bn1.bias", "layer1.0.bn1.running_mean", "layer1.0.bn1.running_var", "layer1.0.conv2.weight", "layer1.0.bn2.weight", "layer1.0.bn2.bias", "layer1.0.bn2.running_mean", "layer1.0.bn2.running_var", "layer1.0.conv3.weight", "layer1.0.bn3.weight", "layer1.0.bn3.bias", "layer1.0.bn3.running_mean", "layer1.0.bn3.running_var", "layer1.0.downsample.0.weight", "layer1.0.downsample.1.weight", "layer1.0.downsample.1.bias", "layer1.0.downsample.1.running_mean", "layer1.0.downsample.1.running_var", "layer1.1.conv1.weight", "layer1.1.bn1.weight", "layer1.1.bn1.bias", "layer1.1.bn1.running_mean", "layer1.1.bn1.running_var", "layer1.1.conv2.weight", "layer1.1.bn2.weight", "layer1.1.bn2.bias", "layer1.1.bn2.running_mean", "layer1.1.bn2.running_var", "layer1.1.conv3.weight", "layer1.1.bn3.weight", "layer1.1.bn3.bias", "layer1.1.bn3.running_mean", "layer1.1.bn3.running_var", "layer1.2.conv1.weight", "layer1.2.bn1.weight", "layer1.2.bn1.bias", "layer1.2.bn1.running_mean", "layer1.2.bn1.running_var", "layer1.2.conv2.weight", "layer1.2.bn2.weight", "layer1.2.bn2.bias", "layer1.2.bn2.running_mean", "layer1.2.bn2.running_var", "layer1.2.conv3.weight", "layer1.2.bn3.weight", "layer1.2.bn3.bias", "layer1.2.bn3.running_mean", "layer1.2.bn3.running_var", "layer2.0.conv1.weight", "layer2.0.bn1.weight", "layer2.0.bn1.bias", "layer2.0.bn1.running_mean", "layer2.0.bn1.running_var", "layer2.0.conv2.weight", "layer2.0.bn2.weight", "layer2.0.bn2.bias", "layer2.0.bn2.running_mean", "layer2.0.bn2.running_var", "layer2.0.conv3.weight", "layer2.0.bn3.weight", "layer2.0.bn3.bias", "layer2.0.bn3.running_mean", "layer2.0.bn3.running_var", "layer2.0.downsample.0.weight", "layer2.0.downsample.1.weight", "layer2.0.downsample.1.bias", "layer2.0.downsample.1.running_mean", "layer2.0.downsample.1.running_var", "layer2.1.conv1.weight", "layer2.1.bn1.weight", "layer2.1.bn1.bias", "layer2.1.bn1.running_mean", "layer2.1.bn1.running_var", "layer2.1.conv2.weight", "layer2.1.bn2.weight", "layer2.1.bn2.bias", "layer2.1.bn2.running_mean", "layer2.1.bn2.running_var", "layer2.1.conv3.weight", "layer2.1.bn3.weight", "layer2.1.bn3.bias", "layer2.1.bn3.running_mean", "layer2.1.bn3.running_var", "layer2.2.conv1.weight", "layer2.2.bn1.weight", "layer2.2.bn1.bias", "layer2.2.bn1.running_mean", "layer2.2.bn1.running_var", "layer2.2.conv2.weight", "layer2.2.bn2.weight", "layer2.2.bn2.bias", "layer2.2.bn2.running_mean", "layer2.2.bn2.running_var", "layer2.2.conv3.weight", "layer2.2.bn3.weight", "layer2.2.bn3.bias", "layer2.2.bn3.running_mean", "layer2.2.bn3.running_var", "layer2.3.conv1.weight", "layer2.3.bn1.weight", "layer2.3.bn1.bias", "layer2.3.bn1.running_mean", "layer2.3.bn1.running_var", "layer2.3.conv2.weight", "layer2.3.bn2.weight", "layer2.3.bn2.bias", "layer2.3.bn2.running_mean", "layer2.3.bn2.running_var", "layer2.3.conv3.weight", "layer2.3.bn3.weight", "layer2.3.bn3.bias", "layer2.3.bn3.running_mean", "layer2.3.bn3.running_var", "layer3.0.conv1.weight", "layer3.0.bn1.weight", "layer3.0.bn1.bias", "layer3.0.bn1.running_mean", "layer3.0.bn1.running_var", "layer3.0.conv2.weight", "layer3.0.bn2.weight", "layer3.0.bn2.bias", "layer3.0.bn2.running_mean", "layer3.0.bn2.running_var", "layer3.0.conv3.weight", "layer3.0.bn3.weight", "layer3.0.bn3.bias", "layer3.0.bn3.running_mean", "layer3.0.bn3.running_var", "layer3.0.downsample.0.weight", "layer3.0.downsample.1.weight", "layer3.0.downsample.1.bias", "layer3.0.downsample.1.running_mean", "layer3.0.downsample.1.running_var", "layer3.1.conv1.weight", "layer3.1.bn1.weight", "layer3.1.bn1.bias", "layer3.1.bn1.running_mean", "layer3.1.bn1.running_var", "layer3.1.conv2.weight", "layer3.1.bn2.weight", "layer3.1.bn2.bias", "layer3.1.bn2.running_mean", "layer3.1.bn2.running_var", "layer3.1.conv3.weight", "layer3.1.bn3.weight", "layer3.1.bn3.bias", "layer3.1.bn3.running_mean", "layer3.1.bn3.running_var", "layer3.2.conv1.weight", "layer3.2.bn1.weight", "layer3.2.bn1.bias", "layer3.2.bn1.running_mean", "layer3.2.bn1.running_var", "layer3.2.conv2.weight", "layer3.2.bn2.weight", "layer3.2.bn2.bias", "layer3.2.bn2.running_mean", "layer3.2.bn2.running_var", "layer3.2.conv3.weight", "layer3.2.bn3.weight", "layer3.2.bn3.bias", "layer3.2.bn3.running_mean", "layer3.2.bn3.running_var", "layer3.3.conv1.weight", "layer3.3.bn1.weight", "layer3.3.bn1.bias", "layer3.3.bn1.running_mean", "layer3.3.bn1.running_var", "layer3.3.conv2.weight", "layer3.3.bn2.weight", "layer3.3.bn2.bias", "layer3.3.bn2.running_mean", "layer3.3.bn2.running_var", "layer3.3.conv3.weight", "layer3.3.bn3.weight", "layer3.3.bn3.bias", "layer3.3.bn3.running_mean", "layer3.3.bn3.running_var", "layer3.4.conv1.weight", "layer3.4.bn1.weight", "layer3.4.bn1.bias", "layer3.4.bn1.running_mean", "layer3.4.bn1.running_var", "layer3.4.conv2.weight", "layer3.4.bn2.weight", "layer3.4.bn2.bias", "layer3.4.bn2.running_mean", "layer3.4.bn2.running_var", "layer3.4.conv3.weight", "layer3.4.bn3.weight", "layer3.4.bn3.bias", "layer3.4.bn3.running_mean", "layer3.4.bn3.running_var", "layer3.5.conv1.weight", "layer3.5.bn1.weight", "layer3.5.bn1.bias", "layer3.5.bn1.running_mean", "layer3.5.bn1.running_var", "layer3.5.conv2.weight", "layer3.5.bn2.weight", "layer3.5.bn2.bias", "layer3.5.bn2.running_mean", "layer3.5.bn2.running_var", "layer3.5.conv3.weight", "layer3.5.bn3.weight", "layer3.5.bn3.bias", "layer3.5.bn3.running_mean", "layer3.5.bn3.running_var", "layer4.0.conv1.weight", "layer4.0.bn1.weight", "layer4.0.bn1.bias", "layer4.0.bn1.running_mean", "layer4.0.bn1.running_var", "layer4.0.conv2.weight", "layer4.0.bn2.weight", "layer4.0.bn2.bias", "layer4.0.bn2.running_mean", "layer4.0.bn2.running_var", "layer4.0.conv3.weight", "layer4.0.bn3.weight", "layer4.0.bn3.bias", "layer4.0.bn3.running_mean", "layer4.0.bn3.running_var", "layer4.0.downsample.0.weight", "layer4.0.downsample.1.weight", "layer4.0.downsample.1.bias", "layer4.0.downsample.1.running_mean", "layer4.0.downsample.1.running_var", "layer4.1.conv1.weight", "layer4.1.bn1.weight", "layer4.1.bn1.bias", "layer4.1.bn1.running_mean", "layer4.1.bn1.running_var", "layer4.1.conv2.weight", "layer4.1.bn2.weight", "layer4.1.bn2.bias", "layer4.1.bn2.running_mean", "layer4.1.bn2.running_var", "layer4.1.conv3.weight", "layer4.1.bn3.weight", "layer4.1.bn3.bias", "layer4.1.bn3.running_mean", "layer4.1.bn3.running_var", "layer4.2.conv1.weight", "layer4.2.bn1.weight", "layer4.2.bn1.bias", "layer4.2.bn1.running_mean", "layer4.2.bn1.running_var", "layer4.2.conv2.weight", "layer4.2.bn2.weight", "layer4.2.bn2.bias", "layer4.2.bn2.running_mean", "layer4.2.bn2.running_var", "layer4.2.conv3.weight", "layer4.2.bn3.weight", "layer4.2.bn3.bias", "layer4.2.bn3.running_mean", "layer4.2.bn3.running_var", "fc.weight", "fc.bias", "fn.weight", "fn.bias". 
+	Unexpected key(s) in state_dict: "pretrained.conv1.weight", "pretrained.bn1.weight", "pretrained.bn1.bias", "pretrained.bn1.running_mean", "pretrained.bn1.running_var", "pretrained.bn1.num_batches_tracked", "pretrained.layer1.0.conv1.weight", "pretrained.layer1.0.bn1.weight", "pretrained.layer1.0.bn1.bias", "pretrained.layer1.0.bn1.running_mean", "pretrained.layer1.0.bn1.running_var", "pretrained.layer1.0.bn1.num_batches_tracked", "pretrained.layer1.0.conv2.weight", "pretrained.layer1.0.bn2.weight", "pretrained.layer1.0.bn2.bias", "pretrained.layer1.0.bn2.running_mean", "pretrained.layer1.0.bn2.running_var", "pretrained.layer1.0.bn2.num_batches_tracked", "pretrained.layer1.0.conv3.weight", "pretrained.layer1.0.bn3.weight", "pretrained.layer1.0.bn3.bias", "pretrained.layer1.0.bn3.running_mean", "pretrained.layer1.0.bn3.running_var", "pretrained.layer1.0.bn3.num_batches_tracked", "pretrained.layer1.0.downsample.0.weight", "pretrained.layer1.0.downsample.1.weight", "pretrained.layer1.0.downsample.1.bias", "pretrained.layer1.0.downsample.1.running_mean", "pretrained.layer1.0.downsample.1.running_var", "pretrained.layer1.0.downsample.1.num_batches_tracked", "pretrained.layer1.1.conv1.weight", "pretrained.layer1.1.bn1.weight", "pretrained.layer1.1.bn1.bias", "pretrained.layer1.1.bn1.running_mean", "pretrained.layer1.1.bn1.running_var", "pretrained.layer1.1.bn1.num_batches_tracked", "pretrained.layer1.1.conv2.weight", "pretrained.layer1.1.bn2.weight", "pretrained.layer1.1.bn2.bias", "pretrained.layer1.1.bn2.running_mean", "pretrained.layer1.1.bn2.running_var", "pretrained.layer1.1.bn2.num_batches_tracked", "pretrained.layer1.1.conv3.weight", "pretrained.layer1.1.bn3.weight", "pretrained.layer1.1.bn3.bias", "pretrained.layer1.1.bn3.running_mean", "pretrained.layer1.1.bn3.running_var", "pretrained.layer1.1.bn3.num_batches_tracked", "pretrained.layer1.2.conv1.weight", "pretrained.layer1.2.bn1.weight", "pretrained.layer1.2.bn1.bias", "pretrained.layer1.2.bn1.running_mean", "pretrained.layer1.2.bn1.running_var", "pretrained.layer1.2.bn1.num_batches_tracked", "pretrained.layer1.2.conv2.weight", "pretrained.layer1.2.bn2.weight", "pretrained.layer1.2.bn2.bias", "pretrained.layer1.2.bn2.running_mean", "pretrained.layer1.2.bn2.running_var", "pretrained.layer1.2.bn2.num_batches_tracked", "pretrained.layer1.2.conv3.weight", "pretrained.layer1.2.bn3.weight", "pretrained.layer1.2.bn3.bias", "pretrained.layer1.2.bn3.running_mean", "pretrained.layer1.2.bn3.running_var", "pretrained.layer1.2.bn3.num_batches_tracked", "pretrained.layer2.0.conv1.weight", "pretrained.layer2.0.bn1.weight", "pretrained.layer2.0.bn1.bias", "pretrained.layer2.0.bn1.running_mean", "pretrained.layer2.0.bn1.running_var", "pretrained.layer2.0.bn1.num_batches_tracked", "pretrained.layer2.0.conv2.weight", "pretrained.layer2.0.bn2.weight", "pretrained.layer2.0.bn2.bias", "pretrained.layer2.0.bn2.running_mean", "pretrained.layer2.0.bn2.running_var", "pretrained.layer2.0.bn2.num_batches_tracked", "pretrained.layer2.0.conv3.weight", "pretrained.layer2.0.bn3.weight", "pretrained.layer2.0.bn3.bias", "pretrained.layer2.0.bn3.running_mean", "pretrained.layer2.0.bn3.running_var", "pretrained.layer2.0.bn3.num_batches_tracked", "pretrained.layer2.0.downsample.0.weight", "pretrained.layer2.0.downsample.1.weight", "pretrained.layer2.0.downsample.1.bias", "pretrained.layer2.0.downsample.1.running_mean", "pretrained.layer2.0.downsample.1.running_var", "pretrained.layer2.0.downsample.1.num_batches_tracked", "pretrained.layer2.1.conv1.weight", "pretrained.layer2.1.bn1.weight", "pretrained.layer2.1.bn1.bias", "pretrained.layer2.1.bn1.running_mean", "pretrained.layer2.1.bn1.running_var", "pretrained.layer2.1.bn1.num_batches_tracked", "pretrained.layer2.1.conv2.weight", "pretrained.layer2.1.bn2.weight", "pretrained.layer2.1.bn2.bias", "pretrained.layer2.1.bn2.running_mean", "pretrained.layer2.1.bn2.running_var", "pretrained.layer2.1.bn2.num_batches_tracked", "pretrained.layer2.1.conv3.weight", "pretrained.layer2.1.bn3.weight", "pretrained.layer2.1.bn3.bias", "pretrained.layer2.1.bn3.running_mean", "pretrained.layer2.1.bn3.running_var", "pretrained.layer2.1.bn3.num_batches_tracked", "pretrained.layer2.2.conv1.weight", "pretrained.layer2.2.bn1.weight", "pretrained.layer2.2.bn1.bias", "pretrained.layer2.2.bn1.running_mean", "pretrained.layer2.2.bn1.running_var", "pretrained.layer2.2.bn1.num_batches_tracked", "pretrained.layer2.2.conv2.weight", "pretrained.layer2.2.bn2.weight", "pretrained.layer2.2.bn2.bias", "pretrained.layer2.2.bn2.running_mean", "pretrained.layer2.2.bn2.running_var", "pretrained.layer2.2.bn2.num_batches_tracked", "pretrained.layer2.2.conv3.weight", "pretrained.layer2.2.bn3.weight", "pretrained.layer2.2.bn3.bias", "pretrained.layer2.2.bn3.running_mean", "pretrained.layer2.2.bn3.running_var", "pretrained.layer2.2.bn3.num_batches_tracked", "pretrained.layer2.3.conv1.weight", "pretrained.layer2.3.bn1.weight", "pretrained.layer2.3.bn1.bias", "pretrained.layer2.3.bn1.running_mean", "pretrained.layer2.3.bn1.running_var", "pretrained.layer2.3.bn1.num_batches_tracked", "pretrained.layer2.3.conv2.weight", "pretrained.layer2.3.bn2.weight", "pretrained.layer2.3.bn2.bias", "pretrained.layer2.3.bn2.running_mean", "pretrained.layer2.3.bn2.running_var", "pretrained.layer2.3.bn2.num_batches_tracked", "pretrained.layer2.3.conv3.weight", "pretrained.layer2.3.bn3.weight", "pretrained.layer2.3.bn3.bias", "pretrained.layer2.3.bn3.running_mean", "pretrained.layer2.3.bn3.running_var", "pretrained.layer2.3.bn3.num_batches_tracked", "pretrained.layer3.0.conv1.weight", "pretrained.layer3.0.bn1.weight", "pretrained.layer3.0.bn1.bias", "pretrained.layer3.0.bn1.running_mean", "pretrained.layer3.0.bn1.running_var", "pretrained.layer3.0.bn1.num_batches_tracked", "pretrained.layer3.0.conv2.weight", "pretrained.layer3.0.bn2.weight", "pretrained.layer3.0.bn2.bias", "pretrained.layer3.0.bn2.running_mean", "pretrained.layer3.0.bn2.running_var", "pretrained.layer3.0.bn2.num_batches_tracked", "pretrained.layer3.0.conv3.weight", "pretrained.layer3.0.bn3.weight", "pretrained.layer3.0.bn3.bias", "pretrained.layer3.0.bn3.running_mean", "pretrained.layer3.0.bn3.running_var", "pretrained.layer3.0.bn3.num_batches_tracked", "pretrained.layer3.0.downsample.0.weight", "pretrained.layer3.0.downsample.1.weight", "pretrained.layer3.0.downsample.1.bias", "pretrained.layer3.0.downsample.1.running_mean", "pretrained.layer3.0.downsample.1.running_var", "pretrained.layer3.0.downsample.1.num_batches_tracked", "pretrained.layer3.1.conv1.weight", "pretrained.layer3.1.bn1.weight", "pretrained.layer3.1.bn1.bias", "pretrained.layer3.1.bn1.running_mean", "pretrained.layer3.1.bn1.running_var", "pretrained.layer3.1.bn1.num_batches_tracked", "pretrained.layer3.1.conv2.weight", "pretrained.layer3.1.bn2.weight", "pretrained.layer3.1.bn2.bias", "pretrained.layer3.1.bn2.running_mean", "pretrained.layer3.1.bn2.running_var", "pretrained.layer3.1.bn2.num_batches_tracked", "pretrained.layer3.1.conv3.weight", "pretrained.layer3.1.bn3.weight", "pretrained.layer3.1.bn3.bias", "pretrained.layer3.1.bn3.running_mean", "pretrained.layer3.1.bn3.running_var", "pretrained.layer3.1.bn3.num_batches_tracked", "pretrained.layer3.2.conv1.weight", "pretrained.layer3.2.bn1.weight", "pretrained.layer3.2.bn1.bias", "pretrained.layer3.2.bn1.running_mean", "pretrained.layer3.2.bn1.running_var", "pretrained.layer3.2.bn1.num_batches_tracked", "pretrained.layer3.2.conv2.weight", "pretrained.layer3.2.bn2.weight", "pretrained.layer3.2.bn2.bias", "pretrained.layer3.2.bn2.running_mean", "pretrained.layer3.2.bn2.running_var", "pretrained.layer3.2.bn2.num_batches_tracked", "pretrained.layer3.2.conv3.weight", "pretrained.layer3.2.bn3.weight", "pretrained.layer3.2.bn3.bias", "pretrained.layer3.2.bn3.running_mean", "pretrained.layer3.2.bn3.running_var", "pretrained.layer3.2.bn3.num_batches_tracked", "pretrained.layer3.3.conv1.weight", "pretrained.layer3.3.bn1.weight", "pretrained.layer3.3.bn1.bias", "pretrained.layer3.3.bn1.running_mean", "pretrained.layer3.3.bn1.running_var", "pretrained.layer3.3.bn1.num_batches_tracked", "pretrained.layer3.3.conv2.weight", "pretrained.layer3.3.bn2.weight", "pretrained.layer3.3.bn2.bias", "pretrained.layer3.3.bn2.running_mean", "pretrained.layer3.3.bn2.running_var", "pretrained.layer3.3.bn2.num_batches_tracked", "pretrained.layer3.3.conv3.weight", "pretrained.layer3.3.bn3.weight", "pretrained.layer3.3.bn3.bias", "pretrained.layer3.3.bn3.running_mean", "pretrained.layer3.3.bn3.running_var", "pretrained.layer3.3.bn3.num_batches_tracked", "pretrained.layer3.4.conv1.weight", "pretrained.layer3.4.bn1.weight", "pretrained.layer3.4.bn1.bias", "pretrained.layer3.4.bn1.running_mean", "pretrained.layer3.4.bn1.running_var", "pretrained.layer3.4.bn1.num_batches_tracked", "pretrained.layer3.4.conv2.weight", "pretrained.layer3.4.bn2.weight", "pretrained.layer3.4.bn2.bias", "pretrained.layer3.4.bn2.running_mean", "pretrained.layer3.4.bn2.running_var", "pretrained.layer3.4.bn2.num_batches_tracked", "pretrained.layer3.4.conv3.weight", "pretrained.layer3.4.bn3.weight", "pretrained.layer3.4.bn3.bias", "pretrained.layer3.4.bn3.running_mean", "pretrained.layer3.4.bn3.running_var", "pretrained.layer3.4.bn3.num_batches_tracked", "pretrained.layer3.5.conv1.weight", "pretrained.layer3.5.bn1.weight", "pretrained.layer3.5.bn1.bias", "pretrained.layer3.5.bn1.running_mean", "pretrained.layer3.5.bn1.running_var", "pretrained.layer3.5.bn1.num_batches_tracked", "pretrained.layer3.5.conv2.weight", "pretrained.layer3.5.bn2.weight", "pretrained.layer3.5.bn2.bias", "pretrained.layer3.5.bn2.running_mean", "pretrained.layer3.5.bn2.running_var", "pretrained.layer3.5.bn2.num_batches_tracked", "pretrained.layer3.5.conv3.weight", "pretrained.layer3.5.bn3.weight", "pretrained.layer3.5.bn3.bias", "pretrained.layer3.5.bn3.running_mean", "pretrained.layer3.5.bn3.running_var", "pretrained.layer3.5.bn3.num_batches_tracked", "pretrained.layer4.0.conv1.weight", "pretrained.layer4.0.bn1.weight", "pretrained.layer4.0.bn1.bias", "pretrained.layer4.0.bn1.running_mean", "pretrained.layer4.0.bn1.running_var", "pretrained.layer4.0.bn1.num_batches_tracked", "pretrained.layer4.0.conv2.weight", "pretrained.layer4.0.bn2.weight", "pretrained.layer4.0.bn2.bias", "pretrained.layer4.0.bn2.running_mean", "pretrained.layer4.0.bn2.running_var", "pretrained.layer4.0.bn2.num_batches_tracked", "pretrained.layer4.0.conv3.weight", "pretrained.layer4.0.bn3.weight", "pretrained.layer4.0.bn3.bias", "pretrained.layer4.0.bn3.running_mean", "pretrained.layer4.0.bn3.running_var", "pretrained.layer4.0.bn3.num_batches_tracked", "pretrained.layer4.0.downsample.0.weight", "pretrained.layer4.0.downsample.1.weight", "pretrained.layer4.0.downsample.1.bias", "pretrained.layer4.0.downsample.1.running_mean", "pretrained.layer4.0.downsample.1.running_var", "pretrained.layer4.0.downsample.1.num_batches_tracked", "pretrained.layer4.1.conv1.weight", "pretrained.layer4.1.bn1.weight", "pretrained.layer4.1.bn1.bias", "pretrained.layer4.1.bn1.running_mean", "pretrained.layer4.1.bn1.running_var", "pretrained.layer4.1.bn1.num_batches_tracked", "pretrained.layer4.1.conv2.weight", "pretrained.layer4.1.bn2.weight", "pretrained.layer4.1.bn2.bias", "pretrained.layer4.1.bn2.running_mean", "pretrained.layer4.1.bn2.running_var", "pretrained.layer4.1.bn2.num_batches_tracked", "pretrained.layer4.1.conv3.weight", "pretrained.layer4.1.bn3.weight", "pretrained.layer4.1.bn3.bias", "pretrained.layer4.1.bn3.running_mean", "pretrained.layer4.1.bn3.running_var", "pretrained.layer4.1.bn3.num_batches_tracked", "pretrained.layer4.2.conv1.weight", "pretrained.layer4.2.bn1.weight", "pretrained.layer4.2.bn1.bias", "pretrained.layer4.2.bn1.running_mean", "pretrained.layer4.2.bn1.running_var", "pretrained.layer4.2.bn1.num_batches_tracked", "pretrained.layer4.2.conv2.weight", "pretrained.layer4.2.bn2.weight", "pretrained.layer4.2.bn2.bias", "pretrained.layer4.2.bn2.running_mean", "pretrained.layer4.2.bn2.running_var", "pretrained.layer4.2.bn2.num_batches_tracked", "pretrained.layer4.2.conv3.weight", "pretrained.layer4.2.bn3.weight", "pretrained.layer4.2.bn3.bias", "pretrained.layer4.2.bn3.running_mean", "pretrained.layer4.2.bn3.running_var", "pretrained.layer4.2.bn3.num_batches_tracked", "pretrained.fc.weight", "pretrained.fc.bias", "new_layers.weight", "new_layers.bias". 
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+finish testing
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+finish testing
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+finish testing
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 309, in <module>
+    classifier_output = classifier_model(panos).tolist()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 104, in forward
+    x = self.pretrained(x)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torchvision/models/resnet.py", line 285, in forward
+    return self._forward_impl(x)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torchvision/models/resnet.py", line 268, in _forward_impl
+    x = self.conv1(x)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Input type (torch.FloatTensor) and weight type (torch.cuda.FloatTensor) should be the same or input should be a MKLDNN tensor and weight is a dense tensor
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+[[5.003726959228516, 1.8634788990020752, 3.3602993488311768, 7.154426097869873, 4.752263069152832, -0.08913174271583557, -0.7506058216094971, 1.6583994626998901, 9.711348533630371, 1.4879508018493652, 6.550531387329102, -3.096766471862793, 0.17809981107711792, -1.418973445892334, -6.159842491149902, -2.937012195587158, 3.7073922157287598, -0.5363823771476746, -3.0659067630767822, -7.017951011657715, -7.17491340637207, -9.541254043579102, -3.404883861541748], [1.074162244796753, -1.0756152868270874, 6.701871395111084, 11.633353233337402, 2.2108535766601562, 5.553377628326416, 1.0121736526489258, -4.603357791900635, 2.0986180305480957, -0.5108979344367981, 9.118728637695312, -3.0892691612243652, -6.17728328704834, 8.278388023376465, -4.3457465171813965, 1.8757996559143066, -1.4072809219360352, 3.4607346057891846, -8.229948997497559, -6.79116678237915, -8.011252403259277, -10.681583404541016, 1.1994662284851074], [-1.0920212268829346, -2.3669686317443848, 4.818190097808838, 12.517930030822754, 1.639201045036316, 8.077924728393555, -0.3782406151294708, -4.526063442230225, 2.3157899379730225, -3.2887580394744873, 14.295001983642578, -2.0716514587402344, -6.918459415435791, 4.622643947601318, -1.9661256074905396, -1.8470540046691895, -5.40653657913208, 3.938432455062866, -5.572165012359619, -7.066611289978027, -8.875528335571289, -5.083718299865723, 3.3396289348602295], [1.8528103828430176, 1.8051173686981201, 3.641463279724121, 6.730749130249023, 5.698624610900879, 3.2166686058044434, -1.4854099750518799, 1.1436231136322021, 12.28290843963623, 2.907125949859619, 2.206494092941284, 1.3105778694152832, 2.7809786796569824, -0.1798190474510193, -8.689088821411133, 0.8167625665664673, 5.85200309753418, -6.021582126617432, -7.676657199859619, -6.505702018737793, -6.994336128234863, -14.028533935546875, 0.953408420085907], [4.617681503295898, 4.65622615814209, 3.1960105895996094, 3.4917237758636475, 4.00116491317749, 1.7735991477966309, -0.42165184020996094, 2.6533660888671875, 10.050527572631836, 3.4110379219055176, 0.8310083150863647, -1.6353654861450195, -0.1949307918548584, -0.7134259939193726, -7.364429950714111, -1.6061183214187622, -2.170863151550293, -0.7742610573768616, -1.1472643613815308, -10.70522403717041, -4.7602996826171875, -6.119653701782227, 0.8345154523849487], [2.728071928024292, 2.6562771797180176, 4.336030960083008, 6.1099443435668945, 1.485981822013855, 1.0441452264785767, 2.8488411903381348, -0.15548181533813477, 11.521470069885254, 7.4908766746521, 5.580484390258789, -3.937995433807373, -7.066786766052246, -1.0679881572723389, -6.014595031738281, -0.8384112119674683, 4.378025054931641, -2.512840509414673, -6.568859100341797, -1.9353437423706055, -6.597055435180664, -10.053255081176758, -2.908996343612671]]
+finish testing
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+[[5.003726959228516, 1.8634788990020752, 3.3602993488311768, 7.154426097869873, 4.752263069152832, -0.08913174271583557, -0.7506058216094971, 1.6583994626998901, 9.711348533630371, 1.4879508018493652, 6.550531387329102, -3.096766471862793, 0.17809981107711792, -1.418973445892334, -6.159842491149902, -2.937012195587158, 3.7073922157287598, -0.5363823771476746, -3.0659067630767822, -7.017951011657715, -7.17491340637207, -9.541254043579102, -3.404883861541748], [1.074162244796753, -1.0756152868270874, 6.701871395111084, 11.633353233337402, 2.2108535766601562, 5.553377628326416, 1.0121736526489258, -4.603357791900635, 2.0986180305480957, -0.5108979344367981, 9.118728637695312, -3.0892691612243652, -6.17728328704834, 8.278388023376465, -4.3457465171813965, 1.8757996559143066, -1.4072809219360352, 3.4607346057891846, -8.229948997497559, -6.79116678237915, -8.011252403259277, -10.681583404541016, 1.1994662284851074], [-1.0920212268829346, -2.3669686317443848, 4.818190097808838, 12.517930030822754, 1.639201045036316, 8.077924728393555, -0.3782406151294708, -4.526063442230225, 2.3157899379730225, -3.2887580394744873, 14.295001983642578, -2.0716514587402344, -6.918459415435791, 4.622643947601318, -1.9661256074905396, -1.8470540046691895, -5.40653657913208, 3.938432455062866, -5.572165012359619, -7.066611289978027, -8.875528335571289, -5.083718299865723, 3.3396289348602295], [1.8528103828430176, 1.8051173686981201, 3.641463279724121, 6.730749130249023, 5.698624610900879, 3.2166686058044434, -1.4854099750518799, 1.1436231136322021, 12.28290843963623, 2.907125949859619, 2.206494092941284, 1.3105778694152832, 2.7809786796569824, -0.1798190474510193, -8.689088821411133, 0.8167625665664673, 5.85200309753418, -6.021582126617432, -7.676657199859619, -6.505702018737793, -6.994336128234863, -14.028533935546875, 0.953408420085907], [4.617681503295898, 4.65622615814209, 3.1960105895996094, 3.4917237758636475, 4.00116491317749, 1.7735991477966309, -0.42165184020996094, 2.6533660888671875, 10.050527572631836, 3.4110379219055176, 0.8310083150863647, -1.6353654861450195, -0.1949307918548584, -0.7134259939193726, -7.364429950714111, -1.6061183214187622, -2.170863151550293, -0.7742610573768616, -1.1472643613815308, -10.70522403717041, -4.7602996826171875, -6.119653701782227, 0.8345154523849487], [2.728071928024292, 2.6562771797180176, 4.336030960083008, 6.1099443435668945, 1.485981822013855, 1.0441452264785767, 2.8488411903381348, -0.15548181533813477, 11.521470069885254, 7.4908766746521, 5.580484390258789, -3.937995433807373, -7.066786766052246, -1.0679881572723389, -6.014595031738281, -0.8384112119674683, 4.378025054931641, -2.512840509414673, -6.568859100341797, -1.9353437423706055, -6.597055435180664, -10.053255081176758, -2.908996343612671]]
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 320, in <module>
+    classifier_acc = (float)((cla_acc_list == labels).sum().item()) / (float)(len(primary_bools))
+AttributeError: 'bool' object has no attribute 'sum'
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+[[5.003726959228516, 1.8634788990020752, 3.3602993488311768, 7.154426097869873, 4.752263069152832, -0.08913174271583557, -0.7506058216094971, 1.6583994626998901, 9.711348533630371, 1.4879508018493652, 6.550531387329102, -3.096766471862793, 0.17809981107711792, -1.418973445892334, -6.159842491149902, -2.937012195587158, 3.7073922157287598, -0.5363823771476746, -3.0659067630767822, -7.017951011657715, -7.17491340637207, -9.541254043579102, -3.404883861541748], [1.074162244796753, -1.0756152868270874, 6.701871395111084, 11.633353233337402, 2.2108535766601562, 5.553377628326416, 1.0121736526489258, -4.603357791900635, 2.0986180305480957, -0.5108979344367981, 9.118728637695312, -3.0892691612243652, -6.17728328704834, 8.278388023376465, -4.3457465171813965, 1.8757996559143066, -1.4072809219360352, 3.4607346057891846, -8.229948997497559, -6.79116678237915, -8.011252403259277, -10.681583404541016, 1.1994662284851074], [-1.0920212268829346, -2.3669686317443848, 4.818190097808838, 12.517930030822754, 1.639201045036316, 8.077924728393555, -0.3782406151294708, -4.526063442230225, 2.3157899379730225, -3.2887580394744873, 14.295001983642578, -2.0716514587402344, -6.918459415435791, 4.622643947601318, -1.9661256074905396, -1.8470540046691895, -5.40653657913208, 3.938432455062866, -5.572165012359619, -7.066611289978027, -8.875528335571289, -5.083718299865723, 3.3396289348602295], [1.8528103828430176, 1.8051173686981201, 3.641463279724121, 6.730749130249023, 5.698624610900879, 3.2166686058044434, -1.4854099750518799, 1.1436231136322021, 12.28290843963623, 2.907125949859619, 2.206494092941284, 1.3105778694152832, 2.7809786796569824, -0.1798190474510193, -8.689088821411133, 0.8167625665664673, 5.85200309753418, -6.021582126617432, -7.676657199859619, -6.505702018737793, -6.994336128234863, -14.028533935546875, 0.953408420085907], [4.617681503295898, 4.65622615814209, 3.1960105895996094, 3.4917237758636475, 4.00116491317749, 1.7735991477966309, -0.42165184020996094, 2.6533660888671875, 10.050527572631836, 3.4110379219055176, 0.8310083150863647, -1.6353654861450195, -0.1949307918548584, -0.7134259939193726, -7.364429950714111, -1.6061183214187622, -2.170863151550293, -0.7742610573768616, -1.1472643613815308, -10.70522403717041, -4.7602996826171875, -6.119653701782227, 0.8345154523849487], [2.728071928024292, 2.6562771797180176, 4.336030960083008, 6.1099443435668945, 1.485981822013855, 1.0441452264785767, 2.8488411903381348, -0.15548181533813477, 11.521470069885254, 7.4908766746521, 5.580484390258789, -3.937995433807373, -7.066786766052246, -1.0679881572723389, -6.014595031738281, -0.8384112119674683, 4.378025054931641, -2.512840509414673, -6.568859100341797, -1.9353437423706055, -6.597055435180664, -10.053255081176758, -2.908996343612671]]
+[8, 3, 10, 8, 8, 8]
+[1, 1, 2, 2, 1, 1, 2, 2, 6, 6, 7, 2, 2, 4, 5, 5, 4, 5, 8, 5, 5, 5, 5, 5, 3, 3, 3, 8, 8, 8]
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 322, in <module>
+    classifier_acc = (float)((cla_acc_list == labels).sum().item()) / (float)(len(primary_bools))
+AttributeError: 'bool' object has no attribute 'sum'
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+[[[3.1430418491363525, 16.544342041015625, 3.0299758911132812, 1.468583106994629, 3.6967356204986572, -4.8373942375183105, -1.8769505023956299, 3.4522805213928223, 7.609200954437256, 11.413921356201172, -4.287587642669678, -4.167778491973877, -7.474656105041504, 3.5747179985046387, -6.291208744049072, -3.907581090927124, -0.34563225507736206, -0.18514783680438995, 0.320724755525589, -12.245208740234375, -1.5279741287231445, -9.105002403259277, 1.1414283514022827], [6.992641925811768, 4.079372406005859, 10.31977367401123, 1.054785966873169, -0.8364213705062866, -3.4400994777679443, -4.533539295196533, -1.1383541822433472, 4.678305625915527, -3.0513486862182617, 1.692128300666809, -4.739532470703125, -1.325385570526123, 0.7813244462013245, -3.3174171447753906, -1.7118597030639648, 2.4884390830993652, 1.7540618181228638, 0.5745688676834106, -3.44002103805542, -1.3543883562088013, -3.0861587524414062, -1.7056026458740234], [4.7616400718688965, 1.80271315574646, 13.190650939941406, 4.123299598693848, -5.263711929321289, 2.355224847793579, 0.6012052893638611, -5.309164047241211, -0.5527511835098267, -2.884648323059082, 2.487031936645508, -5.853023052215576, -6.93887996673584, 5.249321937561035, -2.185459613800049, 7.476554870605469, -2.172520160675049, 2.8378207683563232, -2.4513516426086426, -2.706385374069214, -4.719264030456543, -8.019691467285156, 4.740606307983398], [8.364880561828613, 3.3772904872894287, 11.058418273925781, 4.38942813873291, 0.44076475501060486, 3.31469464302063, -3.3652477264404297, 0.6662293076515198, 4.489694118499756, 1.2325363159179688, 0.6583260297775269, -1.9025201797485352, -0.3180127739906311, 0.31296294927597046, -7.336120128631592, 5.11273193359375, 0.7878594398498535, -5.994930267333984, -4.337954998016357, -4.711979866027832, -4.989697456359863, -10.121313095092773, -0.48123836517333984], [2.4731690883636475, 21.15273666381836, 4.262976169586182, 6.16126823425293, 1.4052780866622925, -3.8555967807769775, 3.450866222381592, 3.0000195503234863, 6.7241597175598145, 4.262779235839844, 2.8342089653015137, -0.9923408031463623, -4.547591209411621, -3.217893123626709, -7.685728549957275, -5.164285659790039, -6.799685001373291, -0.9252042174339294, -0.4184286594390869, -15.017813682556152, -3.213501453399658, -8.079370498657227, 2.469224452972412], [7.921622276306152, 5.801604270935059, 3.127838611602783, 6.654296398162842, 3.173471212387085, 2.3984596729278564, 1.7882312536239624, 6.275331497192383, 7.185742378234863, 2.0925655364990234, 1.9489400386810303, -4.7480573654174805, -2.770054340362549, -5.115031719207764, -5.722573280334473, -6.692668914794922, 4.023797035217285, -6.052511692047119, 2.440890073776245, -11.157135963439941, -2.189312696456909, -5.585025310516357, -3.3744921684265137], [7.980359077453613, 3.5043039321899414, 9.444202423095703, 3.6203532218933105, 2.0807430744171143, 1.4818334579467773, -1.3098469972610474, 2.9414119720458984, 5.183851718902588, -1.2850074768066406, -1.3002794981002808, 0.07079467177391052, -0.719761073589325, -0.4287695288658142, -1.1708474159240723, 3.4543330669403076, -0.2518550753593445, -8.976780891418457, -3.71481990814209, -6.494354724884033, -0.9827176332473755, -4.783987045288086, -6.045901298522949], [6.9602437019348145, 1.7007524967193604, 14.143232345581055, 7.884659767150879, -0.5331732034683228, 1.4777898788452148, 0.6702640056610107, -2.121887683868408, -2.4968342781066895, -9.970914840698242, 5.572892665863037, -5.198722839355469, -4.600536346435547, 8.694182395935059, 0.8389298915863037, 4.238310813903809, -6.072429180145264, -0.8553064465522766, -3.6176674365997314, -4.4860405921936035, -4.7724103927612305, -8.057476043701172, 2.68589448928833], [-2.306469440460205, -2.453407049179077, -0.48417380452156067, 2.0478110313415527, -0.22033406794071198, 2.0585405826568604, 11.767905235290527, 4.438598155975342, -0.4700974225997925, 0.2067321389913559, -2.2535741329193115, 1.6295273303985596, -4.699357032775879, -4.744792461395264, -1.820334792137146, -5.4185285568237305, -2.9859437942504883, 5.955167293548584, 3.2617685794830322, -5.789722442626953, 5.052618980407715, -5.460974216461182, 3.544151544570923], [3.263242244720459, 1.1182291507720947, 1.267232894897461, -0.9288843274116516, -1.2207378149032593, -2.442157030105591, 5.664918899536133, 5.200359344482422, 1.0557526350021362, 0.8199235200881958, -3.93422794342041, -2.9858217239379883, -4.015377521514893, -1.982546091079712, -1.7599252462387085, -0.08681350946426392, 0.2994877099990845, 3.2245030403137207, 3.0790913105010986, -1.4976720809936523, -0.5938414335250854, -4.512152671813965, 1.2708165645599365], [3.098024845123291, -2.7283804416656494, 0.6803776621818542, -1.8905608654022217, -0.5440970659255981, -2.2841684818267822, 10.334248542785645, 7.937583923339844, -0.2376689314842224, -0.9306871294975281, -5.214417934417725, 0.7885582447052002, -0.7473193407058716, -5.020617961883545, -1.980685830116272, -3.800555467605591, -1.0653812885284424, 6.073002338409424, 5.145788192749023, -4.485437393188477, 3.775311231613159, -7.913848876953125, 1.6183834075927734], [6.196165084838867, 1.5181922912597656, 8.747398376464844, 6.742522239685059, 2.0082507133483887, 1.7156459093093872, -0.2457326501607895, 0.6302943229675293, 4.72714900970459, -1.21421217918396, 2.1789164543151855, -4.276707649230957, -6.781430721282959, 8.01064682006836, -2.7844576835632324, 1.744621753692627, 0.7911359071731567, -6.518255233764648, -5.0153326988220215, -6.04125452041626, -4.864132881164551, -8.208878517150879, 2.3002026081085205], [7.657759666442871, 3.581172227859497, 15.171220779418945, 5.50486946105957, -5.06557559967041, 0.21622759103775024, -2.61677885055542, -1.3148043155670166, 1.5514127016067505, -5.118042469024658, 3.0493221282958984, -8.16930103302002, -5.16367244720459, 10.271159172058105, -2.9411778450012207, 6.961005210876465, -2.261587619781494, 0.21765993535518646, -3.6119906902313232, -4.746379375457764, -3.38002872467041, -11.430919647216797, 2.88222336769104], [4.145458221435547, 3.753981351852417, 7.172863960266113, 6.5139265060424805, 2.9067718982696533, 1.2882343530654907, -1.7671998739242554, 0.8345285654067993, 3.9285783767700195, -6.081858158111572, 3.4947714805603027, 0.7349851131439209, -2.8335766792297363, 0.4474438428878784, -3.321460247039795, -4.254441261291504, -1.8359917402267456, -0.5615145564079285, -3.7033867835998535, -4.129180908203125, -4.123656272888184, -4.735395908355713, 2.1082916259765625], [3.17197847366333, -2.5634751319885254, 7.116805076599121, 12.600494384765625, 2.467897415161133, 9.163030624389648, 0.25784003734588623, -7.012242317199707, 1.7375043630599976, -2.195258140563965, 8.195443153381348, 5.006178379058838, -2.150919198989868, 5.758242130279541, -1.6262778043746948, 1.8254990577697754, -9.21208667755127, -0.5607691407203674, -8.058716773986816, -2.8789451122283936, -7.527639389038086, -15.050226211547852, 1.9449234008789062], [-0.612994372844696, -2.39595103263855, 0.7735963463783264, 6.114124298095703, 7.556407928466797, 9.225991249084473, 1.7620465755462646, -0.4877516031265259, 4.267431735992432, -1.3445080518722534, 3.8981242179870605, 6.785719394683838, 1.40887451171875, -0.41749340295791626, -2.2490406036376953, -2.6051857471466064, -3.4980831146240234, -1.0334014892578125, -5.346362113952637, -5.391060829162598, -3.590344190597534, -11.778619766235352, -0.9074668884277344], [-0.09155893325805664, 3.1910712718963623, -2.323343515396118, 3.5622196197509766, 21.432193756103516, 9.486078262329102, 1.766513466835022, -0.491182804107666, 4.400763034820557, -8.786102294921875, -1.9417880773544312, 9.151556015014648, 11.563827514648438, 0.18490785360336304, -4.085856914520264, -4.87744665145874, -7.455445766448975, -3.9548819065093994, -9.336634635925293, 1.0983901023864746, -6.746964454650879, -14.484835624694824, -2.501108407974243], [2.6309866905212402, -1.0592652559280396, 0.08601361513137817, 9.935469627380371, 6.573226451873779, 7.311900615692139, 2.9753551483154297, 3.116825580596924, 3.632972002029419, 0.002067606896162033, 5.700772762298584, 12.641419410705566, 3.688424587249756, -4.937280178070068, -3.766390800476074, -5.475797176361084, -3.4445643424987793, -7.8370747566223145, -6.357396125793457, -4.001862049102783, -10.000550270080566, -9.109431266784668, -1.306307077407837], [5.97903299331665, 1.689044713973999, 2.1594736576080322, 2.610833168029785, 4.186986923217773, 2.801997423171997, -2.936414957046509, 1.7705539464950562, 8.686497688293457, 1.5984516143798828, -0.9958670139312744, -3.7902374267578125, -1.0300840139389038, -1.012209177017212, -3.670889377593994, -0.8692425489425659, 5.110730171203613, -2.0731399059295654, -2.571671962738037, -4.9143595695495605, -3.4855973720550537, -5.864397048950195, -2.427011251449585], [4.157367706298828, 1.8444547653198242, 1.1940107345581055, 6.539246559143066, 1.2646076679229736, -2.8587677478790283, -0.18264292180538177, 2.5828304290771484, 9.25730037689209, 8.90467643737793, 0.26716139912605286, -9.125981330871582, -1.2250642776489258, -1.3370637893676758, -6.126367092132568, -5.82796573638916, 1.200831651687622, 2.6259472370147705, 2.9351298809051514, -10.097298622131348, -1.9330761432647705, -2.4227709770202637, -1.0837962627410889], [4.676061630249023, 2.3970792293548584, 3.577684164047241, 4.332682132720947, 0.9195284247398376, 0.3949143886566162, 1.283962368965149, 6.068155288696289, 10.142533302307129, 8.879913330078125, -0.0006304681301116943, -7.049819469451904, -5.557585716247559, -5.402198791503906, -7.772885799407959, -2.464170217514038, 4.2850751876831055, 1.465720772743225, 2.219588279724121, -9.518197059631348, -4.309270858764648, -6.874701499938965, -1.506023645401001], [6.689023494720459, -0.18110930919647217, 3.2460830211639404, 7.012683868408203, 0.45750319957733154, 4.360734462738037, -4.215850830078125, 4.094204902648926, 7.282219409942627, 4.778714656829834, 2.1217455863952637, -4.424591064453125, 0.5314943194389343, -2.858339786529541, -3.2976198196411133, -4.478376388549805, 0.9127326011657715, -2.5079798698425293, -2.010684013366699, -12.372103691101074, -2.9322731494903564, 0.939702033996582, -1.0976319313049316], [5.721867561340332, 3.6371371746063232, 4.0571489334106445, 5.81240177154541, -1.1849980354309082, 1.0244981050491333, 1.9580765962600708, 3.6096062660217285, 6.651362895965576, 1.9230173826217651, 3.7204465866088867, -8.604096412658691, -3.7954654693603516, -9.06159782409668, -4.770445823669434, -0.8797731399536133, 0.7225812673568726, 3.6750645637512207, -0.33150553703308105, -8.493390083312988, -1.0657532215118408, -1.9529800415039062, -1.687837839126587], [5.162896156311035, 4.179875373840332, 2.023315191268921, 8.135374069213867, 4.757778644561768, 4.435775279998779, -3.002471446990967, 1.986388087272644, 5.608071327209473, 0.6997590661048889, 6.521023273468018, 9.889151573181152, 4.96291971206665, -1.6589319705963135, -3.238936424255371, -4.118202209472656, -5.39978551864624, -6.746666431427002, -3.4644999504089355, -4.991840839385986, -8.997591018676758, -10.171453475952148, -5.654727935791016]], [[5.003726959228516, 1.8634788990020752, 3.3602993488311768, 7.154426097869873, 4.752263069152832, -0.08913174271583557, -0.7506058216094971, 1.6583994626998901, 9.711348533630371, 1.4879508018493652, 6.550531387329102, -3.096766471862793, 0.17809981107711792, -1.418973445892334, -6.159842491149902, -2.937012195587158, 3.7073922157287598, -0.5363823771476746, -3.0659067630767822, -7.017951011657715, -7.17491340637207, -9.541254043579102, -3.404883861541748], [1.074162244796753, -1.0756152868270874, 6.701871395111084, 11.633353233337402, 2.2108535766601562, 5.553377628326416, 1.0121736526489258, -4.603357791900635, 2.0986180305480957, -0.5108979344367981, 9.118728637695312, -3.0892691612243652, -6.17728328704834, 8.278388023376465, -4.3457465171813965, 1.8757996559143066, -1.4072809219360352, 3.4607346057891846, -8.229948997497559, -6.79116678237915, -8.011252403259277, -10.681583404541016, 1.1994662284851074], [-1.0920212268829346, -2.3669686317443848, 4.818190097808838, 12.517930030822754, 1.639201045036316, 8.077924728393555, -0.3782406151294708, -4.526063442230225, 2.3157899379730225, -3.2887580394744873, 14.295001983642578, -2.0716514587402344, -6.918459415435791, 4.622643947601318, -1.9661256074905396, -1.8470540046691895, -5.40653657913208, 3.938432455062866, -5.572165012359619, -7.066611289978027, -8.875528335571289, -5.083718299865723, 3.3396289348602295], [1.8528103828430176, 1.8051173686981201, 3.641463279724121, 6.730749130249023, 5.698624610900879, 3.2166686058044434, -1.4854099750518799, 1.1436231136322021, 12.28290843963623, 2.907125949859619, 2.206494092941284, 1.3105778694152832, 2.7809786796569824, -0.1798190474510193, -8.689088821411133, 0.8167625665664673, 5.85200309753418, -6.021582126617432, -7.676657199859619, -6.505702018737793, -6.994336128234863, -14.028533935546875, 0.953408420085907], [4.617681503295898, 4.65622615814209, 3.1960105895996094, 3.4917237758636475, 4.00116491317749, 1.7735991477966309, -0.42165184020996094, 2.6533660888671875, 10.050527572631836, 3.4110379219055176, 0.8310083150863647, -1.6353654861450195, -0.1949307918548584, -0.7134259939193726, -7.364429950714111, -1.6061183214187622, -2.170863151550293, -0.7742610573768616, -1.1472643613815308, -10.70522403717041, -4.7602996826171875, -6.119653701782227, 0.8345154523849487], [2.728071928024292, 2.6562771797180176, 4.336030960083008, 6.1099443435668945, 1.485981822013855, 1.0441452264785767, 2.8488411903381348, -0.15548181533813477, 11.521470069885254, 7.4908766746521, 5.580484390258789, -3.937995433807373, -7.066786766052246, -1.0679881572723389, -6.014595031738281, -0.8384112119674683, 4.378025054931641, -2.512840509414673, -6.568859100341797, -1.9353437423706055, -6.597055435180664, -10.053255081176758, -2.908996343612671]]]
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 316, in <module>
+    val_diff = max_val - max(lis)
+TypeError: unsupported operand type(s) for -: 'list' and 'list'
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+torch.Size([6, 3, 128, 256])
+[[[3.1430418491363525, 16.544342041015625, 3.0299758911132812, 1.468583106994629, 3.6967356204986572, -4.8373942375183105, -1.8769505023956299, 3.4522805213928223, 7.609200954437256, 11.413921356201172, -4.287587642669678, -4.167778491973877, -7.474656105041504, 3.5747179985046387, -6.291208744049072, -3.907581090927124, -0.34563225507736206, -0.18514783680438995, 0.320724755525589, -12.245208740234375, -1.5279741287231445, -9.105002403259277, 1.1414283514022827], [6.992641925811768, 4.079372406005859, 10.31977367401123, 1.054785966873169, -0.8364213705062866, -3.4400994777679443, -4.533539295196533, -1.1383541822433472, 4.678305625915527, -3.0513486862182617, 1.692128300666809, -4.739532470703125, -1.325385570526123, 0.7813244462013245, -3.3174171447753906, -1.7118597030639648, 2.4884390830993652, 1.7540618181228638, 0.5745688676834106, -3.44002103805542, -1.3543883562088013, -3.0861587524414062, -1.7056026458740234], [4.7616400718688965, 1.80271315574646, 13.190650939941406, 4.123299598693848, -5.263711929321289, 2.355224847793579, 0.6012052893638611, -5.309164047241211, -0.5527511835098267, -2.884648323059082, 2.487031936645508, -5.853023052215576, -6.93887996673584, 5.249321937561035, -2.185459613800049, 7.476554870605469, -2.172520160675049, 2.8378207683563232, -2.4513516426086426, -2.706385374069214, -4.719264030456543, -8.019691467285156, 4.740606307983398], [8.364880561828613, 3.3772904872894287, 11.058418273925781, 4.38942813873291, 0.44076475501060486, 3.31469464302063, -3.3652477264404297, 0.6662293076515198, 4.489694118499756, 1.2325363159179688, 0.6583260297775269, -1.9025201797485352, -0.3180127739906311, 0.31296294927597046, -7.336120128631592, 5.11273193359375, 0.7878594398498535, -5.994930267333984, -4.337954998016357, -4.711979866027832, -4.989697456359863, -10.121313095092773, -0.48123836517333984], [2.4731690883636475, 21.15273666381836, 4.262976169586182, 6.16126823425293, 1.4052780866622925, -3.8555967807769775, 3.450866222381592, 3.0000195503234863, 6.7241597175598145, 4.262779235839844, 2.8342089653015137, -0.9923408031463623, -4.547591209411621, -3.217893123626709, -7.685728549957275, -5.164285659790039, -6.799685001373291, -0.9252042174339294, -0.4184286594390869, -15.017813682556152, -3.213501453399658, -8.079370498657227, 2.469224452972412], [7.921622276306152, 5.801604270935059, 3.127838611602783, 6.654296398162842, 3.173471212387085, 2.3984596729278564, 1.7882312536239624, 6.275331497192383, 7.185742378234863, 2.0925655364990234, 1.9489400386810303, -4.7480573654174805, -2.770054340362549, -5.115031719207764, -5.722573280334473, -6.692668914794922, 4.023797035217285, -6.052511692047119, 2.440890073776245, -11.157135963439941, -2.189312696456909, -5.585025310516357, -3.3744921684265137], [7.980359077453613, 3.5043039321899414, 9.444202423095703, 3.6203532218933105, 2.0807430744171143, 1.4818334579467773, -1.3098469972610474, 2.9414119720458984, 5.183851718902588, -1.2850074768066406, -1.3002794981002808, 0.07079467177391052, -0.719761073589325, -0.4287695288658142, -1.1708474159240723, 3.4543330669403076, -0.2518550753593445, -8.976780891418457, -3.71481990814209, -6.494354724884033, -0.9827176332473755, -4.783987045288086, -6.045901298522949], [6.9602437019348145, 1.7007524967193604, 14.143232345581055, 7.884659767150879, -0.5331732034683228, 1.4777898788452148, 0.6702640056610107, -2.121887683868408, -2.4968342781066895, -9.970914840698242, 5.572892665863037, -5.198722839355469, -4.600536346435547, 8.694182395935059, 0.8389298915863037, 4.238310813903809, -6.072429180145264, -0.8553064465522766, -3.6176674365997314, -4.4860405921936035, -4.7724103927612305, -8.057476043701172, 2.68589448928833], [-2.306469440460205, -2.453407049179077, -0.48417380452156067, 2.0478110313415527, -0.22033406794071198, 2.0585405826568604, 11.767905235290527, 4.438598155975342, -0.4700974225997925, 0.2067321389913559, -2.2535741329193115, 1.6295273303985596, -4.699357032775879, -4.744792461395264, -1.820334792137146, -5.4185285568237305, -2.9859437942504883, 5.955167293548584, 3.2617685794830322, -5.789722442626953, 5.052618980407715, -5.460974216461182, 3.544151544570923], [3.263242244720459, 1.1182291507720947, 1.267232894897461, -0.9288843274116516, -1.2207378149032593, -2.442157030105591, 5.664918899536133, 5.200359344482422, 1.0557526350021362, 0.8199235200881958, -3.93422794342041, -2.9858217239379883, -4.015377521514893, -1.982546091079712, -1.7599252462387085, -0.08681350946426392, 0.2994877099990845, 3.2245030403137207, 3.0790913105010986, -1.4976720809936523, -0.5938414335250854, -4.512152671813965, 1.2708165645599365], [3.098024845123291, -2.7283804416656494, 0.6803776621818542, -1.8905608654022217, -0.5440970659255981, -2.2841684818267822, 10.334248542785645, 7.937583923339844, -0.2376689314842224, -0.9306871294975281, -5.214417934417725, 0.7885582447052002, -0.7473193407058716, -5.020617961883545, -1.980685830116272, -3.800555467605591, -1.0653812885284424, 6.073002338409424, 5.145788192749023, -4.485437393188477, 3.775311231613159, -7.913848876953125, 1.6183834075927734], [6.196165084838867, 1.5181922912597656, 8.747398376464844, 6.742522239685059, 2.0082507133483887, 1.7156459093093872, -0.2457326501607895, 0.6302943229675293, 4.72714900970459, -1.21421217918396, 2.1789164543151855, -4.276707649230957, -6.781430721282959, 8.01064682006836, -2.7844576835632324, 1.744621753692627, 0.7911359071731567, -6.518255233764648, -5.0153326988220215, -6.04125452041626, -4.864132881164551, -8.208878517150879, 2.3002026081085205], [7.657759666442871, 3.581172227859497, 15.171220779418945, 5.50486946105957, -5.06557559967041, 0.21622759103775024, -2.61677885055542, -1.3148043155670166, 1.5514127016067505, -5.118042469024658, 3.0493221282958984, -8.16930103302002, -5.16367244720459, 10.271159172058105, -2.9411778450012207, 6.961005210876465, -2.261587619781494, 0.21765993535518646, -3.6119906902313232, -4.746379375457764, -3.38002872467041, -11.430919647216797, 2.88222336769104], [4.145458221435547, 3.753981351852417, 7.172863960266113, 6.5139265060424805, 2.9067718982696533, 1.2882343530654907, -1.7671998739242554, 0.8345285654067993, 3.9285783767700195, -6.081858158111572, 3.4947714805603027, 0.7349851131439209, -2.8335766792297363, 0.4474438428878784, -3.321460247039795, -4.254441261291504, -1.8359917402267456, -0.5615145564079285, -3.7033867835998535, -4.129180908203125, -4.123656272888184, -4.735395908355713, 2.1082916259765625], [3.17197847366333, -2.5634751319885254, 7.116805076599121, 12.600494384765625, 2.467897415161133, 9.163030624389648, 0.25784003734588623, -7.012242317199707, 1.7375043630599976, -2.195258140563965, 8.195443153381348, 5.006178379058838, -2.150919198989868, 5.758242130279541, -1.6262778043746948, 1.8254990577697754, -9.21208667755127, -0.5607691407203674, -8.058716773986816, -2.8789451122283936, -7.527639389038086, -15.050226211547852, 1.9449234008789062], [-0.612994372844696, -2.39595103263855, 0.7735963463783264, 6.114124298095703, 7.556407928466797, 9.225991249084473, 1.7620465755462646, -0.4877516031265259, 4.267431735992432, -1.3445080518722534, 3.8981242179870605, 6.785719394683838, 1.40887451171875, -0.41749340295791626, -2.2490406036376953, -2.6051857471466064, -3.4980831146240234, -1.0334014892578125, -5.346362113952637, -5.391060829162598, -3.590344190597534, -11.778619766235352, -0.9074668884277344], [-0.09155893325805664, 3.1910712718963623, -2.323343515396118, 3.5622196197509766, 21.432193756103516, 9.486078262329102, 1.766513466835022, -0.491182804107666, 4.400763034820557, -8.786102294921875, -1.9417880773544312, 9.151556015014648, 11.563827514648438, 0.18490785360336304, -4.085856914520264, -4.87744665145874, -7.455445766448975, -3.9548819065093994, -9.336634635925293, 1.0983901023864746, -6.746964454650879, -14.484835624694824, -2.501108407974243], [2.6309866905212402, -1.0592652559280396, 0.08601361513137817, 9.935469627380371, 6.573226451873779, 7.311900615692139, 2.9753551483154297, 3.116825580596924, 3.632972002029419, 0.002067606896162033, 5.700772762298584, 12.641419410705566, 3.688424587249756, -4.937280178070068, -3.766390800476074, -5.475797176361084, -3.4445643424987793, -7.8370747566223145, -6.357396125793457, -4.001862049102783, -10.000550270080566, -9.109431266784668, -1.306307077407837], [5.97903299331665, 1.689044713973999, 2.1594736576080322, 2.610833168029785, 4.186986923217773, 2.801997423171997, -2.936414957046509, 1.7705539464950562, 8.686497688293457, 1.5984516143798828, -0.9958670139312744, -3.7902374267578125, -1.0300840139389038, -1.012209177017212, -3.670889377593994, -0.8692425489425659, 5.110730171203613, -2.0731399059295654, -2.571671962738037, -4.9143595695495605, -3.4855973720550537, -5.864397048950195, -2.427011251449585], [4.157367706298828, 1.8444547653198242, 1.1940107345581055, 6.539246559143066, 1.2646076679229736, -2.8587677478790283, -0.18264292180538177, 2.5828304290771484, 9.25730037689209, 8.90467643737793, 0.26716139912605286, -9.125981330871582, -1.2250642776489258, -1.3370637893676758, -6.126367092132568, -5.82796573638916, 1.200831651687622, 2.6259472370147705, 2.9351298809051514, -10.097298622131348, -1.9330761432647705, -2.4227709770202637, -1.0837962627410889], [4.676061630249023, 2.3970792293548584, 3.577684164047241, 4.332682132720947, 0.9195284247398376, 0.3949143886566162, 1.283962368965149, 6.068155288696289, 10.142533302307129, 8.879913330078125, -0.0006304681301116943, -7.049819469451904, -5.557585716247559, -5.402198791503906, -7.772885799407959, -2.464170217514038, 4.2850751876831055, 1.465720772743225, 2.219588279724121, -9.518197059631348, -4.309270858764648, -6.874701499938965, -1.506023645401001], [6.689023494720459, -0.18110930919647217, 3.2460830211639404, 7.012683868408203, 0.45750319957733154, 4.360734462738037, -4.215850830078125, 4.094204902648926, 7.282219409942627, 4.778714656829834, 2.1217455863952637, -4.424591064453125, 0.5314943194389343, -2.858339786529541, -3.2976198196411133, -4.478376388549805, 0.9127326011657715, -2.5079798698425293, -2.010684013366699, -12.372103691101074, -2.9322731494903564, 0.939702033996582, -1.0976319313049316], [5.721867561340332, 3.6371371746063232, 4.0571489334106445, 5.81240177154541, -1.1849980354309082, 1.0244981050491333, 1.9580765962600708, 3.6096062660217285, 6.651362895965576, 1.9230173826217651, 3.7204465866088867, -8.604096412658691, -3.7954654693603516, -9.06159782409668, -4.770445823669434, -0.8797731399536133, 0.7225812673568726, 3.6750645637512207, -0.33150553703308105, -8.493390083312988, -1.0657532215118408, -1.9529800415039062, -1.687837839126587], [5.162896156311035, 4.179875373840332, 2.023315191268921, 8.135374069213867, 4.757778644561768, 4.435775279998779, -3.002471446990967, 1.986388087272644, 5.608071327209473, 0.6997590661048889, 6.521023273468018, 9.889151573181152, 4.96291971206665, -1.6589319705963135, -3.238936424255371, -4.118202209472656, -5.39978551864624, -6.746666431427002, -3.4644999504089355, -4.991840839385986, -8.997591018676758, -10.171453475952148, -5.654727935791016]], [[5.003726959228516, 1.8634788990020752, 3.3602993488311768, 7.154426097869873, 4.752263069152832, -0.08913174271583557, -0.7506058216094971, 1.6583994626998901, 9.711348533630371, 1.4879508018493652, 6.550531387329102, -3.096766471862793, 0.17809981107711792, -1.418973445892334, -6.159842491149902, -2.937012195587158, 3.7073922157287598, -0.5363823771476746, -3.0659067630767822, -7.017951011657715, -7.17491340637207, -9.541254043579102, -3.404883861541748], [1.074162244796753, -1.0756152868270874, 6.701871395111084, 11.633353233337402, 2.2108535766601562, 5.553377628326416, 1.0121736526489258, -4.603357791900635, 2.0986180305480957, -0.5108979344367981, 9.118728637695312, -3.0892691612243652, -6.17728328704834, 8.278388023376465, -4.3457465171813965, 1.8757996559143066, -1.4072809219360352, 3.4607346057891846, -8.229948997497559, -6.79116678237915, -8.011252403259277, -10.681583404541016, 1.1994662284851074], [-1.0920212268829346, -2.3669686317443848, 4.818190097808838, 12.517930030822754, 1.639201045036316, 8.077924728393555, -0.3782406151294708, -4.526063442230225, 2.3157899379730225, -3.2887580394744873, 14.295001983642578, -2.0716514587402344, -6.918459415435791, 4.622643947601318, -1.9661256074905396, -1.8470540046691895, -5.40653657913208, 3.938432455062866, -5.572165012359619, -7.066611289978027, -8.875528335571289, -5.083718299865723, 3.3396289348602295], [1.8528103828430176, 1.8051173686981201, 3.641463279724121, 6.730749130249023, 5.698624610900879, 3.2166686058044434, -1.4854099750518799, 1.1436231136322021, 12.28290843963623, 2.907125949859619, 2.206494092941284, 1.3105778694152832, 2.7809786796569824, -0.1798190474510193, -8.689088821411133, 0.8167625665664673, 5.85200309753418, -6.021582126617432, -7.676657199859619, -6.505702018737793, -6.994336128234863, -14.028533935546875, 0.953408420085907], [4.617681503295898, 4.65622615814209, 3.1960105895996094, 3.4917237758636475, 4.00116491317749, 1.7735991477966309, -0.42165184020996094, 2.6533660888671875, 10.050527572631836, 3.4110379219055176, 0.8310083150863647, -1.6353654861450195, -0.1949307918548584, -0.7134259939193726, -7.364429950714111, -1.6061183214187622, -2.170863151550293, -0.7742610573768616, -1.1472643613815308, -10.70522403717041, -4.7602996826171875, -6.119653701782227, 0.8345154523849487], [2.728071928024292, 2.6562771797180176, 4.336030960083008, 6.1099443435668945, 1.485981822013855, 1.0441452264785767, 2.8488411903381348, -0.15548181533813477, 11.521470069885254, 7.4908766746521, 5.580484390258789, -3.937995433807373, -7.066786766052246, -1.0679881572723389, -6.014595031738281, -0.8384112119674683, 4.378025054931641, -2.512840509414673, -6.568859100341797, -1.9353437423706055, -6.597055435180664, -10.053255081176758, -2.908996343612671]]]
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 317, in <module>
+    val_diff = max_val - max(lis)
+TypeError: unsupported operand type(s) for -: 'list' and 'list'
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+torch.Size([6, 3, 128, 256])
+[[3.1430418491363525, 16.544342041015625, 3.0299758911132812, 1.468583106994629, 3.6967356204986572, -4.8373942375183105, -1.8769505023956299, 3.4522805213928223, 7.609200954437256, 11.413921356201172, -4.287587642669678, -4.167778491973877, -7.474656105041504, 3.5747179985046387, -6.291208744049072, -3.907581090927124, -0.34563225507736206, -0.18514783680438995, 0.320724755525589, -12.245208740234375, -1.5279741287231445, -9.105002403259277, 1.1414283514022827], [6.992641925811768, 4.079372406005859, 10.31977367401123, 1.054785966873169, -0.8364213705062866, -3.4400994777679443, -4.533539295196533, -1.1383541822433472, 4.678305625915527, -3.0513486862182617, 1.692128300666809, -4.739532470703125, -1.325385570526123, 0.7813244462013245, -3.3174171447753906, -1.7118597030639648, 2.4884390830993652, 1.7540618181228638, 0.5745688676834106, -3.44002103805542, -1.3543883562088013, -3.0861587524414062, -1.7056026458740234], [4.7616400718688965, 1.80271315574646, 13.190650939941406, 4.123299598693848, -5.263711929321289, 2.355224847793579, 0.6012052893638611, -5.309164047241211, -0.5527511835098267, -2.884648323059082, 2.487031936645508, -5.853023052215576, -6.93887996673584, 5.249321937561035, -2.185459613800049, 7.476554870605469, -2.172520160675049, 2.8378207683563232, -2.4513516426086426, -2.706385374069214, -4.719264030456543, -8.019691467285156, 4.740606307983398], [8.364880561828613, 3.3772904872894287, 11.058418273925781, 4.38942813873291, 0.44076475501060486, 3.31469464302063, -3.3652477264404297, 0.6662293076515198, 4.489694118499756, 1.2325363159179688, 0.6583260297775269, -1.9025201797485352, -0.3180127739906311, 0.31296294927597046, -7.336120128631592, 5.11273193359375, 0.7878594398498535, -5.994930267333984, -4.337954998016357, -4.711979866027832, -4.989697456359863, -10.121313095092773, -0.48123836517333984], [2.4731690883636475, 21.15273666381836, 4.262976169586182, 6.16126823425293, 1.4052780866622925, -3.8555967807769775, 3.450866222381592, 3.0000195503234863, 6.7241597175598145, 4.262779235839844, 2.8342089653015137, -0.9923408031463623, -4.547591209411621, -3.217893123626709, -7.685728549957275, -5.164285659790039, -6.799685001373291, -0.9252042174339294, -0.4184286594390869, -15.017813682556152, -3.213501453399658, -8.079370498657227, 2.469224452972412], [7.921622276306152, 5.801604270935059, 3.127838611602783, 6.654296398162842, 3.173471212387085, 2.3984596729278564, 1.7882312536239624, 6.275331497192383, 7.185742378234863, 2.0925655364990234, 1.9489400386810303, -4.7480573654174805, -2.770054340362549, -5.115031719207764, -5.722573280334473, -6.692668914794922, 4.023797035217285, -6.052511692047119, 2.440890073776245, -11.157135963439941, -2.189312696456909, -5.585025310516357, -3.3744921684265137], [7.980359077453613, 3.5043039321899414, 9.444202423095703, 3.6203532218933105, 2.0807430744171143, 1.4818334579467773, -1.3098469972610474, 2.9414119720458984, 5.183851718902588, -1.2850074768066406, -1.3002794981002808, 0.07079467177391052, -0.719761073589325, -0.4287695288658142, -1.1708474159240723, 3.4543330669403076, -0.2518550753593445, -8.976780891418457, -3.71481990814209, -6.494354724884033, -0.9827176332473755, -4.783987045288086, -6.045901298522949], [6.9602437019348145, 1.7007524967193604, 14.143232345581055, 7.884659767150879, -0.5331732034683228, 1.4777898788452148, 0.6702640056610107, -2.121887683868408, -2.4968342781066895, -9.970914840698242, 5.572892665863037, -5.198722839355469, -4.600536346435547, 8.694182395935059, 0.8389298915863037, 4.238310813903809, -6.072429180145264, -0.8553064465522766, -3.6176674365997314, -4.4860405921936035, -4.7724103927612305, -8.057476043701172, 2.68589448928833], [-2.306469440460205, -2.453407049179077, -0.48417380452156067, 2.0478110313415527, -0.22033406794071198, 2.0585405826568604, 11.767905235290527, 4.438598155975342, -0.4700974225997925, 0.2067321389913559, -2.2535741329193115, 1.6295273303985596, -4.699357032775879, -4.744792461395264, -1.820334792137146, -5.4185285568237305, -2.9859437942504883, 5.955167293548584, 3.2617685794830322, -5.789722442626953, 5.052618980407715, -5.460974216461182, 3.544151544570923], [3.263242244720459, 1.1182291507720947, 1.267232894897461, -0.9288843274116516, -1.2207378149032593, -2.442157030105591, 5.664918899536133, 5.200359344482422, 1.0557526350021362, 0.8199235200881958, -3.93422794342041, -2.9858217239379883, -4.015377521514893, -1.982546091079712, -1.7599252462387085, -0.08681350946426392, 0.2994877099990845, 3.2245030403137207, 3.0790913105010986, -1.4976720809936523, -0.5938414335250854, -4.512152671813965, 1.2708165645599365], [3.098024845123291, -2.7283804416656494, 0.6803776621818542, -1.8905608654022217, -0.5440970659255981, -2.2841684818267822, 10.334248542785645, 7.937583923339844, -0.2376689314842224, -0.9306871294975281, -5.214417934417725, 0.7885582447052002, -0.7473193407058716, -5.020617961883545, -1.980685830116272, -3.800555467605591, -1.0653812885284424, 6.073002338409424, 5.145788192749023, -4.485437393188477, 3.775311231613159, -7.913848876953125, 1.6183834075927734], [6.196165084838867, 1.5181922912597656, 8.747398376464844, 6.742522239685059, 2.0082507133483887, 1.7156459093093872, -0.2457326501607895, 0.6302943229675293, 4.72714900970459, -1.21421217918396, 2.1789164543151855, -4.276707649230957, -6.781430721282959, 8.01064682006836, -2.7844576835632324, 1.744621753692627, 0.7911359071731567, -6.518255233764648, -5.0153326988220215, -6.04125452041626, -4.864132881164551, -8.208878517150879, 2.3002026081085205], [7.657759666442871, 3.581172227859497, 15.171220779418945, 5.50486946105957, -5.06557559967041, 0.21622759103775024, -2.61677885055542, -1.3148043155670166, 1.5514127016067505, -5.118042469024658, 3.0493221282958984, -8.16930103302002, -5.16367244720459, 10.271159172058105, -2.9411778450012207, 6.961005210876465, -2.261587619781494, 0.21765993535518646, -3.6119906902313232, -4.746379375457764, -3.38002872467041, -11.430919647216797, 2.88222336769104], [4.145458221435547, 3.753981351852417, 7.172863960266113, 6.5139265060424805, 2.9067718982696533, 1.2882343530654907, -1.7671998739242554, 0.8345285654067993, 3.9285783767700195, -6.081858158111572, 3.4947714805603027, 0.7349851131439209, -2.8335766792297363, 0.4474438428878784, -3.321460247039795, -4.254441261291504, -1.8359917402267456, -0.5615145564079285, -3.7033867835998535, -4.129180908203125, -4.123656272888184, -4.735395908355713, 2.1082916259765625], [3.17197847366333, -2.5634751319885254, 7.116805076599121, 12.600494384765625, 2.467897415161133, 9.163030624389648, 0.25784003734588623, -7.012242317199707, 1.7375043630599976, -2.195258140563965, 8.195443153381348, 5.006178379058838, -2.150919198989868, 5.758242130279541, -1.6262778043746948, 1.8254990577697754, -9.21208667755127, -0.5607691407203674, -8.058716773986816, -2.8789451122283936, -7.527639389038086, -15.050226211547852, 1.9449234008789062], [-0.612994372844696, -2.39595103263855, 0.7735963463783264, 6.114124298095703, 7.556407928466797, 9.225991249084473, 1.7620465755462646, -0.4877516031265259, 4.267431735992432, -1.3445080518722534, 3.8981242179870605, 6.785719394683838, 1.40887451171875, -0.41749340295791626, -2.2490406036376953, -2.6051857471466064, -3.4980831146240234, -1.0334014892578125, -5.346362113952637, -5.391060829162598, -3.590344190597534, -11.778619766235352, -0.9074668884277344], [-0.09155893325805664, 3.1910712718963623, -2.323343515396118, 3.5622196197509766, 21.432193756103516, 9.486078262329102, 1.766513466835022, -0.491182804107666, 4.400763034820557, -8.786102294921875, -1.9417880773544312, 9.151556015014648, 11.563827514648438, 0.18490785360336304, -4.085856914520264, -4.87744665145874, -7.455445766448975, -3.9548819065093994, -9.336634635925293, 1.0983901023864746, -6.746964454650879, -14.484835624694824, -2.501108407974243], [2.6309866905212402, -1.0592652559280396, 0.08601361513137817, 9.935469627380371, 6.573226451873779, 7.311900615692139, 2.9753551483154297, 3.116825580596924, 3.632972002029419, 0.002067606896162033, 5.700772762298584, 12.641419410705566, 3.688424587249756, -4.937280178070068, -3.766390800476074, -5.475797176361084, -3.4445643424987793, -7.8370747566223145, -6.357396125793457, -4.001862049102783, -10.000550270080566, -9.109431266784668, -1.306307077407837], [5.97903299331665, 1.689044713973999, 2.1594736576080322, 2.610833168029785, 4.186986923217773, 2.801997423171997, -2.936414957046509, 1.7705539464950562, 8.686497688293457, 1.5984516143798828, -0.9958670139312744, -3.7902374267578125, -1.0300840139389038, -1.012209177017212, -3.670889377593994, -0.8692425489425659, 5.110730171203613, -2.0731399059295654, -2.571671962738037, -4.9143595695495605, -3.4855973720550537, -5.864397048950195, -2.427011251449585], [4.157367706298828, 1.8444547653198242, 1.1940107345581055, 6.539246559143066, 1.2646076679229736, -2.8587677478790283, -0.18264292180538177, 2.5828304290771484, 9.25730037689209, 8.90467643737793, 0.26716139912605286, -9.125981330871582, -1.2250642776489258, -1.3370637893676758, -6.126367092132568, -5.82796573638916, 1.200831651687622, 2.6259472370147705, 2.9351298809051514, -10.097298622131348, -1.9330761432647705, -2.4227709770202637, -1.0837962627410889], [4.676061630249023, 2.3970792293548584, 3.577684164047241, 4.332682132720947, 0.9195284247398376, 0.3949143886566162, 1.283962368965149, 6.068155288696289, 10.142533302307129, 8.879913330078125, -0.0006304681301116943, -7.049819469451904, -5.557585716247559, -5.402198791503906, -7.772885799407959, -2.464170217514038, 4.2850751876831055, 1.465720772743225, 2.219588279724121, -9.518197059631348, -4.309270858764648, -6.874701499938965, -1.506023645401001], [6.689023494720459, -0.18110930919647217, 3.2460830211639404, 7.012683868408203, 0.45750319957733154, 4.360734462738037, -4.215850830078125, 4.094204902648926, 7.282219409942627, 4.778714656829834, 2.1217455863952637, -4.424591064453125, 0.5314943194389343, -2.858339786529541, -3.2976198196411133, -4.478376388549805, 0.9127326011657715, -2.5079798698425293, -2.010684013366699, -12.372103691101074, -2.9322731494903564, 0.939702033996582, -1.0976319313049316], [5.721867561340332, 3.6371371746063232, 4.0571489334106445, 5.81240177154541, -1.1849980354309082, 1.0244981050491333, 1.9580765962600708, 3.6096062660217285, 6.651362895965576, 1.9230173826217651, 3.7204465866088867, -8.604096412658691, -3.7954654693603516, -9.06159782409668, -4.770445823669434, -0.8797731399536133, 0.7225812673568726, 3.6750645637512207, -0.33150553703308105, -8.493390083312988, -1.0657532215118408, -1.9529800415039062, -1.687837839126587], [5.162896156311035, 4.179875373840332, 2.023315191268921, 8.135374069213867, 4.757778644561768, 4.435775279998779, -3.002471446990967, 1.986388087272644, 5.608071327209473, 0.6997590661048889, 6.521023273468018, 9.889151573181152, 4.96291971206665, -1.6589319705963135, -3.238936424255371, -4.118202209472656, -5.39978551864624, -6.746666431427002, -3.4644999504089355, -4.991840839385986, -8.997591018676758, -10.171453475952148, -5.654727935791016], [5.003726959228516, 1.8634788990020752, 3.3602993488311768, 7.154426097869873, 4.752263069152832, -0.08913174271583557, -0.7506058216094971, 1.6583994626998901, 9.711348533630371, 1.4879508018493652, 6.550531387329102, -3.096766471862793, 0.17809981107711792, -1.418973445892334, -6.159842491149902, -2.937012195587158, 3.7073922157287598, -0.5363823771476746, -3.0659067630767822, -7.017951011657715, -7.17491340637207, -9.541254043579102, -3.404883861541748], [1.074162244796753, -1.0756152868270874, 6.701871395111084, 11.633353233337402, 2.2108535766601562, 5.553377628326416, 1.0121736526489258, -4.603357791900635, 2.0986180305480957, -0.5108979344367981, 9.118728637695312, -3.0892691612243652, -6.17728328704834, 8.278388023376465, -4.3457465171813965, 1.8757996559143066, -1.4072809219360352, 3.4607346057891846, -8.229948997497559, -6.79116678237915, -8.011252403259277, -10.681583404541016, 1.1994662284851074], [-1.0920212268829346, -2.3669686317443848, 4.818190097808838, 12.517930030822754, 1.639201045036316, 8.077924728393555, -0.3782406151294708, -4.526063442230225, 2.3157899379730225, -3.2887580394744873, 14.295001983642578, -2.0716514587402344, -6.918459415435791, 4.622643947601318, -1.9661256074905396, -1.8470540046691895, -5.40653657913208, 3.938432455062866, -5.572165012359619, -7.066611289978027, -8.875528335571289, -5.083718299865723, 3.3396289348602295], [1.8528103828430176, 1.8051173686981201, 3.641463279724121, 6.730749130249023, 5.698624610900879, 3.2166686058044434, -1.4854099750518799, 1.1436231136322021, 12.28290843963623, 2.907125949859619, 2.206494092941284, 1.3105778694152832, 2.7809786796569824, -0.1798190474510193, -8.689088821411133, 0.8167625665664673, 5.85200309753418, -6.021582126617432, -7.676657199859619, -6.505702018737793, -6.994336128234863, -14.028533935546875, 0.953408420085907], [4.617681503295898, 4.65622615814209, 3.1960105895996094, 3.4917237758636475, 4.00116491317749, 1.7735991477966309, -0.42165184020996094, 2.6533660888671875, 10.050527572631836, 3.4110379219055176, 0.8310083150863647, -1.6353654861450195, -0.1949307918548584, -0.7134259939193726, -7.364429950714111, -1.6061183214187622, -2.170863151550293, -0.7742610573768616, -1.1472643613815308, -10.70522403717041, -4.7602996826171875, -6.119653701782227, 0.8345154523849487], [2.728071928024292, 2.6562771797180176, 4.336030960083008, 6.1099443435668945, 1.485981822013855, 1.0441452264785767, 2.8488411903381348, -0.15548181533813477, 11.521470069885254, 7.4908766746521, 5.580484390258789, -3.937995433807373, -7.066786766052246, -1.0679881572723389, -6.014595031738281, -0.8384112119674683, 4.378025054931641, -2.512840509414673, -6.568859100341797, -1.9353437423706055, -6.597055435180664, -10.053255081176758, -2.908996343612671]]
+[1, 2, 2, 2, 1, 0, 2, 2, 6, 6, 6, 2, 2, 2, 3, 5, 4, 11, 8, 8, 8, 8, 8, 11, 8, 3, 10, 8, 8, 8]
+[1, 1, 2, 2, 1, 1, 2, 2, 6, 6, 7, 2, 2, 4, 5, 5, 4, 5, 8, 5, 5, 5, 5, 5, 3, 3, 3, 8, 8, 8]
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 323, in <module>
+    classifier_acc = (float)((cla_acc_list == labels).sum().item()) / (float)(len(primary_bools))
+AttributeError: 'bool' object has no attribute 'sum'
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+30
+torch.Size([30, 3, 128, 256])
+torch.Size([24, 3, 128, 256])
+torch.Size([6, 3, 128, 256])
+[[3.1430418491363525, 16.544342041015625, 3.0299758911132812, 1.468583106994629, 3.6967356204986572, -4.8373942375183105, -1.8769505023956299, 3.4522805213928223, 7.609200954437256, 11.413921356201172, -4.287587642669678, -4.167778491973877, -7.474656105041504, 3.5747179985046387, -6.291208744049072, -3.907581090927124, -0.34563225507736206, -0.18514783680438995, 0.320724755525589, -12.245208740234375, -1.5279741287231445, -9.105002403259277, 1.1414283514022827], [6.992641925811768, 4.079372406005859, 10.31977367401123, 1.054785966873169, -0.8364213705062866, -3.4400994777679443, -4.533539295196533, -1.1383541822433472, 4.678305625915527, -3.0513486862182617, 1.692128300666809, -4.739532470703125, -1.325385570526123, 0.7813244462013245, -3.3174171447753906, -1.7118597030639648, 2.4884390830993652, 1.7540618181228638, 0.5745688676834106, -3.44002103805542, -1.3543883562088013, -3.0861587524414062, -1.7056026458740234], [4.7616400718688965, 1.80271315574646, 13.190650939941406, 4.123299598693848, -5.263711929321289, 2.355224847793579, 0.6012052893638611, -5.309164047241211, -0.5527511835098267, -2.884648323059082, 2.487031936645508, -5.853023052215576, -6.93887996673584, 5.249321937561035, -2.185459613800049, 7.476554870605469, -2.172520160675049, 2.8378207683563232, -2.4513516426086426, -2.706385374069214, -4.719264030456543, -8.019691467285156, 4.740606307983398], [8.364880561828613, 3.3772904872894287, 11.058418273925781, 4.38942813873291, 0.44076475501060486, 3.31469464302063, -3.3652477264404297, 0.6662293076515198, 4.489694118499756, 1.2325363159179688, 0.6583260297775269, -1.9025201797485352, -0.3180127739906311, 0.31296294927597046, -7.336120128631592, 5.11273193359375, 0.7878594398498535, -5.994930267333984, -4.337954998016357, -4.711979866027832, -4.989697456359863, -10.121313095092773, -0.48123836517333984], [2.4731690883636475, 21.15273666381836, 4.262976169586182, 6.16126823425293, 1.4052780866622925, -3.8555967807769775, 3.450866222381592, 3.0000195503234863, 6.7241597175598145, 4.262779235839844, 2.8342089653015137, -0.9923408031463623, -4.547591209411621, -3.217893123626709, -7.685728549957275, -5.164285659790039, -6.799685001373291, -0.9252042174339294, -0.4184286594390869, -15.017813682556152, -3.213501453399658, -8.079370498657227, 2.469224452972412], [7.921622276306152, 5.801604270935059, 3.127838611602783, 6.654296398162842, 3.173471212387085, 2.3984596729278564, 1.7882312536239624, 6.275331497192383, 7.185742378234863, 2.0925655364990234, 1.9489400386810303, -4.7480573654174805, -2.770054340362549, -5.115031719207764, -5.722573280334473, -6.692668914794922, 4.023797035217285, -6.052511692047119, 2.440890073776245, -11.157135963439941, -2.189312696456909, -5.585025310516357, -3.3744921684265137], [7.980359077453613, 3.5043039321899414, 9.444202423095703, 3.6203532218933105, 2.0807430744171143, 1.4818334579467773, -1.3098469972610474, 2.9414119720458984, 5.183851718902588, -1.2850074768066406, -1.3002794981002808, 0.07079467177391052, -0.719761073589325, -0.4287695288658142, -1.1708474159240723, 3.4543330669403076, -0.2518550753593445, -8.976780891418457, -3.71481990814209, -6.494354724884033, -0.9827176332473755, -4.783987045288086, -6.045901298522949], [6.9602437019348145, 1.7007524967193604, 14.143232345581055, 7.884659767150879, -0.5331732034683228, 1.4777898788452148, 0.6702640056610107, -2.121887683868408, -2.4968342781066895, -9.970914840698242, 5.572892665863037, -5.198722839355469, -4.600536346435547, 8.694182395935059, 0.8389298915863037, 4.238310813903809, -6.072429180145264, -0.8553064465522766, -3.6176674365997314, -4.4860405921936035, -4.7724103927612305, -8.057476043701172, 2.68589448928833], [-2.306469440460205, -2.453407049179077, -0.48417380452156067, 2.0478110313415527, -0.22033406794071198, 2.0585405826568604, 11.767905235290527, 4.438598155975342, -0.4700974225997925, 0.2067321389913559, -2.2535741329193115, 1.6295273303985596, -4.699357032775879, -4.744792461395264, -1.820334792137146, -5.4185285568237305, -2.9859437942504883, 5.955167293548584, 3.2617685794830322, -5.789722442626953, 5.052618980407715, -5.460974216461182, 3.544151544570923], [3.263242244720459, 1.1182291507720947, 1.267232894897461, -0.9288843274116516, -1.2207378149032593, -2.442157030105591, 5.664918899536133, 5.200359344482422, 1.0557526350021362, 0.8199235200881958, -3.93422794342041, -2.9858217239379883, -4.015377521514893, -1.982546091079712, -1.7599252462387085, -0.08681350946426392, 0.2994877099990845, 3.2245030403137207, 3.0790913105010986, -1.4976720809936523, -0.5938414335250854, -4.512152671813965, 1.2708165645599365], [3.098024845123291, -2.7283804416656494, 0.6803776621818542, -1.8905608654022217, -0.5440970659255981, -2.2841684818267822, 10.334248542785645, 7.937583923339844, -0.2376689314842224, -0.9306871294975281, -5.214417934417725, 0.7885582447052002, -0.7473193407058716, -5.020617961883545, -1.980685830116272, -3.800555467605591, -1.0653812885284424, 6.073002338409424, 5.145788192749023, -4.485437393188477, 3.775311231613159, -7.913848876953125, 1.6183834075927734], [6.196165084838867, 1.5181922912597656, 8.747398376464844, 6.742522239685059, 2.0082507133483887, 1.7156459093093872, -0.2457326501607895, 0.6302943229675293, 4.72714900970459, -1.21421217918396, 2.1789164543151855, -4.276707649230957, -6.781430721282959, 8.01064682006836, -2.7844576835632324, 1.744621753692627, 0.7911359071731567, -6.518255233764648, -5.0153326988220215, -6.04125452041626, -4.864132881164551, -8.208878517150879, 2.3002026081085205], [7.657759666442871, 3.581172227859497, 15.171220779418945, 5.50486946105957, -5.06557559967041, 0.21622759103775024, -2.61677885055542, -1.3148043155670166, 1.5514127016067505, -5.118042469024658, 3.0493221282958984, -8.16930103302002, -5.16367244720459, 10.271159172058105, -2.9411778450012207, 6.961005210876465, -2.261587619781494, 0.21765993535518646, -3.6119906902313232, -4.746379375457764, -3.38002872467041, -11.430919647216797, 2.88222336769104], [4.145458221435547, 3.753981351852417, 7.172863960266113, 6.5139265060424805, 2.9067718982696533, 1.2882343530654907, -1.7671998739242554, 0.8345285654067993, 3.9285783767700195, -6.081858158111572, 3.4947714805603027, 0.7349851131439209, -2.8335766792297363, 0.4474438428878784, -3.321460247039795, -4.254441261291504, -1.8359917402267456, -0.5615145564079285, -3.7033867835998535, -4.129180908203125, -4.123656272888184, -4.735395908355713, 2.1082916259765625], [3.17197847366333, -2.5634751319885254, 7.116805076599121, 12.600494384765625, 2.467897415161133, 9.163030624389648, 0.25784003734588623, -7.012242317199707, 1.7375043630599976, -2.195258140563965, 8.195443153381348, 5.006178379058838, -2.150919198989868, 5.758242130279541, -1.6262778043746948, 1.8254990577697754, -9.21208667755127, -0.5607691407203674, -8.058716773986816, -2.8789451122283936, -7.527639389038086, -15.050226211547852, 1.9449234008789062], [-0.612994372844696, -2.39595103263855, 0.7735963463783264, 6.114124298095703, 7.556407928466797, 9.225991249084473, 1.7620465755462646, -0.4877516031265259, 4.267431735992432, -1.3445080518722534, 3.8981242179870605, 6.785719394683838, 1.40887451171875, -0.41749340295791626, -2.2490406036376953, -2.6051857471466064, -3.4980831146240234, -1.0334014892578125, -5.346362113952637, -5.391060829162598, -3.590344190597534, -11.778619766235352, -0.9074668884277344], [-0.09155893325805664, 3.1910712718963623, -2.323343515396118, 3.5622196197509766, 21.432193756103516, 9.486078262329102, 1.766513466835022, -0.491182804107666, 4.400763034820557, -8.786102294921875, -1.9417880773544312, 9.151556015014648, 11.563827514648438, 0.18490785360336304, -4.085856914520264, -4.87744665145874, -7.455445766448975, -3.9548819065093994, -9.336634635925293, 1.0983901023864746, -6.746964454650879, -14.484835624694824, -2.501108407974243], [2.6309866905212402, -1.0592652559280396, 0.08601361513137817, 9.935469627380371, 6.573226451873779, 7.311900615692139, 2.9753551483154297, 3.116825580596924, 3.632972002029419, 0.002067606896162033, 5.700772762298584, 12.641419410705566, 3.688424587249756, -4.937280178070068, -3.766390800476074, -5.475797176361084, -3.4445643424987793, -7.8370747566223145, -6.357396125793457, -4.001862049102783, -10.000550270080566, -9.109431266784668, -1.306307077407837], [5.97903299331665, 1.689044713973999, 2.1594736576080322, 2.610833168029785, 4.186986923217773, 2.801997423171997, -2.936414957046509, 1.7705539464950562, 8.686497688293457, 1.5984516143798828, -0.9958670139312744, -3.7902374267578125, -1.0300840139389038, -1.012209177017212, -3.670889377593994, -0.8692425489425659, 5.110730171203613, -2.0731399059295654, -2.571671962738037, -4.9143595695495605, -3.4855973720550537, -5.864397048950195, -2.427011251449585], [4.157367706298828, 1.8444547653198242, 1.1940107345581055, 6.539246559143066, 1.2646076679229736, -2.8587677478790283, -0.18264292180538177, 2.5828304290771484, 9.25730037689209, 8.90467643737793, 0.26716139912605286, -9.125981330871582, -1.2250642776489258, -1.3370637893676758, -6.126367092132568, -5.82796573638916, 1.200831651687622, 2.6259472370147705, 2.9351298809051514, -10.097298622131348, -1.9330761432647705, -2.4227709770202637, -1.0837962627410889], [4.676061630249023, 2.3970792293548584, 3.577684164047241, 4.332682132720947, 0.9195284247398376, 0.3949143886566162, 1.283962368965149, 6.068155288696289, 10.142533302307129, 8.879913330078125, -0.0006304681301116943, -7.049819469451904, -5.557585716247559, -5.402198791503906, -7.772885799407959, -2.464170217514038, 4.2850751876831055, 1.465720772743225, 2.219588279724121, -9.518197059631348, -4.309270858764648, -6.874701499938965, -1.506023645401001], [6.689023494720459, -0.18110930919647217, 3.2460830211639404, 7.012683868408203, 0.45750319957733154, 4.360734462738037, -4.215850830078125, 4.094204902648926, 7.282219409942627, 4.778714656829834, 2.1217455863952637, -4.424591064453125, 0.5314943194389343, -2.858339786529541, -3.2976198196411133, -4.478376388549805, 0.9127326011657715, -2.5079798698425293, -2.010684013366699, -12.372103691101074, -2.9322731494903564, 0.939702033996582, -1.0976319313049316], [5.721867561340332, 3.6371371746063232, 4.0571489334106445, 5.81240177154541, -1.1849980354309082, 1.0244981050491333, 1.9580765962600708, 3.6096062660217285, 6.651362895965576, 1.9230173826217651, 3.7204465866088867, -8.604096412658691, -3.7954654693603516, -9.06159782409668, -4.770445823669434, -0.8797731399536133, 0.7225812673568726, 3.6750645637512207, -0.33150553703308105, -8.493390083312988, -1.0657532215118408, -1.9529800415039062, -1.687837839126587], [5.162896156311035, 4.179875373840332, 2.023315191268921, 8.135374069213867, 4.757778644561768, 4.435775279998779, -3.002471446990967, 1.986388087272644, 5.608071327209473, 0.6997590661048889, 6.521023273468018, 9.889151573181152, 4.96291971206665, -1.6589319705963135, -3.238936424255371, -4.118202209472656, -5.39978551864624, -6.746666431427002, -3.4644999504089355, -4.991840839385986, -8.997591018676758, -10.171453475952148, -5.654727935791016], [5.003726959228516, 1.8634788990020752, 3.3602993488311768, 7.154426097869873, 4.752263069152832, -0.08913174271583557, -0.7506058216094971, 1.6583994626998901, 9.711348533630371, 1.4879508018493652, 6.550531387329102, -3.096766471862793, 0.17809981107711792, -1.418973445892334, -6.159842491149902, -2.937012195587158, 3.7073922157287598, -0.5363823771476746, -3.0659067630767822, -7.017951011657715, -7.17491340637207, -9.541254043579102, -3.404883861541748], [1.074162244796753, -1.0756152868270874, 6.701871395111084, 11.633353233337402, 2.2108535766601562, 5.553377628326416, 1.0121736526489258, -4.603357791900635, 2.0986180305480957, -0.5108979344367981, 9.118728637695312, -3.0892691612243652, -6.17728328704834, 8.278388023376465, -4.3457465171813965, 1.8757996559143066, -1.4072809219360352, 3.4607346057891846, -8.229948997497559, -6.79116678237915, -8.011252403259277, -10.681583404541016, 1.1994662284851074], [-1.0920212268829346, -2.3669686317443848, 4.818190097808838, 12.517930030822754, 1.639201045036316, 8.077924728393555, -0.3782406151294708, -4.526063442230225, 2.3157899379730225, -3.2887580394744873, 14.295001983642578, -2.0716514587402344, -6.918459415435791, 4.622643947601318, -1.9661256074905396, -1.8470540046691895, -5.40653657913208, 3.938432455062866, -5.572165012359619, -7.066611289978027, -8.875528335571289, -5.083718299865723, 3.3396289348602295], [1.8528103828430176, 1.8051173686981201, 3.641463279724121, 6.730749130249023, 5.698624610900879, 3.2166686058044434, -1.4854099750518799, 1.1436231136322021, 12.28290843963623, 2.907125949859619, 2.206494092941284, 1.3105778694152832, 2.7809786796569824, -0.1798190474510193, -8.689088821411133, 0.8167625665664673, 5.85200309753418, -6.021582126617432, -7.676657199859619, -6.505702018737793, -6.994336128234863, -14.028533935546875, 0.953408420085907], [4.617681503295898, 4.65622615814209, 3.1960105895996094, 3.4917237758636475, 4.00116491317749, 1.7735991477966309, -0.42165184020996094, 2.6533660888671875, 10.050527572631836, 3.4110379219055176, 0.8310083150863647, -1.6353654861450195, -0.1949307918548584, -0.7134259939193726, -7.364429950714111, -1.6061183214187622, -2.170863151550293, -0.7742610573768616, -1.1472643613815308, -10.70522403717041, -4.7602996826171875, -6.119653701782227, 0.8345154523849487], [2.728071928024292, 2.6562771797180176, 4.336030960083008, 6.1099443435668945, 1.485981822013855, 1.0441452264785767, 2.8488411903381348, -0.15548181533813477, 11.521470069885254, 7.4908766746521, 5.580484390258789, -3.937995433807373, -7.066786766052246, -1.0679881572723389, -6.014595031738281, -0.8384112119674683, 4.378025054931641, -2.512840509414673, -6.568859100341797, -1.9353437423706055, -6.597055435180664, -10.053255081176758, -2.908996343612671]]
+[1, 2, 2, 2, 1, 0, 2, 2, 6, 6, 6, 2, 2, 2, 3, 5, 4, 11, 8, 8, 8, 8, 8, 11, 8, 3, 10, 8, 8, 8]
+[1, 1, 2, 2, 1, 1, 2, 2, 6, 6, 7, 2, 2, 4, 5, 5, 4, 5, 8, 5, 5, 5, 5, 5, 3, 3, 3, 8, 8, 8]
+0.5666666666666667
+finish testing
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+0.8777777777777778
+torch.Size([24, 3, 128, 256])
+0.5666666666666667
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_metric_merge.py", line 352, in <module>
+    label_dic += room_groups[idx][1][0]
+TypeError: 'int' object is not iterable
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+0.8777777777777778
+0.5666666666666667
+0.5666666666666667
+finish testing
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+0.8777777777777778
+0.5666666666666667
+[0, 1, 0], [0, 1, 0]
+[1, 2, 1], [1, 1, 0]
+[2, 2, 1], [2, 2, 1]
+[3, 2, 2], [3, 2, 1]
+[4, 1, 3], [4, 1, 2]
+[5, 8, 4], [5, 1, 2]
+[6, 2, 5], [6, 2, 3]
+[7, 2, 6], [7, 2, 3]
+[8, 6, 7], [8, 6, 4]
+[9, 6, 8], [9, 6, 4]
+[10, 6, 7], [10, 7, 4]
+[11, 2, 9], [11, 2, 5]
+[12, 2, 10], [12, 2, 5]
+[13, 2, 11], [13, 4, 6]
+[14, 11, 12], [14, 5, 6]
+[15, 11, 12], [15, 5, 6]
+[16, 4, 13], [16, 4, 6]
+[17, 11, 12], [17, 5, 6]
+[18, 8, 14], [18, 8, 7]
+[19, 8, 15], [19, 5, 8]
+[20, 8, 15], [20, 5, 8]
+[21, 8, 16], [21, 5, 8]
+[22, 8, 15], [22, 5, 8]
+[23, 11, 12], [23, 5, 9]
+[24, 8, 17], [24, 3, 9]
+[25, 3, 18], [25, 3, 9]
+[26, 3, 18], [26, 3, 9]
+[27, 8, 19], [27, 8, 10]
+[28, 8, 4], [28, 8, 10]
+[29, 8, 19], [29, 8, 10]
+0.5666666666666667
+finish testing
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, [1, 5.130420684814453], 0], [0, 1, 0]
+[1, [2, 3.327131748199463], 1], [1, 1, 0]
+[2, [2, 5.7140960693359375], 1], [2, 2, 1]
+[3, [2, 2.693537712097168], 2], [3, 2, 1]
+[4, [1, 14.428576946258545], 3], [4, 1, 2]
+[5, [0, 0.7358798980712891], 4], [5, 1, 2]
+[6, [2, 1.4638433456420898], 5], [6, 2, 3]
+[7, [2, 5.449049949645996], 6], [7, 2, 3]
+[8, [6, 5.812737941741943], 7], [8, 6, 4]
+[9, [6, 0.46455955505371094], 8], [9, 6, 4]
+[10, [6, 2.396664619445801], 7], [10, 7, 4]
+[11, [2, 0.7367515563964844], 9], [11, 2, 5]
+[12, [2, 4.90006160736084], 10], [12, 2, 5]
+[13, [2, 0.6589374542236328], 11], [13, 4, 6]
+[14, [3, 3.4374637603759766], 12], [14, 5, 6]
+[15, [5, 1.6695833206176758], 12], [15, 5, 6]
+[16, [4, 9.868366241455078], 13], [16, 4, 6]
+[17, [11, 2.7059497833251953], 12], [17, 5, 6]
+[18, [8, 2.7074646949768066], 14], [18, 8, 7]
+[19, [8, 0.35262393951416016], 15], [19, 5, 8]
+[20, [8, 1.262619972229004], 15], [20, 5, 8]
+[21, [8, 0.26953554153442383], 16], [21, 5, 8]
+[22, [8, 0.838961124420166], 15], [22, 5, 8]
+[23, [11, 1.7537775039672852], 12], [23, 5, 9]
+[24, [8, 2.556922435760498], 17], [24, 3, 9]
+[25, [3, 2.51462459564209], 18], [25, 3, 9]
+[26, [10, 1.7770719528198242], 18], [26, 3, 9]
+[27, [8, 5.552159309387207], 19], [27, 8, 10]
+[28, [8, 5.394301414489746], 4], [28, 8, 10]
+[29, [8, 4.030593395233154], 19], [29, 8, 10]
+Start grouping
+[0, 1, 0], [0, 1, 0]
+[1, 2, 1], [1, 1, 0]
+[2, 2, 1], [2, 2, 1]
+[3, 2, 2], [3, 2, 1]
+[4, 1, 3], [4, 1, 2]
+[5, 8, 4], [5, 1, 2]
+[6, 2, 5], [6, 2, 3]
+[7, 2, 6], [7, 2, 3]
+[8, 6, 7], [8, 6, 4]
+[9, 6, 8], [9, 6, 4]
+[10, 6, 7], [10, 7, 4]
+[11, 2, 9], [11, 2, 5]
+[12, 2, 10], [12, 2, 5]
+[13, 2, 11], [13, 4, 6]
+[14, 11, 12], [14, 5, 6]
+[15, 11, 12], [15, 5, 6]
+[16, 4, 13], [16, 4, 6]
+[17, 11, 12], [17, 5, 6]
+[18, 8, 14], [18, 8, 7]
+[19, 8, 15], [19, 5, 8]
+[20, 8, 15], [20, 5, 8]
+[21, 8, 16], [21, 5, 8]
+[22, 8, 15], [22, 5, 8]
+[23, 11, 12], [23, 5, 9]
+[24, 8, 17], [24, 3, 9]
+[25, 3, 18], [25, 3, 9]
+[26, 3, 18], [26, 3, 9]
+[27, 8, 19], [27, 8, 10]
+[28, 8, 4], [28, 8, 10]
+[29, 8, 19], [29, 8, 10]
+Metric accuracy: 87.77777777777777
+                 classifier accuracy: 56.666666666666664
+                 label accuracy after grouping: 56.666666666666664
+finish testing
+test
+start testing
+new data
+[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+[0, [1, 5.130420684814453], 0], [0, 1, 0]
+[1, [2, 3.327131748199463], 1], [1, 1, 0]
+[2, [2, 5.7140960693359375], 1], [2, 2, 1]
+[3, [2, 2.693537712097168], 2], [3, 2, 1]
+[4, [1, 14.428576946258545], 3], [4, 1, 2]
+[5, [0, 0.7358798980712891], 4], [5, 1, 2]
+[6, [2, 1.4638433456420898], 5], [6, 2, 3]
+[7, [2, 5.449049949645996], 6], [7, 2, 3]
+[8, [6, 5.812737941741943], 7], [8, 6, 4]
+[9, [6, 0.46455955505371094], 8], [9, 6, 4]
+[10, [6, 2.396664619445801], 7], [10, 7, 4]
+[11, [2, 0.7367515563964844], 9], [11, 2, 5]
+[12, [2, 4.90006160736084], 10], [12, 2, 5]
+[13, [2, 0.6589374542236328], 11], [13, 4, 6]
+[14, [3, 3.4374637603759766], 12], [14, 5, 6]
+[15, [5, 1.6695833206176758], 12], [15, 5, 6]
+[16, [4, 9.868366241455078], 13], [16, 4, 6]
+[17, [11, 2.7059497833251953], 12], [17, 5, 6]
+[18, [8, 2.7074646949768066], 14], [18, 8, 7]
+[19, [8, 0.35262393951416016], 15], [19, 5, 8]
+[20, [8, 1.262619972229004], 15], [20, 5, 8]
+[21, [8, 0.26953554153442383], 16], [21, 5, 8]
+[22, [8, 0.838961124420166], 15], [22, 5, 8]
+[23, [11, 1.7537775039672852], 12], [23, 5, 9]
+[24, [8, 2.556922435760498], 17], [24, 3, 9]
+[25, [3, 2.51462459564209], 18], [25, 3, 9]
+[26, [10, 1.7770719528198242], 18], [26, 3, 9]
+[27, [8, 5.552159309387207], 19], [27, 8, 10]
+[28, [8, 5.394301414489746], 4], [28, 8, 10]
+[29, [8, 4.030593395233154], 19], [29, 8, 10]
+Start grouping
+[0, 1, 0], [0, 1, 0]
+[1, 2, 1], [1, 1, 0]
+[2, 2, 1], [2, 2, 1]
+[3, 2, 2], [3, 2, 1]
+[4, 1, 3], [4, 1, 2]
+[5, 8, 4], [5, 1, 2]
+[6, 2, 5], [6, 2, 3]
+[7, 2, 6], [7, 2, 3]
+[8, 6, 7], [8, 6, 4]
+[9, 6, 8], [9, 6, 4]
+[10, 6, 7], [10, 7, 4]
+[11, 2, 9], [11, 2, 5]
+[12, 2, 10], [12, 2, 5]
+[13, 2, 11], [13, 4, 6]
+[14, 11, 12], [14, 5, 6]
+[15, 11, 12], [15, 5, 6]
+[16, 4, 13], [16, 4, 6]
+[17, 11, 12], [17, 5, 6]
+[18, 8, 14], [18, 8, 7]
+[19, 8, 15], [19, 5, 8]
+[20, 8, 15], [20, 5, 8]
+[21, 8, 16], [21, 5, 8]
+[22, 8, 15], [22, 5, 8]
+[23, 11, 12], [23, 5, 9]
+[24, 8, 17], [24, 3, 9]
+[25, 3, 18], [25, 3, 9]
+[26, 3, 18], [26, 3, 9]
+[27, 8, 19], [27, 8, 10]
+[28, 8, 4], [28, 8, 10]
+[29, 8, 19], [29, 8, 10]
+Metric accuracy: 87.77777777777777 %
+classifier accuracy: 56.666666666666664 %
+label accuracy after grouping: 56.666666666666664 %
+finish testing

@@ -1,0 +1,10 @@
+Accuracy of the network on the epoch no. 10: 14.585834333733493 %
+Accuracy of the network on the epoch no. 20: 37.965186074429774 %
+Accuracy of the network on the epoch no. 30: 30.012004801920767 %
+Accuracy of the network on the epoch no. 40: 52.02581032412965 %
+Accuracy of the network on the epoch no. 50: 57.59303721488595 %
+Accuracy of the network on the epoch no. 60: 63.83553421368548 %
+Accuracy of the network on the epoch no. 70: 65.41116446578631 %
+Accuracy of the network on the epoch no. 80: 65.6062424969988 %
+Accuracy of the network on the epoch no. 90: 65.87635054021608 %
+Accuracy of the network on the epoch no. 100: 66.95678271308523 %

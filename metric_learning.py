@@ -318,8 +318,8 @@ room_identifier_test = CustomZinDBuildingParser(
 batch_size = 1
 shuffle_train = False
 num_workers = 6
-epochs = 200
-val_freq = 20
+epochs = 150
+val_freq = 15
 train_data = "train partition"
 test_data = "train partition"
 final_val = "val partition"
@@ -457,7 +457,7 @@ if mode_train_bool:
                 
         actual_label = []
         predicted_label = []
-        predicted_label_PR = []
+        # predicted_label_PR = []
         target_label = ['negative pair', 'positive pair']
         for i, data in enumerate(val_dataloader, 0):
             inputs, labels = data[0].cuda(), data[1].cuda()
@@ -473,7 +473,7 @@ if mode_train_bool:
                 
                 actual_label += actual
                 predicted_label += predicted
-                predicted_label_PR += vec.tolist()
+                # predicted_label_PR += vec.tolist()
 
         total = len(actual_label)
         # print(actual_label)
@@ -492,7 +492,7 @@ if mode_train_bool:
         print(report, file=fs)
         # precision, recall, thresholds = precision_recall_curve(actual_label, predicted_label_PR)
         # if epoch == epochs - 1:
-        ts_writer.add_pr_curve(f"PR curve per {val_freq} epoch on dataset {val_dataset}", np.array(actual_label), np.array(predicted_label_PR))
+        # ts_writer.add_pr_curve(f"PR curve per {val_freq} epoch on dataset {val_dataset}", np.array(actual_label), np.array(predicted_label_PR))
         # report = classification_report(actual_label, predicted_label)
         return report
 
@@ -547,26 +547,27 @@ if mode_train_bool:
             print(output_str, file=fs)
 
             # on train
-            my_acc_calculator(room_dataloader_train_val, net, distance, epoch)            
+            # my_acc_calculator(room_dataloader_train_val, net, distance, epoch)            
             # print val time
-            nowTime = datetime.datetime.now()
-            output_str = f"val # {epoch + 1} on train done, {nowTime}"
-            print(output_str)
-            print(output_str, file=fs)
+            # nowTime = datetime.datetime.now()
+            # output_str = f"val # {epoch + 1} on train done, {nowTime}"
+            # print(output_str)
+            # print(output_str, file=fs)
             # print(acc_report)
             # print(acc_report, file=fs)
             
-        if epoch == epochs - 1:
-            acc_report = my_acc_calculator(room_dataloader_val, net, distance, epoch)
-            # last val: val
-            nowTime = datetime.datetime.now()
-            output_str = f"Last val: val done, {nowTime}"
-            # print(acc_report)
-            # print(acc_report, file=fs)
-            print(output_str)
-            print(output_str, file=fs)
+        # if epoch == epochs - 1:
+        #     acc_report = my_acc_calculator(room_dataloader_val, net, distance, epoch)
+        #     # last val: val
+        #     nowTime = datetime.datetime.now()
+        #     output_str = f"Last val: val done, {nowTime}"
+        #     # print(acc_report)
+        #     # print(acc_report, file=fs)
+        #     print(output_str)
+        #     print(output_str, file=fs)
 
     # train(room_dataloader_test, epochs)
+    torch.save(net.state_dict(), f"./metric_model_{epochs}")
     ts_writer.flush()
     ts_writer.close()
     print('Finished Training')

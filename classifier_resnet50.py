@@ -240,10 +240,11 @@ label_identifier_test = CustomZinDLabelParser(
 
 # -------- parameters --------
 
-batch_size = 64
+batch_size = 32
 shuffle_train = True
 num_workers = 8
-epochs = 50
+epochs = 200
+val_freq = 10
 augmentation = "numpy.roll + colorJitter"
 
 label_dataloader_train = DataLoader(label_identifier_train, batch_size = batch_size, shuffle = shuffle_train, num_workers = num_workers)
@@ -303,22 +304,6 @@ pretrained = resnet50(weights=ResNet50_Weights.DEFAULT)
 net = ExtraLayerNet(pretrained_model=pretrained)
 # print(net)
 
-# if trained_model:
-#     net.load_state_dict(torch.load(trained_model[0]))
-#     net.eval()
-
-# net = resnet50(weights=ResNet50_Weights.DEFAULT)
-# net.fn = nn.Linear(1000, 23)                              # add new layer
-# net.fc = nn.Linear(net.fc.in_features, len(label_list))     # modify last layer
-# net.fc = nn.Sequential(
-#     net.fc,
-#     nn.Linear(net.fc.out_features, len(label_list))
-# )
-
-# newmodel = torch.nn.Sequential(*(list(net.children())[:-1]))
-# print(newmodel)
-# exit()
-
 
 
 # tensorboard initialize
@@ -329,6 +314,7 @@ ts_writer = SummaryWriter()
 
 if mode_test_bool:
     net.load_state_dict(torch.load("./zillow_net_50epochs_resnet50.pth"))
+    net.eval()
     net.cuda()
     correct = 0
     total = 0
@@ -439,7 +425,7 @@ if mode_train_bool:
 
         running_loss = 0.0
         for i, data in enumerate(label_dataloader_train, 0):
-            print(data[1])
+            # print(data[1])
             inputs, labels = data[0].cuda(), data[1].cuda()
 
             # zero the parameter gradients
@@ -470,7 +456,7 @@ if mode_train_bool:
         print(output_str, file=fs)
 
         # validation
-        if epoch % 2 == 1 and mode_val_bool:
+        if epoch % val_freq == val_freq - 1 and mode_val_bool:
             correct = 0
             total = 0
             final_arr_predict = []
@@ -491,7 +477,7 @@ if mode_train_bool:
             output_str = f'Accuracy of the network on the epoch no. {epoch + 1}: {accuracy} %'
             print(output_str, file=fv)
             correct_list.append(accuracy)
-            ts_writer.add_scalar("accuracy per 2 epoch", accuracy, epoch + 1)
+            ts_writer.add_scalar(f"accuracy per {val_freq} epoch", accuracy, epoch + 1)
             
             # print val time
             nowTime = datetime.datetime.now()
@@ -499,18 +485,18 @@ if mode_train_bool:
             print(output_str)
             print(output_str, file=fs)
         
-            # save & val model
-            if epoch == epochs - 1:
-                # if trained_model:
-                #     model_path = f'./zillow_net_{epoch + 51}epochs_resnet50.pth'
-                # else:
-                #     model_path = f'./zillow_net_{epoch + 1}epochs_resnet50.pth'
-                # torch.save(net.state_dict(), model_path)
-                final_arr_predict = torch.tensor(final_arr_predict, device='cpu')
-                final_arr_real = torch.tensor(final_arr_real, device='cpu')
-                report = classification_report(final_arr_real, final_arr_predict)
-                print(report)
-                print(report, file=fs)
+        # save & val model
+        if epoch == epochs - 1:
+            # if trained_model:
+            #     model_path = f'./zillow_net_{epoch + 51}epochs_resnet50.pth'
+            # else:
+            model_path = f'./classifier_{epoch + 1}epochs_resnet50.pth'
+            torch.save(net.state_dict(), model_path)
+            final_arr_predict = torch.tensor(final_arr_predict, device='cpu')
+            final_arr_real = torch.tensor(final_arr_real, device='cpu')
+            report = classification_report(final_arr_real, final_arr_predict)
+            print(report)
+            print(report, file=fs)
 
 
     ts_writer.flush()
