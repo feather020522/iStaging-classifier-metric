@@ -1,7 +1,7 @@
-from collections import Counter
+# from collections import Counter
 import random
-import torch
-from sklearn.metrics import classification_report
+# import torch
+# from sklearn.metrics import classification_report
 
 # l = [1, 4, 6, 4, 4, 6, 2]
 # newl = []
@@ -36,13 +36,13 @@ from sklearn.metrics import classification_report
 # s = test(i)
 # print(s)
 
-l = [0, 0, 1]
-l2 = [0, 1, 0]
+# l = [0, 0, 1]
+# l2 = [0, 1, 0]
 # p = classification_report(l, l2)
 
 # print(p[30])
 # print(type(p))
-l3 = [0, 0, 1, 2, 2, 2, 3, 1, 3]
+# l3 = [0, 0, 1, 2, 2, 2, 3, 1, 3]
 # r = [2, 2, 2, 2, 2, 2, 2, 2]
 # r2 = []
 
@@ -77,13 +77,13 @@ l3 = [0, 0, 1, 2, 2, 2, 3, 1, 3]
 # l5 = sorted(l5, key = lambda x: x[1])
 # print(l5)
 
-l6 = [[1, 4, 1, 1],
-[7, 11, 1, 1],
-[9, 3, 1, 0],
-[10, 5, 1, 1]]
+# l6 = [[1, 4, 1, 1],
+# [7, 11, 1, 1],
+# [9, 3, 1, 0],
+# [10, 5, 1, 1]]
 
-pri_dic = []
-sec_dic = []
+# pri_dic = []
+# sec_dic = []
 # for idx in range(0, 4):
 #     if l6[idx][3] == 1:
 #         pri_dic += l6[idx][1]
@@ -93,7 +93,7 @@ sec_dic = []
 # print(l6[0:4])
 # print(l6)
 
-l7 = [1, 2, 2, 3, 3]
+# l7 = [1, 2, 2, 3, 3]
 # print(max(l7, key = l7.count))
 # print(Counter(l7).most_common(2))
 
@@ -105,14 +105,20 @@ l7 = [1, 2, 2, 3, 3]
 # for i in 2:
 #     label_dic, diff_dic += l8[0], l8[1]
 
-a = "a"
-b = "b"
-print(a, b)
+# a = "a"
+# b = "b"
+# print(a, b)
 
-l = [1, 2]
-l2 = [2, 3]
-l = [x + y for x, y in zip(l, l2)]
-print(l)
+# l = [1, 2, 4, 8]
+# random.shuffle(l)
+# print(l[0])
+# l2 = [2, 3]
+# l = [x + y for x, y in zip(l, l2)]
+# print(l)
+
+# fm = open("./test/test.txt", "w")
+
+# print("hello", file=fm)
 # def d(l):
 #     count = dict(Counter(l))
 #     count2 = dict(Counter(r2))
@@ -165,3 +171,7 @@ print(l)
 # [
 #     ( tensor(panos), tensor(labels) )
 # ]
+
+l = [[2, 2.5], [3, 1.0], [1, 3.6]]
+a = max(l, key = lambda x: x[1])[0]
+print(a)

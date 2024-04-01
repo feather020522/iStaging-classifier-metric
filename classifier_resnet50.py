@@ -243,7 +243,7 @@ label_identifier_test = CustomZinDLabelParser(
 batch_size = 32
 shuffle_train = True
 num_workers = 8
-epochs = 200
+epochs = 250
 val_freq = 10
 augmentation = "numpy.roll + colorJitter"
 
@@ -405,11 +405,12 @@ if mode_train_bool:
                     alpha=torch.tensor(alpha_calculator(train_panos)).float().cuda(),               # set alpha for each class
                     gamma=2.0
                 )
-    optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
-    
+    optimizer = optim.SGD(net.parameters(), lr=0.0003, momentum=0.9)
+    # add LR decay
+    scheduler = optim.lr_scheduler.MultiStepLR(optimizer=optimizer, milestones=[100, 160], gamma=0.1)
 
 
-    nowTime = datetime.datetime.now() # 取得現在時間
+    nowTime = datetime.datetime.now()
     
     output_str = f"parameters: \nbatch_size = {batch_size}\nshuffle_train = {shuffle_train}\nnum_workers = {num_workers}\nepoch = {epochs}\naugmentation = {augmentation}"
     print(output_str)
@@ -437,6 +438,7 @@ if mode_train_bool:
             loss = criterion(outputs, labels)
             loss.backward()
             optimizer.step()
+            # print(f"last_lr sche: {scheduler.get_last_lr()}")
 
             # print statistics
             running_loss += loss.item()
@@ -497,6 +499,9 @@ if mode_train_bool:
             report = classification_report(final_arr_real, final_arr_predict)
             print(report)
             print(report, file=fs)
+
+        
+        scheduler.step()
 
 
     ts_writer.flush()
@@ -571,9 +576,5 @@ plt.savefig("accuracy_pic_test.jpg")
 # plt.savefig("accuracy_pic_test2.jpg")
 
 
-# Part 2
 
-# Todo
-# try to distinguish different room
-# use house / room as single unit?
 

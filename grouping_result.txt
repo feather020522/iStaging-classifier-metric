@@ -1,0 +1,43 @@
+16 1130
+
+[0, 'bathroom', 0]       [0, 'bathroom', 0]
+[1, 'garage', 1]         [1, 'garage', 1]
+[2, 'bedroom', 2]        [2, 'other', 2]
+[3, 'bedroom', 2]        [3, 'other', 2]
+[4, 'bedroom', 2]        [4, 'other', 2]
+[5, 'living room', 3]    [5, 'hallway', 3]
+[6, 'laundry', 4]        [6, 'bathroom', 4]
+[7, 'dining room', 5]    [7, 'dining room', 5]
+[8, 'living room', 6]    [8, 'living room', 6]
+[9, 'bedroom', 7]        [9, 'bedroom', 7]
+[10, 'bathroom', 8]      [10, 'bathroom', 8]
+[11, 'bedroom', 9]       [11, 'bedroom', 9]
+[12, 'closet', 10]       [12, 'closet', 10]
+[13, 'hallway', 11]      [13, 'other', 11]
+[14, 'hallway', 12]      [14, 'hallway', 12]
+[15, 'bathroom', 13]     [15, 'bathroom', 13]
+
+3
+6
+0
+2
+1
+8
+9
+11
+10
+15
+16
+17
+19
+14
+13
+18
+
+Metric accuracy: 100.0 %
+Grouping accuracy: 100.0 %
+Classifier accuracy: 62.5 %
+Label accuracy after grouping: 62.5 %
+label_list = ["closet", "bathroom", "bedroom", "living room", "kitchen", "dining room", "garage", "laundry", "hallway", 
+"stair", "family room", "breakfast nook", "pantry", "loft", "patio", "office", "doorway", 
+"basement", "utility", "balcony", "attic", "yard", "other"]

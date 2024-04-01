@@ -1,0 +1,1834 @@
+Building id: 1317, room id: 4
+room 28's judge: 8, confidence: 7.677886486053467
+2nd judge: 1, confidence: 0.6020474433898926
+Building id: 1317, room id: 18
+room 26's judge: 10, confidence: 6.246894836425781
+2nd judge: 3, confidence: 3.4769859313964844
+[5, 8, 4, True], [5, 1, 2]
+[25, 10, 18, True], [25, 3, 9]
+[26, 10, 18, True], [26, 3, 9]
+[28, 8, 4, True], [28, 8, 10]
+conf accuracy: 25.0 %
+Building id: 0905, room id: 15
+room 17's judge: 5, confidence: 8.592185020446777
+2nd judge: 4, confidence: 2.8779258728027344
+[15, 5, 15, True], [15, 4, 10]
+[17, 5, 15, True], [17, 4, 12]
+conf accuracy: 0.0 %
+Building id: 1239, room id: 14
+room 25's judge: 8, confidence: 1.3886775970458984
+2nd judge: 7, confidence: 1.1326885223388672
+Building id: 1239, room id: 15
+room 32's judge: 5, confidence: 1.548161506652832
+2nd judge: 2, confidence: 0.7907590866088867
+[24, 8, 14, True], [24, 8, 8]
+[25, 8, 14, True], [25, 3, 8]
+[31, 5, 15, True], [31, 4, 10]
+[32, 5, 15, True], [32, 4, 10]
+conf accuracy: 25.0 %
+Building id: 1028, room id: 0
+room 17's judge: 4, confidence: 4.53904914855957
+2nd judge: 1, confidence: 2.665642738342285
+Building id: 1028, room id: 2
+room 3's judge: 8, confidence: 0.6153154373168945
+2nd judge: 4, confidence: 0.2224102020263672
+Building id: 1028, room id: 4
+room 6's judge: 4, confidence: 2.3009443283081055
+2nd judge: 8, confidence: 1.233489990234375
+Building id: 1028, room id: 5
+room 14's judge: 4, confidence: 6.122610569000244
+2nd judge: 3, confidence: 4.720287322998047
+[0, 4, 0, True], [0, 7, 0]
+[2, 8, 2, True], [2, 4, 2]
+[3, 8, 2, True], [3, 4, 2]
+[5, 4, 4, True], [5, 4, 4]
+[6, 4, 4, True], [6, 8, 4]
+[9, 4, 5, True], [9, 5, 6]
+[10, 4, 5, True], [10, 5, 6]
+[12, 4, 5, True], [12, 4, 7]
+[13, 4, 5, True], [13, 4, 7]
+[14, 4, 5, True], [14, 4, 7]
+[17, 4, 0, True], [17, 1, 8]
+conf accuracy: 36.36363636363637 %
+Building id: 0189, room id: 4
+room 10's judge: 7, confidence: 9.057734489440918
+2nd judge: 5, confidence: 1.118401050567627
+Building id: 0189, room id: 5
+room 20's judge: 2, confidence: 7.002937316894531
+2nd judge: 3, confidence: 4.066560745239258
+Building id: 0189, room id: 14
+room 21's judge: 2, confidence: 5.938203811645508
+2nd judge: 9, confidence: 0.24856185913085938
+[4, 7, 4, True], [4, 5, 2]
+[5, 2, 5, True], [5, 3, 3]
+[6, 2, 5, True], [6, 3, 3]
+[10, 7, 4, True], [10, 7, 6]
+[17, 2, 14, True], [17, 9, 12]
+[20, 2, 5, True], [20, 2, 14]
+[21, 2, 14, True], [21, 2, 15]
+conf accuracy: 42.857142857142854 %
+Building id: 0152, room id: 1
+room 30's judge: 18, confidence: 4.168788909912109
+2nd judge: 8, confidence: 3.458991050720215
+Building id: 0152, room id: 20
+room 24's judge: 9, confidence: 0.26464271545410156
+2nd judge: 0, confidence: 0.06816673278808594
+[1, 18, 1, True], [1, 1, 1]
+[22, 9, 20, True], [22, 1, 11]
+[24, 9, 20, True], [24, 2, 11]
+[30, 18, 1, True], [30, 1, 14]
+conf accuracy: 0.0 %
+Building id: 1069, room id: 6
+room 11's judge: 0, confidence: 1.5816078186035156
+2nd judge: 3, confidence: 0.5729861259460449
+Building id: 1069, room id: 15
+room 25's judge: 8, confidence: 3.6585326194763184
+2nd judge: 4, confidence: 0.27469444274902344
+[10, 0, 6, True], [10, 8, 4]
+[11, 0, 6, True], [11, 0, 4]
+[22, 8, 15, True], [22, 8, 9]
+[23, 8, 15, True], [23, 4, 9]
+[24, 8, 15, True], [24, 4, 9]
+[25, 8, 15, True], [25, 4, 9]
+conf accuracy: 33.333333333333336 %
+Building id: 0039, room id: 2
+room 53's judge: 7, confidence: 9.547618865966797
+2nd judge: 1, confidence: 7.191806316375732
+[2, 7, 2, True], [2, 3, 1]
+[3, 7, 2, True], [3, 3, 1]
+[28, 7, 2, True], [28, 3, 5]
+[29, 7, 2, True], [29, 1, 6]
+[33, 7, 2, True], [33, 7, 9]
+[53, 7, 2, True], [53, 1, 13]
+conf accuracy: 16.666666666666668 %
+Building id: 0944, room id: 0
+room 1's judge: 8, confidence: 0.31632423400878906
+2nd judge: 3, confidence: 0.13051986694335938
+Building id: 0944, room id: 1
+room 22's judge: 3, confidence: 0.5928583145141602
+2nd judge: 8, confidence: 0.47013044357299805
+Building id: 0944, room id: 11
+room 26's judge: 3, confidence: 2.4789175987243652
+2nd judge: 22, confidence: 1.148970603942871
+Building id: 0944, room id: 22
+room 41's judge: 1, confidence: 3.214029312133789
+2nd judge: 2, confidence: 0.2363271713256836
+[0, 8, 0, True], [0, 7, 0]
+[1, 8, 0, True], [1, 7, 0]
+[2, 3, 1, True], [2, 8, 1]
+[22, 3, 1, True], [22, 8, 10]
+[23, 3, 11, True], [23, 6, 11]
+[26, 3, 11, True], [26, 6, 11]
+[35, 1, 22, True], [35, 1, 19]
+[41, 1, 22, True], [41, 1, 21]
+conf accuracy: 25.0 %
+Building id: 0785, room id: 2
+room 20's judge: 2, confidence: 5.193482398986816
+2nd judge: 3, confidence: 3.7886524200439453
+Building id: 0785, room id: 20
+room 31's judge: 3, confidence: 6.506484031677246
+2nd judge: 8, confidence: 1.019587516784668
+[2, 2, 2, True], [2, 2, 2]
+[20, 2, 2, True], [20, 3, 10]
+[30, 3, 20, True], [30, 17, 14]
+[31, 3, 20, True], [31, 17, 14]
+conf accuracy: 25.0 %
+Building id: 0588, room id: 1
+room 2's judge: 2, confidence: 1.9880805015563965
+2nd judge: 3, confidence: 0.8991432189941406
+Building id: 0588, room id: 5
+room 21's judge: 1, confidence: 10.455934524536133
+2nd judge: 7, confidence: 1.5233774185180664
+Building id: 0588, room id: 9
+room 14's judge: 3, confidence: 2.2712249755859375
+2nd judge: 11, confidence: 1.1360502243041992
+Building id: 0588, room id: 10
+room 18's judge: 5, confidence: 2.8266735076904297
+2nd judge: 11, confidence: 1.1299629211425781
+Building id: 0588, room id: 13
+room 31's judge: 0, confidence: 1.8886098861694336
+2nd judge: 3, confidence: 1.884152889251709
+Building id: 0588, room id: 17
+room 29's judge: 22, confidence: 1.4017524719238281
+2nd judge: 3, confidence: 0.30028438568115234
+Building id: 0588, room id: 24
+room 40's judge: 9, confidence: 2.6446361541748047
+2nd judge: 8, confidence: 1.526320457458496
+[1, 2, 1, True], [1, 15, 1]
+[2, 2, 1, True], [2, 15, 1]
+[6, 1, 5, True], [6, 7, 5]
+[12, 3, 9, True], [12, 10, 10]
+[13, 3, 9, True], [13, 10, 10]
+[14, 3, 9, True], [14, 10, 11]
+[17, 5, 10, True], [17, 11, 13]
+[18, 5, 10, True], [18, 12, 14]
+[21, 1, 5, True], [21, 1, 16]
+[23, 0, 13, True], [23, 0, 18]
+[28, 22, 17, True], [28, 22, 22]
+[29, 22, 17, True], [29, 22, 22]
+[31, 0, 13, True], [31, 0, 23]
+[39, 9, 24, True], [39, 9, 29]
+[40, 9, 24, True], [40, 8, 29]
+conf accuracy: 40.0 %
+Building id: 0218, room id: 4
+room 5's judge: 4, confidence: 1.4265289306640625
+2nd judge: 10, confidence: 0.5037031173706055
+Building id: 0218, room id: 9
+room 15's judge: 3, confidence: 3.207763671875
+2nd judge: 2, confidence: 0.22569656372070312
+[4, 4, 4, True], [4, 10, 2]
+[5, 4, 4, True], [5, 10, 2]
+[13, 3, 9, True], [13, 9, 6]
+[15, 3, 9, True], [15, 9, 6]
+conf accuracy: 0.0 %
+Building id: 0642, room id: 6
+room 71's judge: 2, confidence: 2.840981960296631
+2nd judge: 18, confidence: 0.4352540969848633
+Building id: 0642, room id: 7
+room 65's judge: 5, confidence: 6.678164482116699
+2nd judge: 2, confidence: 5.768328666687012
+Building id: 0642, room id: 12
+room 63's judge: 5, confidence: 7.172611236572266
+2nd judge: 3, confidence: 3.677371025085449
+Building id: 0642, room id: 14
+room 33's judge: 15, confidence: 1.771200180053711
+2nd judge: 3, confidence: 0.8691072463989258
+[11, 2, 6, True], [11, 0, 6]
+[14, 5, 7, True], [14, 10, 8]
+[15, 5, 7, True], [15, 10, 8]
+[27, 5, 12, True], [27, 3, 11]
+[32, 15, 14, True], [32, 9, 13]
+[33, 15, 14, True], [33, 9, 13]
+[34, 5, 7, True], [34, 5, 14]
+[35, 5, 12, True], [35, 5, 14]
+[36, 5, 7, True], [36, 5, 14]
+[63, 5, 12, True], [63, 2, 30]
+[65, 5, 7, True], [65, 2, 30]
+[71, 2, 6, True], [71, 2, 32]
+conf accuracy: 33.333333333333336 %
+Building id: 0109, room id: 0
+room 7's judge: 2, confidence: 3.154191017150879
+2nd judge: 0, confidence: 2.1341676712036133
+Building id: 0109, room id: 12
+room 18's judge: 3, confidence: 5.866972923278809
+2nd judge: 5, confidence: 0.8049554824829102
+Building id: 0109, room id: 15
+room 28's judge: 11, confidence: 4.807382583618164
+2nd judge: 5, confidence: 0.20389652252197266
+[0, 2, 0, True], [0, 0, 0]
+[7, 2, 0, True], [7, 2, 4]
+[16, 3, 12, True], [16, 3, 10]
+[18, 3, 12, True], [18, 3, 10]
+[20, 11, 15, True], [20, 11, 11]
+[28, 11, 15, True], [28, 8, 15]
+conf accuracy: 66.66666666666667 %
+Building id: 1075, room id: 17
+room 35's judge: 8, confidence: 1.2346820831298828
+2nd judge: 2, confidence: 0.11565589904785156
+[32, 8, 17, True], [32, 16, 20]
+[35, 8, 17, True], [35, 8, 20]
+conf accuracy: 50.0 %
+Building id: 0663, room id: 0
+room 16's judge: 1, confidence: 12.514089107513428
+2nd judge: 0, confidence: 8.50765323638916
+Building id: 0663, room id: 5
+room 17's judge: 2, confidence: 2.029935836791992
+2nd judge: 5, confidence: 0.7220935821533203
+[0, 1, 0, True], [0, 0, 0]
+[1, 1, 0, True], [1, 1, 1]
+[6, 2, 5, True], [6, 15, 4]
+[14, 2, 5, True], [14, 8, 8]
+[16, 1, 0, True], [16, 8, 8]
+[17, 2, 5, True], [17, 8, 8]
+conf accuracy: 16.666666666666668 %
+Building id: 1401, room id: 3
+room 7's judge: 3, confidence: 2.3311996459960938
+2nd judge: 11, confidence: 0.2786836624145508
+Building id: 1401, room id: 6
+room 10's judge: 13, confidence: 2.574970245361328
+2nd judge: 2, confidence: 0.5450553894042969
+[5, 3, 3, True], [5, 4, 3]
+[7, 3, 3, True], [7, 4, 3]
+[9, 13, 6, True], [9, 3, 5]
+[10, 13, 6, True], [10, 3, 5]
+conf accuracy: 0.0 %
+Building id: 1538, room id: 2
+room 4's judge: 0, confidence: 1.7001028060913086
+2nd judge: 2, confidence: 0.8223452568054199
+Building id: 1538, room id: 8
+room 14's judge: 2, confidence: 4.201372146606445
+2nd judge: 22, confidence: 0.9109354019165039
+[2, 0, 2, True], [2, 12, 2]
+[4, 0, 2, True], [4, 8, 4]
+[9, 2, 8, True], [9, 2, 9]
+[10, 2, 8, True], [10, 9, 10]
+[11, 2, 8, True], [11, 2, 11]
+[12, 2, 8, True], [12, 1, 11]
+[13, 2, 8, True], [13, 0, 12]
+[14, 2, 8, True], [14, 0, 12]
+conf accuracy: 25.0 %
+Building id: 0675, room id: 15
+room 32's judge: 0, confidence: 1.0841150283813477
+2nd judge: 18, confidence: 0.6538486480712891
+[31, 0, 15, True], [31, 0, 10]
+[32, 0, 15, True], [32, 0, 10]
+conf accuracy: 100.0 %
+Building id: 0494, room id: 5
+room 10's judge: 7, confidence: 7.415553092956543
+2nd judge: 4, confidence: 5.4299163818359375
+Building id: 0494, room id: 7
+room 30's judge: 3, confidence: 5.856268882751465
+2nd judge: 2, confidence: 4.750217437744141
+[8, 7, 5, True], [8, 11, 3]
+[9, 7, 5, True], [9, 11, 3]
+[10, 7, 5, True], [10, 11, 3]
+[12, 3, 7, True], [12, 3, 4]
+[19, 3, 7, True], [19, 3, 7]
+[20, 3, 7, True], [20, 3, 7]
+[21, 3, 7, True], [21, 3, 7]
+[29, 3, 7, True], [29, 2, 12]
+[30, 3, 7, True], [30, 2, 12]
+conf accuracy: 44.44444444444444 %
+Building id: 0057, room id: 5
+room 13's judge: 11, confidence: 4.4928131103515625
+2nd judge: 10, confidence: 1.3558025360107422
+[12, 11, 5, True], [12, 10, 6]
+[13, 11, 5, True], [13, 10, 6]
+conf accuracy: 0.0 %
+Building id: 0302, room id: 1
+room 3's judge: 3, confidence: 3.6991848945617676
+2nd judge: 9, confidence: 0.3766489028930664
+Building id: 0302, room id: 3
+room 6's judge: 16, confidence: 3.2966036796569824
+2nd judge: 8, confidence: 0.2134418487548828
+[1, 3, 1, True], [1, 3, 1]
+[3, 3, 1, True], [3, 3, 1]
+[4, 16, 3, True], [4, 8, 2]
+[6, 16, 3, True], [6, 4, 2]
+conf accuracy: 50.0 %
+Building id: 0429, room id: 10
+room 14's judge: 3, confidence: 0.6327638626098633
+2nd judge: 22, confidence: 0.6186890602111816
+[12, 3, 10, True], [12, 3, 6]
+[14, 3, 10, True], [14, 3, 6]
+conf accuracy: 100.0 %
+Building id: 1330, room id: 13
+room 21's judge: 2, confidence: 7.220296859741211
+2nd judge: 3, confidence: 1.6909971237182617
+Building id: 1330, room id: 33
+room 53's judge: 3, confidence: 3.333690643310547
+2nd judge: 5, confidence: 2.0905518531799316
+[20, 2, 13, True], [20, 2, 6]
+[21, 2, 13, True], [21, 2, 6]
+[52, 3, 33, True], [52, 10, 16]
+[53, 3, 33, True], [53, 10, 16]
+conf accuracy: 50.0 %
+Building id: 0519, room id: 9
+room 18's judge: 13, confidence: 1.0429210662841797
+2nd judge: 2, confidence: 0.11789226531982422
+[13, 13, 9, True], [13, 2, 10]
+[18, 13, 9, True], [18, 0, 13]
+conf accuracy: 0.0 %
+Building id: 0854, room id: 6
+room 18's judge: 8, confidence: 2.298643112182617
+2nd judge: 3, confidence: 1.6777710914611816
+[8, 8, 6, True], [8, 22, 4]
+[18, 8, 6, True], [18, 8, 10]
+conf accuracy: 50.0 %
+Building id: 0316, room id: 1
+room 3's judge: 0, confidence: 1.4558172225952148
+2nd judge: 1, confidence: 0.16983270645141602
+Building id: 0316, room id: 3
+room 5's judge: 9, confidence: 3.8202157020568848
+2nd judge: 3, confidence: 1.1507339477539062
+Building id: 0316, room id: 4
+room 16's judge: 8, confidence: 3.0900397300720215
+2nd judge: 2, confidence: 0.7170963287353516
+Building id: 0316, room id: 25
+room 34's judge: 9, confidence: 3.85477876663208
+2nd judge: 8, confidence: 3.1414718627929688
+Building id: 0316, room id: 26
+room 40's judge: 16, confidence: 4.458965301513672
+2nd judge: 3, confidence: 2.4582958221435547
+[1, 0, 1, True], [1, 0, 1]
+[3, 0, 1, True], [3, 8, 3]
+[4, 9, 3, True], [4, 10, 4]
+[5, 9, 3, True], [5, 10, 4]
+[6, 8, 4, True], [6, 3, 5]
+[16, 8, 4, True], [16, 5, 9]
+[33, 9, 25, True], [33, 9, 19]
+[34, 9, 25, True], [34, 8, 19]
+[36, 16, 26, True], [36, 7, 21]
+[37, 16, 26, True], [37, 7, 21]
+[38, 16, 26, True], [38, 8, 22]
+[39, 16, 26, True], [39, 7, 22]
+[40, 16, 26, True], [40, 7, 22]
+conf accuracy: 15.384615384615385 %
+Building id: 0742, room id: 27
+room 33's judge: 3, confidence: 1.7875785827636719
+2nd judge: 8, confidence: 1.1582202911376953
+[32, 3, 27, True], [32, 10, 21]
+[33, 3, 27, True], [33, 10, 21]
+conf accuracy: 0.0 %
+Building id: 0382, room id: 3
+room 53's judge: 2, confidence: 3.761117935180664
+2nd judge: 17, confidence: 0.6919956207275391
+Building id: 0382, room id: 4
+room 10's judge: 10, confidence: 6.3669867515563965
+2nd judge: 1, confidence: 0.5300192832946777
+Building id: 0382, room id: 11
+room 16's judge: 4, confidence: 0.4858989715576172
+2nd judge: 5, confidence: 0.31076622009277344
+Building id: 0382, room id: 32
+room 60's judge: 2, confidence: 0.5587244033813477
+2nd judge: 0, confidence: 0.5387468338012695
+[4, 2, 3, True], [4, 7, 1]
+[5, 10, 4, True], [5, 7, 1]
+[6, 10, 4, True], [6, 7, 1]
+[10, 10, 4, True], [10, 22, 4]
+[15, 4, 11, True], [15, 11, 6]
+[16, 4, 11, True], [16, 11, 6]
+[53, 2, 3, True], [53, 2, 19]
+[58, 2, 32, True], [58, 2, 19]
+[60, 2, 32, True], [60, 2, 19]
+conf accuracy: 33.333333333333336 %
+Building id: 0819, room id: 0
+room 1's judge: 1, confidence: 9.945722579956055
+2nd judge: 8, confidence: 0.11774206161499023
+Building id: 0819, room id: 17
+room 29's judge: 3, confidence: 0.14988994598388672
+2nd judge: 10, confidence: 0.1195220947265625
+Building id: 0819, room id: 26
+room 45's judge: 8, confidence: 3.911135196685791
+2nd judge: 2, confidence: 3.1237354278564453
+[0, 1, 0, True], [0, 1, 0]
+[1, 1, 0, True], [1, 1, 0]
+[27, 3, 17, True], [27, 3, 9]
+[29, 3, 17, True], [29, 3, 9]
+[44, 8, 26, True], [44, 2, 17]
+[45, 8, 26, True], [45, 8, 17]
+conf accuracy: 83.33333333333333 %
+Building id: 0792, room id: 14
+room 35's judge: 8, confidence: 2.7801151275634766
+2nd judge: 5, confidence: 1.2231531143188477
+[34, 8, 14, True], [34, 8, 7]
+[35, 8, 14, True], [35, 8, 7]
+conf accuracy: 100.0 %
+Building id: 0744, room id: 1
+room 15's judge: 0, confidence: 4.279092311859131
+2nd judge: 8, confidence: 2.6987032890319824
+Building id: 0744, room id: 6
+room 17's judge: 3, confidence: 3.4468331336975098
+2nd judge: 8, confidence: 1.1224870681762695
+Building id: 0744, room id: 13
+room 22's judge: 4, confidence: 3.859010696411133
+2nd judge: 5, confidence: 0.2351093292236328
+[1, 0, 1, True], [1, 0, 1]
+[6, 3, 6, True], [6, 3, 4]
+[15, 0, 1, True], [15, 11, 6]
+[17, 3, 6, True], [17, 8, 6]
+[18, 4, 13, True], [18, 4, 7]
+[22, 4, 13, True], [22, 8, 8]
+conf accuracy: 50.0 %
+Building id: 0385, room id: 4
+room 24's judge: 0, confidence: 11.594647407531738
+2nd judge: 8, confidence: 4.692793846130371
+Building id: 0385, room id: 25
+room 36's judge: 0, confidence: 1.8316221237182617
+2nd judge: 8, confidence: 0.7638301849365234
+[5, 0, 4, True], [5, 8, 4]
+[6, 0, 4, True], [6, 8, 4]
+[23, 0, 4, True], [23, 0, 12]
+[24, 0, 4, True], [24, 0, 12]
+[35, 0, 25, True], [35, 8, 17]
+[36, 0, 25, True], [36, 8, 17]
+conf accuracy: 33.333333333333336 %
+Building id: 1153, room id: 8
+room 39's judge: 5, confidence: 3.362427234649658
+2nd judge: 8, confidence: 1.2074785232543945
+Building id: 1153, room id: 22
+room 33's judge: 5, confidence: 1.622960090637207
+2nd judge: 15, confidence: 1.0326004028320312
+[10, 5, 8, True], [10, 4, 9]
+[32, 5, 22, True], [32, 2, 20]
+[33, 5, 22, True], [33, 2, 20]
+[39, 5, 8, True], [39, 16, 25]
+conf accuracy: 0.0 %
+Building id: 0963, room id: 5
+room 23's judge: 2, confidence: 1.8356952667236328
+2nd judge: 6, confidence: 0.44977331161499023
+Building id: 0963, room id: 11
+room 14's judge: 4, confidence: 6.649558067321777
+2nd judge: 22, confidence: 2.5565547943115234
+[5, 2, 5, True], [5, 6, 5]
+[13, 4, 11, True], [13, 4, 11]
+[14, 4, 11, True], [14, 4, 11]
+[23, 2, 5, True], [23, 2, 16]
+conf accuracy: 75.0 %
+Building id: 0880, room id: 9
+room 87's judge: 2, confidence: 9.131638526916504
+2nd judge: 3, confidence: 0.3539247512817383
+Building id: 0880, room id: 14
+room 32's judge: 12, confidence: 5.150132179260254
+2nd judge: 5, confidence: 2.794583320617676
+Building id: 0880, room id: 22
+room 31's judge: 5, confidence: 4.864505767822266
+2nd judge: 10, confidence: 1.9685888290405273
+Building id: 0880, room id: 28
+room 64's judge: 0, confidence: 8.287760734558105
+2nd judge: 8, confidence: 2.7948713302612305
+[11, 2, 9, True], [11, 2, 7]
+[12, 2, 9, True], [12, 2, 7]
+[13, 2, 9, True], [13, 2, 7]
+[19, 12, 14, True], [19, 4, 9]
+[29, 5, 22, True], [29, 5, 13]
+[30, 5, 22, True], [30, 5, 13]
+[31, 5, 22, True], [31, 5, 13]
+[32, 12, 14, True], [32, 5, 14]
+[40, 0, 28, True], [40, 8, 17]
+[41, 0, 28, True], [41, 8, 17]
+[64, 0, 28, True], [64, 0, 26]
+[71, 2, 9, True], [71, 17, 30]
+[74, 2, 9, True], [74, 17, 31]
+[76, 2, 9, True], [76, 17, 31]
+[77, 2, 9, True], [77, 17, 31]
+[79, 2, 9, True], [79, 8, 32]
+[80, 2, 9, True], [80, 8, 32]
+[86, 2, 9, True], [86, 1, 35]
+[87, 2, 9, True], [87, 1, 35]
+conf accuracy: 36.8421052631579 %
+Building id: 0964, room id: 9
+room 22's judge: 6, confidence: 14.799619674682617
+2nd judge: 7, confidence: 9.161502838134766
+[14, 6, 9, True], [14, 7, 9]
+[22, 6, 9, True], [22, 6, 14]
+conf accuracy: 50.0 %
+Building id: 1079, room id: 15
+room 21's judge: 9, confidence: 4.065782070159912
+2nd judge: 8, confidence: 0.09485769271850586
+[18, 9, 15, True], [18, 8, 11]
+[21, 9, 15, True], [21, 9, 12]
+conf accuracy: 50.0 %
+Building id: 0579, room id: 6
+room 34's judge: 1, confidence: 7.279942512512207
+2nd judge: 0, confidence: 5.665076732635498
+[8, 1, 6, True], [8, 0, 5]
+[34, 1, 6, True], [34, 1, 17]
+conf accuracy: 50.0 %
+Building id: 1398, room id: 0
+room 2's judge: 2, confidence: 3.122640609741211
+2nd judge: 3, confidence: 1.432901382446289
+Building id: 1398, room id: 11
+room 59's judge: 1, confidence: 5.174748420715332
+2nd judge: 2, confidence: 2.0358028411865234
+Building id: 1398, room id: 20
+room 38's judge: 8, confidence: 6.7813849449157715
+2nd judge: 1, confidence: 6.68606424331665
+Building id: 1398, room id: 34
+room 57's judge: 3, confidence: 2.474856376647949
+2nd judge: 13, confidence: 1.9925899505615234
+[0, 2, 0, True], [0, 2, 0]
+[2, 2, 0, True], [2, 2, 0]
+[20, 1, 11, True], [20, 2, 5]
+[29, 8, 20, True], [29, 1, 11]
+[38, 8, 20, True], [38, 8, 14]
+[51, 3, 34, True], [51, 3, 18]
+[56, 3, 34, True], [56, 5, 19]
+[57, 3, 34, True], [57, 5, 19]
+[59, 1, 11, True], [59, 1, 20]
+conf accuracy: 55.55555555555556 %
+Building id: 0715, room id: 12
+room 29's judge: 1, confidence: 8.217605590820312
+2nd judge: 8, confidence: 3.204864501953125
+[22, 1, 12, True], [22, 8, 8]
+[29, 1, 12, True], [29, 1, 13]
+conf accuracy: 50.0 %
+Building id: 1383, room id: 1
+room 21's judge: 8, confidence: 4.470586776733398
+2nd judge: 0, confidence: 1.9412117004394531
+Building id: 1383, room id: 5
+room 43's judge: 8, confidence: 5.102793216705322
+2nd judge: 0, confidence: 4.287617206573486
+Building id: 1383, room id: 9
+room 23's judge: 10, confidence: 2.987590789794922
+2nd judge: 1, confidence: 2.8397216796875
+Building id: 1383, room id: 13
+room 25's judge: 5, confidence: 1.2466297149658203
+2nd judge: 8, confidence: 1.1766791343688965
+Building id: 1383, room id: 24
+room 33's judge: 13, confidence: 1.128382682800293
+2nd judge: 8, confidence: 0.7334165573120117
+[1, 8, 1, True], [1, 0, 1]
+[5, 8, 5, True], [5, 2, 4]
+[6, 8, 5, True], [6, 2, 4]
+[11, 10, 9, True], [11, 1, 8]
+[15, 5, 13, True], [15, 8, 11]
+[21, 8, 1, True], [21, 8, 14]
+[23, 10, 9, True], [23, 11, 15]
+[25, 5, 13, True], [25, 8, 17]
+[31, 13, 24, True], [31, 13, 22]
+[33, 13, 24, True], [33, 13, 22]
+[43, 8, 5, True], [43, 0, 29]
+conf accuracy: 27.272727272727273 %
+Building id: 1175, room id: 0
+room 17's judge: 1, confidence: 2.8194751739501953
+2nd judge: 9, confidence: 2.321404457092285
+Building id: 1175, room id: 6
+room 12's judge: 5, confidence: 7.610224723815918
+2nd judge: 8, confidence: 3.0139174461364746
+Building id: 1175, room id: 7
+room 13's judge: 5, confidence: 1.7770614624023438
+2nd judge: 3, confidence: 0.9569578170776367
+Building id: 1175, room id: 26
+room 59's judge: 1, confidence: 9.142535209655762
+2nd judge: 2, confidence: 2.1373066902160645
+[0, 1, 0, True], [0, 1, 0]
+[7, 1, 0, True], [7, 3, 3]
+[9, 5, 6, True], [9, 3, 4]
+[10, 5, 7, True], [10, 3, 4]
+[11, 5, 6, True], [11, 3, 4]
+[12, 5, 6, True], [12, 5, 4]
+[13, 5, 7, True], [13, 3, 4]
+[17, 1, 0, True], [17, 3, 6]
+[47, 1, 26, True], [47, 17, 20]
+[59, 1, 26, True], [59, 1, 25]
+conf accuracy: 30.0 %
+Building id: 0299, room id: 4
+room 18's judge: 5, confidence: 5.065793991088867
+2nd judge: 3, confidence: 4.152008533477783
+Building id: 0299, room id: 5
+room 25's judge: 4, confidence: 4.0151824951171875
+2nd judge: 8, confidence: 0.6903762817382812
+Building id: 0299, room id: 12
+room 36's judge: 0, confidence: 3.1223607063293457
+2nd judge: 8, confidence: 2.9793524742126465
+Building id: 0299, room id: 16
+room 46's judge: 9, confidence: 7.4722137451171875
+2nd judge: 8, confidence: 0.8894634246826172
+[8, 5, 4, True], [8, 3, 1]
+[9, 5, 4, True], [9, 3, 1]
+[10, 5, 4, True], [10, 3, 1]
+[11, 4, 5, True], [11, 4, 2]
+[13, 5, 4, True], [13, 5, 3]
+[15, 5, 4, True], [15, 8, 3]
+[16, 5, 4, True], [16, 5, 3]
+[17, 5, 4, True], [17, 5, 3]
+[18, 5, 4, True], [18, 5, 3]
+[19, 4, 5, True], [19, 4, 4]
+[25, 4, 5, True], [25, 16, 9]
+[27, 0, 12, True], [27, 8, 11]
+[35, 9, 16, True], [35, 8, 14]
+[36, 0, 12, True], [36, 8, 14]
+[46, 9, 16, True], [46, 9, 17]
+conf accuracy: 46.666666666666664 %
+Building id: 0322, room id: 5
+room 13's judge: 4, confidence: 4.245211601257324
+2nd judge: 8, confidence: 0.11936712265014648
+[5, 4, 5, True], [5, 4, 3]
+[13, 4, 5, True], [13, 4, 6]
+conf accuracy: 100.0 %
+Building id: 0100, room id: 5
+room 6's judge: 3, confidence: 10.6192045211792
+2nd judge: 11, confidence: 4.944162368774414
+Building id: 0100, room id: 29
+room 31's judge: 22, confidence: 1.1045527458190918
+2nd judge: 0, confidence: 1.0951228141784668
+[5, 3, 5, True], [5, 3, 5]
+[6, 3, 5, True], [6, 5, 6]
+[30, 22, 29, True], [30, 2, 30]
+[31, 22, 29, True], [31, 2, 31]
+conf accuracy: 25.0 %
+Building id: 0605, room id: 8
+room 36's judge: 2, confidence: 5.248868942260742
+2nd judge: 3, confidence: 0.41660308837890625
+Building id: 0605, room id: 11
+room 28's judge: 1, confidence: 9.63050127029419
+2nd judge: 4, confidence: 3.80568790435791
+Building id: 0605, room id: 13
+room 25's judge: 1, confidence: 3.053189754486084
+2nd judge: 2, confidence: 0.6221351623535156
+[11, 2, 8, True], [11, 3, 8]
+[12, 2, 8, True], [12, 3, 8]
+[15, 1, 11, True], [15, 4, 10]
+[17, 1, 13, True], [17, 5, 11]
+[18, 1, 13, True], [18, 5, 11]
+[19, 1, 13, True], [19, 5, 11]
+[25, 1, 13, True], [25, 8, 15]
+[28, 1, 11, True], [28, 1, 17]
+[36, 2, 8, True], [36, 2, 23]
+conf accuracy: 22.22222222222222 %
+Building id: 0684, room id: 3
+room 8's judge: 0, confidence: 7.037839412689209
+2nd judge: 1, confidence: 1.5046658515930176
+Building id: 0684, room id: 9
+room 17's judge: 2, confidence: 3.2148184776306152
+2nd judge: 8, confidence: 0.3147163391113281
+Building id: 0684, room id: 14
+room 21's judge: 4, confidence: 6.284543037414551
+2nd judge: 8, confidence: 0.9427223205566406
+Building id: 0684, room id: 17
+room 26's judge: 2, confidence: 5.609047889709473
+2nd judge: 10, confidence: 0.17570209503173828
+[3, 0, 3, True], [3, 2, 3]
+[4, 0, 3, True], [4, 2, 3]
+[8, 0, 3, True], [8, 0, 6]
+[14, 2, 9, True], [14, 4, 9]
+[17, 2, 9, True], [17, 4, 9]
+[20, 4, 14, True], [20, 4, 11]
+[21, 4, 14, True], [21, 4, 11]
+[25, 2, 17, True], [25, 2, 13]
+[26, 2, 17, True], [26, 2, 13]
+conf accuracy: 55.55555555555556 %
+Building id: 1348, room id: 12
+room 30's judge: 2, confidence: 1.2492341995239258
+2nd judge: 10, confidence: 0.1374492645263672
+Building id: 1348, room id: 13
+room 19's judge: 2, confidence: 5.393813133239746
+2nd judge: 22, confidence: 0.8334112167358398
+Building id: 1348, room id: 15
+room 47's judge: 7, confidence: 6.716823577880859
+2nd judge: 8, confidence: 3.6632728576660156
+Building id: 1348, room id: 24
+room 40's judge: 12, confidence: 5.990386009216309
+2nd judge: 11, confidence: 0.5831890106201172
+Building id: 1348, room id: 25
+room 50's judge: 4, confidence: 4.18597412109375
+2nd judge: 8, confidence: 2.4637489318847656
+[17, 2, 12, True], [17, 2, 6]
+[18, 2, 13, True], [18, 2, 6]
+[19, 2, 13, True], [19, 2, 6]
+[21, 7, 15, True], [21, 7, 8]
+[22, 7, 15, True], [22, 7, 8]
+[25, 7, 15, True], [25, 4, 10]
+[26, 7, 15, True], [26, 4, 10]
+[30, 2, 12, True], [30, 5, 12]
+[33, 7, 15, True], [33, 8, 13]
+[38, 12, 24, True], [38, 4, 14]
+[39, 4, 25, True], [39, 4, 14]
+[40, 12, 24, True], [40, 4, 14]
+[42, 7, 15, True], [42, 4, 15]
+[43, 7, 15, True], [43, 8, 15]
+[47, 7, 15, True], [47, 8, 16]
+[50, 4, 25, True], [50, 4, 18]
+conf accuracy: 43.75 %
+Building id: 1248, room id: 5
+room 35's judge: 2, confidence: 5.146303653717041
+2nd judge: 5, confidence: 2.3569488525390625
+Building id: 1248, room id: 9
+room 20's judge: 8, confidence: 0.4646635055541992
+2nd judge: 0, confidence: 0.38495731353759766
+Building id: 1248, room id: 11
+room 16's judge: 8, confidence: 2.075376510620117
+2nd judge: 10, confidence: 1.698561191558838
+Building id: 1248, room id: 12
+room 18's judge: 1, confidence: 4.370612144470215
+2nd judge: 0, confidence: 0.8923788070678711
+[7, 2, 5, True], [7, 5, 4]
+[8, 2, 5, True], [8, 5, 4]
+[13, 8, 9, True], [13, 5, 6]
+[15, 8, 11, True], [15, 8, 7]
+[16, 8, 11, True], [16, 5, 7]
+[17, 1, 12, True], [17, 1, 8]
+[18, 1, 12, True], [18, 1, 8]
+[20, 8, 9, True], [20, 0, 10]
+[34, 2, 5, True], [34, 2, 17]
+[35, 2, 5, True], [35, 2, 17]
+conf accuracy: 50.0 %
+Building id: 0576, room id: 4
+room 6's judge: 5, confidence: 0.9493179321289062
+2nd judge: 1, confidence: 0.6634912490844727
+Building id: 0576, room id: 18
+room 29's judge: 9, confidence: 2.6647872924804688
+2nd judge: 8, confidence: 0.8108491897583008
+[5, 5, 4, True], [5, 5, 4]
+[6, 5, 4, True], [6, 5, 4]
+[28, 9, 18, True], [28, 3, 16]
+[29, 9, 18, True], [29, 3, 16]
+conf accuracy: 50.0 %
+Building id: 1500, room id: 3
+room 4's judge: 4, confidence: 0.5313482284545898
+2nd judge: 16, confidence: 0.14499568939208984
+Building id: 1500, room id: 6
+room 8's judge: 4, confidence: 6.8341827392578125
+2nd judge: 11, confidence: 1.453683853149414
+Building id: 1500, room id: 26
+room 32's judge: 2, confidence: 1.2351794242858887
+2nd judge: 10, confidence: 0.3098745346069336
+[3, 4, 3, True], [3, 8, 1]
+[4, 4, 3, True], [4, 3, 1]
+[7, 4, 6, True], [7, 4, 4]
+[8, 4, 6, True], [8, 4, 4]
+[31, 2, 26, True], [31, 10, 20]
+[32, 2, 26, True], [32, 10, 20]
+conf accuracy: 33.333333333333336 %
+Building id: 0338, room id: 3
+room 5's judge: 5, confidence: 3.659193992614746
+2nd judge: 10, confidence: 0.4904212951660156
+[3, 5, 3, True], [3, 5, 3]
+[5, 5, 3, True], [5, 3, 5]
+conf accuracy: 50.0 %
+Building id: 0969, room id: 5
+room 23's judge: 1, confidence: 8.959319114685059
+2nd judge: 7, confidence: 4.558932304382324
+Building id: 0969, room id: 7
+room 10's judge: 3, confidence: 2.9833145141601562
+2nd judge: 2, confidence: 0.08251476287841797
+[5, 1, 5, True], [5, 7, 3]
+[6, 1, 5, True], [6, 7, 3]
+[7, 1, 5, True], [7, 7, 3]
+[9, 3, 7, True], [9, 3, 5]
+[10, 3, 7, True], [10, 3, 5]
+[21, 1, 5, True], [21, 1, 9]
+[22, 1, 5, True], [22, 2, 10]
+[23, 1, 5, True], [23, 2, 10]
+conf accuracy: 37.5 %
+Building id: 0406, room id: 0
+room 25's judge: 0, confidence: 4.543299674987793
+2nd judge: 8, confidence: 0.5403013229370117
+Building id: 0406, room id: 12
+room 14's judge: 3, confidence: 2.0502233505249023
+2nd judge: 5, confidence: 0.7595968246459961
+[0, 0, 0, True], [0, 0, 0]
+[13, 3, 12, True], [13, 5, 8]
+[14, 3, 12, True], [14, 8, 8]
+[25, 0, 0, True], [25, 2, 12]
+conf accuracy: 25.0 %
+Building id: 1551, room id: 6
+room 11's judge: 4, confidence: 3.660576820373535
+2nd judge: 11, confidence: 0.7957553863525391
+Building id: 1551, room id: 7
+room 10's judge: 5, confidence: 3.1205196380615234
+2nd judge: 3, confidence: 1.748375415802002
+Building id: 1551, room id: 17
+room 27's judge: 7, confidence: 6.156757354736328
+2nd judge: 0, confidence: 0.6084260940551758
+[7, 4, 6, True], [7, 4, 3]
+[8, 5, 7, True], [8, 4, 3]
+[9, 5, 7, True], [9, 4, 3]
+[10, 5, 7, True], [10, 4, 3]
+[11, 4, 6, True], [11, 4, 3]
+[26, 7, 17, True], [26, 7, 10]
+[27, 7, 17, True], [27, 7, 10]
+conf accuracy: 57.142857142857146 %
+Building id: 0668, room id: 4
+room 19's judge: 0, confidence: 5.201458930969238
+2nd judge: 3, confidence: 0.7600955963134766
+Building id: 0668, room id: 6
+room 10's judge: 7, confidence: 10.055296421051025
+2nd judge: 0, confidence: 0.6180787086486816
+Building id: 0668, room id: 11
+room 17's judge: 5, confidence: 0.884857177734375
+2nd judge: 3, confidence: 0.6732006072998047
+Building id: 0668, room id: 21
+room 40's judge: 9, confidence: 1.081559181213379
+2nd judge: 8, confidence: 0.8994293212890625
+Building id: 0668, room id: 27
+room 51's judge: 1, confidence: 5.689519882202148
+2nd judge: 0, confidence: 4.074887275695801
+[5, 0, 4, True], [5, 0, 3]
+[9, 7, 6, True], [9, 7, 4]
+[10, 7, 6, True], [10, 7, 4]
+[16, 5, 11, True], [16, 3, 8]
+[17, 5, 11, True], [17, 3, 8]
+[19, 0, 4, True], [19, 10, 10]
+[37, 9, 21, True], [37, 8, 17]
+[38, 9, 21, True], [38, 8, 17]
+[40, 9, 21, True], [40, 8, 17]
+[50, 1, 27, True], [50, 1, 22]
+[51, 1, 27, True], [51, 1, 22]
+conf accuracy: 45.45454545454545 %
+Building id: 0670, room id: 5
+room 32's judge: 8, confidence: 0.8083429336547852
+2nd judge: 13, confidence: 0.1204380989074707
+Building id: 0670, room id: 9
+room 15's judge: 11, confidence: 3.860950469970703
+2nd judge: 5, confidence: 0.17016124725341797
+Building id: 0670, room id: 15
+room 34's judge: 8, confidence: 4.369744300842285
+2nd judge: 9, confidence: 2.1951818466186523
+[7, 8, 5, True], [7, 8, 4]
+[13, 11, 9, True], [13, 5, 7]
+[14, 11, 9, True], [14, 5, 7]
+[15, 11, 9, True], [15, 5, 7]
+[32, 8, 5, True], [32, 8, 14]
+[33, 8, 15, True], [33, 9, 14]
+[34, 8, 15, True], [34, 8, 14]
+conf accuracy: 42.857142857142854 %
+Building id: 1025, room id: 8
+room 15's judge: 3, confidence: 5.685753345489502
+2nd judge: 10, confidence: 1.885359764099121
+Building id: 1025, room id: 24
+room 51's judge: 2, confidence: 6.425870895385742
+2nd judge: 5, confidence: 3.3895134925842285
+Building id: 1025, room id: 36
+room 67's judge: 6, confidence: 4.224364280700684
+2nd judge: 20, confidence: 1.663254737854004
+[13, 3, 8, True], [13, 3, 4]
+[15, 3, 8, True], [15, 3, 4]
+[46, 2, 24, True], [46, 0, 18]
+[47, 2, 24, True], [47, 0, 18]
+[51, 2, 24, True], [51, 2, 21]
+[66, 6, 36, True], [66, 20, 28]
+[67, 6, 36, True], [67, 20, 28]
+conf accuracy: 42.857142857142854 %
+Building id: 0534, room id: 2
+room 24's judge: 3, confidence: 4.825944900512695
+2nd judge: 2, confidence: 2.475433349609375
+Building id: 0534, room id: 3
+room 13's judge: 4, confidence: 4.149740219116211
+2nd judge: 5, confidence: 0.6410703659057617
+Building id: 0534, room id: 5
+room 10's judge: 3, confidence: 3.3857240676879883
+2nd judge: 8, confidence: 3.0512380599975586
+[3, 3, 2, True], [3, 3, 1]
+[4, 3, 2, True], [4, 3, 1]
+[5, 4, 3, True], [5, 4, 2]
+[7, 3, 5, True], [7, 4, 3]
+[8, 3, 5, True], [8, 4, 3]
+[9, 3, 5, True], [9, 8, 3]
+[10, 3, 5, True], [10, 8, 4]
+[13, 4, 3, True], [13, 5, 6]
+[22, 3, 2, True], [22, 2, 14]
+[24, 3, 2, True], [24, 2, 14]
+conf accuracy: 30.0 %
+Building id: 1199, room id: 12
+room 37's judge: 2, confidence: 5.042741775512695
+2nd judge: 0, confidence: 1.2538261413574219
+[27, 2, 12, True], [27, 2, 12]
+[37, 2, 12, True], [37, 0, 18]
+conf accuracy: 50.0 %
+Building id: 0127, room id: 10
+room 17's judge: 9, confidence: 2.215028762817383
+2nd judge: 1, confidence: 0.20821475982666016
+[16, 9, 10, True], [16, 16, 9]
+[17, 9, 10, True], [17, 9, 9]
+conf accuracy: 50.0 %
+Building id: 0438, room id: 8
+room 22's judge: 2, confidence: 5.879762172698975
+2nd judge: 3, confidence: 0.762333869934082
+[12, 2, 8, True], [12, 3, 6]
+[22, 2, 8, True], [22, 2, 8]
+conf accuracy: 50.0 %
+Building id: 0021, room id: 9
+room 27's judge: 0, confidence: 1.891326904296875
+2nd judge: 5, confidence: 1.8160309791564941
+[13, 0, 9, True], [13, 0, 6]
+[25, 0, 9, True], [25, 15, 9]
+[26, 0, 9, True], [26, 3, 9]
+[27, 0, 9, True], [27, 8, 9]
+conf accuracy: 25.0 %
+Building id: 0278, room id: 9
+room 20's judge: 10, confidence: 2.533196449279785
+2nd judge: 5, confidence: 1.5678520202636719
+Building id: 0278, room id: 24
+room 66's judge: 13, confidence: 0.7478199005126953
+2nd judge: 3, confidence: 0.26285839080810547
+Building id: 0278, room id: 25
+room 70's judge: 2, confidence: 3.7065906524658203
+2nd judge: 10, confidence: 0.5548391342163086
+Building id: 0278, room id: 27
+room 73's judge: 8, confidence: 0.4683103561401367
+2nd judge: 16, confidence: 0.41979312896728516
+[17, 10, 9, True], [17, 5, 5]
+[20, 10, 9, True], [20, 5, 5]
+[65, 13, 24, True], [65, 13, 18]
+[66, 13, 24, True], [66, 13, 18]
+[67, 2, 25, True], [67, 13, 18]
+[70, 2, 25, True], [70, 13, 18]
+[71, 8, 27, True], [71, 8, 19]
+[73, 8, 27, True], [73, 8, 19]
+conf accuracy: 50.0 %
+Building id: 1328, room id: 16
+room 20's judge: 8, confidence: 2.611377239227295
+2nd judge: 3, confidence: 0.8715095520019531
+[19, 8, 16, True], [19, 10, 15]
+[20, 8, 16, True], [20, 10, 15]
+conf accuracy: 0.0 %
+Building id: 0516, room id: 5
+room 32's judge: 3, confidence: 1.8921403884887695
+2nd judge: 8, confidence: 1.370676040649414
+Building id: 0516, room id: 6
+room 10's judge: 1, confidence: 4.9694929122924805
+2nd judge: 11, confidence: 2.0012550354003906
+Building id: 0516, room id: 9
+room 13's judge: 3, confidence: 1.374171257019043
+2nd judge: 22, confidence: 0.08356952667236328
+[5, 3, 5, True], [5, 5, 4]
+[6, 3, 5, True], [6, 5, 4]
+[7, 3, 5, True], [7, 22, 5]
+[8, 1, 6, True], [8, 11, 6]
+[10, 1, 6, True], [10, 11, 6]
+[12, 3, 9, True], [12, 10, 7]
+[13, 3, 9, True], [13, 10, 7]
+[32, 3, 5, True], [32, 0, 20]
+conf accuracy: 0.0 %
+Building id: 0528, room id: 13
+room 42's judge: 0, confidence: 4.143777847290039
+2nd judge: 3, confidence: 0.6083450317382812
+Building id: 0528, room id: 18
+room 40's judge: 5, confidence: 3.446775436401367
+2nd judge: 4, confidence: 3.3166627883911133
+Building id: 0528, room id: 23
+room 54's judge: 7, confidence: 6.473409175872803
+2nd judge: 3, confidence: 0.8240818977355957
+[31, 0, 13, True], [31, 0, 8]
+[38, 5, 18, True], [38, 5, 10]
+[40, 5, 18, True], [40, 5, 10]
+[42, 0, 13, True], [42, 3, 11]
+[53, 7, 23, True], [53, 5, 14]
+[54, 7, 23, True], [54, 5, 14]
+conf accuracy: 50.0 %
+Building id: 0635, room id: 13
+room 22's judge: 4, confidence: 12.98653507232666
+2nd judge: 5, confidence: 4.207440376281738
+[14, 4, 13, True], [14, 4, 9]
+[15, 4, 13, True], [15, 4, 9]
+[16, 4, 13, True], [16, 5, 10]
+[17, 4, 13, True], [17, 5, 10]
+[18, 4, 13, True], [18, 5, 10]
+[19, 4, 13, True], [19, 5, 10]
+[20, 4, 13, True], [20, 3, 11]
+[22, 4, 13, True], [22, 11, 12]
+conf accuracy: 25.0 %
+Building id: 1185, room id: 2
+room 3's judge: 2, confidence: 3.018287181854248
+2nd judge: 10, confidence: 1.0909557342529297
+Building id: 1185, room id: 3
+room 12's judge: 1, confidence: 7.4184675216674805
+2nd judge: 2, confidence: 3.0421018600463867
+Building id: 1185, room id: 5
+room 8's judge: 10, confidence: 2.6640748977661133
+2nd judge: 2, confidence: 2.353644371032715
+Building id: 1185, room id: 9
+room 20's judge: 3, confidence: 0.813755989074707
+2nd judge: 4, confidence: 0.599517822265625
+[2, 2, 2, True], [2, 10, 2]
+[3, 2, 2, True], [3, 10, 2]
+[4, 1, 3, True], [4, 2, 3]
+[5, 1, 3, True], [5, 2, 3]
+[7, 10, 5, True], [7, 2, 4]
+[8, 10, 5, True], [8, 2, 4]
+[11, 1, 3, True], [11, 1, 7]
+[12, 1, 3, True], [12, 1, 7]
+[19, 3, 9, True], [19, 3, 11]
+[20, 3, 9, True], [20, 3, 11]
+conf accuracy: 40.0 %
+Building id: 0190, room id: 1
+room 2's judge: 8, confidence: 4.495603561401367
+2nd judge: 4, confidence: 3.6212282180786133
+Building id: 0190, room id: 9
+room 36's judge: 17, confidence: 2.783696174621582
+2nd judge: 18, confidence: 0.09284782409667969
+Building id: 0190, room id: 22
+room 35's judge: 18, confidence: 3.7663650512695312
+2nd judge: 17, confidence: 0.2620072364807129
+[1, 8, 1, True], [1, 4, 0]
+[2, 8, 1, True], [2, 4, 1]
+[11, 17, 9, True], [11, 6, 4]
+[34, 18, 22, True], [34, 17, 22]
+[35, 18, 22, True], [35, 17, 23]
+[36, 17, 9, True], [36, 17, 24]
+conf accuracy: 16.666666666666668 %
+Building id: 0076, room id: 13
+room 18's judge: 2, confidence: 4.0636796951293945
+2nd judge: 22, confidence: 0.013319969177246094
+[14, 2, 13, True], [14, 2, 12]
+[18, 2, 13, True], [18, 2, 15]
+conf accuracy: 100.0 %
+Building id: 1268, room id: 9
+room 11's judge: 8, confidence: 7.803022861480713
+2nd judge: 0, confidence: 1.3740367889404297
+Building id: 1268, room id: 13
+room 26's judge: 5, confidence: 2.214217185974121
+2nd judge: 2, confidence: 0.40560436248779297
+Building id: 1268, room id: 15
+room 33's judge: 11, confidence: 5.078126430511475
+2nd judge: 4, confidence: 3.592884063720703
+[10, 8, 9, True], [10, 8, 6]
+[11, 8, 9, True], [11, 8, 6]
+[25, 5, 13, True], [25, 5, 9]
+[26, 5, 13, True], [26, 5, 9]
+[31, 11, 15, True], [31, 11, 11]
+[33, 11, 15, True], [33, 11, 11]
+conf accuracy: 100.0 %
+Building id: 1409, room id: 12
+room 53's judge: 5, confidence: 6.861411094665527
+2nd judge: 3, confidence: 2.3918704986572266
+Building id: 1409, room id: 14
+room 26's judge: 2, confidence: 4.383029937744141
+2nd judge: 10, confidence: 0.3092222213745117
+[16, 5, 12, True], [16, 5, 10]
+[17, 5, 12, True], [17, 5, 10]
+[21, 5, 12, True], [21, 11, 12]
+[22, 5, 12, True], [22, 10, 13]
+[23, 5, 12, True], [23, 10, 13]
+[24, 2, 14, True], [24, 2, 14]
+[26, 2, 14, True], [26, 22, 15]
+[51, 5, 12, True], [51, 22, 33]
+[53, 5, 12, True], [53, 22, 35]
+conf accuracy: 33.333333333333336 %
+Building id: 0383, room id: 5
+room 63's judge: 6, confidence: 6.954410552978516
+2nd judge: 2, confidence: 1.087066650390625
+Building id: 0383, room id: 18
+room 31's judge: 8, confidence: 2.049220085144043
+2nd judge: 16, confidence: 1.1369447708129883
+Building id: 0383, room id: 26
+room 44's judge: 2, confidence: 1.4915871620178223
+2nd judge: 7, confidence: 0.6826992034912109
+[7, 6, 5, True], [7, 6, 4]
+[30, 8, 18, True], [30, 8, 12]
+[31, 8, 18, True], [31, 8, 12]
+[43, 2, 26, True], [43, 17, 17]
+[44, 2, 26, True], [44, 17, 17]
+[63, 6, 5, True], [63, 10, 24]
+conf accuracy: 50.0 %
+Building id: 0800, room id: 1
+room 4's judge: 3, confidence: 2.1852455139160156
+2nd judge: 4, confidence: 0.2649660110473633
+Building id: 0800, room id: 3
+room 6's judge: 5, confidence: 1.6850671768188477
+2nd judge: 3, confidence: 1.5739555358886719
+[1, 3, 1, True], [1, 0, 1]
+[3, 5, 3, True], [3, 3, 3]
+[4, 3, 1, True], [4, 4, 3]
+[5, 5, 3, True], [5, 3, 3]
+[6, 5, 3, True], [6, 3, 3]
+conf accuracy: 0.0 %
+Building id: 1167, room id: 2
+room 4's judge: 10, confidence: 2.6016926765441895
+2nd judge: 16, confidence: 0.9512796401977539
+[2, 10, 2, True], [2, 9, 0]
+[4, 10, 2, True], [4, 16, 0]
+conf accuracy: 0.0 %
+Building id: 0957, room id: 4
+room 23's judge: 10, confidence: 1.4059629440307617
+2nd judge: 3, confidence: 1.073594570159912
+Building id: 0957, room id: 10
+room 21's judge: 8, confidence: 7.866012096405029
+2nd judge: 9, confidence: 3.6128950119018555
+[8, 10, 4, True], [8, 3, 1]
+[9, 10, 4, True], [9, 3, 1]
+[10, 10, 4, True], [10, 8, 1]
+[11, 10, 4, True], [11, 3, 1]
+[14, 10, 4, True], [14, 5, 3]
+[19, 8, 10, True], [19, 9, 8]
+[21, 8, 10, True], [21, 8, 9]
+[23, 10, 4, True], [23, 2, 10]
+conf accuracy: 12.5 %
+Building id: 0038, room id: 2
+room 7's judge: 2, confidence: 7.844944953918457
+2nd judge: 0, confidence: 2.2024641036987305
+Building id: 0038, room id: 9
+room 14's judge: 4, confidence: 4.453418254852295
+2nd judge: 5, confidence: 3.251832962036133
+[2, 2, 2, True], [2, 0, 1]
+[3, 2, 2, True], [3, 0, 2]
+[6, 2, 2, True], [6, 2, 3]
+[7, 2, 2, True], [7, 2, 3]
+[13, 4, 9, True], [13, 3, 5]
+[14, 4, 9, True], [14, 8, 6]
+conf accuracy: 33.333333333333336 %
+Building id: 0010, room id: 3
+room 6's judge: 4, confidence: 10.745071411132812
+2nd judge: 5, confidence: 2.3898983001708984
+Building id: 0010, room id: 8
+room 10's judge: 8, confidence: 0.8150949478149414
+2nd judge: 5, confidence: 0.06651115417480469
+[3, 4, 3, True], [3, 4, 2]
+[6, 4, 3, True], [6, 5, 4]
+[9, 8, 8, True], [9, 3, 6]
+[10, 8, 8, True], [10, 3, 6]
+conf accuracy: 25.0 %
+Building id: 0165, room id: 1
+room 24's judge: 2, confidence: 5.928505897521973
+2nd judge: 13, confidence: 2.2978334426879883
+Building id: 0165, room id: 7
+room 11's judge: 4, confidence: 4.800833702087402
+2nd judge: 11, confidence: 1.1553668975830078
+Building id: 0165, room id: 10
+room 23's judge: 2, confidence: 4.018020153045654
+2nd judge: 8, confidence: 1.293008804321289
+[1, 2, 1, True], [1, 15, 0]
+[7, 4, 7, True], [7, 4, 5]
+[8, 4, 7, True], [8, 4, 5]
+[11, 4, 7, True], [11, 4, 5]
+[16, 2, 10, True], [16, 2, 7]
+[23, 2, 10, True], [23, 8, 12]
+[24, 2, 1, True], [24, 13, 13]
+conf accuracy: 57.142857142857146 %
+Building id: 0660, room id: 6
+room 8's judge: 4, confidence: 7.466804504394531
+2nd judge: 5, confidence: 1.7263994216918945
+Building id: 0660, room id: 7
+room 20's judge: 2, confidence: 3.747251510620117
+2nd judge: 5, confidence: 1.4095268249511719
+Building id: 0660, room id: 18
+room 31's judge: 3, confidence: 6.209787368774414
+2nd judge: 5, confidence: 0.43119335174560547
+[7, 4, 6, True], [7, 5, 4]
+[8, 4, 6, True], [8, 4, 4]
+[9, 2, 7, True], [9, 5, 5]
+[20, 2, 7, True], [20, 10, 8]
+[29, 3, 18, True], [29, 10, 10]
+[31, 3, 18, True], [31, 5, 10]
+conf accuracy: 16.666666666666668 %
+Building id: 1218, room id: 15
+room 36's judge: 7, confidence: 7.385294437408447
+2nd judge: 0, confidence: 7.104654788970947
+Building id: 1218, room id: 21
+room 47's judge: 2, confidence: 5.488919734954834
+2nd judge: 0, confidence: 3.932342529296875
+[32, 7, 15, True], [32, 7, 13]
+[36, 7, 15, True], [36, 0, 15]
+[46, 2, 21, True], [46, 2, 18]
+[47, 2, 21, True], [47, 2, 18]
+conf accuracy: 75.0 %
+Building id: 0941, room id: 12
+room 24's judge: 4, confidence: 11.741050720214844
+2nd judge: 11, confidence: 4.4747209548950195
+[17, 4, 12, True], [17, 11, 7]
+[18, 4, 12, True], [18, 11, 7]
+[19, 4, 12, True], [19, 8, 7]
+[24, 4, 12, True], [24, 4, 10]
+conf accuracy: 25.0 %
+Building id: 1203, room id: 3
+room 6's judge: 0, confidence: 0.22628450393676758
+2nd judge: 9, confidence: 0.025146484375
+Building id: 1203, room id: 17
+room 27's judge: 2, confidence: 2.9339194297790527
+2nd judge: 5, confidence: 0.8862752914428711
+[5, 0, 3, True], [5, 3, 2]
+[6, 0, 3, True], [6, 3, 2]
+[26, 2, 17, True], [26, 17, 17]
+[27, 2, 17, True], [27, 17, 17]
+conf accuracy: 0.0 %
+Building id: 0490, room id: 4
+room 25's judge: 0, confidence: 9.592668056488037
+2nd judge: 7, confidence: 1.3451275825500488
+Building id: 0490, room id: 7
+room 23's judge: 2, confidence: 4.679388999938965
+2nd judge: 8, confidence: 1.2188386917114258
+Building id: 0490, room id: 8
+room 24's judge: 2, confidence: 7.2599196434021
+2nd judge: 3, confidence: 6.0924272537231445
+[4, 0, 4, True], [4, 8, 2]
+[7, 2, 7, True], [7, 8, 5]
+[8, 2, 8, True], [8, 3, 5]
+[11, 2, 8, True], [11, 3, 5]
+[12, 2, 8, True], [12, 3, 5]
+[17, 2, 8, True], [17, 2, 8]
+[18, 2, 8, True], [18, 2, 8]
+[23, 2, 7, True], [23, 2, 12]
+[24, 2, 8, True], [24, 2, 12]
+[25, 0, 4, True], [25, 0, 13]
+conf accuracy: 50.0 %
+Building id: 1388, room id: 8
+room 18's judge: 2, confidence: 2.5031981468200684
+2nd judge: 3, confidence: 2.4091734886169434
+Building id: 1388, room id: 10
+room 13's judge: 4, confidence: 5.3145976066589355
+2nd judge: 3, confidence: 1.7926430702209473
+Building id: 1388, room id: 24
+room 40's judge: 6, confidence: 3.0254931449890137
+2nd judge: 4, confidence: 0.7504110336303711
+Building id: 1388, room id: 33
+room 43's judge: 10, confidence: 1.1297264099121094
+2nd judge: 6, confidence: 0.49869441986083984
+[10, 2, 8, True], [10, 0, 4]
+[12, 4, 10, True], [12, 9, 6]
+[13, 4, 10, True], [13, 9, 6]
+[18, 2, 8, True], [18, 2, 10]
+[32, 6, 24, True], [32, 0, 18]
+[40, 6, 24, True], [40, 10, 24]
+[42, 10, 33, True], [42, 10, 26]
+[43, 10, 33, True], [43, 10, 26]
+conf accuracy: 37.5 %
+Building id: 0870, room id: 5
+room 34's judge: 2, confidence: 7.866419315338135
+2nd judge: 5, confidence: 2.8564505577087402
+Building id: 0870, room id: 7
+room 22's judge: 7, confidence: 2.521883010864258
+2nd judge: 4, confidence: 2.2466907501220703
+Building id: 0870, room id: 10
+room 28's judge: 8, confidence: 4.386206150054932
+2nd judge: 2, confidence: 0.7564935684204102
+Building id: 0870, room id: 11
+room 29's judge: 2, confidence: 3.888996124267578
+2nd judge: 0, confidence: 0.7794675827026367
+[8, 2, 5, True], [8, 5, 5]
+[9, 2, 5, True], [9, 5, 5]
+[10, 2, 5, True], [10, 5, 5]
+[11, 2, 5, True], [11, 5, 6]
+[12, 2, 5, True], [12, 5, 6]
+[14, 2, 5, True], [14, 3, 7]
+[15, 2, 5, True], [15, 3, 7]
+[17, 7, 7, True], [17, 4, 8]
+[19, 2, 5, True], [19, 8, 9]
+[20, 2, 5, True], [20, 1, 10]
+[21, 2, 5, True], [21, 1, 10]
+[22, 7, 7, True], [22, 7, 11]
+[25, 8, 10, True], [25, 8, 13]
+[26, 2, 11, True], [26, 0, 14]
+[28, 8, 10, True], [28, 2, 15]
+[29, 2, 11, True], [29, 2, 15]
+[30, 2, 5, True], [30, 2, 15]
+[33, 2, 5, True], [33, 2, 17]
+[34, 2, 5, True], [34, 2, 17]
+conf accuracy: 31.57894736842105 %
+Building id: 0583, room id: 0
+room 1's judge: 6, confidence: 7.000016689300537
+2nd judge: 7, confidence: 0.8947000503540039
+Building id: 0583, room id: 4
+room 6's judge: 2, confidence: 1.1477694511413574
+2nd judge: 5, confidence: 0.43143129348754883
+Building id: 0583, room id: 8
+room 13's judge: 2, confidence: 0.8384170532226562
+2nd judge: 0, confidence: 0.015463829040527344
+Building id: 0583, room id: 10
+room 33's judge: 3, confidence: 1.7277064323425293
+2nd judge: 9, confidence: 1.1531457901000977
+Building id: 0583, room id: 12
+room 22's judge: 4, confidence: 8.00186538696289
+2nd judge: 11, confidence: 2.299558639526367
+Building id: 0583, room id: 14
+room 52's judge: 7, confidence: 8.838349342346191
+2nd judge: 0, confidence: 5.689800262451172
+[0, 6, 0, True], [0, 6, 0]
+[1, 6, 0, True], [1, 6, 0]
+[5, 2, 4, True], [5, 3, 4]
+[6, 2, 4, True], [6, 3, 4]
+[12, 2, 8, True], [12, 8, 7]
+[13, 2, 8, True], [13, 8, 7]
+[17, 3, 10, True], [17, 3, 9]
+[21, 4, 12, True], [21, 4, 10]
+[22, 4, 12, True], [22, 11, 10]
+[27, 7, 14, True], [27, 7, 12]
+[28, 7, 14, True], [28, 7, 12]
+[29, 7, 14, True], [29, 8, 13]
+[30, 7, 14, True], [30, 0, 13]
+[31, 3, 10, True], [31, 9, 13]
+[33, 3, 10, True], [33, 9, 13]
+[51, 7, 14, True], [51, 1, 21]
+[52, 7, 14, True], [52, 0, 22]
+conf accuracy: 35.294117647058826 %
+Building id: 0564, room id: 1
+room 4's judge: 7, confidence: 10.250985622406006
+2nd judge: 0, confidence: 8.76720142364502
+Building id: 0564, room id: 6
+room 32's judge: 0, confidence: 0.9296250343322754
+2nd judge: 3, confidence: 0.550818920135498
+Building id: 0564, room id: 7
+room 40's judge: 2, confidence: 7.918310165405273
+2nd judge: 5, confidence: 3.0694689750671387
+Building id: 0564, room id: 15
+room 34's judge: 3, confidence: 1.4108576774597168
+2nd judge: 2, confidence: 0.23090219497680664
+[1, 7, 1, True], [1, 7, 1]
+[2, 7, 1, True], [2, 7, 1]
+[3, 7, 1, True], [3, 0, 2]
+[4, 7, 1, True], [4, 0, 2]
+[12, 0, 6, True], [12, 0, 6]
+[14, 2, 7, True], [14, 2, 7]
+[32, 0, 6, True], [32, 5, 16]
+[33, 3, 15, True], [33, 3, 16]
+[34, 3, 15, True], [34, 5, 16]
+[40, 2, 7, True], [40, 5, 20]
+conf accuracy: 50.0 %
+Building id: 0453, room id: 6
+room 25's judge: 5, confidence: 5.597448348999023
+2nd judge: 3, confidence: 3.7235255241394043
+Building id: 0453, room id: 10
+room 20's judge: 4, confidence: 9.811210632324219
+2nd judge: 1, confidence: 0.1332111358642578
+Building id: 0453, room id: 12
+room 36's judge: 5, confidence: 1.280935287475586
+2nd judge: 11, confidence: 0.16937637329101562
+[11, 5, 6, True], [11, 5, 5]
+[12, 5, 6, True], [12, 3, 5]
+[19, 4, 10, True], [19, 4, 8]
+[20, 4, 10, True], [20, 4, 8]
+[22, 5, 12, True], [22, 11, 9]
+[23, 5, 6, True], [23, 5, 10]
+[24, 5, 6, True], [24, 5, 10]
+[25, 5, 6, True], [25, 5, 10]
+[36, 5, 12, True], [36, 12, 18]
+conf accuracy: 66.66666666666667 %
+Building id: 0308, room id: 2
+room 6's judge: 5, confidence: 3.715465545654297
+2nd judge: 11, confidence: 0.3023223876953125
+Building id: 0308, room id: 15
+room 36's judge: 1, confidence: 13.472806453704834
+2nd judge: 8, confidence: 3.7427988052368164
+[3, 5, 2, True], [3, 5, 1]
+[6, 5, 2, True], [6, 5, 1]
+[35, 1, 15, True], [35, 1, 11]
+[36, 1, 15, True], [36, 1, 12]
+conf accuracy: 100.0 %
+Building id: 0990, room id: 4
+room 16's judge: 3, confidence: 6.2262983322143555
+2nd judge: 5, confidence: 4.938643455505371
+[10, 3, 4, True], [10, 5, 4]
+[11, 3, 4, True], [11, 5, 4]
+[12, 3, 4, True], [12, 10, 5]
+[13, 3, 4, True], [13, 10, 5]
+[14, 3, 4, True], [14, 10, 5]
+[15, 3, 4, True], [15, 10, 5]
+[16, 3, 4, True], [16, 4, 5]
+conf accuracy: 0.0 %
+Building id: 0850, room id: 0
+room 8's judge: 4, confidence: 8.300470352172852
+2nd judge: 3, confidence: 1.1559734344482422
+Building id: 0850, room id: 2
+room 3's judge: 3, confidence: 1.3883094787597656
+2nd judge: 5, confidence: 0.34217357635498047
+Building id: 0850, room id: 21
+room 31's judge: 10, confidence: 4.730932235717773
+2nd judge: 6, confidence: 0.3247213363647461
+[0, 4, 0, True], [0, 4, 0]
+[2, 3, 2, True], [2, 8, 1]
+[3, 3, 2, True], [3, 3, 1]
+[8, 4, 0, True], [8, 5, 4]
+[28, 10, 21, True], [28, 10, 19]
+[29, 10, 21, True], [29, 10, 20]
+[30, 10, 21, True], [30, 10, 20]
+[31, 10, 21, True], [31, 10, 20]
+conf accuracy: 75.0 %
+Building id: 0444, room id: 5
+room 11's judge: 8, confidence: 2.7375731468200684
+2nd judge: 3, confidence: 1.6573362350463867
+Building id: 0444, room id: 9
+room 27's judge: 8, confidence: 4.269113540649414
+2nd judge: 9, confidence: 1.6940193176269531
+Building id: 0444, room id: 10
+room 26's judge: 8, confidence: 3.6144728660583496
+2nd judge: 1, confidence: 0.3175630569458008
+Building id: 0444, room id: 17
+room 41's judge: 2, confidence: 2.3698463439941406
+2nd judge: 10, confidence: 1.7541799545288086
+[10, 8, 5, True], [10, 10, 5]
+[11, 8, 5, True], [11, 10, 5]
+[16, 8, 9, True], [16, 10, 7]
+[17, 8, 10, True], [17, 8, 7]
+[24, 8, 9, True], [24, 9, 9]
+[26, 8, 10, True], [26, 8, 11]
+[27, 8, 9, True], [27, 8, 12]
+[38, 2, 17, True], [38, 2, 15]
+[39, 2, 17, True], [39, 2, 15]
+[40, 2, 17, True], [40, 2, 15]
+[41, 2, 17, True], [41, 2, 15]
+conf accuracy: 63.63636363636363 %
+Building id: 0575, room id: 12
+room 41's judge: 5, confidence: 3.1536502838134766
+2nd judge: 1, confidence: 1.8431262969970703
+Building id: 0575, room id: 16
+room 35's judge: 2, confidence: 5.586058139801025
+2nd judge: 8, confidence: 1.1267080307006836
+[20, 5, 12, True], [20, 5, 8]
+[21, 5, 12, True], [21, 5, 8]
+[22, 5, 12, True], [22, 5, 8]
+[26, 2, 16, True], [26, 8, 10]
+[35, 2, 16, True], [35, 2, 14]
+[40, 5, 12, True], [40, 1, 16]
+[41, 5, 12, True], [41, 1, 16]
+conf accuracy: 57.142857142857146 %
+Building id: 0629, room id: 2
+room 6's judge: 12, confidence: 5.794146537780762
+2nd judge: 4, confidence: 2.1798534393310547
+Building id: 0629, room id: 3
+room 4's judge: 11, confidence: 4.185543060302734
+2nd judge: 3, confidence: 1.9536542892456055
+Building id: 0629, room id: 4
+room 7's judge: 4, confidence: 8.56456708908081
+2nd judge: 8, confidence: 2.5215625762939453
+Building id: 0629, room id: 5
+room 12's judge: 5, confidence: 3.5000648498535156
+2nd judge: 3, confidence: 1.821253776550293
+Building id: 0629, room id: 7
+room 19's judge: 3, confidence: 4.816515922546387
+2nd judge: 2, confidence: 1.261244773864746
+Building id: 0629, room id: 12
+room 27's judge: 8, confidence: 1.463871955871582
+2nd judge: 16, confidence: 0.29001951217651367
+[2, 12, 2, True], [2, 4, 2]
+[3, 11, 3, True], [3, 4, 2]
+[4, 11, 3, True], [4, 4, 2]
+[5, 4, 4, True], [5, 4, 2]
+[6, 12, 2, True], [6, 4, 2]
+[7, 4, 4, True], [7, 4, 2]
+[8, 5, 5, True], [8, 5, 3]
+[10, 5, 5, True], [10, 5, 3]
+[11, 5, 5, True], [11, 4, 3]
+[12, 5, 5, True], [12, 5, 3]
+[13, 3, 7, True], [13, 3, 4]
+[14, 3, 7, True], [14, 3, 4]
+[15, 3, 7, True], [15, 3, 4]
+[16, 3, 7, True], [16, 3, 4]
+[17, 3, 7, True], [17, 5, 5]
+[18, 3, 7, True], [18, 5, 5]
+[19, 3, 7, True], [19, 5, 5]
+[24, 8, 12, True], [24, 16, 8]
+[27, 8, 12, True], [27, 16, 8]
+conf accuracy: 47.36842105263158 %
+Building id: 0028, room id: 0
+room 14's judge: 4, confidence: 9.62023639678955
+2nd judge: 3, confidence: 3.8489131927490234
+[0, 4, 0, True], [0, 4, 0]
+[2, 4, 0, True], [2, 5, 2]
+[14, 4, 0, True], [14, 10, 14]
+conf accuracy: 33.333333333333336 %
+Building id: 0496, room id: 12
+room 22's judge: 2, confidence: 4.1767377853393555
+2nd judge: 8, confidence: 2.0461912155151367
+Building id: 0496, room id: 18
+room 30's judge: 17, confidence: 3.0966315269470215
+2nd judge: 6, confidence: 0.6290779113769531
+[19, 2, 12, True], [19, 2, 9]
+[22, 2, 12, True], [22, 16, 10]
+[29, 17, 18, True], [29, 17, 15]
+[30, 17, 18, True], [30, 17, 16]
+conf accuracy: 75.0 %
+Building id: 1566, room id: 2
+room 3's judge: 3, confidence: 5.560683250427246
+2nd judge: 10, confidence: 1.0531120300292969
+Building id: 1566, room id: 4
+room 8's judge: 4, confidence: 3.4104528427124023
+2nd judge: 8, confidence: 0.9196462631225586
+[2, 3, 2, True], [2, 3, 2]
+[3, 3, 2, True], [3, 3, 2]
+[6, 4, 4, True], [6, 3, 5]
+[8, 4, 4, True], [8, 3, 5]
+conf accuracy: 50.0 %
+Building id: 0270, room id: 1
+room 6's judge: 3, confidence: 2.250558376312256
+2nd judge: 0, confidence: 1.678098201751709
+[2, 3, 1, True], [2, 3, 1]
+[3, 3, 1, True], [3, 3, 1]
+[4, 3, 1, True], [4, 3, 2]
+[5, 3, 1, True], [5, 3, 2]
+[6, 3, 1, True], [6, 3, 2]
+conf accuracy: 100.0 %
+Building id: 0420, room id: 5
+room 7's judge: 4, confidence: 3.736417770385742
+2nd judge: 5, confidence: 0.7729339599609375
+Building id: 0420, room id: 10
+room 14's judge: 4, confidence: 2.2889962196350098
+2nd judge: 1, confidence: 0.5069479942321777
+[5, 4, 5, True], [5, 4, 4]
+[7, 4, 5, True], [7, 4, 4]
+[12, 4, 10, True], [12, 8, 6]
+[14, 4, 10, True], [14, 4, 6]
+conf accuracy: 75.0 %
+Building id: 1041, room id: 6
+room 8's judge: 3, confidence: 1.5626401901245117
+2nd judge: 2, confidence: 1.2551155090332031
+[7, 3, 6, True], [7, 3, 6]
+[8, 3, 6, True], [8, 5, 6]
+conf accuracy: 50.0 %
+Building id: 1436, room id: 11
+room 12's judge: 8, confidence: 2.2838730812072754
+2nd judge: 3, confidence: 0.2880830764770508
+Building id: 1436, room id: 13
+room 17's judge: 8, confidence: 2.012390613555908
+2nd judge: 9, confidence: 1.6406936645507812
+Building id: 1436, room id: 29
+room 35's judge: 22, confidence: 1.9529800415039062
+2nd judge: 10, confidence: 0.025460243225097656
+[11, 8, 11, True], [11, 10, 9]
+[12, 8, 11, True], [12, 10, 9]
+[14, 8, 13, True], [14, 5, 10]
+[17, 8, 13, True], [17, 9, 12]
+[34, 22, 29, True], [34, 17, 26]
+[35, 22, 29, True], [35, 17, 26]
+conf accuracy: 0.0 %
+Building id: 0709, room id: 6
+room 16's judge: 3, confidence: 2.833144187927246
+2nd judge: 10, confidence: 2.8089475631713867
+[13, 3, 6, True], [13, 3, 5]
+[14, 3, 6, True], [14, 3, 5]
+[15, 3, 6, True], [15, 3, 5]
+[16, 3, 6, True], [16, 3, 5]
+conf accuracy: 100.0 %
+Building id: 0541, room id: 8
+room 11's judge: 8, confidence: 3.1237568855285645
+2nd judge: 3, confidence: 1.3335299491882324
+Building id: 0541, room id: 15
+room 21's judge: 3, confidence: 3.0236778259277344
+2nd judge: 10, confidence: 2.350564956665039
+Building id: 0541, room id: 19
+room 35's judge: 0, confidence: 4.009838581085205
+2nd judge: 1, confidence: 0.5613422393798828
+Building id: 0541, room id: 20
+room 42's judge: 2, confidence: 5.28436803817749
+2nd judge: 1, confidence: 4.026758670806885
+Building id: 0541, room id: 25
+room 39's judge: 2, confidence: 3.942793846130371
+2nd judge: 8, confidence: 3.2562313079833984
+[10, 8, 8, True], [10, 3, 6]
+[11, 8, 8, True], [11, 8, 6]
+[20, 3, 15, True], [20, 3, 8]
+[21, 3, 15, True], [21, 3, 8]
+[29, 0, 19, True], [29, 1, 12]
+[30, 2, 20, True], [30, 2, 13]
+[35, 0, 19, True], [35, 0, 18]
+[36, 2, 25, True], [36, 8, 19]
+[39, 2, 25, True], [39, 2, 22]
+[42, 2, 20, True], [42, 1, 25]
+conf accuracy: 60.0 %
+Building id: 1027, room id: 0
+room 1's judge: 3, confidence: 4.958319664001465
+2nd judge: 5, confidence: 0.1580190658569336
+Building id: 1027, room id: 6
+room 26's judge: 8, confidence: 2.7660880088806152
+2nd judge: 5, confidence: 0.8418512344360352
+Building id: 1027, room id: 11
+room 14's judge: 8, confidence: 3.4377646446228027
+2nd judge: 3, confidence: 0.41632556915283203
+[0, 3, 0, True], [0, 3, 0]
+[1, 3, 0, True], [1, 3, 0]
+[8, 8, 6, True], [8, 8, 4]
+[13, 8, 11, True], [13, 5, 6]
+[14, 8, 11, True], [14, 8, 6]
+[26, 8, 6, True], [26, 8, 11]
+conf accuracy: 83.33333333333333 %
+Building id: 0809, room id: 12
+room 13's judge: 3, confidence: 5.934784889221191
+2nd judge: 5, confidence: 2.533191204071045
+[12, 3, 12, True], [12, 3, 12]
+[13, 3, 12, True], [13, 5, 13]
+conf accuracy: 50.0 %
+Building id: 1400, room id: 7
+room 13's judge: 7, confidence: 11.894983768463135
+2nd judge: 2, confidence: 0.1575336456298828
+[11, 7, 7, True], [11, 7, 4]
+[13, 7, 7, True], [13, 0, 5]
+conf accuracy: 50.0 %
+Building id: 0506, room id: 15
+room 19's judge: 1, confidence: 2.9559898376464844
+2nd judge: 4, confidence: 0.21023273468017578
+[18, 1, 15, True], [18, 1, 10]
+[19, 1, 15, True], [19, 1, 10]
+conf accuracy: 100.0 %
+Building id: 1485, room id: 2
+room 46's judge: 6, confidence: 8.923154354095459
+2nd judge: 7, confidence: 8.069791316986084
+Building id: 1485, room id: 6
+room 20's judge: 3, confidence: 4.9271135330200195
+2nd judge: 5, confidence: 2.9813785552978516
+Building id: 1485, room id: 13
+room 31's judge: 1, confidence: 5.008591651916504
+2nd judge: 8, confidence: 1.2247633934020996
+[5, 6, 2, True], [5, 0, 1]
+[9, 3, 6, True], [9, 3, 3]
+[11, 3, 6, True], [11, 3, 3]
+[12, 3, 6, True], [12, 3, 3]
+[16, 3, 6, True], [16, 8, 5]
+[17, 3, 6, True], [17, 8, 5]
+[18, 3, 6, True], [18, 5, 5]
+[19, 3, 6, True], [19, 5, 5]
+[20, 3, 6, True], [20, 5, 5]
+[30, 1, 13, True], [30, 1, 10]
+[31, 1, 13, True], [31, 1, 10]
+[41, 6, 2, True], [41, 7, 17]
+[45, 6, 2, True], [45, 6, 19]
+[46, 6, 2, True], [46, 6, 19]
+conf accuracy: 50.0 %
+Building id: 0986, room id: 0
+room 5's judge: 4, confidence: 9.365531921386719
+2nd judge: 5, confidence: 1.6954584121704102
+Building id: 0986, room id: 17
+room 20's judge: 4, confidence: 2.5435853004455566
+2nd judge: 9, confidence: 1.7035036087036133
+[0, 4, 0, True], [0, 5, 0]
+[5, 4, 0, True], [5, 8, 3]
+[19, 4, 17, True], [19, 7, 11]
+[20, 4, 17, True], [20, 7, 11]
+conf accuracy: 0.0 %
+Building id: 1207, room id: 14
+room 25's judge: 5, confidence: 4.207498073577881
+2nd judge: 8, confidence: 1.3445014953613281
+Building id: 1207, room id: 17
+room 32's judge: 8, confidence: 1.6326675415039062
+2nd judge: 9, confidence: 0.2902660369873047
+Building id: 1207, room id: 20
+room 45's judge: 0, confidence: 3.2473292350769043
+2nd judge: 2, confidence: 0.37151193618774414
+Building id: 1207, room id: 21
+room 37's judge: 2, confidence: 6.495747089385986
+2nd judge: 6, confidence: 0.39946937561035156
+[22, 5, 14, True], [22, 9, 10]
+[24, 5, 14, True], [24, 9, 10]
+[25, 5, 14, True], [25, 9, 10]
+[31, 8, 17, True], [31, 9, 13]
+[32, 8, 17, True], [32, 9, 13]
+[35, 0, 20, True], [35, 2, 16]
+[36, 2, 21, True], [36, 2, 16]
+[37, 2, 21, True], [37, 2, 16]
+[45, 0, 20, True], [45, 0, 20]
+conf accuracy: 33.333333333333336 %
+Building id: 1404, room id: 3
+room 6's judge: 5, confidence: 2.4008960723876953
+2nd judge: 11, confidence: 0.2992839813232422
+Building id: 1404, room id: 7
+room 24's judge: 5, confidence: 4.760257720947266
+2nd judge: 13, confidence: 0.5218324661254883
+Building id: 1404, room id: 9
+room 46's judge: 3, confidence: 5.610959053039551
+2nd judge: 2, confidence: 4.2407732009887695
+[4, 5, 3, True], [4, 11, 3]
+[6, 5, 3, True], [6, 4, 4]
+[9, 5, 7, True], [9, 5, 6]
+[13, 3, 9, True], [13, 10, 8]
+[14, 3, 9, True], [14, 10, 8]
+[19, 3, 9, True], [19, 13, 10]
+[20, 3, 9, True], [20, 13, 10]
+[23, 3, 9, True], [23, 13, 12]
+[24, 5, 7, True], [24, 8, 12]
+[45, 3, 9, True], [45, 2, 22]
+[46, 3, 9, True], [46, 2, 22]
+conf accuracy: 9.090909090909092 %
+Building id: 0097, room id: 11
+room 13's judge: 7, confidence: 5.267049789428711
+2nd judge: 1, confidence: 1.407334327697754
+[12, 7, 11, True], [12, 7, 5]
+[13, 7, 11, True], [13, 7, 5]
+conf accuracy: 100.0 %
+Building id: 1160, room id: 2
+room 13's judge: 8, confidence: 0.6787281036376953
+2nd judge: 0, confidence: 0.2613358497619629
+Building id: 1160, room id: 12
+room 28's judge: 2, confidence: 4.870535373687744
+2nd judge: 13, confidence: 3.6611313819885254
+[2, 8, 2, True], [2, 0, 1]
+[13, 8, 2, True], [13, 4, 5]
+[20, 2, 12, True], [20, 2, 9]
+[28, 2, 12, True], [28, 10, 13]
+conf accuracy: 25.0 %
+Building id: 0778, room id: 7
+room 14's judge: 14, confidence: 4.345123767852783
+2nd judge: 6, confidence: 0.4473147392272949
+Building id: 0778, room id: 16
+room 38's judge: 9, confidence: 5.2100830078125
+2nd judge: 8, confidence: 3.48013973236084
+[13, 14, 7, True], [13, 14, 3]
+[14, 14, 7, True], [14, 14, 3]
+[36, 9, 16, True], [36, 8, 12]
+[38, 9, 16, True], [38, 16, 12]
+conf accuracy: 50.0 %
+Building id: 0375, room id: 4
+room 18's judge: 0, confidence: 1.4114294052124023
+2nd judge: 8, confidence: 1.3515357971191406
+Building id: 0375, room id: 5
+room 14's judge: 1, confidence: 6.156391143798828
+2nd judge: 8, confidence: 2.939110279083252
+[8, 0, 4, True], [8, 8, 4]
+[9, 1, 5, True], [9, 1, 5]
+[14, 1, 5, True], [14, 8, 7]
+[18, 0, 4, True], [18, 8, 7]
+conf accuracy: 25.0 %
+Building id: 1103, room id: 3
+room 30's judge: 7, confidence: 8.738701820373535
+2nd judge: 0, confidence: 4.324082374572754
+Building id: 1103, room id: 5
+room 41's judge: 2, confidence: 7.39493465423584
+2nd judge: 3, confidence: 3.1127796173095703
+[5, 7, 3, True], [5, 0, 2]
+[7, 2, 5, True], [7, 3, 3]
+[26, 7, 3, True], [26, 7, 8]
+[27, 7, 3, True], [27, 7, 8]
+[28, 7, 3, True], [28, 7, 8]
+[29, 7, 3, True], [29, 7, 8]
+[30, 7, 3, True], [30, 7, 8]
+[41, 2, 5, True], [41, 2, 14]
+conf accuracy: 75.0 %
+Building id: 0203, room id: 5
+room 40's judge: 0, confidence: 5.020313739776611
+2nd judge: 1, confidence: 0.23105621337890625
+Building id: 0203, room id: 11
+room 25's judge: 3, confidence: 6.714994430541992
+2nd judge: 8, confidence: 2.486722469329834
+Building id: 0203, room id: 15
+room 32's judge: 4, confidence: 9.297147750854492
+2nd judge: 8, confidence: 0.8257269859313965
+[7, 0, 5, True], [7, 0, 3]
+[24, 3, 11, True], [24, 3, 10]
+[25, 3, 11, True], [25, 3, 10]
+[30, 4, 15, True], [30, 4, 12]
+[32, 4, 15, True], [32, 4, 12]
+[40, 0, 5, True], [40, 1, 16]
+conf accuracy: 83.33333333333333 %
+Building id: 1169, room id: 6
+room 13's judge: 4, confidence: 9.199947834014893
+2nd judge: 3, confidence: 1.8037948608398438
+[11, 4, 6, True], [11, 4, 4]
+[13, 4, 6, True], [13, 3, 5]
+conf accuracy: 50.0 %
+Building id: 1488, room id: 0
+room 8's judge: 3, confidence: 1.4386053085327148
+2nd judge: 22, confidence: 0.30071353912353516
+Building id: 1488, room id: 5
+room 23's judge: 8, confidence: 1.3145389556884766
+2nd judge: 4, confidence: 1.0065851211547852
+Building id: 1488, room id: 28
+room 47's judge: 8, confidence: 1.6924715042114258
+2nd judge: 9, confidence: 1.4054765701293945
+[0, 3, 0, True], [0, 8, 0]
+[7, 3, 0, True], [7, 4, 5]
+[8, 3, 0, True], [8, 4, 5]
+[10, 8, 5, True], [10, 3, 6]
+[11, 8, 5, True], [11, 4, 6]
+[22, 8, 5, True], [22, 3, 10]
+[23, 8, 5, True], [23, 3, 10]
+[43, 8, 28, True], [43, 9, 21]
+[46, 8, 28, True], [46, 8, 21]
+[47, 8, 28, True], [47, 8, 21]
+conf accuracy: 20.0 %
+Building id: 1479, room id: 12
+room 26's judge: 8, confidence: 4.0995330810546875
+2nd judge: 0, confidence: 0.5884323120117188
+Building id: 1479, room id: 20
+room 32's judge: 2, confidence: 5.204561233520508
+2nd judge: 8, confidence: 1.174363136291504
+Building id: 1479, room id: 21
+room 30's judge: 1, confidence: 2.8204288482666016
+2nd judge: 8, confidence: 1.4573898315429688
+[19, 8, 12, True], [19, 8, 13]
+[26, 8, 12, True], [26, 0, 17]
+[28, 2, 20, True], [28, 2, 18]
+[29, 1, 21, True], [29, 1, 19]
+[30, 1, 21, True], [30, 1, 19]
+[32, 2, 20, True], [32, 8, 20]
+conf accuracy: 66.66666666666667 %
+Building id: 1184, room id: 4
+room 57's judge: 0, confidence: 12.595473766326904
+2nd judge: 15, confidence: 4.40953254699707
+[6, 0, 4, True], [6, 15, 4]
+[54, 0, 4, True], [54, 0, 20]
+[55, 0, 4, True], [55, 0, 20]
+[57, 0, 4, True], [57, 0, 22]
+conf accuracy: 75.0 %
+Building id: 0681, room id: 0
+room 38's judge: 4, confidence: 1.2831897735595703
+2nd judge: 8, confidence: 0.5266561508178711
+Building id: 0681, room id: 5
+room 21's judge: 4, confidence: 6.9001569747924805
+2nd judge: 5, confidence: 2.980632781982422
+Building id: 0681, room id: 21
+room 40's judge: 15, confidence: 5.359832763671875
+2nd judge: 2, confidence: 4.949884414672852
+[0, 4, 0, True], [0, 8, 0]
+[2, 4, 0, True], [2, 8, 0]
+[7, 4, 5, True], [7, 11, 2]
+[21, 4, 5, True], [21, 4, 6]
+[38, 4, 0, True], [38, 2, 15]
+[39, 15, 21, True], [39, 15, 16]
+[40, 15, 21, True], [40, 15, 16]
+conf accuracy: 42.857142857142854 %
+Building id: 0502, room id: 22
+room 32's judge: 2, confidence: 2.741217613220215
+2nd judge: 10, confidence: 0.7216315269470215
+[28, 2, 22, True], [28, 2, 18]
+[32, 2, 22, True], [32, 2, 18]
+conf accuracy: 100.0 %
+Average confidence accuracy after grouping: 34.70572558545772 %
+Average non confidence accuracy after grouping: 71.82472032201927 %

@@ -1,0 +1,2 @@
+Average confidence accuracy after grouping: 0.0 %
+Average non confidence accuracy after grouping: 67.07571616083214 %

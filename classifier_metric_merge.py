@@ -67,6 +67,8 @@ class CustomZinDBuildingParser(Dataset):
         room_ids = [x[2] for x in self.buildings[idx]]
         primary_bools = [1 if x[3] == True else 0 for x in self.buildings[idx]]
         id = self.buildings[idx][0][4]
+        # print(self.buildings[idx][0][0])
+        pano_ids = [int(x[0].split(".")[0].split("_")[-1]) for x in self.buildings[idx]]
 
         # if self.mode == "train":
         #     pano_paths, labels = self.GetBalancePosNegPair(pano_paths, labels)
@@ -89,8 +91,9 @@ class CustomZinDBuildingParser(Dataset):
         labels = torch.tensor(labels)
         room_ids = torch.tensor(room_ids)
         primary_bools = torch.tensor(primary_bools)
+        pano_ids = torch.tensor(pano_ids)
 
-        return panos, labels, room_ids, primary_bools, id
+        return panos, labels, room_ids, primary_bools, id, pano_ids
 
 class ExtraLayerNet(nn.Module):
     def __init__(self, pretrained_model):
@@ -191,12 +194,16 @@ classifier_model = resnet50(weights=ResNet50_Weights.DEFAULT)
 classifier_model = ExtraLayerNet(pretrained_model = classifier_model)
 # classifier_model.fn = nn.Linear(1000, 23)
 
-classifier_model.load_state_dict(torch.load("./classifier_100epochs_resnet50.pth"))
+classifier_model.load_state_dict(torch.load("./classifier_250epochs_resnet50_lrsche.pth"))
 classifier_model.eval()
 
 metric_model = Metric_Net()
 metric_model.load_state_dict(torch.load("./metric_model_150.pth"))
 metric_model.eval()
+
+label_list = ["closet", "bathroom", "bedroom", "living room", "kitchen", "dining room", "garage", "laundry", "hallway", 
+"stair", "family room", "breakfast nook", "pantry", "loft", "patio", "office", "doorway", 
+"basement", "utility", "balcony", "attic", "yard", "other"]
 
 # train_panos, train_buildings, train_pano_count, train_grouping_list = PanoLabelGetter(houses_data, partition_data, "train")               # total: 67448 panos, 1575 buildings
 # train_panos_val, train_buildings_val, train_pano_count_val = PanoLabelGetter(houses_data, partition_data, "train")               # total: 67448 panos, 1575 buildings
@@ -223,7 +230,6 @@ def my_collate_fn(batch):
 batch_size = 1
 shuffle_train = False
 num_workers = 6
-# epochs = 150
 # val_freq = 15
 # train_data = "train partition"
 # test_data = "train partition"
@@ -238,22 +244,31 @@ room_dataloader_test = DataLoader(
     collate_fn = my_collate_fn
 )
 
-out_path_metric = "merge_result_id.txt"
+out_path_metric = "./merge_result_single/merge_result_id.txt"
 # out_path_val = "val_result.txt"
 # out_path_status = "training_status.txt"
 # fm = open(out_path_metric, 'w')
 fm = open(out_path_metric, 'w')
-# fma = open("metric_acc.txt", "w")
-# fmga = open("metric_group_acc.txt", "w")
-# fca = open("classifier_acc.txt", "w")
-# fga = open("grouping_acc.txt", "w")
+fma = open("./merge_result_single/metric_acc.txt", "w")
+fmga = open("./merge_result_single/metric_group_acc.txt", "w")
+fca = open("./merge_result_single/classifier_acc.txt", "w")
+fga = open("./merge_result_single/grouping_acc.txt", "w")
 # fv = open(out_path_val, 'w')
 # fs = open(out_path_status, 'w')
+fconf = open("./merge_result_single/confidence_result.txt", "w")
 
 OOM_count = 16
 max_OOM_count = 16
 
 if mode_test_bool:
+    metric_acc_sum = 0
+    metric_grouping_acc_sum = 0
+    classifier_acc_sum = 0
+    label_group_acc_sum = 0
+    conf_acc_sum = 0
+    non_conf_acc_sum = 0
+    bud_count = 0
+
     print("start testing")
     classifier_model.cuda()
     metric_model.cuda()
@@ -261,55 +276,63 @@ if mode_test_bool:
     distance = distances.CosineSimilarity()
 
     for i, data in enumerate(room_dataloader_test):
-        panos, labels, room_ids, primary_bools, id = data[0], data[1].tolist(), data[2].tolist(), data[3].tolist(), data[4]
+        panos, labels, room_ids, primary_bools, id, pano_ids = data[0], data[1].tolist(), data[2].tolist(), data[3].tolist(), data[4], data[5].tolist()
 
-        
-        # print("new data")
-        # print("new data", file=fm)
+        bud_count += 1
+
         data_len = len(primary_bools)
-        # print(data_len, id)
-        # print(data_len, file=fm)
+        
+        # if data_len > max_OOM_count:
+        #     print("continue")
+        #     continue
 
-        if data_len > max_OOM_count:
-            print("continue")
-            continue
-        print(data_len, id)
+        print(data_len, id)                         # print building ID
         print(data_len, id, file=fm)
-        # print()
+        if data_len <= max_OOM_count:
+            print("use this!!", file=fm)
+        
+        # -------- make output list --------
         room_groups = []
         true_rooms = []
         for idx in range(data_len):
             room_groups.append([idx, -1, -1])
-            true_rooms.append([idx, labels[idx], room_ids[idx]])
+            true_rooms.append([idx, labels[idx], room_ids[idx], pano_ids[idx]])
 
         # -------- metric part --------
+        
+        # pano --> feature vector
         metric_output = metric_model(panos.cuda())
-        print(metric_output)
-        print(metric_output.size())
-        # break
+        # print(metric_output)
+        # print(metric_output.size())
+        
+        # feature vector --> distance matrices
         mat = distance(metric_output)
-        print(mat)
-        print(mat.size())
+        # print(mat)
+        # print(mat.size())
 
+        # distance matrices --> group boolean
         predicted_ids = []
         correct = 0
         for idx in range(mat.size(dim=1)):
             vec = mat[idx]
-            print(vec)
-            actual = [1 if x == labels[idx] else 0 for x in labels]
+            # print(vec)
+            actual = [1 if x == room_ids[idx] else 0 for x in room_ids]
             predicted = [1 if (y - pos_threshold) > 1e-9 else 0 for y in vec]
             print(actual)
-            print(predicted)
+            # print(predicted)
             # print(predicted, file=fm)
             for z in range(len(actual)):
                 correct += actual[z] == predicted[z]
             predicted_ids.append(predicted)
             # break
 
-        # calculate accuracy of metric
+        # calculate accuracy of metric: matrix comparison
         metric_acc = 100.0 * (float)(correct) / (float)(len(predicted_ids) * len(predicted_ids[0]))
-        # break
 
+        print()
+
+        # 2D group boolean --> 1D group result
+        # right side of diagonal
         groups_idx = 0
         for idx, val in enumerate(predicted_ids):
             print(val)
@@ -320,15 +343,33 @@ if mode_test_bool:
                 if val[j] == 1:
                     room_groups[j][2] = room_groups[idx][2]
 
-        # calculate accuracy after grouping
+        # calculate accuracy after grouping: relation comparison
         correct = 0
+        re_predicted_ids = []
+        result_l = []
+        true_result_l = []
         for i in range(data_len):
+            # re_predicted = []
+            result_l.append(room_groups[i][2])
+            true_result_l.append(true_rooms[i][2])
             for j in range(data_len):
+            #     if room_groups[i][2] == room_groups[j][2]:
+            #         re_predicted.append(1)
+            #     else:
+            #         re_predicted.append(0)
+            # re_predicted_ids.append(re_predicted)
                 if (room_groups[i][2] == room_groups[j][2] and true_rooms[i][2] == true_rooms[j][2]) \
                 or (room_groups[i][2] != room_groups[j][2] and true_rooms[i][2] != true_rooms[j][2]):
                     correct += 1
 
         metric_grouping_acc = 100.0 * (float)(correct) / (float)(data_len * data_len)
+        print()
+        print(true_result_l)
+        print(result_l)
+
+        # continue
+
+        # break
 
         # -------- classifier part --------
         classifier_output = []
@@ -384,10 +425,13 @@ if mode_test_bool:
         i, j = 0, 0
         while i <= max_room_id:
             start_j = j
+            conf_bool = False
+
             while j < len(room_groups) and room_groups[j][2] == i:
                 j += 1
             # find labels in same group
-            # 1st method: calculate appear times
+
+            # 1st method: calculate appear times + choose most confident
             label_dic = []
             most_possible_label = -1
             for idx in range(start_j, j):
@@ -398,12 +442,31 @@ if mode_test_bool:
             if len(candidate_keys) == 1:
                 most_possible_label = candidate_keys[0]
             else:
+                # if candidate count > 1
+                # 1-1: choose most confident
                 confidence = -1000
+                # conf_list = []
+                # conf_bool = True
+                # print(f"Building id: {id}, room id: {i}", file=fconf)
                 for idx in range(start_j, j):
                     if room_groups[idx][1][0] in candidate_keys:
+                        # conf_list.append(room_groups[idx][1])
+                        # print(f"room {room_groups[idx][0]}'s judge: {room_groups[idx][1][0]}, confidence: {room_groups[idx][1][1]}", file=fconf)
                         if confidence < room_groups[idx][1][1]:
                             confidence = room_groups[idx][1][1]
                             most_possible_label = room_groups[idx][1][0]
+
+                # conf_list.sort(key = lambda x: x[1], reverse=True)
+                # print(f"Building id: {id}, room id: {i}", file=fconf)
+                # print(f"room {room_groups[idx][0]}'s judge: {conf_list[0][0]}, confidence: {conf_list[0][1]}", file=fconf)
+                # for idx in range(1, len(conf_list)):
+                    # if conf_list[idx][0] != conf_list[0][0]:
+                        # print(f"2nd judge: {conf_list[idx][0]}, confidence: {conf_list[idx][1]}", file=fconf)
+                        # break
+                
+                # 1-2: random choose one
+                # random.shuffle(candidate_keys)
+                # most_possible_label = candidate_keys[0]
             
             # 2nd method: sum up all probabilities
             # label_prob = [0] * len(classifier_output[0])
@@ -412,20 +475,48 @@ if mode_test_bool:
             #     print(label_prob)
             # most_possible_label = label_prob.index(max(label_prob))
 
+            # 3rd method: check all confidence
+            # confidence_dic = []
+            # most_possible_label = -1
+            # for idx in range(start_j, j):
+            #     confidence_dic.append(room_groups[idx][1])
+            # most_possible_label = max(confidence_dic, key = lambda x: x[1])[0]
+
 
             # most_possible_label = max(label_dic, key = label_dic.count)
             for idx in range(start_j, j):
                 room_groups[idx][1] = most_possible_label
+                if conf_bool:
+                    room_groups[idx].append(True)
+                else:
+                    room_groups[idx].append(False)
             
             i += 1
 
         room_groups = sorted(room_groups, key = lambda x: x[0])
         correct = 0
+        # conf_corr = 0
+        # conf_len = 0
+        # non_conf_corr = 0
+        # non_conf_len = 0
         for i in range(data_len):
             correct += room_groups[i][1] == labels[i]
+            room_groups[i][1] = label_list[room_groups[i][1]]
             print(f"{room_groups[i]}, {true_rooms[i]}")
             print(f"{room_groups[i]}, {true_rooms[i]}", file=fm)
+
+            # if len(room_groups[i]) >= 4:
+            #     if room_groups[i][3]:
+            #         conf_len += 1
+            #         conf_corr += room_groups[i][1] == labels[i]
+            #         print(f"{room_groups[i]}, {true_rooms[i]}", file=fconf)
+            #     else:
+            #         non_conf_len += 1
+            #         non_conf_corr += room_groups[i][1] == labels[i]
+                    # print(f"{room_groups[i]}, {true_rooms[i]}", file=fconf)
+                
         label_group_acc = 100.0 * (float)(correct) / (float)(data_len)
+         
         # print(group_acc)    
         
         metric_acc_str = f"Metric accuracy: {metric_acc} %"
@@ -444,9 +535,32 @@ if mode_test_bool:
         print(cla_group_acc_str)
         print(cla_group_acc_str, file=fm)
         print(cla_group_acc_str, file=fga)
+
+        # if conf_len > 0:
+        #     conf_acc = 100.0 * (float)(conf_corr) / (float)(conf_len)
+        #     print(f"conf accuracy: {conf_acc} %", file=fconf)
+        #     conf_acc_sum += conf_acc
+        # if non_conf_len > 0:    
+        #     non_conf_acc = 100.0 * (float)(non_conf_corr) / (float)(non_conf_len)
+        #     # print(f"conf accuracy: {conf_acc} %", file=fconf)
+        #     non_conf_acc_sum += non_conf_acc
+
+        metric_acc_sum += metric_acc
+        metric_grouping_acc_sum += metric_grouping_acc
+        classifier_acc_sum += classifier_acc
+        label_group_acc_sum += label_group_acc
+        
+        
         # break
         
         # print(room_ids.tolist())
         # print(room_ids.tolist(), file=fm)
+
+    print(f"Average metric accuracy: {(float)(metric_acc_sum) / (float)(bud_count)} %", file=fm)
+    print(f"Average grouping accuracy: {(float)(metric_grouping_acc_sum) / (float)(bud_count)} %", file=fm)
+    print(f"Average classifier accuracy: {(float)(classifier_acc_sum) / (float)(bud_count)} %", file=fm)
+    print(f"Average label accuracy after grouping: {(float)(label_group_acc_sum) / (float)(bud_count)} %", file=fm)
+    # print(f"Average confidence accuracy after grouping: {(float)(conf_acc_sum) / (float)(bud_count)} %", file=fconf)
+    # print(f"Average non confidence accuracy after grouping: {(float)(non_conf_acc_sum) / (float)(bud_count)} %", file=fconf)
 
     print("finish testing")

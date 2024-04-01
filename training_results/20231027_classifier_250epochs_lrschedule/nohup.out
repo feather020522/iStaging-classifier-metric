@@ -1,0 +1,402 @@
+alpha set
+parameters: 
+batch_size = 32
+shuffle_train = True
+num_workers = 8
+epoch = 200
+augmentation = numpy.roll + colorJitter
+Start training, 2023-10-28 14:53:06.430384
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_resnet50.py", line 428, in <module>
+    for i, data in enumerate(label_dataloader_train, 0):
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1359, in _next_data
+    idx, data = self._get_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1325, in _get_data
+    success, data = self._try_get_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1163, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/multiprocessing/queues.py", line 113, in get
+    if not self._poll(timeout):
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+alpha set
+parameters: 
+batch_size = 32
+shuffle_train = True
+num_workers = 8
+epoch = 250
+augmentation = numpy.roll + colorJitter
+Start training, 2023-10-28 14:53:45.299609
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+epoch # 1 done, 2023-10-28 14:59:53.497097
+epoch # 2 done, 2023-10-28 15:06:01.465580
+epoch # 3 done, 2023-10-28 15:12:04.348925
+epoch # 4 done, 2023-10-28 15:18:10.198464
+epoch # 5 done, 2023-10-28 15:24:13.182941
+epoch # 6 done, 2023-10-28 15:30:17.497765
+epoch # 7 done, 2023-10-28 15:36:22.744011
+epoch # 8 done, 2023-10-28 15:42:26.711376
+epoch # 9 done, 2023-10-28 15:48:32.324668
+epoch # 10 done, 2023-10-28 15:54:39.328569
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_resnet50.py", line 467, in <module>
+    for data in label_dataloader_val:
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 721, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/tingwei/zillow_data/classifier_resnet50.py", line 68, in __getitem__
+    pano = pano.resize((256, 128))                          # size: torch.Size([3, 128, 256])
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/PIL/Image.py", line 2192, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt
+alpha set
+parameters: 
+batch_size = 32
+shuffle_train = True
+num_workers = 8
+epoch = 250
+augmentation = numpy.roll + colorJitter
+Start training, 2023-10-28 15:58:36.762522
+epoch # 1 done, 2023-10-28 16:04:44.901090
+epoch # 2 done, 2023-10-28 16:10:50.619094
+epoch # 3 done, 2023-10-28 16:16:55.336532
+epoch # 4 done, 2023-10-28 16:22:58.645618
+epoch # 5 done, 2023-10-28 16:29:01.518563
+epoch # 6 done, 2023-10-28 16:35:03.460950
+epoch # 7 done, 2023-10-28 16:41:08.305114
+epoch # 8 done, 2023-10-28 16:47:12.950841
+epoch # 9 done, 2023-10-28 16:53:15.527426
+epoch # 10 done, 2023-10-28 16:59:20.095301
+val # 10 done, 2023-10-28 17:05:24.117128
+epoch # 11 done, 2023-10-28 17:11:27.061806
+epoch # 12 done, 2023-10-28 17:17:32.923592
+epoch # 13 done, 2023-10-28 17:23:37.181643
+epoch # 14 done, 2023-10-28 17:29:41.537959
+epoch # 15 done, 2023-10-28 17:35:42.689097
+epoch # 16 done, 2023-10-28 17:41:49.782690
+epoch # 17 done, 2023-10-28 17:47:54.716175
+epoch # 18 done, 2023-10-28 17:54:00.457495
+epoch # 19 done, 2023-10-28 18:00:06.647043
+epoch # 20 done, 2023-10-28 18:06:10.907140
+val # 20 done, 2023-10-28 18:12:18.408396
+epoch # 21 done, 2023-10-28 18:18:22.511475
+epoch # 22 done, 2023-10-28 18:24:27.284504
+epoch # 23 done, 2023-10-28 18:30:33.252181
+epoch # 24 done, 2023-10-28 18:36:38.250759
+epoch # 25 done, 2023-10-28 18:42:43.870964
+epoch # 26 done, 2023-10-28 18:48:45.606558
+epoch # 27 done, 2023-10-28 18:54:53.609500
+epoch # 28 done, 2023-10-28 19:01:02.163126
+epoch # 29 done, 2023-10-28 19:07:08.382813
+epoch # 30 done, 2023-10-28 19:13:13.197271
+val # 30 done, 2023-10-28 19:19:16.141275
+epoch # 31 done, 2023-10-28 19:25:20.161691
+epoch # 32 done, 2023-10-28 19:31:23.672685
+epoch # 33 done, 2023-10-28 19:37:26.615876
+epoch # 34 done, 2023-10-28 19:43:31.706894
+epoch # 35 done, 2023-10-28 19:49:39.209201
+epoch # 36 done, 2023-10-28 19:55:44.390827
+epoch # 37 done, 2023-10-28 20:01:47.809104
+epoch # 38 done, 2023-10-28 20:07:52.501761
+epoch # 39 done, 2023-10-28 20:13:56.642906
+epoch # 40 done, 2023-10-28 20:20:04.549896
+val # 40 done, 2023-10-28 20:26:09.710690
+epoch # 41 done, 2023-10-28 20:32:12.585590
+epoch # 42 done, 2023-10-28 20:38:16.480296
+epoch # 43 done, 2023-10-28 20:44:20.867482
+epoch # 44 done, 2023-10-28 20:50:25.763203
+epoch # 45 done, 2023-10-28 20:56:30.015901
+epoch # 46 done, 2023-10-28 21:02:37.163824
+epoch # 47 done, 2023-10-28 21:08:39.351521
+epoch # 48 done, 2023-10-28 21:14:40.835416
+epoch # 49 done, 2023-10-28 21:20:43.875257
+epoch # 50 done, 2023-10-28 21:26:47.512812
+val # 50 done, 2023-10-28 21:32:50.856912
+epoch # 51 done, 2023-10-28 21:38:57.068455
+epoch # 52 done, 2023-10-28 21:45:01.960126
+epoch # 53 done, 2023-10-28 21:51:09.804247
+epoch # 54 done, 2023-10-28 21:57:15.504700
+epoch # 55 done, 2023-10-28 22:03:16.991362
+epoch # 56 done, 2023-10-28 22:09:22.012558
+epoch # 57 done, 2023-10-28 22:15:27.158830
+epoch # 58 done, 2023-10-28 22:21:31.768460
+epoch # 59 done, 2023-10-28 22:27:34.216476
+epoch # 60 done, 2023-10-28 22:33:37.360736
+val # 60 done, 2023-10-28 22:39:40.206705
+epoch # 61 done, 2023-10-28 22:45:44.238836
+epoch # 62 done, 2023-10-28 22:51:44.149570
+epoch # 63 done, 2023-10-28 22:57:46.928275
+epoch # 64 done, 2023-10-28 23:03:51.073973
+epoch # 65 done, 2023-10-28 23:09:55.314894
+epoch # 66 done, 2023-10-28 23:15:59.224336
+epoch # 67 done, 2023-10-28 23:22:00.844675
+epoch # 68 done, 2023-10-28 23:28:06.386701
+epoch # 69 done, 2023-10-28 23:34:13.218688
+epoch # 70 done, 2023-10-28 23:40:16.025407
+val # 70 done, 2023-10-28 23:46:19.994699
+epoch # 71 done, 2023-10-28 23:52:24.948355
+epoch # 72 done, 2023-10-28 23:58:27.376630
+epoch # 73 done, 2023-10-29 00:04:28.767323
+epoch # 74 done, 2023-10-29 00:10:34.163690
+epoch # 75 done, 2023-10-29 00:16:37.564860
+epoch # 76 done, 2023-10-29 00:22:40.277715
+epoch # 77 done, 2023-10-29 00:28:44.912407
+epoch # 78 done, 2023-10-29 00:34:47.583984
+epoch # 79 done, 2023-10-29 00:40:53.381537
+epoch # 80 done, 2023-10-29 00:47:15.216086
+val # 80 done, 2023-10-29 00:53:25.034681
+epoch # 81 done, 2023-10-29 00:59:30.903954
+epoch # 82 done, 2023-10-29 01:05:35.779201
+epoch # 83 done, 2023-10-29 01:11:41.611526
+epoch # 84 done, 2023-10-29 01:17:46.369474
+epoch # 85 done, 2023-10-29 01:23:55.948261
+epoch # 86 done, 2023-10-29 01:29:58.906524
+epoch # 87 done, 2023-10-29 01:36:02.510954
+epoch # 88 done, 2023-10-29 01:42:08.560783
+epoch # 89 done, 2023-10-29 01:48:12.118944
+epoch # 90 done, 2023-10-29 01:54:13.856348
+val # 90 done, 2023-10-29 02:00:16.183715
+epoch # 91 done, 2023-10-29 02:06:19.572692
+epoch # 92 done, 2023-10-29 02:12:24.043534
+epoch # 93 done, 2023-10-29 02:18:33.677845
+epoch # 94 done, 2023-10-29 02:24:39.979598
+epoch # 95 done, 2023-10-29 02:30:46.844693
+epoch # 96 done, 2023-10-29 02:36:51.236254
+epoch # 97 done, 2023-10-29 02:42:57.288422
+epoch # 98 done, 2023-10-29 02:49:00.157961
+epoch # 99 done, 2023-10-29 02:55:02.399865
+epoch # 100 done, 2023-10-29 03:01:10.041731
+val # 100 done, 2023-10-29 03:07:11.507034
+epoch # 101 done, 2023-10-29 03:13:12.008544
+epoch # 102 done, 2023-10-29 03:19:17.745898
+epoch # 103 done, 2023-10-29 03:25:23.829893
+epoch # 104 done, 2023-10-29 03:31:28.940356
+epoch # 105 done, 2023-10-29 03:37:33.780880
+epoch # 106 done, 2023-10-29 03:43:37.692313
+epoch # 107 done, 2023-10-29 03:49:44.271568
+epoch # 108 done, 2023-10-29 03:55:49.013222
+epoch # 109 done, 2023-10-29 04:01:53.333065
+epoch # 110 done, 2023-10-29 04:07:57.101413
+val # 110 done, 2023-10-29 04:14:04.106582
+epoch # 111 done, 2023-10-29 04:20:09.864466
+epoch # 112 done, 2023-10-29 04:26:16.805868
+epoch # 113 done, 2023-10-29 04:32:20.584063
+epoch # 114 done, 2023-10-29 04:38:23.715560
+epoch # 115 done, 2023-10-29 04:44:29.751242
+epoch # 116 done, 2023-10-29 04:50:33.297106
+epoch # 117 done, 2023-10-29 04:56:38.741372
+epoch # 118 done, 2023-10-29 05:02:40.800308
+epoch # 119 done, 2023-10-29 05:08:42.655855
+epoch # 120 done, 2023-10-29 05:14:45.993371
+val # 120 done, 2023-10-29 05:20:49.053025
+epoch # 121 done, 2023-10-29 05:26:48.668012
+epoch # 122 done, 2023-10-29 05:32:56.736645
+epoch # 123 done, 2023-10-29 05:38:59.865804
+epoch # 124 done, 2023-10-29 05:45:07.827535
+epoch # 125 done, 2023-10-29 05:51:10.218627
+epoch # 126 done, 2023-10-29 05:57:18.135129
+epoch # 127 done, 2023-10-29 06:03:22.937659
+epoch # 128 done, 2023-10-29 06:09:30.949693
+epoch # 129 done, 2023-10-29 06:15:35.363636
+epoch # 130 done, 2023-10-29 06:21:39.839507
+val # 130 done, 2023-10-29 06:27:44.165833
+epoch # 131 done, 2023-10-29 06:33:51.237520
+epoch # 132 done, 2023-10-29 06:39:55.587257
+epoch # 133 done, 2023-10-29 06:46:01.241994
+epoch # 134 done, 2023-10-29 06:52:05.392133
+epoch # 135 done, 2023-10-29 06:58:08.860038
+epoch # 136 done, 2023-10-29 07:04:12.817215
+epoch # 137 done, 2023-10-29 07:10:18.541822
+epoch # 138 done, 2023-10-29 07:16:24.773399
+epoch # 139 done, 2023-10-29 07:22:33.440526
+epoch # 140 done, 2023-10-29 07:28:39.721449
+val # 140 done, 2023-10-29 07:34:37.278467
+epoch # 141 done, 2023-10-29 07:40:42.379587
+epoch # 142 done, 2023-10-29 07:46:50.837634
+epoch # 143 done, 2023-10-29 07:52:59.891916
+epoch # 144 done, 2023-10-29 07:59:09.755410
+epoch # 145 done, 2023-10-29 08:05:14.964148
+epoch # 146 done, 2023-10-29 08:11:27.141540
+epoch # 147 done, 2023-10-29 08:17:33.700673
+epoch # 148 done, 2023-10-29 08:23:42.129253
+epoch # 149 done, 2023-10-29 08:29:52.238651
+epoch # 150 done, 2023-10-29 08:36:00.712253
+val # 150 done, 2023-10-29 08:42:06.734473
+epoch # 151 done, 2023-10-29 08:48:12.637598
+epoch # 152 done, 2023-10-29 08:54:19.947537
+epoch # 153 done, 2023-10-29 09:00:26.707726
+epoch # 154 done, 2023-10-29 09:06:30.553774
+epoch # 155 done, 2023-10-29 09:12:40.505610
+epoch # 156 done, 2023-10-29 09:18:47.675268
+epoch # 157 done, 2023-10-29 09:24:58.332830
+epoch # 158 done, 2023-10-29 09:31:07.139631
+epoch # 159 done, 2023-10-29 09:37:18.477729
+epoch # 160 done, 2023-10-29 09:43:25.030693
+val # 160 done, 2023-10-29 09:49:28.866721
+epoch # 161 done, 2023-10-29 09:55:36.782688
+epoch # 162 done, 2023-10-29 10:01:43.601796
+epoch # 163 done, 2023-10-29 10:07:49.159238
+epoch # 164 done, 2023-10-29 10:13:54.428322
+epoch # 165 done, 2023-10-29 10:19:59.674999
+epoch # 166 done, 2023-10-29 10:26:06.810945
+epoch # 167 done, 2023-10-29 10:32:11.782802
+epoch # 168 done, 2023-10-29 10:38:19.463131
+epoch # 169 done, 2023-10-29 10:44:26.445353
+epoch # 170 done, 2023-10-29 10:50:33.973600
+val # 170 done, 2023-10-29 10:56:44.471197
+epoch # 171 done, 2023-10-29 11:02:52.191220
+epoch # 172 done, 2023-10-29 11:08:57.051995
+epoch # 173 done, 2023-10-29 11:14:59.314873
+epoch # 174 done, 2023-10-29 11:21:06.891246
+epoch # 175 done, 2023-10-29 11:27:14.812032
+epoch # 176 done, 2023-10-29 11:33:18.465725
+epoch # 177 done, 2023-10-29 11:39:25.875343
+epoch # 178 done, 2023-10-29 11:45:32.100394
+epoch # 179 done, 2023-10-29 11:51:39.702762
+epoch # 180 done, 2023-10-29 11:57:47.496705
+val # 180 done, 2023-10-29 12:03:45.395324
+epoch # 181 done, 2023-10-29 12:09:53.956731
+epoch # 182 done, 2023-10-29 12:16:01.569690
+epoch # 183 done, 2023-10-29 12:22:11.405364
+epoch # 184 done, 2023-10-29 12:28:15.783014
+epoch # 185 done, 2023-10-29 12:34:24.413220
+epoch # 186 done, 2023-10-29 12:40:35.312822
+epoch # 187 done, 2023-10-29 12:46:46.058826
+epoch # 188 done, 2023-10-29 12:52:51.340029
+epoch # 189 done, 2023-10-29 12:59:02.267633
+epoch # 190 done, 2023-10-29 13:05:10.077875
+val # 190 done, 2023-10-29 13:11:17.659721
+epoch # 191 done, 2023-10-29 13:17:22.889092
+epoch # 192 done, 2023-10-29 13:23:30.723947
+epoch # 193 done, 2023-10-29 13:29:38.233864
+epoch # 194 done, 2023-10-29 13:35:44.912613
+epoch # 195 done, 2023-10-29 13:41:51.091099
+epoch # 196 done, 2023-10-29 13:47:55.550267
+epoch # 197 done, 2023-10-29 13:54:00.353660
+epoch # 198 done, 2023-10-29 14:00:10.919776
+epoch # 199 done, 2023-10-29 14:06:20.117423
+epoch # 200 done, 2023-10-29 14:12:26.035992
+val # 200 done, 2023-10-29 14:18:31.703834
+epoch # 201 done, 2023-10-29 14:24:36.053693
+epoch # 202 done, 2023-10-29 14:30:44.856282
+epoch # 203 done, 2023-10-29 14:36:53.579036
+epoch # 204 done, 2023-10-29 14:43:01.259052
+epoch # 205 done, 2023-10-29 14:49:10.479114
+epoch # 206 done, 2023-10-29 14:55:21.739727
+epoch # 207 done, 2023-10-29 15:01:28.244955
+epoch # 208 done, 2023-10-29 15:07:34.829101
+epoch # 209 done, 2023-10-29 15:13:42.756715
+epoch # 210 done, 2023-10-29 15:19:47.715017
+val # 210 done, 2023-10-29 15:25:53.292793
+epoch # 211 done, 2023-10-29 15:31:59.020222
+epoch # 212 done, 2023-10-29 15:38:04.517060
+epoch # 213 done, 2023-10-29 15:44:08.983397
+epoch # 214 done, 2023-10-29 15:50:17.330989
+epoch # 215 done, 2023-10-29 15:56:24.868331
+epoch # 216 done, 2023-10-29 16:02:30.991051
+epoch # 217 done, 2023-10-29 16:08:37.456121
+epoch # 218 done, 2023-10-29 16:14:45.504175
+epoch # 219 done, 2023-10-29 16:20:55.391520
+epoch # 220 done, 2023-10-29 16:27:02.020877
+val # 220 done, 2023-10-29 16:33:02.272111
+epoch # 221 done, 2023-10-29 16:39:07.995547
+epoch # 222 done, 2023-10-29 16:45:16.655322
+epoch # 223 done, 2023-10-29 16:51:24.784590
+epoch # 224 done, 2023-10-29 16:57:37.600873
+epoch # 225 done, 2023-10-29 17:03:44.172558
+epoch # 226 done, 2023-10-29 17:09:50.708608
+epoch # 227 done, 2023-10-29 17:15:57.805474
+epoch # 228 done, 2023-10-29 17:22:09.426581
+epoch # 229 done, 2023-10-29 17:28:20.778825
+epoch # 230 done, 2023-10-29 17:34:27.881235
+val # 230 done, 2023-10-29 17:40:36.388671
+epoch # 231 done, 2023-10-29 17:46:41.891378
+epoch # 232 done, 2023-10-29 17:52:52.584961
+epoch # 233 done, 2023-10-29 17:58:56.073317
+epoch # 234 done, 2023-10-29 18:05:13.311209
+epoch # 235 done, 2023-10-29 18:11:24.111616
+epoch # 236 done, 2023-10-29 18:17:32.415628
+epoch # 237 done, 2023-10-29 18:23:40.304124
+epoch # 238 done, 2023-10-29 18:29:45.449564
+epoch # 239 done, 2023-10-29 18:35:52.041984
+epoch # 240 done, 2023-10-29 18:41:57.492061
+val # 240 done, 2023-10-29 18:47:59.031276
+epoch # 241 done, 2023-10-29 18:54:07.006890
+epoch # 242 done, 2023-10-29 19:00:09.903144
+epoch # 243 done, 2023-10-29 19:06:16.729830
+epoch # 244 done, 2023-10-29 19:12:26.440400
+epoch # 245 done, 2023-10-29 19:18:35.479363
+epoch # 246 done, 2023-10-29 19:24:40.218012
+epoch # 247 done, 2023-10-29 19:30:45.167824
+epoch # 248 done, 2023-10-29 19:36:54.890978
+epoch # 249 done, 2023-10-29 19:43:03.375821
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+epoch # 250 done, 2023-10-29 19:49:12.579928
+val # 250 done, 2023-10-29 19:55:20.517853
+              precision    recall  f1-score   support
+
+           0       0.79      0.82      0.80       728
+           1       0.94      0.90      0.92       867
+           2       0.84      0.79      0.81      1397
+           3       0.52      0.50      0.51       666
+           4       0.67      0.66      0.67       498
+           5       0.43      0.53      0.47       388
+           6       0.96      0.87      0.91       339
+           7       0.69      0.81      0.75       217
+           8       0.59      0.69      0.64       702
+           9       0.34      0.28      0.31       125
+          10       0.14      0.18      0.16       170
+          11       0.43      0.33      0.37       150
+          12       0.40      0.40      0.40        50
+          13       0.11      0.06      0.08        48
+          14       0.75      0.60      0.67        15
+          15       0.16      0.20      0.18        45
+          16       0.24      0.07      0.11        59
+          17       0.43      0.26      0.33        76
+          18       0.31      0.26      0.28        47
+          19       0.33      0.50      0.40         2
+          20       0.00      0.00      0.00         0
+          21       0.00      0.00      0.00         1
+          22       0.02      0.03      0.02        74
+
+    accuracy                           0.67      6664
+   macro avg       0.44      0.42      0.43      6664
+weighted avg       0.68      0.67      0.68      6664
+
+Finished Training
+Traceback (most recent call last):
+  File "/home/tingwei/zillow_data/classifier_resnet50.py", line 388, in <module>
+    net.cuda()          # train on GPU
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 689, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 602, in _apply
+    param_applied = fn(param)
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/nn/modules/module.py", line 689, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/tingwei/miniconda3/envs/Zillow/lib/python3.10/site-packages/torch/cuda/__init__.py", line 217, in _lazy_init
+    torch._C._cuda_init()
+KeyboardInterrupt
